@@ -1,0 +1,12 @@
+{
+  "name": "bomberman",
+  "version": "1.0.0",
+  "homepage": "https://william-maillard.github.io/bomberman",
+  "description": "Bomberman code in C with sdl2 compile to webassembly  with emscripten",
+  "scripts": {
+    "deploy": "gh-pages -d ."
+  },
+  "keywords": [],
+  "author": "MAILLARD William",
+  "license": "ISC"
+}
