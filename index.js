@@ -8847,12 +8847,145 @@ var ASM_CONSTS = {
     };
   _abort.sig = 'v';
 
+  function _actualiser_paneau_statistiques(
+  ) {
+  if (!wasmImports['actualiser_paneau_statistiques'] || wasmImports['actualiser_paneau_statistiques'].stub) abort("external symbol 'actualiser_paneau_statistiques' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['actualiser_paneau_statistiques'].apply(null, arguments);
+  }
+  _actualiser_paneau_statistiques.stub = true;
+
+  function _afficher_avancer_ennemi(
+  ) {
+  if (!wasmImports['afficher_avancer_ennemi'] || wasmImports['afficher_avancer_ennemi'].stub) abort("external symbol 'afficher_avancer_ennemi' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_avancer_ennemi'].apply(null, arguments);
+  }
+  _afficher_avancer_ennemi.stub = true;
+
+  function _afficher_avancer_joueur(
+  ) {
+  if (!wasmImports['afficher_avancer_joueur'] || wasmImports['afficher_avancer_joueur'].stub) abort("external symbol 'afficher_avancer_joueur' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_avancer_joueur'].apply(null, arguments);
+  }
+  _afficher_avancer_joueur.stub = true;
+
+  function _afficher_bombe(
+  ) {
+  if (!wasmImports['afficher_bombe'] || wasmImports['afficher_bombe'].stub) abort("external symbol 'afficher_bombe' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_bombe'].apply(null, arguments);
+  }
+  _afficher_bombe.stub = true;
+
+  function _afficher_booster(
+  ) {
+  if (!wasmImports['afficher_booster'] || wasmImports['afficher_booster'].stub) abort("external symbol 'afficher_booster' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_booster'].apply(null, arguments);
+  }
+  _afficher_booster.stub = true;
+
+  function _afficher_centre_explosion(
+  ) {
+  if (!wasmImports['afficher_centre_explosion'] || wasmImports['afficher_centre_explosion'].stub) abort("external symbol 'afficher_centre_explosion' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_centre_explosion'].apply(null, arguments);
+  }
+  _afficher_centre_explosion.stub = true;
+
+  function _afficher_destruction_mur(
+  ) {
+  if (!wasmImports['afficher_destruction_mur'] || wasmImports['afficher_destruction_mur'].stub) abort("external symbol 'afficher_destruction_mur' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_destruction_mur'].apply(null, arguments);
+  }
+  _afficher_destruction_mur.stub = true;
+
+  function _afficher_ennemi(
+  ) {
+  if (!wasmImports['afficher_ennemi'] || wasmImports['afficher_ennemi'].stub) abort("external symbol 'afficher_ennemi' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_ennemi'].apply(null, arguments);
+  }
+  _afficher_ennemi.stub = true;
+
+  function _afficher_ennemi_joueur(
+  ) {
+  if (!wasmImports['afficher_ennemi_joueur'] || wasmImports['afficher_ennemi_joueur'].stub) abort("external symbol 'afficher_ennemi_joueur' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_ennemi_joueur'].apply(null, arguments);
+  }
+  _afficher_ennemi_joueur.stub = true;
+
+  function _afficher_ennemi_surpris(
+  ) {
+  if (!wasmImports['afficher_ennemi_surpris'] || wasmImports['afficher_ennemi_surpris'].stub) abort("external symbol 'afficher_ennemi_surpris' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_ennemi_surpris'].apply(null, arguments);
+  }
+  _afficher_ennemi_surpris.stub = true;
+
+  function _afficher_fin_explosion(
+  ) {
+  if (!wasmImports['afficher_fin_explosion'] || wasmImports['afficher_fin_explosion'].stub) abort("external symbol 'afficher_fin_explosion' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_fin_explosion'].apply(null, arguments);
+  }
+  _afficher_fin_explosion.stub = true;
+
+  function _afficher_joueur(
+  ) {
+  if (!wasmImports['afficher_joueur'] || wasmImports['afficher_joueur'].stub) abort("external symbol 'afficher_joueur' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_joueur'].apply(null, arguments);
+  }
+  _afficher_joueur.stub = true;
+
+  function _afficher_joueur_left(
+  ) {
+  if (!wasmImports['afficher_joueur_left'] || wasmImports['afficher_joueur_left'].stub) abort("external symbol 'afficher_joueur_left' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_joueur_left'].apply(null, arguments);
+  }
+  _afficher_joueur_left.stub = true;
+
+  function _afficher_joueur_right(
+  ) {
+  if (!wasmImports['afficher_joueur_right'] || wasmImports['afficher_joueur_right'].stub) abort("external symbol 'afficher_joueur_right' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_joueur_right'].apply(null, arguments);
+  }
+  _afficher_joueur_right.stub = true;
+
+  function _afficher_joueur_up(
+  ) {
+  if (!wasmImports['afficher_joueur_up'] || wasmImports['afficher_joueur_up'].stub) abort("external symbol 'afficher_joueur_up' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_joueur_up'].apply(null, arguments);
+  }
+  _afficher_joueur_up.stub = true;
+
   function _afficher_map(
   ) {
   if (!wasmImports['afficher_map'] || wasmImports['afficher_map'].stub) abort("external symbol 'afficher_map' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
   return wasmImports['afficher_map'].apply(null, arguments);
   }
   _afficher_map.stub = true;
+
+  function _afficher_mort_ennemi(
+  ) {
+  if (!wasmImports['afficher_mort_ennemi'] || wasmImports['afficher_mort_ennemi'].stub) abort("external symbol 'afficher_mort_ennemi' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_mort_ennemi'].apply(null, arguments);
+  }
+  _afficher_mort_ennemi.stub = true;
+
+  function _afficher_mort_joueur(
+  ) {
+  if (!wasmImports['afficher_mort_joueur'] || wasmImports['afficher_mort_joueur'].stub) abort("external symbol 'afficher_mort_joueur' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_mort_joueur'].apply(null, arguments);
+  }
+  _afficher_mort_joueur.stub = true;
+
+  function _afficher_obstacle(
+  ) {
+  if (!wasmImports['afficher_obstacle'] || wasmImports['afficher_obstacle'].stub) abort("external symbol 'afficher_obstacle' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_obstacle'].apply(null, arguments);
+  }
+  _afficher_obstacle.stub = true;
+
+  function _afficher_partie_explosion(
+  ) {
+  if (!wasmImports['afficher_partie_explosion'] || wasmImports['afficher_partie_explosion'].stub) abort("external symbol 'afficher_partie_explosion' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['afficher_partie_explosion'].apply(null, arguments);
+  }
+  _afficher_partie_explosion.stub = true;
 
   
   var AL = {
@@ -12737,6 +12870,20 @@ var ASM_CONSTS = {
   var _alcSuspendContext = (contextId) => {};
   _alcSuspendContext.sig = 'vp';
 
+  function _avancer_ennemi(
+  ) {
+  if (!wasmImports['avancer_ennemi'] || wasmImports['avancer_ennemi'].stub) abort("external symbol 'avancer_ennemi' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['avancer_ennemi'].apply(null, arguments);
+  }
+  _avancer_ennemi.stub = true;
+
+  function _avancer_joueur(
+  ) {
+  if (!wasmImports['avancer_joueur'] || wasmImports['avancer_joueur'].stub) abort("external symbol 'avancer_joueur' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['avancer_joueur'].apply(null, arguments);
+  }
+  _avancer_joueur.stub = true;
+
   function _bombes(
   ) {
   if (!wasmImports['bombes'] || wasmImports['bombes'].stub) abort("external symbol 'bombes' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
@@ -12751,47 +12898,12 @@ var ASM_CONSTS = {
   }
   _bombes_actives.stub = true;
 
-  function _boost_bombe(
+  function _boosters(
   ) {
-  if (!wasmImports['boost_bombe'] || wasmImports['boost_bombe'].stub) abort("external symbol 'boost_bombe' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['boost_bombe'].apply(null, arguments);
+  if (!wasmImports['boosters'] || wasmImports['boosters'].stub) abort("external symbol 'boosters' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['boosters'].apply(null, arguments);
   }
-  _boost_bombe.stub = true;
-
-  function _boost_damage(
-  ) {
-  if (!wasmImports['boost_damage'] || wasmImports['boost_damage'].stub) abort("external symbol 'boost_damage' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['boost_damage'].apply(null, arguments);
-  }
-  _boost_damage.stub = true;
-
-  function _boost_life(
-  ) {
-  if (!wasmImports['boost_life'] || wasmImports['boost_life'].stub) abort("external symbol 'boost_life' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['boost_life'].apply(null, arguments);
-  }
-  _boost_life.stub = true;
-
-  function _boost_poison(
-  ) {
-  if (!wasmImports['boost_poison'] || wasmImports['boost_poison'].stub) abort("external symbol 'boost_poison' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['boost_poison'].apply(null, arguments);
-  }
-  _boost_poison.stub = true;
-
-  function _boost_range(
-  ) {
-  if (!wasmImports['boost_range'] || wasmImports['boost_range'].stub) abort("external symbol 'boost_range' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['boost_range'].apply(null, arguments);
-  }
-  _boost_range.stub = true;
-
-  function _boost_speed(
-  ) {
-  if (!wasmImports['boost_speed'] || wasmImports['boost_speed'].stub) abort("external symbol 'boost_speed' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['boost_speed'].apply(null, arguments);
-  }
-  _boost_speed.stub = true;
+  _boosters.stub = true;
 
   function _bouton_pause(
   ) {
@@ -12835,19 +12947,26 @@ var ASM_CONSTS = {
   }
   _carte.stub = true;
 
-  function _caseH(
+  function _centre_explosion(
   ) {
-  if (!wasmImports['caseH'] || wasmImports['caseH'].stub) abort("external symbol 'caseH' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['caseH'].apply(null, arguments);
+  if (!wasmImports['centre_explosion'] || wasmImports['centre_explosion'].stub) abort("external symbol 'centre_explosion' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['centre_explosion'].apply(null, arguments);
   }
-  _caseH.stub = true;
+  _centre_explosion.stub = true;
 
-  function _caseW(
+  function _compte_a_rebour(
   ) {
-  if (!wasmImports['caseW'] || wasmImports['caseW'].stub) abort("external symbol 'caseW' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['caseW'].apply(null, arguments);
+  if (!wasmImports['compte_a_rebour'] || wasmImports['compte_a_rebour'].stub) abort("external symbol 'compte_a_rebour' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['compte_a_rebour'].apply(null, arguments);
   }
-  _caseW.stub = true;
+  _compte_a_rebour.stub = true;
+
+  function _display_cell(
+  ) {
+  if (!wasmImports['display_cell'] || wasmImports['display_cell'].stub) abort("external symbol 'display_cell' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['display_cell'].apply(null, arguments);
+  }
+  _display_cell.stub = true;
 
   function _display_main_menu(
   ) {
@@ -12856,33 +12975,26 @@ var ASM_CONSTS = {
   }
   _display_main_menu.stub = true;
 
-  function _eahorizontal_left(
+  function _draw_adapted_text_box(
   ) {
-  if (!wasmImports['eahorizontal_left'] || wasmImports['eahorizontal_left'].stub) abort("external symbol 'eahorizontal_left' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['eahorizontal_left'].apply(null, arguments);
+  if (!wasmImports['draw_adapted_text_box'] || wasmImports['draw_adapted_text_box'].stub) abort("external symbol 'draw_adapted_text_box' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['draw_adapted_text_box'].apply(null, arguments);
   }
-  _eahorizontal_left.stub = true;
+  _draw_adapted_text_box.stub = true;
 
-  function _eahorizontal_right(
+  function _drop_booster(
   ) {
-  if (!wasmImports['eahorizontal_right'] || wasmImports['eahorizontal_right'].stub) abort("external symbol 'eahorizontal_right' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['eahorizontal_right'].apply(null, arguments);
+  if (!wasmImports['drop_booster'] || wasmImports['drop_booster'].stub) abort("external symbol 'drop_booster' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['drop_booster'].apply(null, arguments);
   }
-  _eahorizontal_right.stub = true;
+  _drop_booster.stub = true;
 
-  function _eavertical_down(
+  function _effacer(
   ) {
-  if (!wasmImports['eavertical_down'] || wasmImports['eavertical_down'].stub) abort("external symbol 'eavertical_down' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['eavertical_down'].apply(null, arguments);
+  if (!wasmImports['effacer'] || wasmImports['effacer'].stub) abort("external symbol 'effacer' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['effacer'].apply(null, arguments);
   }
-  _eavertical_down.stub = true;
-
-  function _eavertical_up(
-  ) {
-  if (!wasmImports['eavertical_up'] || wasmImports['eavertical_up'].stub) abort("external symbol 'eavertical_up' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['eavertical_up'].apply(null, arguments);
-  }
-  _eavertical_up.stub = true;
+  _effacer.stub = true;
 
   
   var EGL = {
@@ -13515,27 +13627,6 @@ var ASM_CONSTS = {
       return 1;
     };
   _eglWaitNative.sig = 'ii';
-
-  function _ehadeath(
-  ) {
-  if (!wasmImports['ehadeath'] || wasmImports['ehadeath'].stub) abort("external symbol 'ehadeath' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['ehadeath'].apply(null, arguments);
-  }
-  _ehadeath.stub = true;
-
-  function _ehdeath(
-  ) {
-  if (!wasmImports['ehdeath'] || wasmImports['ehdeath'].stub) abort("external symbol 'ehdeath' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['ehdeath'].apply(null, arguments);
-  }
-  _ehdeath.stub = true;
-
-  function _ehorizontal(
-  ) {
-  if (!wasmImports['ehorizontal'] || wasmImports['ehorizontal'].stub) abort("external symbol 'ehorizontal' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['ehorizontal'].apply(null, arguments);
-  }
-  _ehorizontal.stub = true;
 
   var _emscripten_alcDevicePauseSOFT = (deviceId) => {
       if (!(deviceId in AL.deviceRefCounts)) {
@@ -17160,6 +17251,27 @@ var ASM_CONSTS = {
     };
   _emscripten_wget_data.sig = 'vpppp';
 
+  function _ennemi_animation(
+  ) {
+  if (!wasmImports['ennemi_animation'] || wasmImports['ennemi_animation'].stub) abort("external symbol 'ennemi_animation' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['ennemi_animation'].apply(null, arguments);
+  }
+  _ennemi_animation.stub = true;
+
+  function _ennemi_perd_pv(
+  ) {
+  if (!wasmImports['ennemi_perd_pv'] || wasmImports['ennemi_perd_pv'].stub) abort("external symbol 'ennemi_perd_pv' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['ennemi_perd_pv'].apply(null, arguments);
+  }
+  _ennemi_perd_pv.stub = true;
+
+  function _ennemi_sprite(
+  ) {
+  if (!wasmImports['ennemi_sprite'] || wasmImports['ennemi_sprite'].stub) abort("external symbol 'ennemi_sprite' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['ennemi_sprite'].apply(null, arguments);
+  }
+  _ennemi_sprite.stub = true;
+
   
   var getExecutableName = () => {
       return thisProgram || './this.program';
@@ -17227,27 +17339,13 @@ var ASM_CONSTS = {
     };
   _environ_sizes_get.sig = 'ipp';
 
-  function _evadeath(
-  ) {
-  if (!wasmImports['evadeath'] || wasmImports['evadeath'].stub) abort("external symbol 'evadeath' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['evadeath'].apply(null, arguments);
-  }
-  _evadeath.stub = true;
 
-  function _evdeath(
+  function _exploser_bombe(
   ) {
-  if (!wasmImports['evdeath'] || wasmImports['evdeath'].stub) abort("external symbol 'evdeath' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['evdeath'].apply(null, arguments);
+  if (!wasmImports['exploser_bombe'] || wasmImports['exploser_bombe'].stub) abort("external symbol 'exploser_bombe' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['exploser_bombe'].apply(null, arguments);
   }
-  _evdeath.stub = true;
-
-  function _evertical(
-  ) {
-  if (!wasmImports['evertical'] || wasmImports['evertical'].stub) abort("external symbol 'evertical' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['evertical'].apply(null, arguments);
-  }
-  _evertical.stub = true;
-
+  _exploser_bombe.stub = true;
 
   function _explosion(
   ) {
@@ -17255,118 +17353,6 @@ var ASM_CONSTS = {
   return wasmImports['explosion'].apply(null, arguments);
   }
   _explosion.stub = true;
-
-  function _explosion0down(
-  ) {
-  if (!wasmImports['explosion0down'] || wasmImports['explosion0down'].stub) abort("external symbol 'explosion0down' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion0down'].apply(null, arguments);
-  }
-  _explosion0down.stub = true;
-
-  function _explosion0left(
-  ) {
-  if (!wasmImports['explosion0left'] || wasmImports['explosion0left'].stub) abort("external symbol 'explosion0left' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion0left'].apply(null, arguments);
-  }
-  _explosion0left.stub = true;
-
-  function _explosion0right(
-  ) {
-  if (!wasmImports['explosion0right'] || wasmImports['explosion0right'].stub) abort("external symbol 'explosion0right' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion0right'].apply(null, arguments);
-  }
-  _explosion0right.stub = true;
-
-  function _explosion0up(
-  ) {
-  if (!wasmImports['explosion0up'] || wasmImports['explosion0up'].stub) abort("external symbol 'explosion0up' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion0up'].apply(null, arguments);
-  }
-  _explosion0up.stub = true;
-
-  function _explosion1down(
-  ) {
-  if (!wasmImports['explosion1down'] || wasmImports['explosion1down'].stub) abort("external symbol 'explosion1down' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion1down'].apply(null, arguments);
-  }
-  _explosion1down.stub = true;
-
-  function _explosion1left(
-  ) {
-  if (!wasmImports['explosion1left'] || wasmImports['explosion1left'].stub) abort("external symbol 'explosion1left' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion1left'].apply(null, arguments);
-  }
-  _explosion1left.stub = true;
-
-  function _explosion1right(
-  ) {
-  if (!wasmImports['explosion1right'] || wasmImports['explosion1right'].stub) abort("external symbol 'explosion1right' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion1right'].apply(null, arguments);
-  }
-  _explosion1right.stub = true;
-
-  function _explosion1up(
-  ) {
-  if (!wasmImports['explosion1up'] || wasmImports['explosion1up'].stub) abort("external symbol 'explosion1up' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion1up'].apply(null, arguments);
-  }
-  _explosion1up.stub = true;
-
-  function _explosion2down(
-  ) {
-  if (!wasmImports['explosion2down'] || wasmImports['explosion2down'].stub) abort("external symbol 'explosion2down' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion2down'].apply(null, arguments);
-  }
-  _explosion2down.stub = true;
-
-  function _explosion2left(
-  ) {
-  if (!wasmImports['explosion2left'] || wasmImports['explosion2left'].stub) abort("external symbol 'explosion2left' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion2left'].apply(null, arguments);
-  }
-  _explosion2left.stub = true;
-
-  function _explosion2right(
-  ) {
-  if (!wasmImports['explosion2right'] || wasmImports['explosion2right'].stub) abort("external symbol 'explosion2right' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion2right'].apply(null, arguments);
-  }
-  _explosion2right.stub = true;
-
-  function _explosion2up(
-  ) {
-  if (!wasmImports['explosion2up'] || wasmImports['explosion2up'].stub) abort("external symbol 'explosion2up' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion2up'].apply(null, arguments);
-  }
-  _explosion2up.stub = true;
-
-  function _explosion3down(
-  ) {
-  if (!wasmImports['explosion3down'] || wasmImports['explosion3down'].stub) abort("external symbol 'explosion3down' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion3down'].apply(null, arguments);
-  }
-  _explosion3down.stub = true;
-
-  function _explosion3left(
-  ) {
-  if (!wasmImports['explosion3left'] || wasmImports['explosion3left'].stub) abort("external symbol 'explosion3left' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion3left'].apply(null, arguments);
-  }
-  _explosion3left.stub = true;
-
-  function _explosion3right(
-  ) {
-  if (!wasmImports['explosion3right'] || wasmImports['explosion3right'].stub) abort("external symbol 'explosion3right' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion3right'].apply(null, arguments);
-  }
-  _explosion3right.stub = true;
-
-  function _explosion3up(
-  ) {
-  if (!wasmImports['explosion3up'] || wasmImports['explosion3up'].stub) abort("external symbol 'explosion3up' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['explosion3up'].apply(null, arguments);
-  }
-  _explosion3up.stub = true;
 
   function _fd_close(fd) {
   try {
@@ -17556,6 +17542,13 @@ var ASM_CONSTS = {
   }
   _game_loop_wrapper.stub = true;
 
+  function _get_position_rect_from_index(
+  ) {
+  if (!wasmImports['get_position_rect_from_index'] || wasmImports['get_position_rect_from_index'].stub) abort("external symbol 'get_position_rect_from_index' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['get_position_rect_from_index'].apply(null, arguments);
+  }
+  _get_position_rect_from_index.stub = true;
+
   var _getentropy = (buffer, size) => {
       randomFill(HEAPU8.subarray(buffer, buffer + size));
       return 0;
@@ -17637,6 +17630,20 @@ var ASM_CONSTS = {
   }
   _j.stub = true;
 
+  function _jeu_solo(
+  ) {
+  if (!wasmImports['jeu_solo'] || wasmImports['jeu_solo'].stub) abort("external symbol 'jeu_solo' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['jeu_solo'].apply(null, arguments);
+  }
+  _jeu_solo.stub = true;
+
+  function _k(
+  ) {
+  if (!wasmImports['k'] || wasmImports['k'].stub) abort("external symbol 'k' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['k'].apply(null, arguments);
+  }
+  _k.stub = true;
+
   function _les_ennemis(
   ) {
   if (!wasmImports['les_ennemis'] || wasmImports['les_ennemis'].stub) abort("external symbol 'les_ennemis' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
@@ -17651,68 +17658,26 @@ var ASM_CONSTS = {
   }
   _loading_images_animations.stub = true;
 
+  function _menu_fin_jeu(
+  ) {
+  if (!wasmImports['menu_fin_jeu'] || wasmImports['menu_fin_jeu'].stub) abort("external symbol 'menu_fin_jeu' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['menu_fin_jeu'].apply(null, arguments);
+  }
+  _menu_fin_jeu.stub = true;
+
+  function _menu_pause(
+  ) {
+  if (!wasmImports['menu_pause'] || wasmImports['menu_pause'].stub) abort("external symbol 'menu_pause' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['menu_pause'].apply(null, arguments);
+  }
+  _menu_pause.stub = true;
+
   function _nbr_ennemis(
   ) {
   if (!wasmImports['nbr_ennemis'] || wasmImports['nbr_ennemis'].stub) abort("external symbol 'nbr_ennemis' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
   return wasmImports['nbr_ennemis'].apply(null, arguments);
   }
   _nbr_ennemis.stub = true;
-
-  function _p_carte(
-  ) {
-  if (!wasmImports['p_carte'] || wasmImports['p_carte'].stub) abort("external symbol 'p_carte' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['p_carte'].apply(null, arguments);
-  }
-  _p_carte.stub = true;
-
-  function _padeath(
-  ) {
-  if (!wasmImports['padeath'] || wasmImports['padeath'].stub) abort("external symbol 'padeath' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['padeath'].apply(null, arguments);
-  }
-  _padeath.stub = true;
-
-  function _padown(
-  ) {
-  if (!wasmImports['padown'] || wasmImports['padown'].stub) abort("external symbol 'padown' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['padown'].apply(null, arguments);
-  }
-  _padown.stub = true;
-
-  function _paleft(
-  ) {
-  if (!wasmImports['paleft'] || wasmImports['paleft'].stub) abort("external symbol 'paleft' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['paleft'].apply(null, arguments);
-  }
-  _paleft.stub = true;
-
-  function _paright(
-  ) {
-  if (!wasmImports['paright'] || wasmImports['paright'].stub) abort("external symbol 'paright' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['paright'].apply(null, arguments);
-  }
-  _paright.stub = true;
-
-  function _paup(
-  ) {
-  if (!wasmImports['paup'] || wasmImports['paup'].stub) abort("external symbol 'paup' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['paup'].apply(null, arguments);
-  }
-  _paup.stub = true;
-
-  function _pdeath(
-  ) {
-  if (!wasmImports['pdeath'] || wasmImports['pdeath'].stub) abort("external symbol 'pdeath' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['pdeath'].apply(null, arguments);
-  }
-  _pdeath.stub = true;
-
-  function _pdown(
-  ) {
-  if (!wasmImports['pdown'] || wasmImports['pdown'].stub) abort("external symbol 'pdown' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['pdown'].apply(null, arguments);
-  }
-  _pdown.stub = true;
 
   function _plateau(
   ) {
@@ -17721,27 +17686,48 @@ var ASM_CONSTS = {
   }
   _plateau.stub = true;
 
-  function _pleft(
+  function _play_animation(
   ) {
-  if (!wasmImports['pleft'] || wasmImports['pleft'].stub) abort("external symbol 'pleft' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['pleft'].apply(null, arguments);
+  if (!wasmImports['play_animation'] || wasmImports['play_animation'].stub) abort("external symbol 'play_animation' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['play_animation'].apply(null, arguments);
   }
-  _pleft.stub = true;
+  _play_animation.stub = true;
 
-  function _pright(
+  function _play_whole_animation(
   ) {
-  if (!wasmImports['pright'] || wasmImports['pright'].stub) abort("external symbol 'pright' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['pright'].apply(null, arguments);
+  if (!wasmImports['play_whole_animation'] || wasmImports['play_whole_animation'].stub) abort("external symbol 'play_whole_animation' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['play_whole_animation'].apply(null, arguments);
   }
-  _pright.stub = true;
+  _play_whole_animation.stub = true;
 
-
-  function _pup(
+  function _player_animation(
   ) {
-  if (!wasmImports['pup'] || wasmImports['pup'].stub) abort("external symbol 'pup' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['pup'].apply(null, arguments);
+  if (!wasmImports['player_animation'] || wasmImports['player_animation'].stub) abort("external symbol 'player_animation' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['player_animation'].apply(null, arguments);
   }
-  _pup.stub = true;
+  _player_animation.stub = true;
+
+  function _player_death_sprite(
+  ) {
+  if (!wasmImports['player_death_sprite'] || wasmImports['player_death_sprite'].stub) abort("external symbol 'player_death_sprite' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['player_death_sprite'].apply(null, arguments);
+  }
+  _player_death_sprite.stub = true;
+
+  function _player_sprite(
+  ) {
+  if (!wasmImports['player_sprite'] || wasmImports['player_sprite'].stub) abort("external symbol 'player_sprite' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['player_sprite'].apply(null, arguments);
+  }
+  _player_sprite.stub = true;
+
+  function _poser_bombe(
+  ) {
+  if (!wasmImports['poser_bombe'] || wasmImports['poser_bombe'].stub) abort("external symbol 'poser_bombe' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['poser_bombe'].apply(null, arguments);
+  }
+  _poser_bombe.stub = true;
+
 
   function _quitter(
   ) {
@@ -18082,40 +18068,47 @@ var ASM_CONSTS = {
     };
   _strftime_l.sig = 'pppppp';
 
-  function _temps(
+  function _t(
   ) {
-  if (!wasmImports['temps'] || wasmImports['temps'].stub) abort("external symbol 'temps' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['temps'].apply(null, arguments);
+  if (!wasmImports['t'] || wasmImports['t'].stub) abort("external symbol 't' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['t'].apply(null, arguments);
   }
-  _temps.stub = true;
+  _t.stub = true;
 
-  function _tempsActuel(
+  function _temps_Actuel(
   ) {
-  if (!wasmImports['tempsActuel'] || wasmImports['tempsActuel'].stub) abort("external symbol 'tempsActuel' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['tempsActuel'].apply(null, arguments);
+  if (!wasmImports['temps_Actuel'] || wasmImports['temps_Actuel'].stub) abort("external symbol 'temps_Actuel' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['temps_Actuel'].apply(null, arguments);
   }
-  _tempsActuel.stub = true;
+  _temps_Actuel.stub = true;
 
-  function _tempsBougerEnnemis(
+  function _temps_BougerEnnemis(
   ) {
-  if (!wasmImports['tempsBougerEnnemis'] || wasmImports['tempsBougerEnnemis'].stub) abort("external symbol 'tempsBougerEnnemis' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['tempsBougerEnnemis'].apply(null, arguments);
+  if (!wasmImports['temps_BougerEnnemis'] || wasmImports['temps_BougerEnnemis'].stub) abort("external symbol 'temps_BougerEnnemis' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['temps_BougerEnnemis'].apply(null, arguments);
   }
-  _tempsBougerEnnemis.stub = true;
+  _temps_BougerEnnemis.stub = true;
 
-  function _tempsDepart(
+  function _temps_Depart(
   ) {
-  if (!wasmImports['tempsDepart'] || wasmImports['tempsDepart'].stub) abort("external symbol 'tempsDepart' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['tempsDepart'].apply(null, arguments);
+  if (!wasmImports['temps_Depart'] || wasmImports['temps_Depart'].stub) abort("external symbol 'temps_Depart' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['temps_Depart'].apply(null, arguments);
   }
-  _tempsDepart.stub = true;
+  _temps_Depart.stub = true;
 
-  function _tempsMax(
+  function _temps_Final(
   ) {
-  if (!wasmImports['tempsMax'] || wasmImports['tempsMax'].stub) abort("external symbol 'tempsMax' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
-  return wasmImports['tempsMax'].apply(null, arguments);
+  if (!wasmImports['temps_Final'] || wasmImports['temps_Final'].stub) abort("external symbol 'temps_Final' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['temps_Final'].apply(null, arguments);
   }
-  _tempsMax.stub = true;
+  _temps_Final.stub = true;
+
+  function _temps_Max(
+  ) {
+  if (!wasmImports['temps_Max'] || wasmImports['temps_Max'].stub) abort("external symbol 'temps_Max' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['temps_Max'].apply(null, arguments);
+  }
+  _temps_Max.stub = true;
 
   function _text_color(
   ) {
@@ -18151,6 +18144,20 @@ var ASM_CONSTS = {
   return wasmImports['wall'].apply(null, arguments);
   }
   _wall.stub = true;
+
+  function _xSouris(
+  ) {
+  if (!wasmImports['xSouris'] || wasmImports['xSouris'].stub) abort("external symbol 'xSouris' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['xSouris'].apply(null, arguments);
+  }
+  _xSouris.stub = true;
+
+  function _ySouris(
+  ) {
+  if (!wasmImports['ySouris'] || wasmImports['ySouris'].stub) abort("external symbol 'ySouris' is missing. perhaps a side module was not linked in? if this function was expected to arrive from a system library, try to build the MAIN_MODULE with EMCC_FORCE_STDLIBS=1 in the environment");
+  return wasmImports['ySouris'].apply(null, arguments);
+  }
+  _ySouris.stub = true;
 
 
 
@@ -26070,7 +26077,26 @@ var wasmImports = {
   _timegm_js: __timegm_js,
   _tzset_js: __tzset_js,
   abort: _abort,
+  actualiser_paneau_statistiques: _actualiser_paneau_statistiques,
+  afficher_avancer_ennemi: _afficher_avancer_ennemi,
+  afficher_avancer_joueur: _afficher_avancer_joueur,
+  afficher_bombe: _afficher_bombe,
+  afficher_booster: _afficher_booster,
+  afficher_centre_explosion: _afficher_centre_explosion,
+  afficher_destruction_mur: _afficher_destruction_mur,
+  afficher_ennemi: _afficher_ennemi,
+  afficher_ennemi_joueur: _afficher_ennemi_joueur,
+  afficher_ennemi_surpris: _afficher_ennemi_surpris,
+  afficher_fin_explosion: _afficher_fin_explosion,
+  afficher_joueur: _afficher_joueur,
+  afficher_joueur_left: _afficher_joueur_left,
+  afficher_joueur_right: _afficher_joueur_right,
+  afficher_joueur_up: _afficher_joueur_up,
   afficher_map: _afficher_map,
+  afficher_mort_ennemi: _afficher_mort_ennemi,
+  afficher_mort_joueur: _afficher_mort_joueur,
+  afficher_obstacle: _afficher_obstacle,
+  afficher_partie_explosion: _afficher_partie_explosion,
   alBuffer3f: _alBuffer3f,
   alBuffer3i: _alBuffer3i,
   alBufferData: _alBufferData,
@@ -26162,29 +26188,26 @@ var wasmImports = {
   alcOpenDevice: _alcOpenDevice,
   alcProcessContext: _alcProcessContext,
   alcSuspendContext: _alcSuspendContext,
+  avancer_ennemi: _avancer_ennemi,
+  avancer_joueur: _avancer_joueur,
   bombes: _bombes,
   bombes_actives: _bombes_actives,
-  boost_bombe: _boost_bombe,
-  boost_damage: _boost_damage,
-  boost_life: _boost_life,
-  boost_poison: _boost_poison,
-  boost_range: _boost_range,
-  boost_speed: _boost_speed,
+  boosters: _boosters,
   bouton_pause: _bouton_pause,
   boxHeight: _boxHeight,
   boxWidth: _boxWidth,
   box_color: _box_color,
   breakwall: _breakwall,
   carte: _carte,
-  caseH: _caseH,
-  caseW: _caseW,
+  centre_explosion: _centre_explosion,
   clock_res_get: _clock_res_get,
   clock_time_get: _clock_time_get,
+  compte_a_rebour: _compte_a_rebour,
+  display_cell: _display_cell,
   display_main_menu: _display_main_menu,
-  eahorizontal_left: _eahorizontal_left,
-  eahorizontal_right: _eahorizontal_right,
-  eavertical_down: _eavertical_down,
-  eavertical_up: _eavertical_up,
+  draw_adapted_text_box: _draw_adapted_text_box,
+  drop_booster: _drop_booster,
+  effacer: _effacer,
   eglBindAPI: _eglBindAPI,
   eglChooseConfig: _eglChooseConfig,
   eglCreateContext: _eglCreateContext,
@@ -26211,9 +26234,6 @@ var wasmImports = {
   eglWaitClient: _eglWaitClient,
   eglWaitGL: _eglWaitGL,
   eglWaitNative: _eglWaitNative,
-  ehadeath: _ehadeath,
-  ehdeath: _ehdeath,
-  ehorizontal: _ehorizontal,
   emscripten_alcDevicePauseSOFT: _emscripten_alcDevicePauseSOFT,
   emscripten_alcDeviceResumeSOFT: _emscripten_alcDeviceResumeSOFT,
   emscripten_alcGetStringiSOFT: _emscripten_alcGetStringiSOFT,
@@ -26658,29 +26678,14 @@ var wasmImports = {
   emscripten_webgl_make_context_current: _emscripten_webgl_make_context_current,
   emscripten_wget_data: _emscripten_wget_data,
   endprotoent: _endprotoent,
+  ennemi_animation: _ennemi_animation,
+  ennemi_perd_pv: _ennemi_perd_pv,
+  ennemi_sprite: _ennemi_sprite,
   environ_get: _environ_get,
   environ_sizes_get: _environ_sizes_get,
-  evadeath: _evadeath,
-  evdeath: _evdeath,
-  evertical: _evertical,
   exit: _exit,
+  exploser_bombe: _exploser_bombe,
   explosion: _explosion,
-  explosion0down: _explosion0down,
-  explosion0left: _explosion0left,
-  explosion0right: _explosion0right,
-  explosion0up: _explosion0up,
-  explosion1down: _explosion1down,
-  explosion1left: _explosion1left,
-  explosion1right: _explosion1right,
-  explosion1up: _explosion1up,
-  explosion2down: _explosion2down,
-  explosion2left: _explosion2left,
-  explosion2right: _explosion2right,
-  explosion2up: _explosion2up,
-  explosion3down: _explosion3down,
-  explosion3left: _explosion3left,
-  explosion3right: _explosion3right,
-  explosion3up: _explosion3up,
   fd_close: _fd_close,
   fd_fdstat_get: _fd_fdstat_get,
   fd_pread: _fd_pread,
@@ -26690,6 +26695,7 @@ var wasmImports = {
   fd_sync: _fd_sync,
   fd_write: _fd_write,
   game_loop_wrapper: _game_loop_wrapper,
+  get_position_rect_from_index: _get_position_rect_from_index,
   getaddrinfo: _getaddrinfo,
   getentropy: _getentropy,
   gethostbyaddr: _gethostbyaddr,
@@ -27004,24 +27010,23 @@ var wasmImports = {
   invoke_viiiii: invoke_viiiii,
   invoke_viiiiiiiii: invoke_viiiiiiiii,
   j: _j,
+  jeu_solo: _jeu_solo,
+  k: _k,
   les_ennemis: _les_ennemis,
   llvm_eh_typeid_for: _llvm_eh_typeid_for,
   loading_images_animations: _loading_images_animations,
   memory: wasmMemory,
+  menu_fin_jeu: _menu_fin_jeu,
+  menu_pause: _menu_pause,
   nbr_ennemis: _nbr_ennemis,
-  p_carte: _p_carte,
-  padeath: _padeath,
-  padown: _padown,
-  paleft: _paleft,
-  paright: _paright,
-  paup: _paup,
-  pdeath: _pdeath,
-  pdown: _pdown,
   plateau: _plateau,
-  pleft: _pleft,
-  pright: _pright,
+  play_animation: _play_animation,
+  play_whole_animation: _play_whole_animation,
+  player_animation: _player_animation,
+  player_death_sprite: _player_death_sprite,
+  player_sprite: _player_sprite,
+  poser_bombe: _poser_bombe,
   proc_exit: _proc_exit,
-  pup: _pup,
   quitter: _quitter,
   random_get: _random_get,
   rejouer: _rejouer,
@@ -27035,11 +27040,12 @@ var wasmImports = {
   strptime: _strptime,
   strptime_l: _strptime_l,
   system: _system,
-  temps: _temps,
-  tempsActuel: _tempsActuel,
-  tempsBougerEnnemis: _tempsBougerEnnemis,
-  tempsDepart: _tempsDepart,
-  tempsMax: _tempsMax,
+  t: _t,
+  temps_Actuel: _temps_Actuel,
+  temps_BougerEnnemis: _temps_BougerEnnemis,
+  temps_Depart: _temps_Depart,
+  temps_Final: _temps_Final,
+  temps_Max: _temps_Max,
   text_color: _text_color,
   texte_formate: _texte_formate,
   uuid_clear: _uuid_clear,
@@ -27055,7 +27061,9 @@ var wasmImports = {
   uuid_variant: _uuid_variant,
   vide: _vide,
   wabreak: _wabreak,
-  wall: _wall
+  wall: _wall,
+  xSouris: _xSouris,
+  ySouris: _ySouris
 };
 var wasmExports = createWasm();
 var ___wasm_call_ctors = createExportWrapper('__wasm_call_ctors');
@@ -27083,6 +27091,143 @@ var _TTF_Quit = Module['_TTF_Quit'] = createExportWrapper('TTF_Quit');
 var _SDL_PollEvent = Module['_SDL_PollEvent'] = createExportWrapper('SDL_PollEvent');
 var _SDL_SetWindowTitle = Module['_SDL_SetWindowTitle'] = createExportWrapper('SDL_SetWindowTitle');
 var _SDL_Delay = Module['_SDL_Delay'] = createExportWrapper('SDL_Delay');
+var _TTF_SetDirection = Module['_TTF_SetDirection'] = createExportWrapper('TTF_SetDirection');
+var _TTF_SetScript = Module['_TTF_SetScript'] = createExportWrapper('TTF_SetScript');
+var _TTF_Linked_Version = Module['_TTF_Linked_Version'] = createExportWrapper('TTF_Linked_Version');
+var _TTF_ByteSwappedUNICODE = Module['_TTF_ByteSwappedUNICODE'] = createExportWrapper('TTF_ByteSwappedUNICODE');
+var _FT_Init_FreeType = Module['_FT_Init_FreeType'] = createExportWrapper('FT_Init_FreeType');
+var _SDL_SetError = Module['_SDL_SetError'] = createExportWrapper('SDL_SetError');
+var _TTF_GetFreeTypeVersion = Module['_TTF_GetFreeTypeVersion'] = createExportWrapper('TTF_GetFreeTypeVersion');
+var _FT_Library_Version = Module['_FT_Library_Version'] = createExportWrapper('FT_Library_Version');
+var _TTF_GetHarfBuzzVersion = Module['_TTF_GetHarfBuzzVersion'] = createExportWrapper('TTF_GetHarfBuzzVersion');
+var _hb_version = Module['_hb_version'] = createExportWrapper('hb_version');
+var _TTF_OpenFontIndexDPIRW = Module['_TTF_OpenFontIndexDPIRW'] = createExportWrapper('TTF_OpenFontIndexDPIRW');
+var _SDL_RWclose = Module['_SDL_RWclose'] = createExportWrapper('SDL_RWclose');
+var _SDL_RWtell = Module['_SDL_RWtell'] = createExportWrapper('SDL_RWtell');
+var _SDL_malloc = Module['_SDL_malloc'] = createExportWrapper('SDL_malloc');
+var _SDL_memset = Module['_SDL_memset'] = createExportWrapper('SDL_memset');
+var _SDL_RWsize = Module['_SDL_RWsize'] = createExportWrapper('SDL_RWsize');
+var _FT_Open_Face = Module['_FT_Open_Face'] = createExportWrapper('FT_Open_Face');
+var _FT_Set_Charmap = Module['_FT_Set_Charmap'] = createExportWrapper('FT_Set_Charmap');
+var _hb_ft_font_create = Module['_hb_ft_font_create'] = createExportWrapper('hb_ft_font_create');
+var _hb_ft_font_set_load_flags = Module['_hb_ft_font_set_load_flags'] = createExportWrapper('hb_ft_font_set_load_flags');
+var _TTF_SetFontSizeDPI = Module['_TTF_SetFontSizeDPI'] = createExportWrapper('TTF_SetFontSizeDPI');
+var _TTF_CloseFont = Module['_TTF_CloseFont'] = createExportWrapper('TTF_CloseFont');
+var _hb_font_destroy = Module['_hb_font_destroy'] = createExportWrapper('hb_font_destroy');
+var _SDL_free = Module['_SDL_free'] = createExportWrapper('SDL_free');
+var _FT_Done_Face = Module['_FT_Done_Face'] = createExportWrapper('FT_Done_Face');
+var _SDL_RWseek = Module['_SDL_RWseek'] = createExportWrapper('SDL_RWseek');
+var _SDL_RWread = Module['_SDL_RWread'] = createExportWrapper('SDL_RWread');
+var _TTF_SetFontKerning = Module['_TTF_SetFontKerning'] = createExportWrapper('TTF_SetFontKerning');
+var _FT_Set_Char_Size = Module['_FT_Set_Char_Size'] = createExportWrapper('FT_Set_Char_Size');
+var _FT_Select_Size = Module['_FT_Select_Size'] = createExportWrapper('FT_Select_Size');
+var _hb_ft_font_changed = Module['_hb_ft_font_changed'] = createExportWrapper('hb_ft_font_changed');
+var _FT_MulFix = Module['_FT_MulFix'] = createExportWrapper('FT_MulFix');
+var _TTF_SetFontSize = Module['_TTF_SetFontSize'] = createExportWrapper('TTF_SetFontSize');
+var _TTF_OpenFontDPIRW = Module['_TTF_OpenFontDPIRW'] = createExportWrapper('TTF_OpenFontDPIRW');
+var _TTF_OpenFontIndexRW = Module['_TTF_OpenFontIndexRW'] = createExportWrapper('TTF_OpenFontIndexRW');
+var _TTF_OpenFontIndexDPI = Module['_TTF_OpenFontIndexDPI'] = createExportWrapper('TTF_OpenFontIndexDPI');
+var _SDL_RWFromFile = Module['_SDL_RWFromFile'] = createExportWrapper('SDL_RWFromFile');
+var _TTF_OpenFontRW = Module['_TTF_OpenFontRW'] = createExportWrapper('TTF_OpenFontRW');
+var _TTF_OpenFontDPI = Module['_TTF_OpenFontDPI'] = createExportWrapper('TTF_OpenFontDPI');
+var _TTF_OpenFontIndex = Module['_TTF_OpenFontIndex'] = createExportWrapper('TTF_OpenFontIndex');
+var _TTF_FontHeight = Module['_TTF_FontHeight'] = createExportWrapper('TTF_FontHeight');
+var _TTF_FontAscent = Module['_TTF_FontAscent'] = createExportWrapper('TTF_FontAscent');
+var _TTF_FontDescent = Module['_TTF_FontDescent'] = createExportWrapper('TTF_FontDescent');
+var _TTF_FontLineSkip = Module['_TTF_FontLineSkip'] = createExportWrapper('TTF_FontLineSkip');
+var _TTF_GetFontKerning = Module['_TTF_GetFontKerning'] = createExportWrapper('TTF_GetFontKerning');
+var _TTF_FontFaces = Module['_TTF_FontFaces'] = createExportWrapper('TTF_FontFaces');
+var _TTF_FontFaceIsFixedWidth = Module['_TTF_FontFaceIsFixedWidth'] = createExportWrapper('TTF_FontFaceIsFixedWidth');
+var _TTF_FontFaceFamilyName = Module['_TTF_FontFaceFamilyName'] = createExportWrapper('TTF_FontFaceFamilyName');
+var _TTF_FontFaceStyleName = Module['_TTF_FontFaceStyleName'] = createExportWrapper('TTF_FontFaceStyleName');
+var _TTF_GlyphIsProvided = Module['_TTF_GlyphIsProvided'] = createExportWrapper('TTF_GlyphIsProvided');
+var _FT_Get_Char_Index = Module['_FT_Get_Char_Index'] = createExportWrapper('FT_Get_Char_Index');
+var _TTF_GlyphIsProvided32 = Module['_TTF_GlyphIsProvided32'] = createExportWrapper('TTF_GlyphIsProvided32');
+var _TTF_GlyphMetrics = Module['_TTF_GlyphMetrics'] = createExportWrapper('TTF_GlyphMetrics');
+var _TTF_GlyphMetrics32 = Module['_TTF_GlyphMetrics32'] = createExportWrapper('TTF_GlyphMetrics32');
+var _TTF_SetFontDirection = Module['_TTF_SetFontDirection'] = createExportWrapper('TTF_SetFontDirection');
+var _TTF_SetFontScriptName = Module['_TTF_SetFontScriptName'] = createExportWrapper('TTF_SetFontScriptName');
+var _SDL_strlen = Module['_SDL_strlen'] = createExportWrapper('SDL_strlen');
+var _TTF_SizeText = Module['_TTF_SizeText'] = createExportWrapper('TTF_SizeText');
+var _hb_buffer_create = Module['_hb_buffer_create'] = createExportWrapper('hb_buffer_create');
+var _hb_buffer_set_direction = Module['_hb_buffer_set_direction'] = createExportWrapper('hb_buffer_set_direction');
+var _hb_buffer_set_script = Module['_hb_buffer_set_script'] = createExportWrapper('hb_buffer_set_script');
+var _hb_buffer_add_utf8 = Module['_hb_buffer_add_utf8'] = createExportWrapper('hb_buffer_add_utf8');
+var _hb_shape = Module['_hb_shape'] = createExportWrapper('hb_shape');
+var _hb_buffer_get_glyph_infos = Module['_hb_buffer_get_glyph_infos'] = createExportWrapper('hb_buffer_get_glyph_infos');
+var _hb_buffer_get_glyph_positions = Module['_hb_buffer_get_glyph_positions'] = createExportWrapper('hb_buffer_get_glyph_positions');
+var _SDL_realloc = Module['_SDL_realloc'] = createExportWrapper('SDL_realloc');
+var _SDL_utf8strlen = Module['_SDL_utf8strlen'] = createExportWrapper('SDL_utf8strlen');
+var _hb_buffer_destroy = Module['_hb_buffer_destroy'] = createExportWrapper('hb_buffer_destroy');
+var _TTF_SizeUTF8 = Module['_TTF_SizeUTF8'] = createExportWrapper('TTF_SizeUTF8');
+var _TTF_SizeUNICODE = Module['_TTF_SizeUNICODE'] = createExportWrapper('TTF_SizeUNICODE');
+var _TTF_MeasureText = Module['_TTF_MeasureText'] = createExportWrapper('TTF_MeasureText');
+var _TTF_MeasureUTF8 = Module['_TTF_MeasureUTF8'] = createExportWrapper('TTF_MeasureUTF8');
+var _TTF_MeasureUNICODE = Module['_TTF_MeasureUNICODE'] = createExportWrapper('TTF_MeasureUNICODE');
+var _TTF_RenderText_Solid = Module['_TTF_RenderText_Solid'] = createExportWrapper('TTF_RenderText_Solid');
+var _SDL_SetColorKey = Module['_SDL_SetColorKey'] = createExportWrapper('SDL_SetColorKey');
+var _SDL_SetSurfaceBlendMode = Module['_SDL_SetSurfaceBlendMode'] = createExportWrapper('SDL_SetSurfaceBlendMode');
+var _TTF_RenderUTF8_Solid = Module['_TTF_RenderUTF8_Solid'] = createExportWrapper('TTF_RenderUTF8_Solid');
+var _TTF_RenderUNICODE_Solid = Module['_TTF_RenderUNICODE_Solid'] = createExportWrapper('TTF_RenderUNICODE_Solid');
+var _TTF_RenderGlyph_Solid = Module['_TTF_RenderGlyph_Solid'] = createExportWrapper('TTF_RenderGlyph_Solid');
+var _TTF_RenderGlyph32_Solid = Module['_TTF_RenderGlyph32_Solid'] = createExportWrapper('TTF_RenderGlyph32_Solid');
+var _TTF_RenderText_Shaded = Module['_TTF_RenderText_Shaded'] = createExportWrapper('TTF_RenderText_Shaded');
+var _TTF_RenderUTF8_Shaded = Module['_TTF_RenderUTF8_Shaded'] = createExportWrapper('TTF_RenderUTF8_Shaded');
+var _TTF_RenderUNICODE_Shaded = Module['_TTF_RenderUNICODE_Shaded'] = createExportWrapper('TTF_RenderUNICODE_Shaded');
+var _TTF_RenderGlyph_Shaded = Module['_TTF_RenderGlyph_Shaded'] = createExportWrapper('TTF_RenderGlyph_Shaded');
+var _TTF_RenderGlyph32_Shaded = Module['_TTF_RenderGlyph32_Shaded'] = createExportWrapper('TTF_RenderGlyph32_Shaded');
+var _TTF_RenderText_Blended = Module['_TTF_RenderText_Blended'] = createExportWrapper('TTF_RenderText_Blended');
+var _TTF_RenderUTF8_Blended = Module['_TTF_RenderUTF8_Blended'] = createExportWrapper('TTF_RenderUTF8_Blended');
+var _TTF_RenderUNICODE_Blended = Module['_TTF_RenderUNICODE_Blended'] = createExportWrapper('TTF_RenderUNICODE_Blended');
+var _TTF_RenderText_LCD = Module['_TTF_RenderText_LCD'] = createExportWrapper('TTF_RenderText_LCD');
+var _TTF_RenderUTF8_LCD = Module['_TTF_RenderUTF8_LCD'] = createExportWrapper('TTF_RenderUTF8_LCD');
+var _TTF_RenderUNICODE_LCD = Module['_TTF_RenderUNICODE_LCD'] = createExportWrapper('TTF_RenderUNICODE_LCD');
+var _TTF_RenderGlyph_LCD = Module['_TTF_RenderGlyph_LCD'] = createExportWrapper('TTF_RenderGlyph_LCD');
+var _TTF_RenderGlyph32_LCD = Module['_TTF_RenderGlyph32_LCD'] = createExportWrapper('TTF_RenderGlyph32_LCD');
+var _TTF_RenderText_Solid_Wrapped = Module['_TTF_RenderText_Solid_Wrapped'] = createExportWrapper('TTF_RenderText_Solid_Wrapped');
+var _SDL_memcpy = Module['_SDL_memcpy'] = createExportWrapper('SDL_memcpy');
+var _SDL_Error = Module['_SDL_Error'] = createExportWrapper('SDL_Error');
+var _TTF_RenderUTF8_Solid_Wrapped = Module['_TTF_RenderUTF8_Solid_Wrapped'] = createExportWrapper('TTF_RenderUTF8_Solid_Wrapped');
+var _TTF_RenderUNICODE_Solid_Wrapped = Module['_TTF_RenderUNICODE_Solid_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_Solid_Wrapped');
+var _TTF_RenderText_Shaded_Wrapped = Module['_TTF_RenderText_Shaded_Wrapped'] = createExportWrapper('TTF_RenderText_Shaded_Wrapped');
+var _TTF_RenderUTF8_Shaded_Wrapped = Module['_TTF_RenderUTF8_Shaded_Wrapped'] = createExportWrapper('TTF_RenderUTF8_Shaded_Wrapped');
+var _TTF_RenderUNICODE_Shaded_Wrapped = Module['_TTF_RenderUNICODE_Shaded_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_Shaded_Wrapped');
+var _TTF_RenderText_Blended_Wrapped = Module['_TTF_RenderText_Blended_Wrapped'] = createExportWrapper('TTF_RenderText_Blended_Wrapped');
+var _TTF_RenderUTF8_Blended_Wrapped = Module['_TTF_RenderUTF8_Blended_Wrapped'] = createExportWrapper('TTF_RenderUTF8_Blended_Wrapped');
+var _TTF_RenderUNICODE_Blended_Wrapped = Module['_TTF_RenderUNICODE_Blended_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_Blended_Wrapped');
+var _TTF_RenderText_LCD_Wrapped = Module['_TTF_RenderText_LCD_Wrapped'] = createExportWrapper('TTF_RenderText_LCD_Wrapped');
+var _TTF_RenderUTF8_LCD_Wrapped = Module['_TTF_RenderUTF8_LCD_Wrapped'] = createExportWrapper('TTF_RenderUTF8_LCD_Wrapped');
+var _TTF_RenderUNICODE_LCD_Wrapped = Module['_TTF_RenderUNICODE_LCD_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_LCD_Wrapped');
+var _TTF_RenderGlyph_Blended = Module['_TTF_RenderGlyph_Blended'] = createExportWrapper('TTF_RenderGlyph_Blended');
+var _TTF_RenderGlyph32_Blended = Module['_TTF_RenderGlyph32_Blended'] = createExportWrapper('TTF_RenderGlyph32_Blended');
+var _TTF_SetFontStyle = Module['_TTF_SetFontStyle'] = createExportWrapper('TTF_SetFontStyle');
+var _TTF_GetFontStyle = Module['_TTF_GetFontStyle'] = createExportWrapper('TTF_GetFontStyle');
+var _TTF_SetFontOutline = Module['_TTF_SetFontOutline'] = createExportWrapper('TTF_SetFontOutline');
+var _TTF_GetFontOutline = Module['_TTF_GetFontOutline'] = createExportWrapper('TTF_GetFontOutline');
+var _TTF_SetFontHinting = Module['_TTF_SetFontHinting'] = createExportWrapper('TTF_SetFontHinting');
+var _TTF_GetFontHinting = Module['_TTF_GetFontHinting'] = createExportWrapper('TTF_GetFontHinting');
+var _TTF_SetFontSDF = Module['_TTF_SetFontSDF'] = createExportWrapper('TTF_SetFontSDF');
+var _TTF_GetFontSDF = Module['_TTF_GetFontSDF'] = createExportWrapper('TTF_GetFontSDF');
+var _TTF_SetFontWrappedAlign = Module['_TTF_SetFontWrappedAlign'] = createExportWrapper('TTF_SetFontWrappedAlign');
+var _TTF_GetFontWrappedAlign = Module['_TTF_GetFontWrappedAlign'] = createExportWrapper('TTF_GetFontWrappedAlign');
+var _FT_Done_FreeType = Module['_FT_Done_FreeType'] = createExportWrapper('FT_Done_FreeType');
+var _TTF_WasInit = Module['_TTF_WasInit'] = createExportWrapper('TTF_WasInit');
+var _TTF_GetFontKerningSize = Module['_TTF_GetFontKerningSize'] = createExportWrapper('TTF_GetFontKerningSize');
+var _FT_Get_Kerning = Module['_FT_Get_Kerning'] = createExportWrapper('FT_Get_Kerning');
+var _TTF_GetFontKerningSizeGlyphs = Module['_TTF_GetFontKerningSizeGlyphs'] = createExportWrapper('TTF_GetFontKerningSizeGlyphs');
+var _TTF_GetFontKerningSizeGlyphs32 = Module['_TTF_GetFontKerningSizeGlyphs32'] = createExportWrapper('TTF_GetFontKerningSizeGlyphs32');
+var _FT_Load_Glyph = Module['_FT_Load_Glyph'] = createExportWrapper('FT_Load_Glyph');
+var _FT_Outline_Translate = Module['_FT_Outline_Translate'] = createExportWrapper('FT_Outline_Translate');
+var _FT_Outline_Transform = Module['_FT_Outline_Transform'] = createExportWrapper('FT_Outline_Transform');
+var _FT_Get_Glyph = Module['_FT_Get_Glyph'] = createExportWrapper('FT_Get_Glyph');
+var _FT_Stroker_New = Module['_FT_Stroker_New'] = createExportWrapper('FT_Stroker_New');
+var _FT_Stroker_Set = Module['_FT_Stroker_Set'] = createExportWrapper('FT_Stroker_Set');
+var _FT_Glyph_Stroke = Module['_FT_Glyph_Stroke'] = createExportWrapper('FT_Glyph_Stroke');
+var _FT_Stroker_Done = Module['_FT_Stroker_Done'] = createExportWrapper('FT_Stroker_Done');
+var _FT_Glyph_To_Bitmap = Module['_FT_Glyph_To_Bitmap'] = createExportWrapper('FT_Glyph_To_Bitmap');
+var _FT_Done_Glyph = Module['_FT_Done_Glyph'] = createExportWrapper('FT_Done_Glyph');
+var _FT_Render_Glyph = Module['_FT_Render_Glyph'] = createExportWrapper('FT_Render_Glyph');
+var _SDL_CreateRGBSurfaceWithFormatFrom = Module['_SDL_CreateRGBSurfaceWithFormatFrom'] = createExportWrapper('SDL_CreateRGBSurfaceWithFormatFrom');
 var _IMG_Linked_Version = Module['_IMG_Linked_Version'] = createExportWrapper('IMG_Linked_Version');
 var _IMG_Init = Module['_IMG_Init'] = createExportWrapper('IMG_Init');
 var _IMG_InitAVIF = Module['_IMG_InitAVIF'] = createExportWrapper('IMG_InitAVIF');
@@ -27101,12 +27246,8 @@ var _IMG_QuitWEBP = Module['_IMG_QuitWEBP'] = createExportWrapper('IMG_QuitWEBP'
 var _SDL_CreateRGBSurface = Module['_SDL_CreateRGBSurface'] = createExportWrapper('SDL_CreateRGBSurface');
 var _memcpy = createExportWrapper('memcpy');
 var _free = createExportWrapper('free');
-var _SDL_RWFromFile = Module['_SDL_RWFromFile'] = createExportWrapper('SDL_RWFromFile');
 var _SDL_strrchr = Module['_SDL_strrchr'] = createExportWrapper('SDL_strrchr');
 var _IMG_LoadTyped_RW = Module['_IMG_LoadTyped_RW'] = createExportWrapper('IMG_LoadTyped_RW');
-var _SDL_SetError = Module['_SDL_SetError'] = createExportWrapper('SDL_SetError');
-var _SDL_RWseek = Module['_SDL_RWseek'] = createExportWrapper('SDL_RWseek');
-var _SDL_RWclose = Module['_SDL_RWclose'] = createExportWrapper('SDL_RWclose');
 var _SDL_toupper = Module['_SDL_toupper'] = createExportWrapper('SDL_toupper');
 var _IMG_Load_RW = Module['_IMG_Load_RW'] = createExportWrapper('IMG_Load_RW');
 var _IMG_LoadTexture = Module['_IMG_LoadTexture'] = createExportWrapper('IMG_LoadTexture');
@@ -27116,10 +27257,7 @@ var _IMG_LoadAnimation = Module['_IMG_LoadAnimation'] = createExportWrapper('IMG
 var _IMG_LoadAnimationTyped_RW = Module['_IMG_LoadAnimationTyped_RW'] = createExportWrapper('IMG_LoadAnimationTyped_RW');
 var _IMG_isGIF = Module['_IMG_isGIF'] = createExportWrapper('IMG_isGIF');
 var _IMG_LoadGIFAnimation_RW = Module['_IMG_LoadGIFAnimation_RW'] = createExportWrapper('IMG_LoadGIFAnimation_RW');
-var _SDL_malloc = Module['_SDL_malloc'] = createExportWrapper('SDL_malloc');
 var _SDL_calloc = Module['_SDL_calloc'] = createExportWrapper('SDL_calloc');
-var _SDL_free = Module['_SDL_free'] = createExportWrapper('SDL_free');
-var _SDL_Error = Module['_SDL_Error'] = createExportWrapper('SDL_Error');
 var _IMG_LoadAnimation_RW = Module['_IMG_LoadAnimation_RW'] = createExportWrapper('IMG_LoadAnimation_RW');
 var _IMG_FreeAnimation = Module['_IMG_FreeAnimation'] = createExportWrapper('IMG_FreeAnimation');
 var _IMG_LoadTGA_RW = Module['_IMG_LoadTGA_RW'] = createExportWrapper('IMG_LoadTGA_RW');
@@ -27189,8 +27327,6 @@ var _png_get_IHDR = Module['_png_get_IHDR'] = createExportWrapper('png_get_IHDR'
 var _png_destroy_read_struct = Module['_png_destroy_read_struct'] = createExportWrapper('png_destroy_read_struct');
 var _png_create_read_struct = Module['_png_create_read_struct'] = createExportWrapper('png_create_read_struct');
 var _png_create_info_struct = Module['_png_create_info_struct'] = createExportWrapper('png_create_info_struct');
-var _SDL_RWtell = Module['_SDL_RWtell'] = createExportWrapper('SDL_RWtell');
-var _SDL_RWread = Module['_SDL_RWread'] = createExportWrapper('SDL_RWread');
 var _malloc = createExportWrapper('malloc');
 var _testSetjmp = Module['_testSetjmp'] = createExportWrapper('testSetjmp');
 var setTempRet0 = createExportWrapper('setTempRet0');
@@ -27198,7 +27334,6 @@ var getTempRet0 = createExportWrapper('getTempRet0');
 var _emscripten_longjmp = Module['_emscripten_longjmp'] = createExportWrapper('emscripten_longjmp');
 var _saveSetjmp = Module['_saveSetjmp'] = createExportWrapper('saveSetjmp');
 var _SDL_MapRGB = Module['_SDL_MapRGB'] = createExportWrapper('SDL_MapRGB');
-var _SDL_SetColorKey = Module['_SDL_SetColorKey'] = createExportWrapper('SDL_SetColorKey');
 var _IMG_SavePNG = Module['_IMG_SavePNG'] = createExportWrapper('IMG_SavePNG');
 var _IMG_SavePNG_RW = Module['_IMG_SavePNG_RW'] = createExportWrapper('IMG_SavePNG_RW');
 var _SDL_ConvertSurfaceFormat = Module['_SDL_ConvertSurfaceFormat'] = createExportWrapper('SDL_ConvertSurfaceFormat');
@@ -27206,134 +27341,1576 @@ var _SDL_RWwrite = Module['_SDL_RWwrite'] = createExportWrapper('SDL_RWwrite');
 var _IMG_LoadSizedSVG_RW = Module['_IMG_LoadSizedSVG_RW'] = createExportWrapper('IMG_LoadSizedSVG_RW');
 var _IMG_ReadXPMFromArray = Module['_IMG_ReadXPMFromArray'] = createExportWrapper('IMG_ReadXPMFromArray');
 var _IMG_ReadXPMFromArrayToRGB888 = Module['_IMG_ReadXPMFromArrayToRGB888'] = createExportWrapper('IMG_ReadXPMFromArrayToRGB888');
-var _TTF_SetDirection = Module['_TTF_SetDirection'] = createExportWrapper('TTF_SetDirection');
-var _TTF_SetScript = Module['_TTF_SetScript'] = createExportWrapper('TTF_SetScript');
-var _TTF_Linked_Version = Module['_TTF_Linked_Version'] = createExportWrapper('TTF_Linked_Version');
-var _TTF_ByteSwappedUNICODE = Module['_TTF_ByteSwappedUNICODE'] = createExportWrapper('TTF_ByteSwappedUNICODE');
-var _FT_Init_FreeType = Module['_FT_Init_FreeType'] = createExportWrapper('FT_Init_FreeType');
-var _TTF_GetFreeTypeVersion = Module['_TTF_GetFreeTypeVersion'] = createExportWrapper('TTF_GetFreeTypeVersion');
-var _FT_Library_Version = Module['_FT_Library_Version'] = createExportWrapper('FT_Library_Version');
-var _TTF_GetHarfBuzzVersion = Module['_TTF_GetHarfBuzzVersion'] = createExportWrapper('TTF_GetHarfBuzzVersion');
-var _hb_version = Module['_hb_version'] = createExportWrapper('hb_version');
-var _TTF_OpenFontIndexDPIRW = Module['_TTF_OpenFontIndexDPIRW'] = createExportWrapper('TTF_OpenFontIndexDPIRW');
-var _SDL_memset = Module['_SDL_memset'] = createExportWrapper('SDL_memset');
-var _SDL_RWsize = Module['_SDL_RWsize'] = createExportWrapper('SDL_RWsize');
-var _FT_Open_Face = Module['_FT_Open_Face'] = createExportWrapper('FT_Open_Face');
-var _FT_Set_Charmap = Module['_FT_Set_Charmap'] = createExportWrapper('FT_Set_Charmap');
-var _hb_ft_font_create = Module['_hb_ft_font_create'] = createExportWrapper('hb_ft_font_create');
-var _hb_ft_font_set_load_flags = Module['_hb_ft_font_set_load_flags'] = createExportWrapper('hb_ft_font_set_load_flags');
-var _TTF_SetFontSizeDPI = Module['_TTF_SetFontSizeDPI'] = createExportWrapper('TTF_SetFontSizeDPI');
-var _TTF_CloseFont = Module['_TTF_CloseFont'] = createExportWrapper('TTF_CloseFont');
-var _hb_font_destroy = Module['_hb_font_destroy'] = createExportWrapper('hb_font_destroy');
-var _FT_Done_Face = Module['_FT_Done_Face'] = createExportWrapper('FT_Done_Face');
-var _TTF_SetFontKerning = Module['_TTF_SetFontKerning'] = createExportWrapper('TTF_SetFontKerning');
-var _FT_Set_Char_Size = Module['_FT_Set_Char_Size'] = createExportWrapper('FT_Set_Char_Size');
-var _FT_Select_Size = Module['_FT_Select_Size'] = createExportWrapper('FT_Select_Size');
-var _hb_ft_font_changed = Module['_hb_ft_font_changed'] = createExportWrapper('hb_ft_font_changed');
-var _FT_MulFix = Module['_FT_MulFix'] = createExportWrapper('FT_MulFix');
-var _TTF_SetFontSize = Module['_TTF_SetFontSize'] = createExportWrapper('TTF_SetFontSize');
-var _TTF_OpenFontDPIRW = Module['_TTF_OpenFontDPIRW'] = createExportWrapper('TTF_OpenFontDPIRW');
-var _TTF_OpenFontIndexRW = Module['_TTF_OpenFontIndexRW'] = createExportWrapper('TTF_OpenFontIndexRW');
-var _TTF_OpenFontIndexDPI = Module['_TTF_OpenFontIndexDPI'] = createExportWrapper('TTF_OpenFontIndexDPI');
-var _TTF_OpenFontRW = Module['_TTF_OpenFontRW'] = createExportWrapper('TTF_OpenFontRW');
-var _TTF_OpenFontDPI = Module['_TTF_OpenFontDPI'] = createExportWrapper('TTF_OpenFontDPI');
-var _TTF_OpenFontIndex = Module['_TTF_OpenFontIndex'] = createExportWrapper('TTF_OpenFontIndex');
-var _TTF_FontHeight = Module['_TTF_FontHeight'] = createExportWrapper('TTF_FontHeight');
-var _TTF_FontAscent = Module['_TTF_FontAscent'] = createExportWrapper('TTF_FontAscent');
-var _TTF_FontDescent = Module['_TTF_FontDescent'] = createExportWrapper('TTF_FontDescent');
-var _TTF_FontLineSkip = Module['_TTF_FontLineSkip'] = createExportWrapper('TTF_FontLineSkip');
-var _TTF_GetFontKerning = Module['_TTF_GetFontKerning'] = createExportWrapper('TTF_GetFontKerning');
-var _TTF_FontFaces = Module['_TTF_FontFaces'] = createExportWrapper('TTF_FontFaces');
-var _TTF_FontFaceIsFixedWidth = Module['_TTF_FontFaceIsFixedWidth'] = createExportWrapper('TTF_FontFaceIsFixedWidth');
-var _TTF_FontFaceFamilyName = Module['_TTF_FontFaceFamilyName'] = createExportWrapper('TTF_FontFaceFamilyName');
-var _TTF_FontFaceStyleName = Module['_TTF_FontFaceStyleName'] = createExportWrapper('TTF_FontFaceStyleName');
-var _TTF_GlyphIsProvided = Module['_TTF_GlyphIsProvided'] = createExportWrapper('TTF_GlyphIsProvided');
-var _FT_Get_Char_Index = Module['_FT_Get_Char_Index'] = createExportWrapper('FT_Get_Char_Index');
-var _TTF_GlyphIsProvided32 = Module['_TTF_GlyphIsProvided32'] = createExportWrapper('TTF_GlyphIsProvided32');
-var _TTF_GlyphMetrics = Module['_TTF_GlyphMetrics'] = createExportWrapper('TTF_GlyphMetrics');
-var _TTF_GlyphMetrics32 = Module['_TTF_GlyphMetrics32'] = createExportWrapper('TTF_GlyphMetrics32');
-var _TTF_SetFontDirection = Module['_TTF_SetFontDirection'] = createExportWrapper('TTF_SetFontDirection');
-var _TTF_SetFontScriptName = Module['_TTF_SetFontScriptName'] = createExportWrapper('TTF_SetFontScriptName');
-var _SDL_strlen = Module['_SDL_strlen'] = createExportWrapper('SDL_strlen');
-var _TTF_SizeText = Module['_TTF_SizeText'] = createExportWrapper('TTF_SizeText');
-var _hb_buffer_create = Module['_hb_buffer_create'] = createExportWrapper('hb_buffer_create');
-var _hb_buffer_set_direction = Module['_hb_buffer_set_direction'] = createExportWrapper('hb_buffer_set_direction');
-var _hb_buffer_set_script = Module['_hb_buffer_set_script'] = createExportWrapper('hb_buffer_set_script');
-var _hb_buffer_add_utf8 = Module['_hb_buffer_add_utf8'] = createExportWrapper('hb_buffer_add_utf8');
-var _hb_shape = Module['_hb_shape'] = createExportWrapper('hb_shape');
-var _hb_buffer_get_glyph_infos = Module['_hb_buffer_get_glyph_infos'] = createExportWrapper('hb_buffer_get_glyph_infos');
-var _hb_buffer_get_glyph_positions = Module['_hb_buffer_get_glyph_positions'] = createExportWrapper('hb_buffer_get_glyph_positions');
-var _SDL_realloc = Module['_SDL_realloc'] = createExportWrapper('SDL_realloc');
-var _SDL_utf8strlen = Module['_SDL_utf8strlen'] = createExportWrapper('SDL_utf8strlen');
-var _hb_buffer_destroy = Module['_hb_buffer_destroy'] = createExportWrapper('hb_buffer_destroy');
-var _TTF_SizeUTF8 = Module['_TTF_SizeUTF8'] = createExportWrapper('TTF_SizeUTF8');
-var _TTF_SizeUNICODE = Module['_TTF_SizeUNICODE'] = createExportWrapper('TTF_SizeUNICODE');
-var _TTF_MeasureText = Module['_TTF_MeasureText'] = createExportWrapper('TTF_MeasureText');
-var _TTF_MeasureUTF8 = Module['_TTF_MeasureUTF8'] = createExportWrapper('TTF_MeasureUTF8');
-var _TTF_MeasureUNICODE = Module['_TTF_MeasureUNICODE'] = createExportWrapper('TTF_MeasureUNICODE');
-var _TTF_RenderText_Solid = Module['_TTF_RenderText_Solid'] = createExportWrapper('TTF_RenderText_Solid');
-var _SDL_SetSurfaceBlendMode = Module['_SDL_SetSurfaceBlendMode'] = createExportWrapper('SDL_SetSurfaceBlendMode');
-var _TTF_RenderUTF8_Solid = Module['_TTF_RenderUTF8_Solid'] = createExportWrapper('TTF_RenderUTF8_Solid');
-var _TTF_RenderUNICODE_Solid = Module['_TTF_RenderUNICODE_Solid'] = createExportWrapper('TTF_RenderUNICODE_Solid');
-var _TTF_RenderGlyph_Solid = Module['_TTF_RenderGlyph_Solid'] = createExportWrapper('TTF_RenderGlyph_Solid');
-var _TTF_RenderGlyph32_Solid = Module['_TTF_RenderGlyph32_Solid'] = createExportWrapper('TTF_RenderGlyph32_Solid');
-var _TTF_RenderText_Shaded = Module['_TTF_RenderText_Shaded'] = createExportWrapper('TTF_RenderText_Shaded');
-var _TTF_RenderUTF8_Shaded = Module['_TTF_RenderUTF8_Shaded'] = createExportWrapper('TTF_RenderUTF8_Shaded');
-var _TTF_RenderUNICODE_Shaded = Module['_TTF_RenderUNICODE_Shaded'] = createExportWrapper('TTF_RenderUNICODE_Shaded');
-var _TTF_RenderGlyph_Shaded = Module['_TTF_RenderGlyph_Shaded'] = createExportWrapper('TTF_RenderGlyph_Shaded');
-var _TTF_RenderGlyph32_Shaded = Module['_TTF_RenderGlyph32_Shaded'] = createExportWrapper('TTF_RenderGlyph32_Shaded');
-var _TTF_RenderText_Blended = Module['_TTF_RenderText_Blended'] = createExportWrapper('TTF_RenderText_Blended');
-var _TTF_RenderUTF8_Blended = Module['_TTF_RenderUTF8_Blended'] = createExportWrapper('TTF_RenderUTF8_Blended');
-var _TTF_RenderUNICODE_Blended = Module['_TTF_RenderUNICODE_Blended'] = createExportWrapper('TTF_RenderUNICODE_Blended');
-var _TTF_RenderText_LCD = Module['_TTF_RenderText_LCD'] = createExportWrapper('TTF_RenderText_LCD');
-var _TTF_RenderUTF8_LCD = Module['_TTF_RenderUTF8_LCD'] = createExportWrapper('TTF_RenderUTF8_LCD');
-var _TTF_RenderUNICODE_LCD = Module['_TTF_RenderUNICODE_LCD'] = createExportWrapper('TTF_RenderUNICODE_LCD');
-var _TTF_RenderGlyph_LCD = Module['_TTF_RenderGlyph_LCD'] = createExportWrapper('TTF_RenderGlyph_LCD');
-var _TTF_RenderGlyph32_LCD = Module['_TTF_RenderGlyph32_LCD'] = createExportWrapper('TTF_RenderGlyph32_LCD');
-var _TTF_RenderText_Solid_Wrapped = Module['_TTF_RenderText_Solid_Wrapped'] = createExportWrapper('TTF_RenderText_Solid_Wrapped');
-var _SDL_memcpy = Module['_SDL_memcpy'] = createExportWrapper('SDL_memcpy');
-var _TTF_RenderUTF8_Solid_Wrapped = Module['_TTF_RenderUTF8_Solid_Wrapped'] = createExportWrapper('TTF_RenderUTF8_Solid_Wrapped');
-var _TTF_RenderUNICODE_Solid_Wrapped = Module['_TTF_RenderUNICODE_Solid_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_Solid_Wrapped');
-var _TTF_RenderText_Shaded_Wrapped = Module['_TTF_RenderText_Shaded_Wrapped'] = createExportWrapper('TTF_RenderText_Shaded_Wrapped');
-var _TTF_RenderUTF8_Shaded_Wrapped = Module['_TTF_RenderUTF8_Shaded_Wrapped'] = createExportWrapper('TTF_RenderUTF8_Shaded_Wrapped');
-var _TTF_RenderUNICODE_Shaded_Wrapped = Module['_TTF_RenderUNICODE_Shaded_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_Shaded_Wrapped');
-var _TTF_RenderText_Blended_Wrapped = Module['_TTF_RenderText_Blended_Wrapped'] = createExportWrapper('TTF_RenderText_Blended_Wrapped');
-var _TTF_RenderUTF8_Blended_Wrapped = Module['_TTF_RenderUTF8_Blended_Wrapped'] = createExportWrapper('TTF_RenderUTF8_Blended_Wrapped');
-var _TTF_RenderUNICODE_Blended_Wrapped = Module['_TTF_RenderUNICODE_Blended_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_Blended_Wrapped');
-var _TTF_RenderText_LCD_Wrapped = Module['_TTF_RenderText_LCD_Wrapped'] = createExportWrapper('TTF_RenderText_LCD_Wrapped');
-var _TTF_RenderUTF8_LCD_Wrapped = Module['_TTF_RenderUTF8_LCD_Wrapped'] = createExportWrapper('TTF_RenderUTF8_LCD_Wrapped');
-var _TTF_RenderUNICODE_LCD_Wrapped = Module['_TTF_RenderUNICODE_LCD_Wrapped'] = createExportWrapper('TTF_RenderUNICODE_LCD_Wrapped');
-var _TTF_RenderGlyph_Blended = Module['_TTF_RenderGlyph_Blended'] = createExportWrapper('TTF_RenderGlyph_Blended');
-var _TTF_RenderGlyph32_Blended = Module['_TTF_RenderGlyph32_Blended'] = createExportWrapper('TTF_RenderGlyph32_Blended');
-var _TTF_SetFontStyle = Module['_TTF_SetFontStyle'] = createExportWrapper('TTF_SetFontStyle');
-var _TTF_GetFontStyle = Module['_TTF_GetFontStyle'] = createExportWrapper('TTF_GetFontStyle');
-var _TTF_SetFontOutline = Module['_TTF_SetFontOutline'] = createExportWrapper('TTF_SetFontOutline');
-var _TTF_GetFontOutline = Module['_TTF_GetFontOutline'] = createExportWrapper('TTF_GetFontOutline');
-var _TTF_SetFontHinting = Module['_TTF_SetFontHinting'] = createExportWrapper('TTF_SetFontHinting');
-var _TTF_GetFontHinting = Module['_TTF_GetFontHinting'] = createExportWrapper('TTF_GetFontHinting');
-var _TTF_SetFontSDF = Module['_TTF_SetFontSDF'] = createExportWrapper('TTF_SetFontSDF');
-var _TTF_GetFontSDF = Module['_TTF_GetFontSDF'] = createExportWrapper('TTF_GetFontSDF');
-var _TTF_SetFontWrappedAlign = Module['_TTF_SetFontWrappedAlign'] = createExportWrapper('TTF_SetFontWrappedAlign');
-var _TTF_GetFontWrappedAlign = Module['_TTF_GetFontWrappedAlign'] = createExportWrapper('TTF_GetFontWrappedAlign');
-var _FT_Done_FreeType = Module['_FT_Done_FreeType'] = createExportWrapper('FT_Done_FreeType');
-var _TTF_WasInit = Module['_TTF_WasInit'] = createExportWrapper('TTF_WasInit');
-var _TTF_GetFontKerningSize = Module['_TTF_GetFontKerningSize'] = createExportWrapper('TTF_GetFontKerningSize');
-var _FT_Get_Kerning = Module['_FT_Get_Kerning'] = createExportWrapper('FT_Get_Kerning');
-var _TTF_GetFontKerningSizeGlyphs = Module['_TTF_GetFontKerningSizeGlyphs'] = createExportWrapper('TTF_GetFontKerningSizeGlyphs');
-var _TTF_GetFontKerningSizeGlyphs32 = Module['_TTF_GetFontKerningSizeGlyphs32'] = createExportWrapper('TTF_GetFontKerningSizeGlyphs32');
-var _FT_Load_Glyph = Module['_FT_Load_Glyph'] = createExportWrapper('FT_Load_Glyph');
-var _FT_Outline_Translate = Module['_FT_Outline_Translate'] = createExportWrapper('FT_Outline_Translate');
-var _FT_Outline_Transform = Module['_FT_Outline_Transform'] = createExportWrapper('FT_Outline_Transform');
-var _FT_Get_Glyph = Module['_FT_Get_Glyph'] = createExportWrapper('FT_Get_Glyph');
-var _FT_Stroker_New = Module['_FT_Stroker_New'] = createExportWrapper('FT_Stroker_New');
-var _FT_Stroker_Set = Module['_FT_Stroker_Set'] = createExportWrapper('FT_Stroker_Set');
-var _FT_Glyph_Stroke = Module['_FT_Glyph_Stroke'] = createExportWrapper('FT_Glyph_Stroke');
-var _FT_Stroker_Done = Module['_FT_Stroker_Done'] = createExportWrapper('FT_Stroker_Done');
-var _FT_Glyph_To_Bitmap = Module['_FT_Glyph_To_Bitmap'] = createExportWrapper('FT_Glyph_To_Bitmap');
-var _FT_Done_Glyph = Module['_FT_Done_Glyph'] = createExportWrapper('FT_Done_Glyph');
-var _FT_Render_Glyph = Module['_FT_Render_Glyph'] = createExportWrapper('FT_Render_Glyph');
-var _SDL_CreateRGBSurfaceWithFormatFrom = Module['_SDL_CreateRGBSurfaceWithFormatFrom'] = createExportWrapper('SDL_CreateRGBSurfaceWithFormatFrom');
+var _SDL_ExitProcess = Module['_SDL_ExitProcess'] = createExportWrapper('SDL_ExitProcess');
+var _SDL_SetMainReady = Module['_SDL_SetMainReady'] = createExportWrapper('SDL_SetMainReady');
+var _SDL_InitSubSystem = Module['_SDL_InitSubSystem'] = createExportWrapper('SDL_InitSubSystem');
+var _SDL_LogInit = Module['_SDL_LogInit'] = createExportWrapper('SDL_LogInit');
+var _SDL_ClearError = Module['_SDL_ClearError'] = createExportWrapper('SDL_ClearError');
+var _SDL_TicksInit = Module['_SDL_TicksInit'] = createExportWrapper('SDL_TicksInit');
+var _SDL_EventsInit = Module['_SDL_EventsInit'] = createExportWrapper('SDL_EventsInit');
+var _SDL_TimerInit = Module['_SDL_TimerInit'] = createExportWrapper('SDL_TimerInit');
+var _SDL_VideoInit = Module['_SDL_VideoInit'] = createExportWrapper('SDL_VideoInit');
+var _SDL_AudioInit = Module['_SDL_AudioInit'] = createExportWrapper('SDL_AudioInit');
+var _SDL_JoystickInit = Module['_SDL_JoystickInit'] = createExportWrapper('SDL_JoystickInit');
+var _SDL_GameControllerInit = Module['_SDL_GameControllerInit'] = createExportWrapper('SDL_GameControllerInit');
+var _SDL_SensorInit = Module['_SDL_SensorInit'] = createExportWrapper('SDL_SensorInit');
+var _SDL_QuitSubSystem = Module['_SDL_QuitSubSystem'] = createExportWrapper('SDL_QuitSubSystem');
+var _SDL_SensorQuit = Module['_SDL_SensorQuit'] = createExportWrapper('SDL_SensorQuit');
+var _SDL_GameControllerQuit = Module['_SDL_GameControllerQuit'] = createExportWrapper('SDL_GameControllerQuit');
+var _SDL_JoystickQuit = Module['_SDL_JoystickQuit'] = createExportWrapper('SDL_JoystickQuit');
+var _SDL_AudioQuit = Module['_SDL_AudioQuit'] = createExportWrapper('SDL_AudioQuit');
+var _SDL_VideoQuit = Module['_SDL_VideoQuit'] = createExportWrapper('SDL_VideoQuit');
+var _SDL_TimerQuit = Module['_SDL_TimerQuit'] = createExportWrapper('SDL_TimerQuit');
+var _SDL_EventsQuit = Module['_SDL_EventsQuit'] = createExportWrapper('SDL_EventsQuit');
+var _SDL_WasInit = Module['_SDL_WasInit'] = createExportWrapper('SDL_WasInit');
+var _SDL_TicksQuit = Module['_SDL_TicksQuit'] = createExportWrapper('SDL_TicksQuit');
+var _SDL_ClearHints = Module['_SDL_ClearHints'] = createExportWrapper('SDL_ClearHints');
+var _SDL_AssertionsQuit = Module['_SDL_AssertionsQuit'] = createExportWrapper('SDL_AssertionsQuit');
+var _SDL_LogQuit = Module['_SDL_LogQuit'] = createExportWrapper('SDL_LogQuit');
+var _SDL_GetVersion = Module['_SDL_GetVersion'] = createExportWrapper('SDL_GetVersion');
+var _SDL_GetRevision = Module['_SDL_GetRevision'] = createExportWrapper('SDL_GetRevision');
+var _SDL_GetRevisionNumber = Module['_SDL_GetRevisionNumber'] = createExportWrapper('SDL_GetRevisionNumber');
+var _SDL_GetPlatform = Module['_SDL_GetPlatform'] = createExportWrapper('SDL_GetPlatform');
+var _SDL_IsTablet = Module['_SDL_IsTablet'] = createExportWrapper('SDL_IsTablet');
+var _SDL_RLESurface = Module['_SDL_RLESurface'] = createExportWrapper('SDL_RLESurface');
+var _SDL_UnRLESurface = Module['_SDL_UnRLESurface'] = createExportWrapper('SDL_UnRLESurface');
+var _SDL_SIMDAlloc = Module['_SDL_SIMDAlloc'] = createExportWrapper('SDL_SIMDAlloc');
+var _SDL_FillRect = Module['_SDL_FillRect'] = createExportWrapper('SDL_FillRect');
+var _SDL_SIMDFree = Module['_SDL_SIMDFree'] = createExportWrapper('SDL_SIMDFree');
+var _SDL_LockSurface = Module['_SDL_LockSurface'] = createExportWrapper('SDL_LockSurface');
+var _SDL_UnlockSurface = Module['_SDL_UnlockSurface'] = createExportWrapper('SDL_UnlockSurface');
+var _SDL_ReportAssertion = Module['_SDL_ReportAssertion'] = createExportWrapper('SDL_ReportAssertion');
+var _SDL_SetAssertionHandler = Module['_SDL_SetAssertionHandler'] = createExportWrapper('SDL_SetAssertionHandler');
+var _SDL_snprintf = Module['_SDL_snprintf'] = createExportWrapper('SDL_snprintf');
+var _SDL_getenv = Module['_SDL_getenv'] = createExportWrapper('SDL_getenv');
+var _SDL_strcmp = Module['_SDL_strcmp'] = createExportWrapper('SDL_strcmp');
+var _SDL_GetFocusWindow = Module['_SDL_GetFocusWindow'] = createExportWrapper('SDL_GetFocusWindow');
+var _SDL_GetWindowFlags = Module['_SDL_GetWindowFlags'] = createExportWrapper('SDL_GetWindowFlags');
+var _SDL_MinimizeWindow = Module['_SDL_MinimizeWindow'] = createExportWrapper('SDL_MinimizeWindow');
+var _SDL_ShowMessageBox = Module['_SDL_ShowMessageBox'] = createExportWrapper('SDL_ShowMessageBox');
+var _SDL_RestoreWindow = Module['_SDL_RestoreWindow'] = createExportWrapper('SDL_RestoreWindow');
+var _SDL_GetAssertionReport = Module['_SDL_GetAssertionReport'] = createExportWrapper('SDL_GetAssertionReport');
+var _SDL_ResetAssertionReport = Module['_SDL_ResetAssertionReport'] = createExportWrapper('SDL_ResetAssertionReport');
+var _SDL_GetDefaultAssertionHandler = Module['_SDL_GetDefaultAssertionHandler'] = createExportWrapper('SDL_GetDefaultAssertionHandler');
+var _SDL_GetAssertionHandler = Module['_SDL_GetAssertionHandler'] = createExportWrapper('SDL_GetAssertionHandler');
+var _SDL_LogMessageV = Module['_SDL_LogMessageV'] = createExportWrapper('SDL_LogMessageV');
+var _SDL_AtomicCAS = Module['_SDL_AtomicCAS'] = createExportWrapper('SDL_AtomicCAS');
+var _SDL_AtomicCASPtr = Module['_SDL_AtomicCASPtr'] = createExportWrapper('SDL_AtomicCASPtr');
+var _SDL_AtomicSet = Module['_SDL_AtomicSet'] = createExportWrapper('SDL_AtomicSet');
+var _SDL_AtomicSetPtr = Module['_SDL_AtomicSetPtr'] = createExportWrapper('SDL_AtomicSetPtr');
+var _SDL_AtomicAdd = Module['_SDL_AtomicAdd'] = createExportWrapper('SDL_AtomicAdd');
+var _SDL_AtomicGet = Module['_SDL_AtomicGet'] = createExportWrapper('SDL_AtomicGet');
+var _SDL_AtomicGetPtr = Module['_SDL_AtomicGetPtr'] = createExportWrapper('SDL_AtomicGetPtr');
+var _SDL_MemoryBarrierReleaseFunction = Module['_SDL_MemoryBarrierReleaseFunction'] = createExportWrapper('SDL_MemoryBarrierReleaseFunction');
+var _SDL_AtomicLock = Module['_SDL_AtomicLock'] = createExportWrapper('SDL_AtomicLock');
+var _SDL_AtomicUnlock = Module['_SDL_AtomicUnlock'] = createExportWrapper('SDL_AtomicUnlock');
+var _SDL_MemoryBarrierAcquireFunction = Module['_SDL_MemoryBarrierAcquireFunction'] = createExportWrapper('SDL_MemoryBarrierAcquireFunction');
+var _SDL_AddAudioDevice = Module['_SDL_AddAudioDevice'] = createExportWrapper('SDL_AddAudioDevice');
+var _SDL_EventState = Module['_SDL_EventState'] = createExportWrapper('SDL_EventState');
+var _SDL_PushEvent = Module['_SDL_PushEvent'] = createExportWrapper('SDL_PushEvent');
+var _SDL_OpenedAudioDeviceDisconnected = Module['_SDL_OpenedAudioDeviceDisconnected'] = createExportWrapper('SDL_OpenedAudioDeviceDisconnected');
+var _SDL_RemoveAudioDevice = Module['_SDL_RemoveAudioDevice'] = createExportWrapper('SDL_RemoveAudioDevice');
+var _SDL_LockMutex = Module['_SDL_LockMutex'] = createExportWrapper('SDL_LockMutex');
+var _SDL_UnlockMutex = Module['_SDL_UnlockMutex'] = createExportWrapper('SDL_UnlockMutex');
+var _SDL_QueueAudio = Module['_SDL_QueueAudio'] = createExportWrapper('SDL_QueueAudio');
+var _SDL_WriteToDataQueue = Module['_SDL_WriteToDataQueue'] = createExportWrapper('SDL_WriteToDataQueue');
+var _SDL_ReadFromDataQueue = Module['_SDL_ReadFromDataQueue'] = createExportWrapper('SDL_ReadFromDataQueue');
+var _SDL_DequeueAudio = Module['_SDL_DequeueAudio'] = createExportWrapper('SDL_DequeueAudio');
+var _SDL_GetQueuedAudioSize = Module['_SDL_GetQueuedAudioSize'] = createExportWrapper('SDL_GetQueuedAudioSize');
+var _SDL_CountDataQueue = Module['_SDL_CountDataQueue'] = createExportWrapper('SDL_CountDataQueue');
+var _SDL_ClearQueuedAudio = Module['_SDL_ClearQueuedAudio'] = createExportWrapper('SDL_ClearQueuedAudio');
+var _SDL_ClearDataQueue = Module['_SDL_ClearDataQueue'] = createExportWrapper('SDL_ClearDataQueue');
+var _SDL_GetNumAudioDrivers = Module['_SDL_GetNumAudioDrivers'] = createExportWrapper('SDL_GetNumAudioDrivers');
+var _SDL_GetAudioDriver = Module['_SDL_GetAudioDriver'] = createExportWrapper('SDL_GetAudioDriver');
+var _SDL_GetHint = Module['_SDL_GetHint'] = createExportWrapper('SDL_GetHint');
+var _SDL_strchr = Module['_SDL_strchr'] = createExportWrapper('SDL_strchr');
+var _SDL_strncasecmp = Module['_SDL_strncasecmp'] = createExportWrapper('SDL_strncasecmp');
+var _SDL_CreateMutex = Module['_SDL_CreateMutex'] = createExportWrapper('SDL_CreateMutex');
+var _SDL_GetCurrentAudioDriver = Module['_SDL_GetCurrentAudioDriver'] = createExportWrapper('SDL_GetCurrentAudioDriver');
+var _SDL_DestroyMutex = Module['_SDL_DestroyMutex'] = createExportWrapper('SDL_DestroyMutex');
+var _SDL_GetNumAudioDevices = Module['_SDL_GetNumAudioDevices'] = createExportWrapper('SDL_GetNumAudioDevices');
+var _SDL_GetAudioDeviceName = Module['_SDL_GetAudioDeviceName'] = createExportWrapper('SDL_GetAudioDeviceName');
+var _SDL_GetAudioDeviceSpec = Module['_SDL_GetAudioDeviceSpec'] = createExportWrapper('SDL_GetAudioDeviceSpec');
+var _SDL_GetDefaultAudioInfo = Module['_SDL_GetDefaultAudioInfo'] = createExportWrapper('SDL_GetDefaultAudioInfo');
+var _SDL_OpenAudio = Module['_SDL_OpenAudio'] = createExportWrapper('SDL_OpenAudio');
+var _SDL_atoi = Module['_SDL_atoi'] = createExportWrapper('SDL_atoi');
+var _SDL_powerof2 = Module['_SDL_powerof2'] = createExportWrapper('SDL_powerof2');
+var _SDL_CalculateAudioSpec = Module['_SDL_CalculateAudioSpec'] = createExportWrapper('SDL_CalculateAudioSpec');
+var _SDL_NewAudioStream = Module['_SDL_NewAudioStream'] = createExportWrapper('SDL_NewAudioStream');
+var _SDL_NewDataQueue = Module['_SDL_NewDataQueue'] = createExportWrapper('SDL_NewDataQueue');
+var _SDL_CreateThreadInternal = Module['_SDL_CreateThreadInternal'] = createExportWrapper('SDL_CreateThreadInternal');
+var _SDL_OpenAudioDevice = Module['_SDL_OpenAudioDevice'] = createExportWrapper('SDL_OpenAudioDevice');
+var _SDL_GetAudioDeviceStatus = Module['_SDL_GetAudioDeviceStatus'] = createExportWrapper('SDL_GetAudioDeviceStatus');
+var _SDL_GetAudioStatus = Module['_SDL_GetAudioStatus'] = createExportWrapper('SDL_GetAudioStatus');
+var _SDL_PauseAudioDevice = Module['_SDL_PauseAudioDevice'] = createExportWrapper('SDL_PauseAudioDevice');
+var _SDL_PauseAudio = Module['_SDL_PauseAudio'] = createExportWrapper('SDL_PauseAudio');
+var _SDL_LockAudioDevice = Module['_SDL_LockAudioDevice'] = createExportWrapper('SDL_LockAudioDevice');
+var _SDL_LockAudio = Module['_SDL_LockAudio'] = createExportWrapper('SDL_LockAudio');
+var _SDL_UnlockAudioDevice = Module['_SDL_UnlockAudioDevice'] = createExportWrapper('SDL_UnlockAudioDevice');
+var _SDL_UnlockAudio = Module['_SDL_UnlockAudio'] = createExportWrapper('SDL_UnlockAudio');
+var _SDL_CloseAudioDevice = Module['_SDL_CloseAudioDevice'] = createExportWrapper('SDL_CloseAudioDevice');
+var _SDL_WaitThread = Module['_SDL_WaitThread'] = createExportWrapper('SDL_WaitThread');
+var _SDL_FreeAudioStream = Module['_SDL_FreeAudioStream'] = createExportWrapper('SDL_FreeAudioStream');
+var _SDL_FreeDataQueue = Module['_SDL_FreeDataQueue'] = createExportWrapper('SDL_FreeDataQueue');
+var _SDL_CloseAudio = Module['_SDL_CloseAudio'] = createExportWrapper('SDL_CloseAudio');
+var _SDL_FirstAudioFormat = Module['_SDL_FirstAudioFormat'] = createExportWrapper('SDL_FirstAudioFormat');
+var _SDL_NextAudioFormat = Module['_SDL_NextAudioFormat'] = createExportWrapper('SDL_NextAudioFormat');
+var _SDL_SilenceValueForFormat = Module['_SDL_SilenceValueForFormat'] = createExportWrapper('SDL_SilenceValueForFormat');
+var _SDL_MixAudio = Module['_SDL_MixAudio'] = createExportWrapper('SDL_MixAudio');
+var _SDL_MixAudioFormat = Module['_SDL_MixAudioFormat'] = createExportWrapper('SDL_MixAudioFormat');
+var _SDL_strdup = Module['_SDL_strdup'] = createExportWrapper('SDL_strdup');
+var _SDL_ThreadID = Module['_SDL_ThreadID'] = createExportWrapper('SDL_ThreadID');
+var _SDL_SetThreadPriority = Module['_SDL_SetThreadPriority'] = createExportWrapper('SDL_SetThreadPriority');
+var _SDL_AudioStreamClear = Module['_SDL_AudioStreamClear'] = createExportWrapper('SDL_AudioStreamClear');
+var _SDL_AudioStreamPut = Module['_SDL_AudioStreamPut'] = createExportWrapper('SDL_AudioStreamPut');
+var _SDL_AudioStreamAvailable = Module['_SDL_AudioStreamAvailable'] = createExportWrapper('SDL_AudioStreamAvailable');
+var _SDL_AudioStreamGet = Module['_SDL_AudioStreamGet'] = createExportWrapper('SDL_AudioStreamGet');
+var _SDL_ConvertAudio = Module['_SDL_ConvertAudio'] = createExportWrapper('SDL_ConvertAudio');
+var _SDL_BuildAudioCVT = Module['_SDL_BuildAudioCVT'] = createExportWrapper('SDL_BuildAudioCVT');
+var _SDL_ChooseAudioConverters = Module['_SDL_ChooseAudioConverters'] = createExportWrapper('SDL_ChooseAudioConverters');
+var _SDL_ceil = Module['_SDL_ceil'] = createExportWrapper('SDL_ceil');
+var _SDL_ceilf = Module['_SDL_ceilf'] = createExportWrapper('SDL_ceilf');
+var _SDL_AudioStreamFlush = Module['_SDL_AudioStreamFlush'] = createExportWrapper('SDL_AudioStreamFlush');
+var _SDL_memmove = Module['_SDL_memmove'] = createExportWrapper('SDL_memmove');
+var _SDL_BlendFillRect = Module['_SDL_BlendFillRect'] = createExportWrapper('SDL_BlendFillRect');
+var _SDL_IntersectRect = Module['_SDL_IntersectRect'] = createExportWrapper('SDL_IntersectRect');
+var _SDL_BlendFillRects = Module['_SDL_BlendFillRects'] = createExportWrapper('SDL_BlendFillRects');
+var _SDL_BlendLine = Module['_SDL_BlendLine'] = createExportWrapper('SDL_BlendLine');
+var _SDL_IntersectRectAndLine = Module['_SDL_IntersectRectAndLine'] = createExportWrapper('SDL_IntersectRectAndLine');
+var _SDL_BlendLines = Module['_SDL_BlendLines'] = createExportWrapper('SDL_BlendLines');
+var _SDL_BlendPoint = Module['_SDL_BlendPoint'] = createExportWrapper('SDL_BlendPoint');
+var _SDL_BlendPoints = Module['_SDL_BlendPoints'] = createExportWrapper('SDL_BlendPoints');
+var _SDL_CalculateBlit = Module['_SDL_CalculateBlit'] = createExportWrapper('SDL_CalculateBlit');
+var _SDL_InvalidateMap = Module['_SDL_InvalidateMap'] = createExportWrapper('SDL_InvalidateMap');
+var _SDL_BlitCopy = Module['_SDL_BlitCopy'] = createExportWrapper('SDL_BlitCopy');
+var _SDL_Blit_Slow = Module['_SDL_Blit_Slow'] = createExportWrapper('SDL_Blit_Slow');
+var _SDL_CalculateBlit0 = Module['_SDL_CalculateBlit0'] = createExportWrapper('SDL_CalculateBlit0');
+var _SDL_CalculateBlit1 = Module['_SDL_CalculateBlit1'] = createExportWrapper('SDL_CalculateBlit1');
+var _SDL_CalculateBlitA = Module['_SDL_CalculateBlitA'] = createExportWrapper('SDL_CalculateBlitA');
+var _SDL_CalculateBlitN = Module['_SDL_CalculateBlitN'] = createExportWrapper('SDL_CalculateBlitN');
+var _SDL_sscanf = Module['_SDL_sscanf'] = createExportWrapper('SDL_sscanf');
+var _SDL_HasMMX = Module['_SDL_HasMMX'] = createExportWrapper('SDL_HasMMX');
+var _SDL_Has3DNow = Module['_SDL_Has3DNow'] = createExportWrapper('SDL_Has3DNow');
+var _SDL_HasSSE = Module['_SDL_HasSSE'] = createExportWrapper('SDL_HasSSE');
+var _SDL_HasSSE2 = Module['_SDL_HasSSE2'] = createExportWrapper('SDL_HasSSE2');
+var _SDL_HasAltiVec = Module['_SDL_HasAltiVec'] = createExportWrapper('SDL_HasAltiVec');
+var _SDL_HasARMSIMD = Module['_SDL_HasARMSIMD'] = createExportWrapper('SDL_HasARMSIMD');
+var _SDL_LoadBMP_RW = Module['_SDL_LoadBMP_RW'] = createExportWrapper('SDL_LoadBMP_RW');
+var _SDL_strncmp = Module['_SDL_strncmp'] = createExportWrapper('SDL_strncmp');
+var _SDL_ReadLE32 = Module['_SDL_ReadLE32'] = createExportWrapper('SDL_ReadLE32');
+var _SDL_ReadLE16 = Module['_SDL_ReadLE16'] = createExportWrapper('SDL_ReadLE16');
+var _SDL_SaveBMP_RW = Module['_SDL_SaveBMP_RW'] = createExportWrapper('SDL_SaveBMP_RW');
+var _SDL_InitFormat = Module['_SDL_InitFormat'] = createExportWrapper('SDL_InitFormat');
+var _SDL_ConvertSurface = Module['_SDL_ConvertSurface'] = createExportWrapper('SDL_ConvertSurface');
+var _SDL_GetHintBoolean = Module['_SDL_GetHintBoolean'] = createExportWrapper('SDL_GetHintBoolean');
+var _SDL_WriteLE32 = Module['_SDL_WriteLE32'] = createExportWrapper('SDL_WriteLE32');
+var _SDL_WriteLE16 = Module['_SDL_WriteLE16'] = createExportWrapper('SDL_WriteLE16');
+var _SDL_SetClipboardText = Module['_SDL_SetClipboardText'] = createExportWrapper('SDL_SetClipboardText');
+var _SDL_GetVideoDevice = Module['_SDL_GetVideoDevice'] = createExportWrapper('SDL_GetVideoDevice');
+var _SDL_GetClipboardText = Module['_SDL_GetClipboardText'] = createExportWrapper('SDL_GetClipboardText');
+var _SDL_HasClipboardText = Module['_SDL_HasClipboardText'] = createExportWrapper('SDL_HasClipboardText');
+var _SDL_SendClipboardUpdate = Module['_SDL_SendClipboardUpdate'] = createExportWrapper('SDL_SendClipboardUpdate');
+var _SDL_GetCPUCount = Module['_SDL_GetCPUCount'] = createExportWrapper('SDL_GetCPUCount');
+var _SDL_GetCPUCacheLineSize = Module['_SDL_GetCPUCacheLineSize'] = createExportWrapper('SDL_GetCPUCacheLineSize');
+var _SDL_strlcpy = Module['_SDL_strlcpy'] = createExportWrapper('SDL_strlcpy');
+var _SDL_HasRDTSC = Module['_SDL_HasRDTSC'] = createExportWrapper('SDL_HasRDTSC');
+var _SDL_HasSSE3 = Module['_SDL_HasSSE3'] = createExportWrapper('SDL_HasSSE3');
+var _SDL_HasSSE41 = Module['_SDL_HasSSE41'] = createExportWrapper('SDL_HasSSE41');
+var _SDL_HasSSE42 = Module['_SDL_HasSSE42'] = createExportWrapper('SDL_HasSSE42');
+var _SDL_HasAVX = Module['_SDL_HasAVX'] = createExportWrapper('SDL_HasAVX');
+var _SDL_HasAVX2 = Module['_SDL_HasAVX2'] = createExportWrapper('SDL_HasAVX2');
+var _SDL_HasAVX512F = Module['_SDL_HasAVX512F'] = createExportWrapper('SDL_HasAVX512F');
+var _SDL_HasNEON = Module['_SDL_HasNEON'] = createExportWrapper('SDL_HasNEON');
+var _SDL_HasLSX = Module['_SDL_HasLSX'] = createExportWrapper('SDL_HasLSX');
+var _SDL_HasLASX = Module['_SDL_HasLASX'] = createExportWrapper('SDL_HasLASX');
+var _SDL_GetSystemRAM = Module['_SDL_GetSystemRAM'] = createExportWrapper('SDL_GetSystemRAM');
+var _SDL_SIMDGetAlignment = Module['_SDL_SIMDGetAlignment'] = createExportWrapper('SDL_SIMDGetAlignment');
+var _SDL_SIMDRealloc = Module['_SDL_SIMDRealloc'] = createExportWrapper('SDL_SIMDRealloc');
+var _SDL_crc16 = Module['_SDL_crc16'] = createExportWrapper('SDL_crc16');
+var _SDL_crc32 = Module['_SDL_crc32'] = createExportWrapper('SDL_crc32');
+var _SDL_PeekIntoDataQueue = Module['_SDL_PeekIntoDataQueue'] = createExportWrapper('SDL_PeekIntoDataQueue');
+var _SDL_ReserveSpaceInDataQueue = Module['_SDL_ReserveSpaceInDataQueue'] = createExportWrapper('SDL_ReserveSpaceInDataQueue');
+var _SDL_LogCritical = Module['_SDL_LogCritical'] = createExportWrapper('SDL_LogCritical');
+var _SDL_SendDisplayEvent = Module['_SDL_SendDisplayEvent'] = createExportWrapper('SDL_SendDisplayEvent');
+var _SDL_GetIndexOfDisplay = Module['_SDL_GetIndexOfDisplay'] = createExportWrapper('SDL_GetIndexOfDisplay');
+var _SDL_DrawLine = Module['_SDL_DrawLine'] = createExportWrapper('SDL_DrawLine');
+var _SDL_DrawLines = Module['_SDL_DrawLines'] = createExportWrapper('SDL_DrawLines');
+var _SDL_DrawPoint = Module['_SDL_DrawPoint'] = createExportWrapper('SDL_DrawPoint');
+var _SDL_GetRGBA = Module['_SDL_GetRGBA'] = createExportWrapper('SDL_GetRGBA');
+var _SDL_DrawPoints = Module['_SDL_DrawPoints'] = createExportWrapper('SDL_DrawPoints');
+var _SDL_SendDropFile = Module['_SDL_SendDropFile'] = createExportWrapper('SDL_SendDropFile');
+var _SDL_SendDropText = Module['_SDL_SendDropText'] = createExportWrapper('SDL_SendDropText');
+var _SDL_SendDropComplete = Module['_SDL_SendDropComplete'] = createExportWrapper('SDL_SendDropComplete');
+var _SDL_main_stub_symbol = Module['_SDL_main_stub_symbol'] = createExportWrapper('SDL_main_stub_symbol');
+var _SDL_EGL_SetErrorEx = Module['_SDL_EGL_SetErrorEx'] = createExportWrapper('SDL_EGL_SetErrorEx');
+var _SDL_EGL_HasExtension = Module['_SDL_EGL_HasExtension'] = createExportWrapper('SDL_EGL_HasExtension');
+var _SDL_strstr = Module['_SDL_strstr'] = createExportWrapper('SDL_strstr');
+var _SDL_EGL_GetProcAddress = Module['_SDL_EGL_GetProcAddress'] = createExportWrapper('SDL_EGL_GetProcAddress');
+var _SDL_EGL_UnloadLibrary = Module['_SDL_EGL_UnloadLibrary'] = createExportWrapper('SDL_EGL_UnloadLibrary');
+var _SDL_UnloadObject = Module['_SDL_UnloadObject'] = createExportWrapper('SDL_UnloadObject');
+var _SDL_EGL_LoadLibraryOnly = Module['_SDL_EGL_LoadLibraryOnly'] = createExportWrapper('SDL_EGL_LoadLibraryOnly');
+var _SDL_LoadObject = Module['_SDL_LoadObject'] = createExportWrapper('SDL_LoadObject');
+var _SDL_LoadFunction = Module['_SDL_LoadFunction'] = createExportWrapper('SDL_LoadFunction');
+var _SDL_EGL_LoadLibrary = Module['_SDL_EGL_LoadLibrary'] = createExportWrapper('SDL_EGL_LoadLibrary');
+var _SDL_LogWarn = Module['_SDL_LogWarn'] = createExportWrapper('SDL_LogWarn');
+var _SDL_EGL_InitializeOffscreen = Module['_SDL_EGL_InitializeOffscreen'] = createExportWrapper('SDL_EGL_InitializeOffscreen');
+var _SDL_EGL_SetRequiredVisualId = Module['_SDL_EGL_SetRequiredVisualId'] = createExportWrapper('SDL_EGL_SetRequiredVisualId');
+var _SDL_EGL_ChooseConfig = Module['_SDL_EGL_ChooseConfig'] = createExportWrapper('SDL_EGL_ChooseConfig');
+var _SDL_Log = Module['_SDL_Log'] = createExportWrapper('SDL_Log');
+var _SDL_EGL_CreateContext = Module['_SDL_EGL_CreateContext'] = createExportWrapper('SDL_EGL_CreateContext');
+var _SDL_GL_GetCurrentContext = Module['_SDL_GL_GetCurrentContext'] = createExportWrapper('SDL_GL_GetCurrentContext');
+var _SDL_EGL_MakeCurrent = Module['_SDL_EGL_MakeCurrent'] = createExportWrapper('SDL_EGL_MakeCurrent');
+var _SDL_GL_ExtensionSupported = Module['_SDL_GL_ExtensionSupported'] = createExportWrapper('SDL_GL_ExtensionSupported');
+var _SDL_EGL_DeleteContext = Module['_SDL_EGL_DeleteContext'] = createExportWrapper('SDL_EGL_DeleteContext');
+var _SDL_EGL_SetSwapInterval = Module['_SDL_EGL_SetSwapInterval'] = createExportWrapper('SDL_EGL_SetSwapInterval');
+var _SDL_EGL_GetSwapInterval = Module['_SDL_EGL_GetSwapInterval'] = createExportWrapper('SDL_EGL_GetSwapInterval');
+var _SDL_EGL_SwapBuffers = Module['_SDL_EGL_SwapBuffers'] = createExportWrapper('SDL_EGL_SwapBuffers');
+var _SDL_EGL_CreateSurface = Module['_SDL_EGL_CreateSurface'] = createExportWrapper('SDL_EGL_CreateSurface');
+var _SDL_EGL_CreateOffscreenSurface = Module['_SDL_EGL_CreateOffscreenSurface'] = createExportWrapper('SDL_EGL_CreateOffscreenSurface');
+var _SDL_EGL_DestroySurface = Module['_SDL_EGL_DestroySurface'] = createExportWrapper('SDL_EGL_DestroySurface');
+var _Emscripten_HandleCanvasResize = Module['_Emscripten_HandleCanvasResize'] = createExportWrapper('Emscripten_HandleCanvasResize');
+var _SDL_SendWindowEvent = Module['_SDL_SendWindowEvent'] = createExportWrapper('SDL_SendWindowEvent');
+var _Emscripten_RegisterEventHandlers = Module['_Emscripten_RegisterEventHandlers'] = createExportWrapper('Emscripten_RegisterEventHandlers');
+var _SDL_SendMouseMotion = Module['_SDL_SendMouseMotion'] = createExportWrapper('SDL_SendMouseMotion');
+var _SDL_GetMouse = Module['_SDL_GetMouse'] = createExportWrapper('SDL_GetMouse');
+var _SDL_SendMouseButton = Module['_SDL_SendMouseButton'] = createExportWrapper('SDL_SendMouseButton');
+var _SDL_SetMouseFocus = Module['_SDL_SetMouseFocus'] = createExportWrapper('SDL_SetMouseFocus');
+var _SDL_SendMouseWheel = Module['_SDL_SendMouseWheel'] = createExportWrapper('SDL_SendMouseWheel');
+var _SDL_ResetKeyboard = Module['_SDL_ResetKeyboard'] = createExportWrapper('SDL_ResetKeyboard');
+var _SDL_AddTouch = Module['_SDL_AddTouch'] = createExportWrapper('SDL_AddTouch');
+var _SDL_SendTouch = Module['_SDL_SendTouch'] = createExportWrapper('SDL_SendTouch');
+var _SDL_SendTouchMotion = Module['_SDL_SendTouchMotion'] = createExportWrapper('SDL_SendTouchMotion');
+var _SDL_SendKeyboardKey = Module['_SDL_SendKeyboardKey'] = createExportWrapper('SDL_SendKeyboardKey');
+var _SDL_SendKeyboardText = Module['_SDL_SendKeyboardText'] = createExportWrapper('SDL_SendKeyboardText');
+var _SDL_GetDisplayForWindow = Module['_SDL_GetDisplayForWindow'] = createExportWrapper('SDL_GetDisplayForWindow');
+var _SDL_SendAppEvent = Module['_SDL_SendAppEvent'] = createExportWrapper('SDL_SendAppEvent');
+var _Emscripten_UnregisterEventHandlers = Module['_Emscripten_UnregisterEventHandlers'] = createExportWrapper('Emscripten_UnregisterEventHandlers');
+var _Emscripten_CreateWindowFramebuffer = Module['_Emscripten_CreateWindowFramebuffer'] = createExportWrapper('Emscripten_CreateWindowFramebuffer');
+var _SDL_PixelFormatEnumToMasks = Module['_SDL_PixelFormatEnumToMasks'] = createExportWrapper('SDL_PixelFormatEnumToMasks');
+var _SDL_GetWindowSize = Module['_SDL_GetWindowSize'] = createExportWrapper('SDL_GetWindowSize');
+var _Emscripten_UpdateWindowFramebuffer = Module['_Emscripten_UpdateWindowFramebuffer'] = createExportWrapper('Emscripten_UpdateWindowFramebuffer');
+var _Emscripten_DestroyWindowFramebuffer = Module['_Emscripten_DestroyWindowFramebuffer'] = createExportWrapper('Emscripten_DestroyWindowFramebuffer');
+var _Emscripten_InitMouse = Module['_Emscripten_InitMouse'] = createExportWrapper('Emscripten_InitMouse');
+var _SDL_SetDefaultCursor = Module['_SDL_SetDefaultCursor'] = createExportWrapper('SDL_SetDefaultCursor');
+var _SDL_GetMouseFocus = Module['_SDL_GetMouseFocus'] = createExportWrapper('SDL_GetMouseFocus');
+var _Emscripten_FiniMouse = Module['_Emscripten_FiniMouse'] = createExportWrapper('Emscripten_FiniMouse');
+var _Emscripten_GLES_LoadLibrary = Module['_Emscripten_GLES_LoadLibrary'] = createExportWrapper('Emscripten_GLES_LoadLibrary');
+var _eglGetProcAddress = Module['_eglGetProcAddress'] = createExportWrapper('eglGetProcAddress');
+var _Emscripten_GLES_CreateContext = Module['_Emscripten_GLES_CreateContext'] = createExportWrapper('Emscripten_GLES_CreateContext');
+var _Emscripten_GLES_MakeCurrent = Module['_Emscripten_GLES_MakeCurrent'] = createExportWrapper('Emscripten_GLES_MakeCurrent');
+var _Emscripten_GLES_SwapWindow = Module['_Emscripten_GLES_SwapWindow'] = createExportWrapper('Emscripten_GLES_SwapWindow');
+var _Emscripten_GLES_GetDrawableSize = Module['_Emscripten_GLES_GetDrawableSize'] = createExportWrapper('Emscripten_GLES_GetDrawableSize');
+var _SDL_SetHint = Module['_SDL_SetHint'] = createExportWrapper('SDL_SetHint');
+var _SDL_AddBasicVideoDisplay = Module['_SDL_AddBasicVideoDisplay'] = createExportWrapper('SDL_AddBasicVideoDisplay');
+var _SDL_AddDisplayMode = Module['_SDL_AddDisplayMode'] = createExportWrapper('SDL_AddDisplayMode');
+var _SDL_floor = Module['_SDL_floor'] = createExportWrapper('SDL_floor');
+var _SDL_GL_LoadLibrary = Module['_SDL_GL_LoadLibrary'] = createExportWrapper('SDL_GL_LoadLibrary');
+var _SDL_SetKeyboardFocus = Module['_SDL_SetKeyboardFocus'] = createExportWrapper('SDL_SetKeyboardFocus');
+var _SDL_GetErrBuf = Module['_SDL_GetErrBuf'] = createExportWrapper('SDL_GetErrBuf');
+var _SDL_vsnprintf = Module['_SDL_vsnprintf'] = createExportWrapper('SDL_vsnprintf');
+var _SDL_LogGetPriority = Module['_SDL_LogGetPriority'] = createExportWrapper('SDL_LogGetPriority');
+var _SDL_LogDebug = Module['_SDL_LogDebug'] = createExportWrapper('SDL_LogDebug');
+var _SDL_GetErrorMsg = Module['_SDL_GetErrorMsg'] = createExportWrapper('SDL_GetErrorMsg');
+var _SDL_StopEventLoop = Module['_SDL_StopEventLoop'] = createExportWrapper('SDL_StopEventLoop');
+var _SDL_StartEventLoop = Module['_SDL_StartEventLoop'] = createExportWrapper('SDL_StartEventLoop');
+var _SDL_FlushEvents = Module['_SDL_FlushEvents'] = createExportWrapper('SDL_FlushEvents');
+var _SDL_JoystickEventState = Module['_SDL_JoystickEventState'] = createExportWrapper('SDL_JoystickEventState');
+var _SDL_ToggleDragAndDropSupport = Module['_SDL_ToggleDragAndDropSupport'] = createExportWrapper('SDL_ToggleDragAndDropSupport');
+var _SDL_PeepEvents = Module['_SDL_PeepEvents'] = createExportWrapper('SDL_PeepEvents');
+var _SDL_HasEvent = Module['_SDL_HasEvent'] = createExportWrapper('SDL_HasEvent');
+var _SDL_HasEvents = Module['_SDL_HasEvents'] = createExportWrapper('SDL_HasEvents');
+var _SDL_FlushEvent = Module['_SDL_FlushEvent'] = createExportWrapper('SDL_FlushEvent');
+var _SDL_PumpEvents = Module['_SDL_PumpEvents'] = createExportWrapper('SDL_PumpEvents');
+var _SDL_ReleaseAutoReleaseKeys = Module['_SDL_ReleaseAutoReleaseKeys'] = createExportWrapper('SDL_ReleaseAutoReleaseKeys');
+var _SDL_JoystickUpdate = Module['_SDL_JoystickUpdate'] = createExportWrapper('SDL_JoystickUpdate');
+var _SDL_SensorUpdate = Module['_SDL_SensorUpdate'] = createExportWrapper('SDL_SensorUpdate');
+var _SDL_SendPendingSignalEvents = Module['_SDL_SendPendingSignalEvents'] = createExportWrapper('SDL_SendPendingSignalEvents');
+var _SDL_WaitEventTimeout = Module['_SDL_WaitEventTimeout'] = createExportWrapper('SDL_WaitEventTimeout');
+var _SDL_GetTicks = Module['_SDL_GetTicks'] = createExportWrapper('SDL_GetTicks');
+var _SDL_NumJoysticks = Module['_SDL_NumJoysticks'] = createExportWrapper('SDL_NumJoysticks');
+var _SDL_NumSensors = Module['_SDL_NumSensors'] = createExportWrapper('SDL_NumSensors');
+var _SDL_WaitEvent = Module['_SDL_WaitEvent'] = createExportWrapper('SDL_WaitEvent');
+var _SDL_GestureProcessEvent = Module['_SDL_GestureProcessEvent'] = createExportWrapper('SDL_GestureProcessEvent');
+var _SDL_SetEventFilter = Module['_SDL_SetEventFilter'] = createExportWrapper('SDL_SetEventFilter');
+var _SDL_GetEventFilter = Module['_SDL_GetEventFilter'] = createExportWrapper('SDL_GetEventFilter');
+var _SDL_AddEventWatch = Module['_SDL_AddEventWatch'] = createExportWrapper('SDL_AddEventWatch');
+var _SDL_DelEventWatch = Module['_SDL_DelEventWatch'] = createExportWrapper('SDL_DelEventWatch');
+var _SDL_FilterEvents = Module['_SDL_FilterEvents'] = createExportWrapper('SDL_FilterEvents');
+var _SDL_RegisterEvents = Module['_SDL_RegisterEvents'] = createExportWrapper('SDL_RegisterEvents');
+var _SDL_SendSysWMEvent = Module['_SDL_SendSysWMEvent'] = createExportWrapper('SDL_SendSysWMEvent');
+var _SDL_SendKeymapChangedEvent = Module['_SDL_SendKeymapChangedEvent'] = createExportWrapper('SDL_SendKeymapChangedEvent');
+var _SDL_SendLocaleChangedEvent = Module['_SDL_SendLocaleChangedEvent'] = createExportWrapper('SDL_SendLocaleChangedEvent');
+var _SDL_AddHintCallback = Module['_SDL_AddHintCallback'] = createExportWrapper('SDL_AddHintCallback');
+var _SDL_QuitInit = Module['_SDL_QuitInit'] = createExportWrapper('SDL_QuitInit');
+var _SDL_GetStringBoolean = Module['_SDL_GetStringBoolean'] = createExportWrapper('SDL_GetStringBoolean');
+var _SDL_QuitQuit = Module['_SDL_QuitQuit'] = createExportWrapper('SDL_QuitQuit');
+var _SDL_DelHintCallback = Module['_SDL_DelHintCallback'] = createExportWrapper('SDL_DelHintCallback');
+var _SDL_FillRects = Module['_SDL_FillRects'] = createExportWrapper('SDL_FillRects');
+var _SDL_GameControllerGetAxisFromString = Module['_SDL_GameControllerGetAxisFromString'] = createExportWrapper('SDL_GameControllerGetAxisFromString');
+var _SDL_strcasecmp = Module['_SDL_strcasecmp'] = createExportWrapper('SDL_strcasecmp');
+var _SDL_GameControllerGetStringForAxis = Module['_SDL_GameControllerGetStringForAxis'] = createExportWrapper('SDL_GameControllerGetStringForAxis');
+var _SDL_GameControllerGetButtonFromString = Module['_SDL_GameControllerGetButtonFromString'] = createExportWrapper('SDL_GameControllerGetButtonFromString');
+var _SDL_GameControllerGetStringForButton = Module['_SDL_GameControllerGetStringForButton'] = createExportWrapper('SDL_GameControllerGetStringForButton');
+var _SDL_GameControllerAddMappingsFromRW = Module['_SDL_GameControllerAddMappingsFromRW'] = createExportWrapper('SDL_GameControllerAddMappingsFromRW');
+var _SDL_GameControllerAddMapping = Module['_SDL_GameControllerAddMapping'] = createExportWrapper('SDL_GameControllerAddMapping');
+var _SDL_JoystickGetGUIDFromString = Module['_SDL_JoystickGetGUIDFromString'] = createExportWrapper('SDL_JoystickGetGUIDFromString');
+var _SDL_GameControllerNumMappings = Module['_SDL_GameControllerNumMappings'] = createExportWrapper('SDL_GameControllerNumMappings');
+var _SDL_memcmp = Module['_SDL_memcmp'] = createExportWrapper('SDL_memcmp');
+var _SDL_GameControllerMappingForIndex = Module['_SDL_GameControllerMappingForIndex'] = createExportWrapper('SDL_GameControllerMappingForIndex');
+var _SDL_JoystickGetGUIDString = Module['_SDL_JoystickGetGUIDString'] = createExportWrapper('SDL_JoystickGetGUIDString');
+var _SDL_strlcat = Module['_SDL_strlcat'] = createExportWrapper('SDL_strlcat');
+var _SDL_GameControllerMappingForGUID = Module['_SDL_GameControllerMappingForGUID'] = createExportWrapper('SDL_GameControllerMappingForGUID');
+var _SDL_IsJoystickHIDAPI = Module['_SDL_IsJoystickHIDAPI'] = createExportWrapper('SDL_IsJoystickHIDAPI');
+var _SDL_GetJoystickGUIDInfo = Module['_SDL_GetJoystickGUIDInfo'] = createExportWrapper('SDL_GetJoystickGUIDInfo');
+var _SDL_IsJoystickXboxSeriesX = Module['_SDL_IsJoystickXboxSeriesX'] = createExportWrapper('SDL_IsJoystickXboxSeriesX');
+var _SDL_IsJoystickXboxOneElite = Module['_SDL_IsJoystickXboxOneElite'] = createExportWrapper('SDL_IsJoystickXboxOneElite');
+var _SDL_IsJoystickSteamController = Module['_SDL_IsJoystickSteamController'] = createExportWrapper('SDL_IsJoystickSteamController');
+var _SDL_IsJoystickNintendoSwitchJoyConPair = Module['_SDL_IsJoystickNintendoSwitchJoyConPair'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConPair');
+var _SDL_GetJoystickGameControllerTypeFromGUID = Module['_SDL_GetJoystickGameControllerTypeFromGUID'] = createExportWrapper('SDL_GetJoystickGameControllerTypeFromGUID');
+var _SDL_IsJoystickRAWINPUT = Module['_SDL_IsJoystickRAWINPUT'] = createExportWrapper('SDL_IsJoystickRAWINPUT');
+var _SDL_IsJoystickWGI = Module['_SDL_IsJoystickWGI'] = createExportWrapper('SDL_IsJoystickWGI');
+var _SDL_IsJoystickVirtual = Module['_SDL_IsJoystickVirtual'] = createExportWrapper('SDL_IsJoystickVirtual');
+var _SDL_GameControllerMapping = Module['_SDL_GameControllerMapping'] = createExportWrapper('SDL_GameControllerMapping');
+var _SDL_GameControllerInitMappings = Module['_SDL_GameControllerInitMappings'] = createExportWrapper('SDL_GameControllerInitMappings');
+var _SDL_GameControllerGetButton = Module['_SDL_GameControllerGetButton'] = createExportWrapper('SDL_GameControllerGetButton');
+var _SDL_GameControllerGetAxis = Module['_SDL_GameControllerGetAxis'] = createExportWrapper('SDL_GameControllerGetAxis');
+var _SDL_IsGameController = Module['_SDL_IsGameController'] = createExportWrapper('SDL_IsGameController');
+var _SDL_GameControllerNameForIndex = Module['_SDL_GameControllerNameForIndex'] = createExportWrapper('SDL_GameControllerNameForIndex');
+var _SDL_JoystickNameForIndex = Module['_SDL_JoystickNameForIndex'] = createExportWrapper('SDL_JoystickNameForIndex');
+var _SDL_LockJoysticks = Module['_SDL_LockJoysticks'] = createExportWrapper('SDL_LockJoysticks');
+var _SDL_JoystickGetDeviceGUID = Module['_SDL_JoystickGetDeviceGUID'] = createExportWrapper('SDL_JoystickGetDeviceGUID');
+var _SDL_PrivateJoystickGetAutoGamepadMapping = Module['_SDL_PrivateJoystickGetAutoGamepadMapping'] = createExportWrapper('SDL_PrivateJoystickGetAutoGamepadMapping');
+var _SDL_UnlockJoysticks = Module['_SDL_UnlockJoysticks'] = createExportWrapper('SDL_UnlockJoysticks');
+var _SDL_GameControllerPathForIndex = Module['_SDL_GameControllerPathForIndex'] = createExportWrapper('SDL_GameControllerPathForIndex');
+var _SDL_JoystickPathForIndex = Module['_SDL_JoystickPathForIndex'] = createExportWrapper('SDL_JoystickPathForIndex');
+var _SDL_GameControllerTypeForIndex = Module['_SDL_GameControllerTypeForIndex'] = createExportWrapper('SDL_GameControllerTypeForIndex');
+var _SDL_GameControllerMappingForDeviceIndex = Module['_SDL_GameControllerMappingForDeviceIndex'] = createExportWrapper('SDL_GameControllerMappingForDeviceIndex');
+var _SDL_IsGameControllerNameAndGUID = Module['_SDL_IsGameControllerNameAndGUID'] = createExportWrapper('SDL_IsGameControllerNameAndGUID');
+var _SDL_ShouldIgnoreGameController = Module['_SDL_ShouldIgnoreGameController'] = createExportWrapper('SDL_ShouldIgnoreGameController');
+var _SDL_GameControllerOpen = Module['_SDL_GameControllerOpen'] = createExportWrapper('SDL_GameControllerOpen');
+var _SDL_JoystickGetDeviceInstanceID = Module['_SDL_JoystickGetDeviceInstanceID'] = createExportWrapper('SDL_JoystickGetDeviceInstanceID');
+var _SDL_JoystickOpen = Module['_SDL_JoystickOpen'] = createExportWrapper('SDL_JoystickOpen');
+var _SDL_JoystickClose = Module['_SDL_JoystickClose'] = createExportWrapper('SDL_JoystickClose');
+var _SDL_GameControllerUpdate = Module['_SDL_GameControllerUpdate'] = createExportWrapper('SDL_GameControllerUpdate');
+var _SDL_GameControllerHasAxis = Module['_SDL_GameControllerHasAxis'] = createExportWrapper('SDL_GameControllerHasAxis');
+var _SDL_GameControllerGetBindForAxis = Module['_SDL_GameControllerGetBindForAxis'] = createExportWrapper('SDL_GameControllerGetBindForAxis');
+var _SDL_JoystickGetAxis = Module['_SDL_JoystickGetAxis'] = createExportWrapper('SDL_JoystickGetAxis');
+var _SDL_JoystickGetButton = Module['_SDL_JoystickGetButton'] = createExportWrapper('SDL_JoystickGetButton');
+var _SDL_JoystickGetHat = Module['_SDL_JoystickGetHat'] = createExportWrapper('SDL_JoystickGetHat');
+var _SDL_GameControllerHasButton = Module['_SDL_GameControllerHasButton'] = createExportWrapper('SDL_GameControllerHasButton');
+var _SDL_GameControllerGetBindForButton = Module['_SDL_GameControllerGetBindForButton'] = createExportWrapper('SDL_GameControllerGetBindForButton');
+var _SDL_GameControllerGetNumTouchpads = Module['_SDL_GameControllerGetNumTouchpads'] = createExportWrapper('SDL_GameControllerGetNumTouchpads');
+var _SDL_GameControllerGetJoystick = Module['_SDL_GameControllerGetJoystick'] = createExportWrapper('SDL_GameControllerGetJoystick');
+var _SDL_GameControllerGetNumTouchpadFingers = Module['_SDL_GameControllerGetNumTouchpadFingers'] = createExportWrapper('SDL_GameControllerGetNumTouchpadFingers');
+var _SDL_GameControllerGetTouchpadFinger = Module['_SDL_GameControllerGetTouchpadFinger'] = createExportWrapper('SDL_GameControllerGetTouchpadFinger');
+var _SDL_GameControllerHasSensor = Module['_SDL_GameControllerHasSensor'] = createExportWrapper('SDL_GameControllerHasSensor');
+var _SDL_GameControllerSetSensorEnabled = Module['_SDL_GameControllerSetSensorEnabled'] = createExportWrapper('SDL_GameControllerSetSensorEnabled');
+var _SDL_GameControllerIsSensorEnabled = Module['_SDL_GameControllerIsSensorEnabled'] = createExportWrapper('SDL_GameControllerIsSensorEnabled');
+var _SDL_GameControllerGetSensorDataRate = Module['_SDL_GameControllerGetSensorDataRate'] = createExportWrapper('SDL_GameControllerGetSensorDataRate');
+var _SDL_GameControllerGetSensorData = Module['_SDL_GameControllerGetSensorData'] = createExportWrapper('SDL_GameControllerGetSensorData');
+var _SDL_GameControllerName = Module['_SDL_GameControllerName'] = createExportWrapper('SDL_GameControllerName');
+var _SDL_JoystickName = Module['_SDL_JoystickName'] = createExportWrapper('SDL_JoystickName');
+var _SDL_GameControllerPath = Module['_SDL_GameControllerPath'] = createExportWrapper('SDL_GameControllerPath');
+var _SDL_JoystickPath = Module['_SDL_JoystickPath'] = createExportWrapper('SDL_JoystickPath');
+var _SDL_GameControllerGetType = Module['_SDL_GameControllerGetType'] = createExportWrapper('SDL_GameControllerGetType');
+var _SDL_JoystickGetGUID = Module['_SDL_JoystickGetGUID'] = createExportWrapper('SDL_JoystickGetGUID');
+var _SDL_GameControllerGetPlayerIndex = Module['_SDL_GameControllerGetPlayerIndex'] = createExportWrapper('SDL_GameControllerGetPlayerIndex');
+var _SDL_JoystickGetPlayerIndex = Module['_SDL_JoystickGetPlayerIndex'] = createExportWrapper('SDL_JoystickGetPlayerIndex');
+var _SDL_GameControllerSetPlayerIndex = Module['_SDL_GameControllerSetPlayerIndex'] = createExportWrapper('SDL_GameControllerSetPlayerIndex');
+var _SDL_JoystickSetPlayerIndex = Module['_SDL_JoystickSetPlayerIndex'] = createExportWrapper('SDL_JoystickSetPlayerIndex');
+var _SDL_GameControllerGetVendor = Module['_SDL_GameControllerGetVendor'] = createExportWrapper('SDL_GameControllerGetVendor');
+var _SDL_JoystickGetVendor = Module['_SDL_JoystickGetVendor'] = createExportWrapper('SDL_JoystickGetVendor');
+var _SDL_GameControllerGetProduct = Module['_SDL_GameControllerGetProduct'] = createExportWrapper('SDL_GameControllerGetProduct');
+var _SDL_JoystickGetProduct = Module['_SDL_JoystickGetProduct'] = createExportWrapper('SDL_JoystickGetProduct');
+var _SDL_GameControllerGetProductVersion = Module['_SDL_GameControllerGetProductVersion'] = createExportWrapper('SDL_GameControllerGetProductVersion');
+var _SDL_JoystickGetProductVersion = Module['_SDL_JoystickGetProductVersion'] = createExportWrapper('SDL_JoystickGetProductVersion');
+var _SDL_GameControllerGetFirmwareVersion = Module['_SDL_GameControllerGetFirmwareVersion'] = createExportWrapper('SDL_GameControllerGetFirmwareVersion');
+var _SDL_JoystickGetFirmwareVersion = Module['_SDL_JoystickGetFirmwareVersion'] = createExportWrapper('SDL_JoystickGetFirmwareVersion');
+var _SDL_GameControllerGetSerial = Module['_SDL_GameControllerGetSerial'] = createExportWrapper('SDL_GameControllerGetSerial');
+var _SDL_JoystickGetSerial = Module['_SDL_JoystickGetSerial'] = createExportWrapper('SDL_JoystickGetSerial');
+var _SDL_GameControllerGetAttached = Module['_SDL_GameControllerGetAttached'] = createExportWrapper('SDL_GameControllerGetAttached');
+var _SDL_JoystickGetAttached = Module['_SDL_JoystickGetAttached'] = createExportWrapper('SDL_JoystickGetAttached');
+var _SDL_GameControllerFromInstanceID = Module['_SDL_GameControllerFromInstanceID'] = createExportWrapper('SDL_GameControllerFromInstanceID');
+var _SDL_GameControllerFromPlayerIndex = Module['_SDL_GameControllerFromPlayerIndex'] = createExportWrapper('SDL_GameControllerFromPlayerIndex');
+var _SDL_JoystickFromPlayerIndex = Module['_SDL_JoystickFromPlayerIndex'] = createExportWrapper('SDL_JoystickFromPlayerIndex');
+var _SDL_GameControllerRumble = Module['_SDL_GameControllerRumble'] = createExportWrapper('SDL_GameControllerRumble');
+var _SDL_JoystickRumble = Module['_SDL_JoystickRumble'] = createExportWrapper('SDL_JoystickRumble');
+var _SDL_GameControllerRumbleTriggers = Module['_SDL_GameControllerRumbleTriggers'] = createExportWrapper('SDL_GameControllerRumbleTriggers');
+var _SDL_JoystickRumbleTriggers = Module['_SDL_JoystickRumbleTriggers'] = createExportWrapper('SDL_JoystickRumbleTriggers');
+var _SDL_GameControllerHasLED = Module['_SDL_GameControllerHasLED'] = createExportWrapper('SDL_GameControllerHasLED');
+var _SDL_JoystickHasLED = Module['_SDL_JoystickHasLED'] = createExportWrapper('SDL_JoystickHasLED');
+var _SDL_GameControllerHasRumble = Module['_SDL_GameControllerHasRumble'] = createExportWrapper('SDL_GameControllerHasRumble');
+var _SDL_JoystickHasRumble = Module['_SDL_JoystickHasRumble'] = createExportWrapper('SDL_JoystickHasRumble');
+var _SDL_GameControllerHasRumbleTriggers = Module['_SDL_GameControllerHasRumbleTriggers'] = createExportWrapper('SDL_GameControllerHasRumbleTriggers');
+var _SDL_JoystickHasRumbleTriggers = Module['_SDL_JoystickHasRumbleTriggers'] = createExportWrapper('SDL_JoystickHasRumbleTriggers');
+var _SDL_GameControllerSetLED = Module['_SDL_GameControllerSetLED'] = createExportWrapper('SDL_GameControllerSetLED');
+var _SDL_JoystickSetLED = Module['_SDL_JoystickSetLED'] = createExportWrapper('SDL_JoystickSetLED');
+var _SDL_GameControllerSendEffect = Module['_SDL_GameControllerSendEffect'] = createExportWrapper('SDL_GameControllerSendEffect');
+var _SDL_JoystickSendEffect = Module['_SDL_JoystickSendEffect'] = createExportWrapper('SDL_JoystickSendEffect');
+var _SDL_GameControllerClose = Module['_SDL_GameControllerClose'] = createExportWrapper('SDL_GameControllerClose');
+var _SDL_GameControllerQuitMappings = Module['_SDL_GameControllerQuitMappings'] = createExportWrapper('SDL_GameControllerQuitMappings');
+var _SDL_GameControllerEventState = Module['_SDL_GameControllerEventState'] = createExportWrapper('SDL_GameControllerEventState');
+var _SDL_GameControllerHandleDelayedGuideButton = Module['_SDL_GameControllerHandleDelayedGuideButton'] = createExportWrapper('SDL_GameControllerHandleDelayedGuideButton');
+var _SDL_GameControllerGetAppleSFSymbolsNameForButton = Module['_SDL_GameControllerGetAppleSFSymbolsNameForButton'] = createExportWrapper('SDL_GameControllerGetAppleSFSymbolsNameForButton');
+var _SDL_GameControllerGetAppleSFSymbolsNameForAxis = Module['_SDL_GameControllerGetAppleSFSymbolsNameForAxis'] = createExportWrapper('SDL_GameControllerGetAppleSFSymbolsNameForAxis');
+var _SDL_LoadFile = Module['_SDL_LoadFile'] = createExportWrapper('SDL_LoadFile');
+var _SDL_strtol = Module['_SDL_strtol'] = createExportWrapper('SDL_strtol');
+var _SDL_isdigit = Module['_SDL_isdigit'] = createExportWrapper('SDL_isdigit');
+var _SDL_RecordGesture = Module['_SDL_RecordGesture'] = createExportWrapper('SDL_RecordGesture');
+var _SDL_GestureQuit = Module['_SDL_GestureQuit'] = createExportWrapper('SDL_GestureQuit');
+var _SDL_SaveAllDollarTemplates = Module['_SDL_SaveAllDollarTemplates'] = createExportWrapper('SDL_SaveAllDollarTemplates');
+var _SDL_SaveDollarTemplate = Module['_SDL_SaveDollarTemplate'] = createExportWrapper('SDL_SaveDollarTemplate');
+var _SDL_LoadDollarTemplates = Module['_SDL_LoadDollarTemplates'] = createExportWrapper('SDL_LoadDollarTemplates');
+var _SDL_GestureAddTouch = Module['_SDL_GestureAddTouch'] = createExportWrapper('SDL_GestureAddTouch');
+var _SDL_GestureDelTouch = Module['_SDL_GestureDelTouch'] = createExportWrapper('SDL_GestureDelTouch');
+var _SDL_fabs = Module['_SDL_fabs'] = createExportWrapper('SDL_fabs');
+var _SDL_sqrt = Module['_SDL_sqrt'] = createExportWrapper('SDL_sqrt');
+var _SDL_atan2 = Module['_SDL_atan2'] = createExportWrapper('SDL_atan2');
+var _SDL_cos = Module['_SDL_cos'] = createExportWrapper('SDL_cos');
+var _SDL_sin = Module['_SDL_sin'] = createExportWrapper('SDL_sin');
+var _SDL_setenv = Module['_SDL_setenv'] = createExportWrapper('SDL_setenv');
+var _setenv = Module['_setenv'] = createExportWrapper('setenv');
+var _getenv = Module['_getenv'] = createExportWrapper('getenv');
+var _SDL_GUIDToString = Module['_SDL_GUIDToString'] = createExportWrapper('SDL_GUIDToString');
+var _SDL_GUIDFromString = Module['_SDL_GUIDFromString'] = createExportWrapper('SDL_GUIDFromString');
+var _SDL_HapticInit = Module['_SDL_HapticInit'] = createExportWrapper('SDL_HapticInit');
+var _SDL_SYS_HapticInit = Module['_SDL_SYS_HapticInit'] = createExportWrapper('SDL_SYS_HapticInit');
+var _SDL_NumHaptics = Module['_SDL_NumHaptics'] = createExportWrapper('SDL_NumHaptics');
+var _SDL_SYS_NumHaptics = Module['_SDL_SYS_NumHaptics'] = createExportWrapper('SDL_SYS_NumHaptics');
+var _SDL_HapticName = Module['_SDL_HapticName'] = createExportWrapper('SDL_HapticName');
+var _SDL_SYS_HapticName = Module['_SDL_SYS_HapticName'] = createExportWrapper('SDL_SYS_HapticName');
+var _SDL_HapticOpen = Module['_SDL_HapticOpen'] = createExportWrapper('SDL_HapticOpen');
+var _SDL_SYS_HapticOpen = Module['_SDL_SYS_HapticOpen'] = createExportWrapper('SDL_SYS_HapticOpen');
+var _SDL_HapticSetGain = Module['_SDL_HapticSetGain'] = createExportWrapper('SDL_HapticSetGain');
+var _SDL_SYS_HapticSetAutocenter = Module['_SDL_SYS_HapticSetAutocenter'] = createExportWrapper('SDL_SYS_HapticSetAutocenter');
+var _SDL_SYS_HapticSetGain = Module['_SDL_SYS_HapticSetGain'] = createExportWrapper('SDL_SYS_HapticSetGain');
+var _SDL_HapticSetAutocenter = Module['_SDL_HapticSetAutocenter'] = createExportWrapper('SDL_HapticSetAutocenter');
+var _SDL_HapticOpened = Module['_SDL_HapticOpened'] = createExportWrapper('SDL_HapticOpened');
+var _SDL_HapticIndex = Module['_SDL_HapticIndex'] = createExportWrapper('SDL_HapticIndex');
+var _SDL_MouseIsHaptic = Module['_SDL_MouseIsHaptic'] = createExportWrapper('SDL_MouseIsHaptic');
+var _SDL_SYS_HapticMouse = Module['_SDL_SYS_HapticMouse'] = createExportWrapper('SDL_SYS_HapticMouse');
+var _SDL_HapticOpenFromMouse = Module['_SDL_HapticOpenFromMouse'] = createExportWrapper('SDL_HapticOpenFromMouse');
+var _SDL_JoystickIsHaptic = Module['_SDL_JoystickIsHaptic'] = createExportWrapper('SDL_JoystickIsHaptic');
+var _SDL_PrivateJoystickValid = Module['_SDL_PrivateJoystickValid'] = createExportWrapper('SDL_PrivateJoystickValid');
+var _SDL_SYS_JoystickIsHaptic = Module['_SDL_SYS_JoystickIsHaptic'] = createExportWrapper('SDL_SYS_JoystickIsHaptic');
+var _SDL_HapticOpenFromJoystick = Module['_SDL_HapticOpenFromJoystick'] = createExportWrapper('SDL_HapticOpenFromJoystick');
+var _SDL_SYS_JoystickSameHaptic = Module['_SDL_SYS_JoystickSameHaptic'] = createExportWrapper('SDL_SYS_JoystickSameHaptic');
+var _SDL_SYS_HapticOpenFromJoystick = Module['_SDL_SYS_HapticOpenFromJoystick'] = createExportWrapper('SDL_SYS_HapticOpenFromJoystick');
+var _SDL_HapticClose = Module['_SDL_HapticClose'] = createExportWrapper('SDL_HapticClose');
+var _SDL_SYS_HapticDestroyEffect = Module['_SDL_SYS_HapticDestroyEffect'] = createExportWrapper('SDL_SYS_HapticDestroyEffect');
+var _SDL_SYS_HapticClose = Module['_SDL_SYS_HapticClose'] = createExportWrapper('SDL_SYS_HapticClose');
+var _SDL_HapticDestroyEffect = Module['_SDL_HapticDestroyEffect'] = createExportWrapper('SDL_HapticDestroyEffect');
+var _SDL_HapticQuit = Module['_SDL_HapticQuit'] = createExportWrapper('SDL_HapticQuit');
+var _SDL_SYS_HapticQuit = Module['_SDL_SYS_HapticQuit'] = createExportWrapper('SDL_SYS_HapticQuit');
+var _SDL_HapticNumEffects = Module['_SDL_HapticNumEffects'] = createExportWrapper('SDL_HapticNumEffects');
+var _SDL_HapticNumEffectsPlaying = Module['_SDL_HapticNumEffectsPlaying'] = createExportWrapper('SDL_HapticNumEffectsPlaying');
+var _SDL_HapticQuery = Module['_SDL_HapticQuery'] = createExportWrapper('SDL_HapticQuery');
+var _SDL_HapticNumAxes = Module['_SDL_HapticNumAxes'] = createExportWrapper('SDL_HapticNumAxes');
+var _SDL_HapticEffectSupported = Module['_SDL_HapticEffectSupported'] = createExportWrapper('SDL_HapticEffectSupported');
+var _SDL_HapticNewEffect = Module['_SDL_HapticNewEffect'] = createExportWrapper('SDL_HapticNewEffect');
+var _SDL_SYS_HapticNewEffect = Module['_SDL_SYS_HapticNewEffect'] = createExportWrapper('SDL_SYS_HapticNewEffect');
+var _SDL_HapticUpdateEffect = Module['_SDL_HapticUpdateEffect'] = createExportWrapper('SDL_HapticUpdateEffect');
+var _SDL_SYS_HapticUpdateEffect = Module['_SDL_SYS_HapticUpdateEffect'] = createExportWrapper('SDL_SYS_HapticUpdateEffect');
+var _SDL_HapticRunEffect = Module['_SDL_HapticRunEffect'] = createExportWrapper('SDL_HapticRunEffect');
+var _SDL_SYS_HapticRunEffect = Module['_SDL_SYS_HapticRunEffect'] = createExportWrapper('SDL_SYS_HapticRunEffect');
+var _SDL_HapticStopEffect = Module['_SDL_HapticStopEffect'] = createExportWrapper('SDL_HapticStopEffect');
+var _SDL_SYS_HapticStopEffect = Module['_SDL_SYS_HapticStopEffect'] = createExportWrapper('SDL_SYS_HapticStopEffect');
+var _SDL_HapticGetEffectStatus = Module['_SDL_HapticGetEffectStatus'] = createExportWrapper('SDL_HapticGetEffectStatus');
+var _SDL_SYS_HapticGetEffectStatus = Module['_SDL_SYS_HapticGetEffectStatus'] = createExportWrapper('SDL_SYS_HapticGetEffectStatus');
+var _SDL_HapticPause = Module['_SDL_HapticPause'] = createExportWrapper('SDL_HapticPause');
+var _SDL_SYS_HapticPause = Module['_SDL_SYS_HapticPause'] = createExportWrapper('SDL_SYS_HapticPause');
+var _SDL_HapticUnpause = Module['_SDL_HapticUnpause'] = createExportWrapper('SDL_HapticUnpause');
+var _SDL_SYS_HapticUnpause = Module['_SDL_SYS_HapticUnpause'] = createExportWrapper('SDL_SYS_HapticUnpause');
+var _SDL_HapticStopAll = Module['_SDL_HapticStopAll'] = createExportWrapper('SDL_HapticStopAll');
+var _SDL_SYS_HapticStopAll = Module['_SDL_SYS_HapticStopAll'] = createExportWrapper('SDL_SYS_HapticStopAll');
+var _SDL_HapticRumbleSupported = Module['_SDL_HapticRumbleSupported'] = createExportWrapper('SDL_HapticRumbleSupported');
+var _SDL_HapticRumbleInit = Module['_SDL_HapticRumbleInit'] = createExportWrapper('SDL_HapticRumbleInit');
+var _SDL_HapticRumblePlay = Module['_SDL_HapticRumblePlay'] = createExportWrapper('SDL_HapticRumblePlay');
+var _SDL_HapticRumbleStop = Module['_SDL_HapticRumbleStop'] = createExportWrapper('SDL_HapticRumbleStop');
+var _SDL_SetHintWithPriority = Module['_SDL_SetHintWithPriority'] = createExportWrapper('SDL_SetHintWithPriority');
+var _SDL_ResetHint = Module['_SDL_ResetHint'] = createExportWrapper('SDL_ResetHint');
+var _SDL_iconv_open = Module['_SDL_iconv_open'] = createExportWrapper('SDL_iconv_open');
+var _iconv_open = Module['_iconv_open'] = createExportWrapper('iconv_open');
+var _SDL_iconv_close = Module['_SDL_iconv_close'] = createExportWrapper('SDL_iconv_close');
+var _iconv_close = Module['_iconv_close'] = createExportWrapper('iconv_close');
+var _SDL_iconv = Module['_SDL_iconv'] = createExportWrapper('SDL_iconv');
+var _iconv = Module['_iconv'] = createExportWrapper('iconv');
+var ___errno_location = createExportWrapper('__errno_location');
+var _SDL_iconv_string = Module['_SDL_iconv_string'] = createExportWrapper('SDL_iconv_string');
+var _SDL_GetNextJoystickInstanceID = Module['_SDL_GetNextJoystickInstanceID'] = createExportWrapper('SDL_GetNextJoystickInstanceID');
+var _SDL_GetDriverAndJoystickIndex = Module['_SDL_GetDriverAndJoystickIndex'] = createExportWrapper('SDL_GetDriverAndJoystickIndex');
+var _SDL_JoystickGetDevicePlayerIndex = Module['_SDL_JoystickGetDevicePlayerIndex'] = createExportWrapper('SDL_JoystickGetDevicePlayerIndex');
+var _SDL_PrivateJoystickBatteryLevel = Module['_SDL_PrivateJoystickBatteryLevel'] = createExportWrapper('SDL_PrivateJoystickBatteryLevel');
+var _SDL_JoystickAttachVirtual = Module['_SDL_JoystickAttachVirtual'] = createExportWrapper('SDL_JoystickAttachVirtual');
+var _SDL_JoystickAttachVirtualEx = Module['_SDL_JoystickAttachVirtualEx'] = createExportWrapper('SDL_JoystickAttachVirtualEx');
+var _SDL_JoystickDetachVirtual = Module['_SDL_JoystickDetachVirtual'] = createExportWrapper('SDL_JoystickDetachVirtual');
+var _SDL_JoystickIsVirtual = Module['_SDL_JoystickIsVirtual'] = createExportWrapper('SDL_JoystickIsVirtual');
+var _SDL_JoystickSetVirtualAxis = Module['_SDL_JoystickSetVirtualAxis'] = createExportWrapper('SDL_JoystickSetVirtualAxis');
+var _SDL_JoystickSetVirtualButton = Module['_SDL_JoystickSetVirtualButton'] = createExportWrapper('SDL_JoystickSetVirtualButton');
+var _SDL_JoystickSetVirtualHat = Module['_SDL_JoystickSetVirtualHat'] = createExportWrapper('SDL_JoystickSetVirtualHat');
+var _SDL_JoystickNumAxes = Module['_SDL_JoystickNumAxes'] = createExportWrapper('SDL_JoystickNumAxes');
+var _SDL_JoystickNumHats = Module['_SDL_JoystickNumHats'] = createExportWrapper('SDL_JoystickNumHats');
+var _SDL_JoystickNumBalls = Module['_SDL_JoystickNumBalls'] = createExportWrapper('SDL_JoystickNumBalls');
+var _SDL_JoystickNumButtons = Module['_SDL_JoystickNumButtons'] = createExportWrapper('SDL_JoystickNumButtons');
+var _SDL_JoystickGetAxisInitialState = Module['_SDL_JoystickGetAxisInitialState'] = createExportWrapper('SDL_JoystickGetAxisInitialState');
+var _SDL_JoystickGetBall = Module['_SDL_JoystickGetBall'] = createExportWrapper('SDL_JoystickGetBall');
+var _SDL_JoystickInstanceID = Module['_SDL_JoystickInstanceID'] = createExportWrapper('SDL_JoystickInstanceID');
+var _SDL_JoystickFromInstanceID = Module['_SDL_JoystickFromInstanceID'] = createExportWrapper('SDL_JoystickFromInstanceID');
+var _SDL_JoystickGetDeviceIndexFromInstanceID = Module['_SDL_JoystickGetDeviceIndexFromInstanceID'] = createExportWrapper('SDL_JoystickGetDeviceIndexFromInstanceID');
+var _SDL_PrivateJoystickAddTouchpad = Module['_SDL_PrivateJoystickAddTouchpad'] = createExportWrapper('SDL_PrivateJoystickAddTouchpad');
+var _SDL_PrivateJoystickAddSensor = Module['_SDL_PrivateJoystickAddSensor'] = createExportWrapper('SDL_PrivateJoystickAddSensor');
+var _SDL_PrivateJoystickAdded = Module['_SDL_PrivateJoystickAdded'] = createExportWrapper('SDL_PrivateJoystickAdded');
+var _SDL_PrivateJoystickRemoved = Module['_SDL_PrivateJoystickRemoved'] = createExportWrapper('SDL_PrivateJoystickRemoved');
+var _SDL_PrivateJoystickAxis = Module['_SDL_PrivateJoystickAxis'] = createExportWrapper('SDL_PrivateJoystickAxis');
+var _SDL_PrivateJoystickButton = Module['_SDL_PrivateJoystickButton'] = createExportWrapper('SDL_PrivateJoystickButton');
+var _SDL_PrivateJoystickHat = Module['_SDL_PrivateJoystickHat'] = createExportWrapper('SDL_PrivateJoystickHat');
+var _SDL_PrivateJoystickTouchpad = Module['_SDL_PrivateJoystickTouchpad'] = createExportWrapper('SDL_PrivateJoystickTouchpad');
+var _SDL_abs = Module['_SDL_abs'] = createExportWrapper('SDL_abs');
+var _SDL_HasWindows = Module['_SDL_HasWindows'] = createExportWrapper('SDL_HasWindows');
+var _SDL_GetKeyboardFocus = Module['_SDL_GetKeyboardFocus'] = createExportWrapper('SDL_GetKeyboardFocus');
+var _SDL_PrivateJoystickBall = Module['_SDL_PrivateJoystickBall'] = createExportWrapper('SDL_PrivateJoystickBall');
+var _SDL_CreateJoystickName = Module['_SDL_CreateJoystickName'] = createExportWrapper('SDL_CreateJoystickName');
+var _GuessControllerName = Module['_GuessControllerName'] = createExportWrapper('GuessControllerName');
+var _SDL_GetJoystickGameControllerTypeFromVIDPID = Module['_SDL_GetJoystickGameControllerTypeFromVIDPID'] = createExportWrapper('SDL_GetJoystickGameControllerTypeFromVIDPID');
+var _SDL_tolower = Module['_SDL_tolower'] = createExportWrapper('SDL_tolower');
+var _GuessControllerType = Module['_GuessControllerType'] = createExportWrapper('GuessControllerType');
+var _SDL_IsJoystickXInput = Module['_SDL_IsJoystickXInput'] = createExportWrapper('SDL_IsJoystickXInput');
+var _SDL_IsJoystickXboxOne = Module['_SDL_IsJoystickXboxOne'] = createExportWrapper('SDL_IsJoystickXboxOne');
+var _SDL_IsJoystickBluetoothXboxOne = Module['_SDL_IsJoystickBluetoothXboxOne'] = createExportWrapper('SDL_IsJoystickBluetoothXboxOne');
+var _SDL_IsJoystickPS4 = Module['_SDL_IsJoystickPS4'] = createExportWrapper('SDL_IsJoystickPS4');
+var _SDL_IsJoystickPS5 = Module['_SDL_IsJoystickPS5'] = createExportWrapper('SDL_IsJoystickPS5');
+var _SDL_IsJoystickNintendoSwitchPro = Module['_SDL_IsJoystickNintendoSwitchPro'] = createExportWrapper('SDL_IsJoystickNintendoSwitchPro');
+var _SDL_IsJoystickNintendoSwitchProInputOnly = Module['_SDL_IsJoystickNintendoSwitchProInputOnly'] = createExportWrapper('SDL_IsJoystickNintendoSwitchProInputOnly');
+var _SDL_IsJoystickNintendoSwitchJoyCon = Module['_SDL_IsJoystickNintendoSwitchJoyCon'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyCon');
+var _SDL_IsJoystickNintendoSwitchJoyConLeft = Module['_SDL_IsJoystickNintendoSwitchJoyConLeft'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConLeft');
+var _SDL_IsJoystickNintendoSwitchJoyConRight = Module['_SDL_IsJoystickNintendoSwitchJoyConRight'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConRight');
+var _SDL_IsJoystickNintendoSwitchJoyConGrip = Module['_SDL_IsJoystickNintendoSwitchJoyConGrip'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConGrip');
+var _SDL_ShouldIgnoreJoystick = Module['_SDL_ShouldIgnoreJoystick'] = createExportWrapper('SDL_ShouldIgnoreJoystick');
+var _SDL_JoystickGetDeviceVendor = Module['_SDL_JoystickGetDeviceVendor'] = createExportWrapper('SDL_JoystickGetDeviceVendor');
+var _SDL_JoystickGetDeviceProduct = Module['_SDL_JoystickGetDeviceProduct'] = createExportWrapper('SDL_JoystickGetDeviceProduct');
+var _SDL_JoystickGetDeviceProductVersion = Module['_SDL_JoystickGetDeviceProductVersion'] = createExportWrapper('SDL_JoystickGetDeviceProductVersion');
+var _SDL_JoystickGetDeviceType = Module['_SDL_JoystickGetDeviceType'] = createExportWrapper('SDL_JoystickGetDeviceType');
+var _SDL_JoystickGetType = Module['_SDL_JoystickGetType'] = createExportWrapper('SDL_JoystickGetType');
+var _SDL_JoystickCurrentPowerLevel = Module['_SDL_JoystickCurrentPowerLevel'] = createExportWrapper('SDL_JoystickCurrentPowerLevel');
+var _SDL_PrivateJoystickSensor = Module['_SDL_PrivateJoystickSensor'] = createExportWrapper('SDL_PrivateJoystickSensor');
+var _SDL_UCS4ToUTF8 = Module['_SDL_UCS4ToUTF8'] = createExportWrapper('SDL_UCS4ToUTF8');
+var _SDL_KeyboardInit = Module['_SDL_KeyboardInit'] = createExportWrapper('SDL_KeyboardInit');
+var _SDL_SetKeymap = Module['_SDL_SetKeymap'] = createExportWrapper('SDL_SetKeymap');
+var _SDL_GetDefaultKeymap = Module['_SDL_GetDefaultKeymap'] = createExportWrapper('SDL_GetDefaultKeymap');
+var _SDL_SetScancodeName = Module['_SDL_SetScancodeName'] = createExportWrapper('SDL_SetScancodeName');
+var _SDL_CaptureMouse = Module['_SDL_CaptureMouse'] = createExportWrapper('SDL_CaptureMouse');
+var _SDL_UpdateMouseCapture = Module['_SDL_UpdateMouseCapture'] = createExportWrapper('SDL_UpdateMouseCapture');
+var _SDL_SendKeyboardUnicodeKey = Module['_SDL_SendKeyboardUnicodeKey'] = createExportWrapper('SDL_SendKeyboardUnicodeKey');
+var _SDL_SendKeyboardKeyAutoRelease = Module['_SDL_SendKeyboardKeyAutoRelease'] = createExportWrapper('SDL_SendKeyboardKeyAutoRelease');
+var _SDL_HardwareKeyboardKeyPressed = Module['_SDL_HardwareKeyboardKeyPressed'] = createExportWrapper('SDL_HardwareKeyboardKeyPressed');
+var _SDL_utf8strlcpy = Module['_SDL_utf8strlcpy'] = createExportWrapper('SDL_utf8strlcpy');
+var _SDL_SendEditingText = Module['_SDL_SendEditingText'] = createExportWrapper('SDL_SendEditingText');
+var _SDL_KeyboardQuit = Module['_SDL_KeyboardQuit'] = createExportWrapper('SDL_KeyboardQuit');
+var _SDL_GetKeyboardState = Module['_SDL_GetKeyboardState'] = createExportWrapper('SDL_GetKeyboardState');
+var _SDL_GetModState = Module['_SDL_GetModState'] = createExportWrapper('SDL_GetModState');
+var _SDL_SetModState = Module['_SDL_SetModState'] = createExportWrapper('SDL_SetModState');
+var _SDL_ToggleModState = Module['_SDL_ToggleModState'] = createExportWrapper('SDL_ToggleModState');
+var _SDL_GetKeyFromScancode = Module['_SDL_GetKeyFromScancode'] = createExportWrapper('SDL_GetKeyFromScancode');
+var _SDL_GetScancodeFromKey = Module['_SDL_GetScancodeFromKey'] = createExportWrapper('SDL_GetScancodeFromKey');
+var _SDL_GetScancodeName = Module['_SDL_GetScancodeName'] = createExportWrapper('SDL_GetScancodeName');
+var _SDL_GetScancodeFromName = Module['_SDL_GetScancodeFromName'] = createExportWrapper('SDL_GetScancodeFromName');
+var _SDL_GetKeyName = Module['_SDL_GetKeyName'] = createExportWrapper('SDL_GetKeyName');
+var _SDL_GetKeyFromName = Module['_SDL_GetKeyFromName'] = createExportWrapper('SDL_GetKeyFromName');
+var _SDL_ListAdd = Module['_SDL_ListAdd'] = createExportWrapper('SDL_ListAdd');
+var _SDL_ListPop = Module['_SDL_ListPop'] = createExportWrapper('SDL_ListPop');
+var _SDL_ListRemove = Module['_SDL_ListRemove'] = createExportWrapper('SDL_ListRemove');
+var _SDL_ListClear = Module['_SDL_ListClear'] = createExportWrapper('SDL_ListClear');
+var _SDL_GetPreferredLocales = Module['_SDL_GetPreferredLocales'] = createExportWrapper('SDL_GetPreferredLocales');
+var _SDL_SYS_GetPreferredLocales = Module['_SDL_SYS_GetPreferredLocales'] = createExportWrapper('SDL_SYS_GetPreferredLocales');
+var _SDL_LogResetPriorities = Module['_SDL_LogResetPriorities'] = createExportWrapper('SDL_LogResetPriorities');
+var _SDL_LogSetAllPriority = Module['_SDL_LogSetAllPriority'] = createExportWrapper('SDL_LogSetAllPriority');
+var _SDL_LogSetPriority = Module['_SDL_LogSetPriority'] = createExportWrapper('SDL_LogSetPriority');
+var _SDL_LogVerbose = Module['_SDL_LogVerbose'] = createExportWrapper('SDL_LogVerbose');
+var _SDL_LogInfo = Module['_SDL_LogInfo'] = createExportWrapper('SDL_LogInfo');
+var _SDL_LogError = Module['_SDL_LogError'] = createExportWrapper('SDL_LogError');
+var _SDL_LogMessage = Module['_SDL_LogMessage'] = createExportWrapper('SDL_LogMessage');
+var _SDL_LogGetOutputFunction = Module['_SDL_LogGetOutputFunction'] = createExportWrapper('SDL_LogGetOutputFunction');
+var _SDL_LogSetOutputFunction = Module['_SDL_LogSetOutputFunction'] = createExportWrapper('SDL_LogSetOutputFunction');
+var _fiprintf = Module['_fiprintf'] = createExportWrapper('fiprintf');
+var _SDL_GetOriginalMemoryFunctions = Module['_SDL_GetOriginalMemoryFunctions'] = createExportWrapper('SDL_GetOriginalMemoryFunctions');
 var _calloc = Module['_calloc'] = createExportWrapper('calloc');
+var _realloc = Module['_realloc'] = createExportWrapper('realloc');
+var _SDL_GetMemoryFunctions = Module['_SDL_GetMemoryFunctions'] = createExportWrapper('SDL_GetMemoryFunctions');
+var _SDL_SetMemoryFunctions = Module['_SDL_SetMemoryFunctions'] = createExportWrapper('SDL_SetMemoryFunctions');
+var _SDL_GetNumAllocations = Module['_SDL_GetNumAllocations'] = createExportWrapper('SDL_GetNumAllocations');
+var _SDL_MouseInit = Module['_SDL_MouseInit'] = createExportWrapper('SDL_MouseInit');
+var _SDL_atof = Module['_SDL_atof'] = createExportWrapper('SDL_atof');
+var _SDL_SetCursor = Module['_SDL_SetCursor'] = createExportWrapper('SDL_SetCursor');
+var _SDL_GetWindowMouseRect = Module['_SDL_GetWindowMouseRect'] = createExportWrapper('SDL_GetWindowMouseRect');
+var _SDL_SendMouseButtonClicks = Module['_SDL_SendMouseButtonClicks'] = createExportWrapper('SDL_SendMouseButtonClicks');
+var _SDL_MouseQuit = Module['_SDL_MouseQuit'] = createExportWrapper('SDL_MouseQuit');
+var _SDL_SetRelativeMouseMode = Module['_SDL_SetRelativeMouseMode'] = createExportWrapper('SDL_SetRelativeMouseMode');
+var _SDL_GetMessageBoxCount = Module['_SDL_GetMessageBoxCount'] = createExportWrapper('SDL_GetMessageBoxCount');
+var _SDL_UpdateWindowGrab = Module['_SDL_UpdateWindowGrab'] = createExportWrapper('SDL_UpdateWindowGrab');
+var _SDL_ShowCursor = Module['_SDL_ShowCursor'] = createExportWrapper('SDL_ShowCursor');
+var _SDL_FreeCursor = Module['_SDL_FreeCursor'] = createExportWrapper('SDL_FreeCursor');
+var _SDL_GetMouseState = Module['_SDL_GetMouseState'] = createExportWrapper('SDL_GetMouseState');
+var _SDL_GetRelativeMouseState = Module['_SDL_GetRelativeMouseState'] = createExportWrapper('SDL_GetRelativeMouseState');
+var _SDL_GetGlobalMouseState = Module['_SDL_GetGlobalMouseState'] = createExportWrapper('SDL_GetGlobalMouseState');
+var _SDL_PerformWarpMouseInWindow = Module['_SDL_PerformWarpMouseInWindow'] = createExportWrapper('SDL_PerformWarpMouseInWindow');
+var _SDL_WarpMouseInWindow = Module['_SDL_WarpMouseInWindow'] = createExportWrapper('SDL_WarpMouseInWindow');
+var _SDL_WarpMouseGlobal = Module['_SDL_WarpMouseGlobal'] = createExportWrapper('SDL_WarpMouseGlobal');
+var _SDL_GetRelativeMouseMode = Module['_SDL_GetRelativeMouseMode'] = createExportWrapper('SDL_GetRelativeMouseMode');
+var _SDL_CreateCursor = Module['_SDL_CreateCursor'] = createExportWrapper('SDL_CreateCursor');
+var _SDL_CreateColorCursor = Module['_SDL_CreateColorCursor'] = createExportWrapper('SDL_CreateColorCursor');
+var _SDL_CreateSystemCursor = Module['_SDL_CreateSystemCursor'] = createExportWrapper('SDL_CreateSystemCursor');
+var _SDL_GetCursor = Module['_SDL_GetCursor'] = createExportWrapper('SDL_GetCursor');
+var _SDL_GetDefaultCursor = Module['_SDL_GetDefaultCursor'] = createExportWrapper('SDL_GetDefaultCursor');
+var _SDL_GetPixelFormatName = Module['_SDL_GetPixelFormatName'] = createExportWrapper('SDL_GetPixelFormatName');
+var _SDL_MasksToPixelFormatEnum = Module['_SDL_MasksToPixelFormatEnum'] = createExportWrapper('SDL_MasksToPixelFormatEnum');
+var _SDL_AllocFormat = Module['_SDL_AllocFormat'] = createExportWrapper('SDL_AllocFormat');
+var _SDL_FreeFormat = Module['_SDL_FreeFormat'] = createExportWrapper('SDL_FreeFormat');
+var _SDL_FreePalette = Module['_SDL_FreePalette'] = createExportWrapper('SDL_FreePalette');
+var _SDL_AllocPalette = Module['_SDL_AllocPalette'] = createExportWrapper('SDL_AllocPalette');
+var _SDL_SetPixelFormatPalette = Module['_SDL_SetPixelFormatPalette'] = createExportWrapper('SDL_SetPixelFormatPalette');
+var _SDL_SetPaletteColors = Module['_SDL_SetPaletteColors'] = createExportWrapper('SDL_SetPaletteColors');
+var _SDL_DitherColors = Module['_SDL_DitherColors'] = createExportWrapper('SDL_DitherColors');
+var _SDL_FindColor = Module['_SDL_FindColor'] = createExportWrapper('SDL_FindColor');
+var _SDL_DetectPalette = Module['_SDL_DetectPalette'] = createExportWrapper('SDL_DetectPalette');
+var _SDL_MapRGBA = Module['_SDL_MapRGBA'] = createExportWrapper('SDL_MapRGBA');
+var _SDL_GetRGB = Module['_SDL_GetRGB'] = createExportWrapper('SDL_GetRGB');
+var _SDL_AllocBlitMap = Module['_SDL_AllocBlitMap'] = createExportWrapper('SDL_AllocBlitMap');
+var _SDL_InvalidateAllBlitMap = Module['_SDL_InvalidateAllBlitMap'] = createExportWrapper('SDL_InvalidateAllBlitMap');
+var _SDL_MapSurface = Module['_SDL_MapSurface'] = createExportWrapper('SDL_MapSurface');
+var _SDL_FreeBlitMap = Module['_SDL_FreeBlitMap'] = createExportWrapper('SDL_FreeBlitMap');
+var _SDL_CalculateGammaRamp = Module['_SDL_CalculateGammaRamp'] = createExportWrapper('SDL_CalculateGammaRamp');
+var _SDL_pow = Module['_SDL_pow'] = createExportWrapper('SDL_pow');
+var _SDL_GetPowerInfo = Module['_SDL_GetPowerInfo'] = createExportWrapper('SDL_GetPowerInfo');
+var _SDL_GetPowerInfo_Emscripten = Module['_SDL_GetPowerInfo_Emscripten'] = createExportWrapper('SDL_GetPowerInfo_Emscripten');
+var _SDL_qsort = Module['_SDL_qsort'] = createExportWrapper('SDL_qsort');
+var _qsort = Module['_qsort'] = createExportWrapper('qsort');
+var _SDL_bsearch = Module['_SDL_bsearch'] = createExportWrapper('SDL_bsearch');
+var _bsearch = Module['_bsearch'] = createExportWrapper('bsearch');
+var _sigaction = Module['_sigaction'] = createExportWrapper('sigaction');
+var _SDL_SendQuit = Module['_SDL_SendQuit'] = createExportWrapper('SDL_SendQuit');
+var _signal = Module['_signal'] = createExportWrapper('signal');
+var _SDL_GetSpanEnclosingRect = Module['_SDL_GetSpanEnclosingRect'] = createExportWrapper('SDL_GetSpanEnclosingRect');
+var _SDL_HasIntersection = Module['_SDL_HasIntersection'] = createExportWrapper('SDL_HasIntersection');
+var _SDL_UnionRect = Module['_SDL_UnionRect'] = createExportWrapper('SDL_UnionRect');
+var _SDL_EnclosePoints = Module['_SDL_EnclosePoints'] = createExportWrapper('SDL_EnclosePoints');
+var _SDL_HasIntersectionF = Module['_SDL_HasIntersectionF'] = createExportWrapper('SDL_HasIntersectionF');
+var _SDL_IntersectFRect = Module['_SDL_IntersectFRect'] = createExportWrapper('SDL_IntersectFRect');
+var _SDL_UnionFRect = Module['_SDL_UnionFRect'] = createExportWrapper('SDL_UnionFRect');
+var _SDL_EncloseFPoints = Module['_SDL_EncloseFPoints'] = createExportWrapper('SDL_EncloseFPoints');
+var _SDL_IntersectFRectAndLine = Module['_SDL_IntersectFRectAndLine'] = createExportWrapper('SDL_IntersectFRectAndLine');
+var _SDL_RenderFlush = Module['_SDL_RenderFlush'] = createExportWrapper('SDL_RenderFlush');
+var _SDL_AllocateRenderVertices = Module['_SDL_AllocateRenderVertices'] = createExportWrapper('SDL_AllocateRenderVertices');
+var _SDL_GetNumRenderDrivers = Module['_SDL_GetNumRenderDrivers'] = createExportWrapper('SDL_GetNumRenderDrivers');
+var _SDL_GetRenderDriverInfo = Module['_SDL_GetRenderDriverInfo'] = createExportWrapper('SDL_GetRenderDriverInfo');
+var _SDL_CreateWindowAndRenderer = Module['_SDL_CreateWindowAndRenderer'] = createExportWrapper('SDL_CreateWindowAndRenderer');
+var _SDL_GetWindowData = Module['_SDL_GetWindowData'] = createExportWrapper('SDL_GetWindowData');
+var _SDL_SetWindowData = Module['_SDL_SetWindowData'] = createExportWrapper('SDL_SetWindowData');
+var _SDL_RenderSetViewport = Module['_SDL_RenderSetViewport'] = createExportWrapper('SDL_RenderSetViewport');
+var _SDL_GetRenderer = Module['_SDL_GetRenderer'] = createExportWrapper('SDL_GetRenderer');
+var _SDL_GetRendererOutputSize = Module['_SDL_GetRendererOutputSize'] = createExportWrapper('SDL_GetRendererOutputSize');
+var _SDL_GetWindowFromID = Module['_SDL_GetWindowFromID'] = createExportWrapper('SDL_GetWindowFromID');
+var _SDL_SetRenderTarget = Module['_SDL_SetRenderTarget'] = createExportWrapper('SDL_SetRenderTarget');
+var _SDL_truncf = Module['_SDL_truncf'] = createExportWrapper('SDL_truncf');
+var _SDL_CreateSoftwareRenderer = Module['_SDL_CreateSoftwareRenderer'] = createExportWrapper('SDL_CreateSoftwareRenderer');
+var _SW_CreateRendererForSurface = Module['_SW_CreateRendererForSurface'] = createExportWrapper('SW_CreateRendererForSurface');
+var _SDL_RenderGetWindow = Module['_SDL_RenderGetWindow'] = createExportWrapper('SDL_RenderGetWindow');
+var _SDL_GetRendererInfo = Module['_SDL_GetRendererInfo'] = createExportWrapper('SDL_GetRendererInfo');
+var _SDL_QueryTexture = Module['_SDL_QueryTexture'] = createExportWrapper('SDL_QueryTexture');
+var _SDL_CreateTexture = Module['_SDL_CreateTexture'] = createExportWrapper('SDL_CreateTexture');
+var _SDL_SW_CreateYUVTexture = Module['_SDL_SW_CreateYUVTexture'] = createExportWrapper('SDL_SW_CreateYUVTexture');
+var _SDL_SW_DestroyYUVTexture = Module['_SDL_SW_DestroyYUVTexture'] = createExportWrapper('SDL_SW_DestroyYUVTexture');
+var _SDL_HasColorKey = Module['_SDL_HasColorKey'] = createExportWrapper('SDL_HasColorKey');
+var _SDL_UpdateTexture = Module['_SDL_UpdateTexture'] = createExportWrapper('SDL_UpdateTexture');
+var _SDL_GetSurfaceColorMod = Module['_SDL_GetSurfaceColorMod'] = createExportWrapper('SDL_GetSurfaceColorMod');
+var _SDL_GetSurfaceAlphaMod = Module['_SDL_GetSurfaceAlphaMod'] = createExportWrapper('SDL_GetSurfaceAlphaMod');
+var _SDL_GetSurfaceBlendMode = Module['_SDL_GetSurfaceBlendMode'] = createExportWrapper('SDL_GetSurfaceBlendMode');
+var _SDL_SW_UpdateYUVTexture = Module['_SDL_SW_UpdateYUVTexture'] = createExportWrapper('SDL_SW_UpdateYUVTexture');
+var _SDL_LockTexture = Module['_SDL_LockTexture'] = createExportWrapper('SDL_LockTexture');
+var _SDL_SW_CopyYUVToRGB = Module['_SDL_SW_CopyYUVToRGB'] = createExportWrapper('SDL_SW_CopyYUVToRGB');
+var _SDL_UnlockTexture = Module['_SDL_UnlockTexture'] = createExportWrapper('SDL_UnlockTexture');
+var _SDL_SetTextureColorMod = Module['_SDL_SetTextureColorMod'] = createExportWrapper('SDL_SetTextureColorMod');
+var _SDL_SetTextureAlphaMod = Module['_SDL_SetTextureAlphaMod'] = createExportWrapper('SDL_SetTextureAlphaMod');
+var _SDL_SetTextureBlendMode = Module['_SDL_SetTextureBlendMode'] = createExportWrapper('SDL_SetTextureBlendMode');
+var _SDL_GetTextureColorMod = Module['_SDL_GetTextureColorMod'] = createExportWrapper('SDL_GetTextureColorMod');
+var _SDL_GetTextureAlphaMod = Module['_SDL_GetTextureAlphaMod'] = createExportWrapper('SDL_GetTextureAlphaMod');
+var _SDL_GetTextureBlendMode = Module['_SDL_GetTextureBlendMode'] = createExportWrapper('SDL_GetTextureBlendMode');
+var _SDL_SetTextureScaleMode = Module['_SDL_SetTextureScaleMode'] = createExportWrapper('SDL_SetTextureScaleMode');
+var _SDL_GetTextureScaleMode = Module['_SDL_GetTextureScaleMode'] = createExportWrapper('SDL_GetTextureScaleMode');
+var _SDL_SetTextureUserData = Module['_SDL_SetTextureUserData'] = createExportWrapper('SDL_SetTextureUserData');
+var _SDL_GetTextureUserData = Module['_SDL_GetTextureUserData'] = createExportWrapper('SDL_GetTextureUserData');
+var _SDL_ConvertPixels = Module['_SDL_ConvertPixels'] = createExportWrapper('SDL_ConvertPixels');
+var _SDL_UpdateYUVTexture = Module['_SDL_UpdateYUVTexture'] = createExportWrapper('SDL_UpdateYUVTexture');
+var _SDL_SW_UpdateYUVTexturePlanar = Module['_SDL_SW_UpdateYUVTexturePlanar'] = createExportWrapper('SDL_SW_UpdateYUVTexturePlanar');
+var _SDL_UpdateNVTexture = Module['_SDL_UpdateNVTexture'] = createExportWrapper('SDL_UpdateNVTexture');
+var _SDL_SW_UpdateNVTexturePlanar = Module['_SDL_SW_UpdateNVTexturePlanar'] = createExportWrapper('SDL_SW_UpdateNVTexturePlanar');
+var _SDL_SW_LockYUVTexture = Module['_SDL_SW_LockYUVTexture'] = createExportWrapper('SDL_SW_LockYUVTexture');
+var _SDL_LockTextureToSurface = Module['_SDL_LockTextureToSurface'] = createExportWrapper('SDL_LockTextureToSurface');
+var _SDL_RenderTargetSupported = Module['_SDL_RenderTargetSupported'] = createExportWrapper('SDL_RenderTargetSupported');
+var _SDL_GetRenderTarget = Module['_SDL_GetRenderTarget'] = createExportWrapper('SDL_GetRenderTarget');
+var _SDL_RenderSetLogicalSize = Module['_SDL_RenderSetLogicalSize'] = createExportWrapper('SDL_RenderSetLogicalSize');
+var _SDL_RenderSetScale = Module['_SDL_RenderSetScale'] = createExportWrapper('SDL_RenderSetScale');
+var _SDL_RenderGetLogicalSize = Module['_SDL_RenderGetLogicalSize'] = createExportWrapper('SDL_RenderGetLogicalSize');
+var _SDL_RenderSetIntegerScale = Module['_SDL_RenderSetIntegerScale'] = createExportWrapper('SDL_RenderSetIntegerScale');
+var _SDL_RenderGetIntegerScale = Module['_SDL_RenderGetIntegerScale'] = createExportWrapper('SDL_RenderGetIntegerScale');
+var _SDL_RenderGetViewport = Module['_SDL_RenderGetViewport'] = createExportWrapper('SDL_RenderGetViewport');
+var _SDL_RenderSetClipRect = Module['_SDL_RenderSetClipRect'] = createExportWrapper('SDL_RenderSetClipRect');
+var _SDL_RenderGetClipRect = Module['_SDL_RenderGetClipRect'] = createExportWrapper('SDL_RenderGetClipRect');
+var _SDL_RenderIsClipEnabled = Module['_SDL_RenderIsClipEnabled'] = createExportWrapper('SDL_RenderIsClipEnabled');
+var _SDL_RenderGetScale = Module['_SDL_RenderGetScale'] = createExportWrapper('SDL_RenderGetScale');
+var _SDL_RenderWindowToLogical = Module['_SDL_RenderWindowToLogical'] = createExportWrapper('SDL_RenderWindowToLogical');
+var _SDL_RenderLogicalToWindow = Module['_SDL_RenderLogicalToWindow'] = createExportWrapper('SDL_RenderLogicalToWindow');
+var _SDL_SetRenderDrawColor = Module['_SDL_SetRenderDrawColor'] = createExportWrapper('SDL_SetRenderDrawColor');
+var _SDL_GetRenderDrawColor = Module['_SDL_GetRenderDrawColor'] = createExportWrapper('SDL_GetRenderDrawColor');
+var _SDL_SetRenderDrawBlendMode = Module['_SDL_SetRenderDrawBlendMode'] = createExportWrapper('SDL_SetRenderDrawBlendMode');
+var _SDL_GetRenderDrawBlendMode = Module['_SDL_GetRenderDrawBlendMode'] = createExportWrapper('SDL_GetRenderDrawBlendMode');
+var _SDL_RenderDrawPoint = Module['_SDL_RenderDrawPoint'] = createExportWrapper('SDL_RenderDrawPoint');
+var _SDL_RenderDrawPointsF = Module['_SDL_RenderDrawPointsF'] = createExportWrapper('SDL_RenderDrawPointsF');
+var _SDL_RenderDrawPointF = Module['_SDL_RenderDrawPointF'] = createExportWrapper('SDL_RenderDrawPointF');
+var _SDL_RenderDrawPoints = Module['_SDL_RenderDrawPoints'] = createExportWrapper('SDL_RenderDrawPoints');
+var _SDL_RenderDrawLine = Module['_SDL_RenderDrawLine'] = createExportWrapper('SDL_RenderDrawLine');
+var _SDL_RenderDrawLinesF = Module['_SDL_RenderDrawLinesF'] = createExportWrapper('SDL_RenderDrawLinesF');
+var _SDL_RenderDrawLineF = Module['_SDL_RenderDrawLineF'] = createExportWrapper('SDL_RenderDrawLineF');
+var _SDL_RenderDrawLines = Module['_SDL_RenderDrawLines'] = createExportWrapper('SDL_RenderDrawLines');
+var _SDL_RenderDrawRect = Module['_SDL_RenderDrawRect'] = createExportWrapper('SDL_RenderDrawRect');
+var _SDL_RenderDrawRectF = Module['_SDL_RenderDrawRectF'] = createExportWrapper('SDL_RenderDrawRectF');
+var _SDL_RenderDrawRects = Module['_SDL_RenderDrawRects'] = createExportWrapper('SDL_RenderDrawRects');
+var _SDL_RenderDrawRectsF = Module['_SDL_RenderDrawRectsF'] = createExportWrapper('SDL_RenderDrawRectsF');
+var _SDL_RenderFillRect = Module['_SDL_RenderFillRect'] = createExportWrapper('SDL_RenderFillRect');
+var _SDL_RenderFillRectsF = Module['_SDL_RenderFillRectsF'] = createExportWrapper('SDL_RenderFillRectsF');
+var _SDL_RenderFillRectF = Module['_SDL_RenderFillRectF'] = createExportWrapper('SDL_RenderFillRectF');
+var _SDL_RenderFillRects = Module['_SDL_RenderFillRects'] = createExportWrapper('SDL_RenderFillRects');
+var _SDL_RenderCopyF = Module['_SDL_RenderCopyF'] = createExportWrapper('SDL_RenderCopyF');
+var _SDL_RenderCopyEx = Module['_SDL_RenderCopyEx'] = createExportWrapper('SDL_RenderCopyEx');
+var _SDL_RenderCopyExF = Module['_SDL_RenderCopyExF'] = createExportWrapper('SDL_RenderCopyExF');
+var _SDL_sinf = Module['_SDL_sinf'] = createExportWrapper('SDL_sinf');
+var _SDL_cosf = Module['_SDL_cosf'] = createExportWrapper('SDL_cosf');
+var _SDL_RenderGeometry = Module['_SDL_RenderGeometry'] = createExportWrapper('SDL_RenderGeometry');
+var _SDL_RenderGeometryRaw = Module['_SDL_RenderGeometryRaw'] = createExportWrapper('SDL_RenderGeometryRaw');
+var _SDL_RenderReadPixels = Module['_SDL_RenderReadPixels'] = createExportWrapper('SDL_RenderReadPixels');
+var _SDL_GetWindowPixelFormat = Module['_SDL_GetWindowPixelFormat'] = createExportWrapper('SDL_GetWindowPixelFormat');
+var _SDL_GL_BindTexture = Module['_SDL_GL_BindTexture'] = createExportWrapper('SDL_GL_BindTexture');
+var _SDL_GL_UnbindTexture = Module['_SDL_GL_UnbindTexture'] = createExportWrapper('SDL_GL_UnbindTexture');
+var _SDL_RenderGetMetalLayer = Module['_SDL_RenderGetMetalLayer'] = createExportWrapper('SDL_RenderGetMetalLayer');
+var _SDL_RenderGetMetalCommandEncoder = Module['_SDL_RenderGetMetalCommandEncoder'] = createExportWrapper('SDL_RenderGetMetalCommandEncoder');
+var _SDL_ComposeCustomBlendMode = Module['_SDL_ComposeCustomBlendMode'] = createExportWrapper('SDL_ComposeCustomBlendMode');
+var _SDL_GetBlendModeSrcColorFactor = Module['_SDL_GetBlendModeSrcColorFactor'] = createExportWrapper('SDL_GetBlendModeSrcColorFactor');
+var _SDL_GetBlendModeDstColorFactor = Module['_SDL_GetBlendModeDstColorFactor'] = createExportWrapper('SDL_GetBlendModeDstColorFactor');
+var _SDL_GetBlendModeColorOperation = Module['_SDL_GetBlendModeColorOperation'] = createExportWrapper('SDL_GetBlendModeColorOperation');
+var _SDL_GetBlendModeSrcAlphaFactor = Module['_SDL_GetBlendModeSrcAlphaFactor'] = createExportWrapper('SDL_GetBlendModeSrcAlphaFactor');
+var _SDL_GetBlendModeDstAlphaFactor = Module['_SDL_GetBlendModeDstAlphaFactor'] = createExportWrapper('SDL_GetBlendModeDstAlphaFactor');
+var _SDL_GetBlendModeAlphaOperation = Module['_SDL_GetBlendModeAlphaOperation'] = createExportWrapper('SDL_GetBlendModeAlphaOperation');
+var _SDL_RenderSetVSync = Module['_SDL_RenderSetVSync'] = createExportWrapper('SDL_RenderSetVSync');
+var _SDL_GL_GetAttribute = Module['_SDL_GL_GetAttribute'] = createExportWrapper('SDL_GL_GetAttribute');
+var _SDL_GL_SetAttribute = Module['_SDL_GL_SetAttribute'] = createExportWrapper('SDL_GL_SetAttribute');
+var _SDL_RecreateWindow = Module['_SDL_RecreateWindow'] = createExportWrapper('SDL_RecreateWindow');
+var _SDL_GL_CreateContext = Module['_SDL_GL_CreateContext'] = createExportWrapper('SDL_GL_CreateContext');
+var _SDL_GL_MakeCurrent = Module['_SDL_GL_MakeCurrent'] = createExportWrapper('SDL_GL_MakeCurrent');
+var _SDL_GL_DeleteContext = Module['_SDL_GL_DeleteContext'] = createExportWrapper('SDL_GL_DeleteContext');
+var _SDL_GL_GetProcAddress = Module['_SDL_GL_GetProcAddress'] = createExportWrapper('SDL_GL_GetProcAddress');
+var _SDL_GL_SetSwapInterval = Module['_SDL_GL_SetSwapInterval'] = createExportWrapper('SDL_GL_SetSwapInterval');
+var _SDL_GL_GetSwapInterval = Module['_SDL_GL_GetSwapInterval'] = createExportWrapper('SDL_GL_GetSwapInterval');
+var _GLES2_GetTexCoordPrecisionEnumFromHint = Module['_GLES2_GetTexCoordPrecisionEnumFromHint'] = createExportWrapper('GLES2_GetTexCoordPrecisionEnumFromHint');
+var _SDL_GL_GetDrawableSize = Module['_SDL_GL_GetDrawableSize'] = createExportWrapper('SDL_GL_GetDrawableSize');
+var _SDL_atan2f = Module['_SDL_atan2f'] = createExportWrapper('SDL_atan2f');
+var _SDL_GL_SwapWindow = Module['_SDL_GL_SwapWindow'] = createExportWrapper('SDL_GL_SwapWindow');
+var _GLES2_GetShader = Module['_GLES2_GetShader'] = createExportWrapper('GLES2_GetShader');
+var _GLES2_GetShaderPrologue = Module['_GLES2_GetShaderPrologue'] = createExportWrapper('GLES2_GetShaderPrologue');
+var _GLES2_GetShaderInclude = Module['_GLES2_GetShaderInclude'] = createExportWrapper('GLES2_GetShaderInclude');
+var _SDL_GetYUVConversionModeForResolution = Module['_SDL_GetYUVConversionModeForResolution'] = createExportWrapper('SDL_GetYUVConversionModeForResolution');
+var _SDL_GetWindowSurface = Module['_SDL_GetWindowSurface'] = createExportWrapper('SDL_GetWindowSurface');
+var _SDL_SetSurfaceColorMod = Module['_SDL_SetSurfaceColorMod'] = createExportWrapper('SDL_SetSurfaceColorMod');
+var _SDL_SetSurfaceAlphaMod = Module['_SDL_SetSurfaceAlphaMod'] = createExportWrapper('SDL_SetSurfaceAlphaMod');
+var _SDL_SetSurfaceRLE = Module['_SDL_SetSurfaceRLE'] = createExportWrapper('SDL_SetSurfaceRLE');
+var _trianglepoint_2_fixedpoint = Module['_trianglepoint_2_fixedpoint'] = createExportWrapper('trianglepoint_2_fixedpoint');
+var _SDL_SetClipRect = Module['_SDL_SetClipRect'] = createExportWrapper('SDL_SetClipRect');
+var _SDL_UpperBlit = Module['_SDL_UpperBlit'] = createExportWrapper('SDL_UpperBlit');
+var _SDL_CreateRGBSurfaceWithFormat = Module['_SDL_CreateRGBSurfaceWithFormat'] = createExportWrapper('SDL_CreateRGBSurfaceWithFormat');
+var _SDL_PrivateUpperBlitScaled = Module['_SDL_PrivateUpperBlitScaled'] = createExportWrapper('SDL_PrivateUpperBlitScaled');
+var _SDL_CreateRGBSurfaceFrom = Module['_SDL_CreateRGBSurfaceFrom'] = createExportWrapper('SDL_CreateRGBSurfaceFrom');
+var _SDLgfx_rotozoomSurfaceSizeTrig = Module['_SDLgfx_rotozoomSurfaceSizeTrig'] = createExportWrapper('SDLgfx_rotozoomSurfaceSizeTrig');
+var _SDLgfx_rotateSurface = Module['_SDLgfx_rotateSurface'] = createExportWrapper('SDLgfx_rotateSurface');
+var _SDL_SW_BlitTriangle = Module['_SDL_SW_BlitTriangle'] = createExportWrapper('SDL_SW_BlitTriangle');
+var _SDL_SW_FillTriangle = Module['_SDL_SW_FillTriangle'] = createExportWrapper('SDL_SW_FillTriangle');
+var _SDL_UpdateWindowSurface = Module['_SDL_UpdateWindowSurface'] = createExportWrapper('SDL_UpdateWindowSurface');
+var _SDL_GetColorKey = Module['_SDL_GetColorKey'] = createExportWrapper('SDL_GetColorKey');
+var _fopen = Module['_fopen'] = createExportWrapper('fopen');
+var _SDL_RWFromFP = Module['_SDL_RWFromFP'] = createExportWrapper('SDL_RWFromFP');
+var _SDL_AllocRW = Module['_SDL_AllocRW'] = createExportWrapper('SDL_AllocRW');
+var _fseeko = Module['_fseeko'] = createExportWrapper('fseeko');
+var _ftello = Module['_ftello'] = createExportWrapper('ftello');
+var _fread = Module['_fread'] = createExportWrapper('fread');
+var _ferror = Module['_ferror'] = createExportWrapper('ferror');
+var _fwrite = Module['_fwrite'] = createExportWrapper('fwrite');
+var _fclose = Module['_fclose'] = createExportWrapper('fclose');
+var _SDL_RWFromMem = Module['_SDL_RWFromMem'] = createExportWrapper('SDL_RWFromMem');
+var _SDL_RWFromConstMem = Module['_SDL_RWFromConstMem'] = createExportWrapper('SDL_RWFromConstMem');
+var _SDL_FreeRW = Module['_SDL_FreeRW'] = createExportWrapper('SDL_FreeRW');
+var _SDL_LoadFile_RW = Module['_SDL_LoadFile_RW'] = createExportWrapper('SDL_LoadFile_RW');
+var _SDL_ReadU8 = Module['_SDL_ReadU8'] = createExportWrapper('SDL_ReadU8');
+var _SDL_ReadBE16 = Module['_SDL_ReadBE16'] = createExportWrapper('SDL_ReadBE16');
+var _SDL_ReadBE32 = Module['_SDL_ReadBE32'] = createExportWrapper('SDL_ReadBE32');
+var _SDL_ReadLE64 = Module['_SDL_ReadLE64'] = createExportWrapper('SDL_ReadLE64');
+var _SDL_ReadBE64 = Module['_SDL_ReadBE64'] = createExportWrapper('SDL_ReadBE64');
+var _SDL_WriteU8 = Module['_SDL_WriteU8'] = createExportWrapper('SDL_WriteU8');
+var _SDL_WriteBE16 = Module['_SDL_WriteBE16'] = createExportWrapper('SDL_WriteBE16');
+var _SDL_WriteBE32 = Module['_SDL_WriteBE32'] = createExportWrapper('SDL_WriteBE32');
+var _SDL_WriteLE64 = Module['_SDL_WriteLE64'] = createExportWrapper('SDL_WriteLE64');
+var _SDL_WriteBE64 = Module['_SDL_WriteBE64'] = createExportWrapper('SDL_WriteBE64');
+var _SDL_LockSensors = Module['_SDL_LockSensors'] = createExportWrapper('SDL_LockSensors');
+var _SDL_UnlockSensors = Module['_SDL_UnlockSensors'] = createExportWrapper('SDL_UnlockSensors');
+var _SDL_GetNextSensorInstanceID = Module['_SDL_GetNextSensorInstanceID'] = createExportWrapper('SDL_GetNextSensorInstanceID');
+var _SDL_SensorGetDeviceName = Module['_SDL_SensorGetDeviceName'] = createExportWrapper('SDL_SensorGetDeviceName');
+var _SDL_SensorGetDeviceType = Module['_SDL_SensorGetDeviceType'] = createExportWrapper('SDL_SensorGetDeviceType');
+var _SDL_SensorGetDeviceNonPortableType = Module['_SDL_SensorGetDeviceNonPortableType'] = createExportWrapper('SDL_SensorGetDeviceNonPortableType');
+var _SDL_SensorGetDeviceInstanceID = Module['_SDL_SensorGetDeviceInstanceID'] = createExportWrapper('SDL_SensorGetDeviceInstanceID');
+var _SDL_SensorOpen = Module['_SDL_SensorOpen'] = createExportWrapper('SDL_SensorOpen');
+var _SDL_SensorFromInstanceID = Module['_SDL_SensorFromInstanceID'] = createExportWrapper('SDL_SensorFromInstanceID');
+var _SDL_SensorGetName = Module['_SDL_SensorGetName'] = createExportWrapper('SDL_SensorGetName');
+var _SDL_SensorGetType = Module['_SDL_SensorGetType'] = createExportWrapper('SDL_SensorGetType');
+var _SDL_SensorGetNonPortableType = Module['_SDL_SensorGetNonPortableType'] = createExportWrapper('SDL_SensorGetNonPortableType');
+var _SDL_SensorGetInstanceID = Module['_SDL_SensorGetInstanceID'] = createExportWrapper('SDL_SensorGetInstanceID');
+var _SDL_SensorGetData = Module['_SDL_SensorGetData'] = createExportWrapper('SDL_SensorGetData');
+var _SDL_SensorClose = Module['_SDL_SensorClose'] = createExportWrapper('SDL_SensorClose');
+var _SDL_PrivateSensorUpdate = Module['_SDL_PrivateSensorUpdate'] = createExportWrapper('SDL_PrivateSensorUpdate');
+var _SDL_CreateShapedWindow = Module['_SDL_CreateShapedWindow'] = createExportWrapper('SDL_CreateShapedWindow');
+var _SDL_DestroyWindow = Module['_SDL_DestroyWindow'] = createExportWrapper('SDL_DestroyWindow');
+var _SDL_IsShapedWindow = Module['_SDL_IsShapedWindow'] = createExportWrapper('SDL_IsShapedWindow');
+var _SDL_CalculateShapeBitmap = Module['_SDL_CalculateShapeBitmap'] = createExportWrapper('SDL_CalculateShapeBitmap');
+var _SDL_CalculateShapeTree = Module['_SDL_CalculateShapeTree'] = createExportWrapper('SDL_CalculateShapeTree');
+var _SDL_TraverseShapeTree = Module['_SDL_TraverseShapeTree'] = createExportWrapper('SDL_TraverseShapeTree');
+var _SDL_FreeShapeTree = Module['_SDL_FreeShapeTree'] = createExportWrapper('SDL_FreeShapeTree');
+var _SDL_SetWindowShape = Module['_SDL_SetWindowShape'] = createExportWrapper('SDL_SetWindowShape');
+var _SDL_SetWindowPosition = Module['_SDL_SetWindowPosition'] = createExportWrapper('SDL_SetWindowPosition');
+var _SDL_GetShapedWindowMode = Module['_SDL_GetShapedWindowMode'] = createExportWrapper('SDL_GetShapedWindowMode');
+var _SDL_AtomicTryLock = Module['_SDL_AtomicTryLock'] = createExportWrapper('SDL_AtomicTryLock');
+var _SDL_atan = Module['_SDL_atan'] = createExportWrapper('SDL_atan');
+var _atan = Module['_atan'] = createExportWrapper('atan');
+var _SDL_atanf = Module['_SDL_atanf'] = createExportWrapper('SDL_atanf');
+var _atanf = Module['_atanf'] = createExportWrapper('atanf');
+var _atan2 = Module['_atan2'] = createExportWrapper('atan2');
+var _atan2f = Module['_atan2f'] = createExportWrapper('atan2f');
+var _SDL_acos = Module['_SDL_acos'] = createExportWrapper('SDL_acos');
+var _acos = Module['_acos'] = createExportWrapper('acos');
+var _SDL_acosf = Module['_SDL_acosf'] = createExportWrapper('SDL_acosf');
+var _acosf = Module['_acosf'] = createExportWrapper('acosf');
+var _SDL_asin = Module['_SDL_asin'] = createExportWrapper('SDL_asin');
+var _asin = Module['_asin'] = createExportWrapper('asin');
+var _SDL_asinf = Module['_SDL_asinf'] = createExportWrapper('SDL_asinf');
+var _asinf = Module['_asinf'] = createExportWrapper('asinf');
+var _SDL_copysign = Module['_SDL_copysign'] = createExportWrapper('SDL_copysign');
+var _SDL_copysignf = Module['_SDL_copysignf'] = createExportWrapper('SDL_copysignf');
+var _cos = Module['_cos'] = createExportWrapper('cos');
+var _cosf = Module['_cosf'] = createExportWrapper('cosf');
+var _SDL_exp = Module['_SDL_exp'] = createExportWrapper('SDL_exp');
+var _exp = Module['_exp'] = createExportWrapper('exp');
+var _SDL_expf = Module['_SDL_expf'] = createExportWrapper('SDL_expf');
+var _expf = Module['_expf'] = createExportWrapper('expf');
+var _SDL_fabsf = Module['_SDL_fabsf'] = createExportWrapper('SDL_fabsf');
+var _SDL_floorf = Module['_SDL_floorf'] = createExportWrapper('SDL_floorf');
+var _SDL_trunc = Module['_SDL_trunc'] = createExportWrapper('SDL_trunc');
+var _SDL_fmod = Module['_SDL_fmod'] = createExportWrapper('SDL_fmod');
+var _fmod = Module['_fmod'] = createExportWrapper('fmod');
+var _SDL_fmodf = Module['_SDL_fmodf'] = createExportWrapper('SDL_fmodf');
+var _fmodf = Module['_fmodf'] = createExportWrapper('fmodf');
+var _SDL_log = Module['_SDL_log'] = createExportWrapper('SDL_log');
+var _log = Module['_log'] = createExportWrapper('log');
+var _SDL_logf = Module['_SDL_logf'] = createExportWrapper('SDL_logf');
+var _logf = Module['_logf'] = createExportWrapper('logf');
+var _SDL_log10 = Module['_SDL_log10'] = createExportWrapper('SDL_log10');
+var _log10 = Module['_log10'] = createExportWrapper('log10');
+var _SDL_log10f = Module['_SDL_log10f'] = createExportWrapper('SDL_log10f');
+var _log10f = Module['_log10f'] = createExportWrapper('log10f');
+var _pow = Module['_pow'] = createExportWrapper('pow');
+var _SDL_powf = Module['_SDL_powf'] = createExportWrapper('SDL_powf');
+var _powf = Module['_powf'] = createExportWrapper('powf');
+var _SDL_round = Module['_SDL_round'] = createExportWrapper('SDL_round');
+var _round = Module['_round'] = createExportWrapper('round');
+var _SDL_roundf = Module['_SDL_roundf'] = createExportWrapper('SDL_roundf');
+var _roundf = Module['_roundf'] = createExportWrapper('roundf');
+var _SDL_lround = Module['_SDL_lround'] = createExportWrapper('SDL_lround');
+var _lround = Module['_lround'] = createExportWrapper('lround');
+var _SDL_lroundf = Module['_SDL_lroundf'] = createExportWrapper('SDL_lroundf');
+var _lroundf = Module['_lroundf'] = createExportWrapper('lroundf');
+var _SDL_scalbn = Module['_SDL_scalbn'] = createExportWrapper('SDL_scalbn');
+var _scalbn = Module['_scalbn'] = createExportWrapper('scalbn');
+var _SDL_scalbnf = Module['_SDL_scalbnf'] = createExportWrapper('SDL_scalbnf');
+var _scalbnf = Module['_scalbnf'] = createExportWrapper('scalbnf');
+var _sin = Module['_sin'] = createExportWrapper('sin');
+var _sinf = Module['_sinf'] = createExportWrapper('sinf');
+var _SDL_sqrtf = Module['_SDL_sqrtf'] = createExportWrapper('SDL_sqrtf');
+var _SDL_tan = Module['_SDL_tan'] = createExportWrapper('SDL_tan');
+var _tan = Module['_tan'] = createExportWrapper('tan');
+var _SDL_tanf = Module['_SDL_tanf'] = createExportWrapper('SDL_tanf');
+var _tanf = Module['_tanf'] = createExportWrapper('tanf');
+var _SDL_isalpha = Module['_SDL_isalpha'] = createExportWrapper('SDL_isalpha');
+var _isalpha = Module['_isalpha'] = createExportWrapper('isalpha');
+var _SDL_isalnum = Module['_SDL_isalnum'] = createExportWrapper('SDL_isalnum');
+var _isalnum = Module['_isalnum'] = createExportWrapper('isalnum');
+var _SDL_isxdigit = Module['_SDL_isxdigit'] = createExportWrapper('SDL_isxdigit');
+var _isxdigit = Module['_isxdigit'] = createExportWrapper('isxdigit');
+var _SDL_ispunct = Module['_SDL_ispunct'] = createExportWrapper('SDL_ispunct');
+var _ispunct = Module['_ispunct'] = createExportWrapper('ispunct');
+var _SDL_isspace = Module['_SDL_isspace'] = createExportWrapper('SDL_isspace');
+var _isspace = Module['_isspace'] = createExportWrapper('isspace');
+var _SDL_isupper = Module['_SDL_isupper'] = createExportWrapper('SDL_isupper');
+var _isupper = Module['_isupper'] = createExportWrapper('isupper');
+var _SDL_islower = Module['_SDL_islower'] = createExportWrapper('SDL_islower');
+var _islower = Module['_islower'] = createExportWrapper('islower');
+var _SDL_isprint = Module['_SDL_isprint'] = createExportWrapper('SDL_isprint');
+var _isprint = Module['_isprint'] = createExportWrapper('isprint');
+var _SDL_isgraph = Module['_SDL_isgraph'] = createExportWrapper('SDL_isgraph');
+var _isgraph = Module['_isgraph'] = createExportWrapper('isgraph');
+var _SDL_iscntrl = Module['_SDL_iscntrl'] = createExportWrapper('SDL_iscntrl');
+var _iscntrl = Module['_iscntrl'] = createExportWrapper('iscntrl');
+var _toupper = Module['_toupper'] = createExportWrapper('toupper');
+var _tolower = Module['_tolower'] = createExportWrapper('tolower');
+var _memset = Module['_memset'] = createExportWrapper('memset');
+var _SDL_isblank = Module['_SDL_isblank'] = createExportWrapper('SDL_isblank');
+var _isblank = Module['_isblank'] = createExportWrapper('isblank');
+var _SDL_SoftStretch = Module['_SDL_SoftStretch'] = createExportWrapper('SDL_SoftStretch');
+var _SDL_SoftStretchLinear = Module['_SDL_SoftStretchLinear'] = createExportWrapper('SDL_SoftStretchLinear');
+var _memmove = Module['_memmove'] = createExportWrapper('memmove');
+var _memcmp = createExportWrapper('memcmp');
+var _strlen = Module['_strlen'] = createExportWrapper('strlen');
+var _SDL_wcslen = Module['_SDL_wcslen'] = createExportWrapper('SDL_wcslen');
+var _wcslen = Module['_wcslen'] = createExportWrapper('wcslen');
+var _SDL_wcslcpy = Module['_SDL_wcslcpy'] = createExportWrapper('SDL_wcslcpy');
+var _SDL_wcslcat = Module['_SDL_wcslcat'] = createExportWrapper('SDL_wcslcat');
+var _SDL_wcsdup = Module['_SDL_wcsdup'] = createExportWrapper('SDL_wcsdup');
+var _SDL_wcsstr = Module['_SDL_wcsstr'] = createExportWrapper('SDL_wcsstr');
+var _wcsstr = Module['_wcsstr'] = createExportWrapper('wcsstr');
+var _SDL_wcscmp = Module['_SDL_wcscmp'] = createExportWrapper('SDL_wcscmp');
+var _wcscmp = Module['_wcscmp'] = createExportWrapper('wcscmp');
+var _SDL_wcsncmp = Module['_SDL_wcsncmp'] = createExportWrapper('SDL_wcsncmp');
+var _wcsncmp = Module['_wcsncmp'] = createExportWrapper('wcsncmp');
+var _SDL_wcscasecmp = Module['_SDL_wcscasecmp'] = createExportWrapper('SDL_wcscasecmp');
+var _wcscasecmp = Module['_wcscasecmp'] = createExportWrapper('wcscasecmp');
+var _SDL_wcsncasecmp = Module['_SDL_wcsncasecmp'] = createExportWrapper('SDL_wcsncasecmp');
+var _wcsncasecmp = Module['_wcsncasecmp'] = createExportWrapper('wcsncasecmp');
+var _strlcpy = Module['_strlcpy'] = createExportWrapper('strlcpy');
+var _SDL_utf8strnlen = Module['_SDL_utf8strnlen'] = createExportWrapper('SDL_utf8strnlen');
+var _strlcat = Module['_strlcat'] = createExportWrapper('strlcat');
+var _SDL_strrev = Module['_SDL_strrev'] = createExportWrapper('SDL_strrev');
+var _SDL_strupr = Module['_SDL_strupr'] = createExportWrapper('SDL_strupr');
+var _SDL_strlwr = Module['_SDL_strlwr'] = createExportWrapper('SDL_strlwr');
+var _strchr = Module['_strchr'] = createExportWrapper('strchr');
+var _strrchr = Module['_strrchr'] = createExportWrapper('strrchr');
+var _strstr = Module['_strstr'] = createExportWrapper('strstr');
+var _SDL_itoa = Module['_SDL_itoa'] = createExportWrapper('SDL_itoa');
+var _SDL_ltoa = Module['_SDL_ltoa'] = createExportWrapper('SDL_ltoa');
+var _SDL_uitoa = Module['_SDL_uitoa'] = createExportWrapper('SDL_uitoa');
+var _SDL_ultoa = Module['_SDL_ultoa'] = createExportWrapper('SDL_ultoa');
+var _SDL_lltoa = Module['_SDL_lltoa'] = createExportWrapper('SDL_lltoa');
+var _SDL_ulltoa = Module['_SDL_ulltoa'] = createExportWrapper('SDL_ulltoa');
+var _atoi = Module['_atoi'] = createExportWrapper('atoi');
+var _atof = Module['_atof'] = createExportWrapper('atof');
+var _strtol = Module['_strtol'] = createExportWrapper('strtol');
+var _SDL_strtoul = Module['_SDL_strtoul'] = createExportWrapper('SDL_strtoul');
+var _strtoul = Module['_strtoul'] = createExportWrapper('strtoul');
+var _SDL_strtoll = Module['_SDL_strtoll'] = createExportWrapper('SDL_strtoll');
+var _strtoll = Module['_strtoll'] = createExportWrapper('strtoll');
+var _SDL_strtoull = Module['_SDL_strtoull'] = createExportWrapper('SDL_strtoull');
+var _strtoull = Module['_strtoull'] = createExportWrapper('strtoull');
+var _SDL_strtod = Module['_SDL_strtod'] = createExportWrapper('SDL_strtod');
+var _strtod = Module['_strtod'] = createExportWrapper('strtod');
+var _strcmp = Module['_strcmp'] = createExportWrapper('strcmp');
+var _strncmp = Module['_strncmp'] = createExportWrapper('strncmp');
+var _strcasecmp = Module['_strcasecmp'] = createExportWrapper('strcasecmp');
+var _strncasecmp = Module['_strncasecmp'] = createExportWrapper('strncasecmp');
+var _vsscanf = Module['_vsscanf'] = createExportWrapper('vsscanf');
+var _SDL_vsscanf = Module['_SDL_vsscanf'] = createExportWrapper('SDL_vsscanf');
+var _vsnprintf = Module['_vsnprintf'] = createExportWrapper('vsnprintf');
+var _SDL_asprintf = Module['_SDL_asprintf'] = createExportWrapper('SDL_asprintf');
+var _SDL_vasprintf = Module['_SDL_vasprintf'] = createExportWrapper('SDL_vasprintf');
+var _SDL_strtokr = Module['_SDL_strtokr'] = createExportWrapper('SDL_strtokr');
+var _strtok_r = Module['_strtok_r'] = createExportWrapper('strtok_r');
+var _SDL_SetSurfacePalette = Module['_SDL_SetSurfacePalette'] = createExportWrapper('SDL_SetSurfacePalette');
+var _SDL_HasSurfaceRLE = Module['_SDL_HasSurfaceRLE'] = createExportWrapper('SDL_HasSurfaceRLE');
+var _SDL_GetClipRect = Module['_SDL_GetClipRect'] = createExportWrapper('SDL_GetClipRect');
+var _SDL_LowerBlit = Module['_SDL_LowerBlit'] = createExportWrapper('SDL_LowerBlit');
+var _SDL_UpperBlitScaled = Module['_SDL_UpperBlitScaled'] = createExportWrapper('SDL_UpperBlitScaled');
+var _SDL_PrivateLowerBlitScaled = Module['_SDL_PrivateLowerBlitScaled'] = createExportWrapper('SDL_PrivateLowerBlitScaled');
+var _SDL_LowerBlitScaled = Module['_SDL_LowerBlitScaled'] = createExportWrapper('SDL_LowerBlitScaled');
+var _SDL_DuplicateSurface = Module['_SDL_DuplicateSurface'] = createExportWrapper('SDL_DuplicateSurface');
+var _SDL_ConvertPixels_YUV_to_YUV = Module['_SDL_ConvertPixels_YUV_to_YUV'] = createExportWrapper('SDL_ConvertPixels_YUV_to_YUV');
+var _SDL_ConvertPixels_YUV_to_RGB = Module['_SDL_ConvertPixels_YUV_to_RGB'] = createExportWrapper('SDL_ConvertPixels_YUV_to_RGB');
+var _SDL_ConvertPixels_RGB_to_YUV = Module['_SDL_ConvertPixels_RGB_to_YUV'] = createExportWrapper('SDL_ConvertPixels_RGB_to_YUV');
+var _SDL_PremultiplyAlpha = Module['_SDL_PremultiplyAlpha'] = createExportWrapper('SDL_PremultiplyAlpha');
+var _SDL_CreateCond = Module['_SDL_CreateCond'] = createExportWrapper('SDL_CreateCond');
+var _SDL_CreateSemaphore = Module['_SDL_CreateSemaphore'] = createExportWrapper('SDL_CreateSemaphore');
+var _SDL_DestroySemaphore = Module['_SDL_DestroySemaphore'] = createExportWrapper('SDL_DestroySemaphore');
+var _SDL_DestroyCond = Module['_SDL_DestroyCond'] = createExportWrapper('SDL_DestroyCond');
+var _SDL_CondSignal = Module['_SDL_CondSignal'] = createExportWrapper('SDL_CondSignal');
+var _SDL_SemPost = Module['_SDL_SemPost'] = createExportWrapper('SDL_SemPost');
+var _SDL_SemWait = Module['_SDL_SemWait'] = createExportWrapper('SDL_SemWait');
+var _SDL_CondBroadcast = Module['_SDL_CondBroadcast'] = createExportWrapper('SDL_CondBroadcast');
+var _SDL_CondWaitTimeout = Module['_SDL_CondWaitTimeout'] = createExportWrapper('SDL_CondWaitTimeout');
+var _SDL_SemWaitTimeout = Module['_SDL_SemWaitTimeout'] = createExportWrapper('SDL_SemWaitTimeout');
+var _SDL_CondWait = Module['_SDL_CondWait'] = createExportWrapper('SDL_CondWait');
+var _SDL_GetBasePath = Module['_SDL_GetBasePath'] = createExportWrapper('SDL_GetBasePath');
+var _SDL_GetPrefPath = Module['_SDL_GetPrefPath'] = createExportWrapper('SDL_GetPrefPath');
+var _mkdir = Module['_mkdir'] = createExportWrapper('mkdir');
+var _strerror = Module['_strerror'] = createExportWrapper('strerror');
+var _dlopen = Module['_dlopen'] = createExportWrapper('dlopen');
+var _dlerror = Module['_dlerror'] = createExportWrapper('dlerror');
+var _dlsym = Module['_dlsym'] = createExportWrapper('dlsym');
+var _dlclose = Module['_dlclose'] = createExportWrapper('dlclose');
+var _SDL_TryLockMutex = Module['_SDL_TryLockMutex'] = createExportWrapper('SDL_TryLockMutex');
+var _SDL_SemTryWait = Module['_SDL_SemTryWait'] = createExportWrapper('SDL_SemTryWait');
+var _SDL_SemValue = Module['_SDL_SemValue'] = createExportWrapper('SDL_SemValue');
+var _SDL_SYS_CreateThread = Module['_SDL_SYS_CreateThread'] = createExportWrapper('SDL_SYS_CreateThread');
+var _SDL_SYS_SetupThread = Module['_SDL_SYS_SetupThread'] = createExportWrapper('SDL_SYS_SetupThread');
+var _SDL_SYS_SetThreadPriority = Module['_SDL_SYS_SetThreadPriority'] = createExportWrapper('SDL_SYS_SetThreadPriority');
+var _SDL_SYS_WaitThread = Module['_SDL_SYS_WaitThread'] = createExportWrapper('SDL_SYS_WaitThread');
+var _SDL_SYS_DetachThread = Module['_SDL_SYS_DetachThread'] = createExportWrapper('SDL_SYS_DetachThread');
+var _clock_gettime = Module['_clock_gettime'] = createExportWrapper('clock_gettime');
+var _gettimeofday = Module['_gettimeofday'] = createExportWrapper('gettimeofday');
+var _SDL_GetTicks64 = Module['_SDL_GetTicks64'] = createExportWrapper('SDL_GetTicks64');
+var _SDL_GetPerformanceCounter = Module['_SDL_GetPerformanceCounter'] = createExportWrapper('SDL_GetPerformanceCounter');
+var _SDL_GetPerformanceFrequency = Module['_SDL_GetPerformanceFrequency'] = createExportWrapper('SDL_GetPerformanceFrequency');
+var _nanosleep = Module['_nanosleep'] = createExportWrapper('nanosleep');
+var _SDL_SYS_GetTLSData = Module['_SDL_SYS_GetTLSData'] = createExportWrapper('SDL_SYS_GetTLSData');
+var _SDL_Generic_GetTLSData = Module['_SDL_Generic_GetTLSData'] = createExportWrapper('SDL_Generic_GetTLSData');
+var _SDL_SYS_SetTLSData = Module['_SDL_SYS_SetTLSData'] = createExportWrapper('SDL_SYS_SetTLSData');
+var _SDL_Generic_SetTLSData = Module['_SDL_Generic_SetTLSData'] = createExportWrapper('SDL_Generic_SetTLSData');
+var _SDL_SYS_OpenURL = Module['_SDL_SYS_OpenURL'] = createExportWrapper('SDL_SYS_OpenURL');
+var _SDL_TLSCreate = Module['_SDL_TLSCreate'] = createExportWrapper('SDL_TLSCreate');
+var _SDL_TLSGet = Module['_SDL_TLSGet'] = createExportWrapper('SDL_TLSGet');
+var _SDL_TLSSet = Module['_SDL_TLSSet'] = createExportWrapper('SDL_TLSSet');
+var _SDL_TLSCleanup = Module['_SDL_TLSCleanup'] = createExportWrapper('SDL_TLSCleanup');
+var _SDL_RunThread = Module['_SDL_RunThread'] = createExportWrapper('SDL_RunThread');
+var _SDL_CreateThreadWithStackSize = Module['_SDL_CreateThreadWithStackSize'] = createExportWrapper('SDL_CreateThreadWithStackSize');
+var _SDL_CreateThread = Module['_SDL_CreateThread'] = createExportWrapper('SDL_CreateThread');
+var _SDL_GetThreadID = Module['_SDL_GetThreadID'] = createExportWrapper('SDL_GetThreadID');
+var _SDL_GetThreadName = Module['_SDL_GetThreadName'] = createExportWrapper('SDL_GetThreadName');
+var _SDL_DetachThread = Module['_SDL_DetachThread'] = createExportWrapper('SDL_DetachThread');
+var _SDL_AddTimer = Module['_SDL_AddTimer'] = createExportWrapper('SDL_AddTimer');
+var _SDL_RemoveTimer = Module['_SDL_RemoveTimer'] = createExportWrapper('SDL_RemoveTimer');
+var _SDL_TouchInit = Module['_SDL_TouchInit'] = createExportWrapper('SDL_TouchInit');
+var _SDL_GetNumTouchDevices = Module['_SDL_GetNumTouchDevices'] = createExportWrapper('SDL_GetNumTouchDevices');
+var _SDL_GetTouchDevice = Module['_SDL_GetTouchDevice'] = createExportWrapper('SDL_GetTouchDevice');
+var _SDL_GetTouchName = Module['_SDL_GetTouchName'] = createExportWrapper('SDL_GetTouchName');
+var _SDL_GetTouch = Module['_SDL_GetTouch'] = createExportWrapper('SDL_GetTouch');
+var _SDL_GetTouchDeviceType = Module['_SDL_GetTouchDeviceType'] = createExportWrapper('SDL_GetTouchDeviceType');
+var _SDL_GetNumTouchFingers = Module['_SDL_GetNumTouchFingers'] = createExportWrapper('SDL_GetNumTouchFingers');
+var _SDL_GetTouchFinger = Module['_SDL_GetTouchFinger'] = createExportWrapper('SDL_GetTouchFinger');
+var _SDL_GetWindowID = Module['_SDL_GetWindowID'] = createExportWrapper('SDL_GetWindowID');
+var _SDL_DelTouch = Module['_SDL_DelTouch'] = createExportWrapper('SDL_DelTouch');
+var _SDL_TouchQuit = Module['_SDL_TouchQuit'] = createExportWrapper('SDL_TouchQuit');
+var _SDL_OpenURL = Module['_SDL_OpenURL'] = createExportWrapper('SDL_OpenURL');
+var _SDL_GetNumVideoDrivers = Module['_SDL_GetNumVideoDrivers'] = createExportWrapper('SDL_GetNumVideoDrivers');
+var _SDL_GetVideoDriver = Module['_SDL_GetVideoDriver'] = createExportWrapper('SDL_GetVideoDriver');
+var _SDL_StartTextInput = Module['_SDL_StartTextInput'] = createExportWrapper('SDL_StartTextInput');
+var _SDL_ResetDisplayModes = Module['_SDL_ResetDisplayModes'] = createExportWrapper('SDL_ResetDisplayModes');
+var _SDL_GL_ResetAttributes = Module['_SDL_GL_ResetAttributes'] = createExportWrapper('SDL_GL_ResetAttributes');
+var _SDL_DisableScreenSaver = Module['_SDL_DisableScreenSaver'] = createExportWrapper('SDL_DisableScreenSaver');
+var _SDL_HasScreenKeyboardSupport = Module['_SDL_HasScreenKeyboardSupport'] = createExportWrapper('SDL_HasScreenKeyboardSupport');
+var _SDL_GetCurrentVideoDriver = Module['_SDL_GetCurrentVideoDriver'] = createExportWrapper('SDL_GetCurrentVideoDriver');
+var _SDL_OnVideoThread = Module['_SDL_OnVideoThread'] = createExportWrapper('SDL_OnVideoThread');
+var _SDL_AddVideoDisplay = Module['_SDL_AddVideoDisplay'] = createExportWrapper('SDL_AddVideoDisplay');
+var _SDL_DelVideoDisplay = Module['_SDL_DelVideoDisplay'] = createExportWrapper('SDL_DelVideoDisplay');
+var _SDL_GetNumVideoDisplays = Module['_SDL_GetNumVideoDisplays'] = createExportWrapper('SDL_GetNumVideoDisplays');
+var _SDL_GetDisplayDriverData = Module['_SDL_GetDisplayDriverData'] = createExportWrapper('SDL_GetDisplayDriverData');
+var _SDL_IsVideoContextExternal = Module['_SDL_IsVideoContextExternal'] = createExportWrapper('SDL_IsVideoContextExternal');
+var _SDL_GetDisplayName = Module['_SDL_GetDisplayName'] = createExportWrapper('SDL_GetDisplayName');
+var _SDL_GetDisplayBounds = Module['_SDL_GetDisplayBounds'] = createExportWrapper('SDL_GetDisplayBounds');
+var _SDL_GetDisplayUsableBounds = Module['_SDL_GetDisplayUsableBounds'] = createExportWrapper('SDL_GetDisplayUsableBounds');
+var _SDL_GetDisplayDPI = Module['_SDL_GetDisplayDPI'] = createExportWrapper('SDL_GetDisplayDPI');
+var _SDL_GetDisplayOrientation = Module['_SDL_GetDisplayOrientation'] = createExportWrapper('SDL_GetDisplayOrientation');
+var _SDL_SetCurrentDisplayMode = Module['_SDL_SetCurrentDisplayMode'] = createExportWrapper('SDL_SetCurrentDisplayMode');
+var _SDL_SetDesktopDisplayMode = Module['_SDL_SetDesktopDisplayMode'] = createExportWrapper('SDL_SetDesktopDisplayMode');
+var _SDL_GetNumDisplayModes = Module['_SDL_GetNumDisplayModes'] = createExportWrapper('SDL_GetNumDisplayModes');
+var _SDL_GetDisplayMode = Module['_SDL_GetDisplayMode'] = createExportWrapper('SDL_GetDisplayMode');
+var _SDL_GetDesktopDisplayMode = Module['_SDL_GetDesktopDisplayMode'] = createExportWrapper('SDL_GetDesktopDisplayMode');
+var _SDL_GetCurrentDisplayMode = Module['_SDL_GetCurrentDisplayMode'] = createExportWrapper('SDL_GetCurrentDisplayMode');
+var _SDL_GetClosestDisplayMode = Module['_SDL_GetClosestDisplayMode'] = createExportWrapper('SDL_GetClosestDisplayMode');
+var _SDL_GetDisplay = Module['_SDL_GetDisplay'] = createExportWrapper('SDL_GetDisplay');
+var _SDL_GetPointDisplayIndex = Module['_SDL_GetPointDisplayIndex'] = createExportWrapper('SDL_GetPointDisplayIndex');
+var _SDL_GetRectDisplayIndex = Module['_SDL_GetRectDisplayIndex'] = createExportWrapper('SDL_GetRectDisplayIndex');
+var _SDL_GetWindowDisplayIndex = Module['_SDL_GetWindowDisplayIndex'] = createExportWrapper('SDL_GetWindowDisplayIndex');
+var _SDL_SetWindowDisplayMode = Module['_SDL_SetWindowDisplayMode'] = createExportWrapper('SDL_SetWindowDisplayMode');
+var _SDL_GetWindowDisplayMode = Module['_SDL_GetWindowDisplayMode'] = createExportWrapper('SDL_GetWindowDisplayMode');
+var _SDL_GetWindowICCProfile = Module['_SDL_GetWindowICCProfile'] = createExportWrapper('SDL_GetWindowICCProfile');
+var _SDL_Vulkan_LoadLibrary = Module['_SDL_Vulkan_LoadLibrary'] = createExportWrapper('SDL_Vulkan_LoadLibrary');
+var _SDL_SetWindowFullscreen = Module['_SDL_SetWindowFullscreen'] = createExportWrapper('SDL_SetWindowFullscreen');
+var _SDL_SetWindowGrab = Module['_SDL_SetWindowGrab'] = createExportWrapper('SDL_SetWindowGrab');
+var _SDL_CreateWindowFrom = Module['_SDL_CreateWindowFrom'] = createExportWrapper('SDL_CreateWindowFrom');
+var _SDL_HideWindow = Module['_SDL_HideWindow'] = createExportWrapper('SDL_HideWindow');
+var _SDL_GL_UnloadLibrary = Module['_SDL_GL_UnloadLibrary'] = createExportWrapper('SDL_GL_UnloadLibrary');
+var _SDL_Vulkan_UnloadLibrary = Module['_SDL_Vulkan_UnloadLibrary'] = createExportWrapper('SDL_Vulkan_UnloadLibrary');
+var _SDL_GetWindowTitle = Module['_SDL_GetWindowTitle'] = createExportWrapper('SDL_GetWindowTitle');
+var _SDL_SetWindowIcon = Module['_SDL_SetWindowIcon'] = createExportWrapper('SDL_SetWindowIcon');
+var _SDL_GetWindowPosition = Module['_SDL_GetWindowPosition'] = createExportWrapper('SDL_GetWindowPosition');
+var _SDL_SetWindowBordered = Module['_SDL_SetWindowBordered'] = createExportWrapper('SDL_SetWindowBordered');
+var _SDL_SetWindowAlwaysOnTop = Module['_SDL_SetWindowAlwaysOnTop'] = createExportWrapper('SDL_SetWindowAlwaysOnTop');
+var _SDL_SetWindowSize = Module['_SDL_SetWindowSize'] = createExportWrapper('SDL_SetWindowSize');
+var _SDL_OnWindowResized = Module['_SDL_OnWindowResized'] = createExportWrapper('SDL_OnWindowResized');
+var _SDL_GetWindowBordersSize = Module['_SDL_GetWindowBordersSize'] = createExportWrapper('SDL_GetWindowBordersSize');
+var _SDL_SetWindowMinimumSize = Module['_SDL_SetWindowMinimumSize'] = createExportWrapper('SDL_SetWindowMinimumSize');
+var _SDL_GetWindowMinimumSize = Module['_SDL_GetWindowMinimumSize'] = createExportWrapper('SDL_GetWindowMinimumSize');
+var _SDL_SetWindowMaximumSize = Module['_SDL_SetWindowMaximumSize'] = createExportWrapper('SDL_SetWindowMaximumSize');
+var _SDL_GetWindowMaximumSize = Module['_SDL_GetWindowMaximumSize'] = createExportWrapper('SDL_GetWindowMaximumSize');
+var _SDL_ShowWindow = Module['_SDL_ShowWindow'] = createExportWrapper('SDL_ShowWindow');
+var _SDL_RaiseWindow = Module['_SDL_RaiseWindow'] = createExportWrapper('SDL_RaiseWindow');
+var _SDL_MaximizeWindow = Module['_SDL_MaximizeWindow'] = createExportWrapper('SDL_MaximizeWindow');
+var _SDL_UpdateWindowSurfaceRects = Module['_SDL_UpdateWindowSurfaceRects'] = createExportWrapper('SDL_UpdateWindowSurfaceRects');
+var _SDL_SetWindowBrightness = Module['_SDL_SetWindowBrightness'] = createExportWrapper('SDL_SetWindowBrightness');
+var _SDL_SetWindowGammaRamp = Module['_SDL_SetWindowGammaRamp'] = createExportWrapper('SDL_SetWindowGammaRamp');
+var _SDL_GetWindowGammaRamp = Module['_SDL_GetWindowGammaRamp'] = createExportWrapper('SDL_GetWindowGammaRamp');
+var _SDL_GetWindowBrightness = Module['_SDL_GetWindowBrightness'] = createExportWrapper('SDL_GetWindowBrightness');
+var _SDL_SetWindowOpacity = Module['_SDL_SetWindowOpacity'] = createExportWrapper('SDL_SetWindowOpacity');
+var _SDL_GetWindowOpacity = Module['_SDL_GetWindowOpacity'] = createExportWrapper('SDL_GetWindowOpacity');
+var _SDL_SetWindowModalFor = Module['_SDL_SetWindowModalFor'] = createExportWrapper('SDL_SetWindowModalFor');
+var _SDL_SetWindowInputFocus = Module['_SDL_SetWindowInputFocus'] = createExportWrapper('SDL_SetWindowInputFocus');
+var _SDL_SetWindowMouseGrab = Module['_SDL_SetWindowMouseGrab'] = createExportWrapper('SDL_SetWindowMouseGrab');
+var _SDL_SetWindowKeyboardGrab = Module['_SDL_SetWindowKeyboardGrab'] = createExportWrapper('SDL_SetWindowKeyboardGrab');
+var _SDL_GetWindowGrab = Module['_SDL_GetWindowGrab'] = createExportWrapper('SDL_GetWindowGrab');
+var _SDL_GetWindowKeyboardGrab = Module['_SDL_GetWindowKeyboardGrab'] = createExportWrapper('SDL_GetWindowKeyboardGrab');
+var _SDL_GetWindowMouseGrab = Module['_SDL_GetWindowMouseGrab'] = createExportWrapper('SDL_GetWindowMouseGrab');
+var _SDL_GetGrabbedWindow = Module['_SDL_GetGrabbedWindow'] = createExportWrapper('SDL_GetGrabbedWindow');
+var _SDL_SetWindowMouseRect = Module['_SDL_SetWindowMouseRect'] = createExportWrapper('SDL_SetWindowMouseRect');
+var _SDL_FlashWindow = Module['_SDL_FlashWindow'] = createExportWrapper('SDL_FlashWindow');
+var _SDL_OnWindowShown = Module['_SDL_OnWindowShown'] = createExportWrapper('SDL_OnWindowShown');
+var _SDL_OnWindowRestored = Module['_SDL_OnWindowRestored'] = createExportWrapper('SDL_OnWindowRestored');
+var _SDL_OnWindowHidden = Module['_SDL_OnWindowHidden'] = createExportWrapper('SDL_OnWindowHidden');
+var _SDL_OnWindowMoved = Module['_SDL_OnWindowMoved'] = createExportWrapper('SDL_OnWindowMoved');
+var _SDL_OnWindowMinimized = Module['_SDL_OnWindowMinimized'] = createExportWrapper('SDL_OnWindowMinimized');
+var _SDL_OnWindowEnter = Module['_SDL_OnWindowEnter'] = createExportWrapper('SDL_OnWindowEnter');
+var _SDL_OnWindowLeave = Module['_SDL_OnWindowLeave'] = createExportWrapper('SDL_OnWindowLeave');
+var _SDL_OnWindowFocusGained = Module['_SDL_OnWindowFocusGained'] = createExportWrapper('SDL_OnWindowFocusGained');
+var _SDL_OnWindowFocusLost = Module['_SDL_OnWindowFocusLost'] = createExportWrapper('SDL_OnWindowFocusLost');
+var _SDL_IsScreenSaverEnabled = Module['_SDL_IsScreenSaverEnabled'] = createExportWrapper('SDL_IsScreenSaverEnabled');
+var _SDL_EnableScreenSaver = Module['_SDL_EnableScreenSaver'] = createExportWrapper('SDL_EnableScreenSaver');
+var _SDL_GL_DeduceMaxSupportedESProfile = Module['_SDL_GL_DeduceMaxSupportedESProfile'] = createExportWrapper('SDL_GL_DeduceMaxSupportedESProfile');
+var _SDL_GL_GetCurrentWindow = Module['_SDL_GL_GetCurrentWindow'] = createExportWrapper('SDL_GL_GetCurrentWindow');
+var _SDL_GetWindowWMInfo = Module['_SDL_GetWindowWMInfo'] = createExportWrapper('SDL_GetWindowWMInfo');
+var _SDL_ClearComposition = Module['_SDL_ClearComposition'] = createExportWrapper('SDL_ClearComposition');
+var _SDL_IsTextInputShown = Module['_SDL_IsTextInputShown'] = createExportWrapper('SDL_IsTextInputShown');
+var _SDL_IsTextInputActive = Module['_SDL_IsTextInputActive'] = createExportWrapper('SDL_IsTextInputActive');
+var _SDL_StopTextInput = Module['_SDL_StopTextInput'] = createExportWrapper('SDL_StopTextInput');
+var _SDL_SetTextInputRect = Module['_SDL_SetTextInputRect'] = createExportWrapper('SDL_SetTextInputRect');
+var _SDL_IsScreenKeyboardShown = Module['_SDL_IsScreenKeyboardShown'] = createExportWrapper('SDL_IsScreenKeyboardShown');
+var _SDL_ShowSimpleMessageBox = Module['_SDL_ShowSimpleMessageBox'] = createExportWrapper('SDL_ShowSimpleMessageBox');
+var _SDL_ShouldAllowTopmost = Module['_SDL_ShouldAllowTopmost'] = createExportWrapper('SDL_ShouldAllowTopmost');
+var _SDL_SetWindowHitTest = Module['_SDL_SetWindowHitTest'] = createExportWrapper('SDL_SetWindowHitTest');
+var _SDL_ComputeDiagonalDPI = Module['_SDL_ComputeDiagonalDPI'] = createExportWrapper('SDL_ComputeDiagonalDPI');
+var _SDL_OnApplicationWillTerminate = Module['_SDL_OnApplicationWillTerminate'] = createExportWrapper('SDL_OnApplicationWillTerminate');
+var _SDL_OnApplicationDidReceiveMemoryWarning = Module['_SDL_OnApplicationDidReceiveMemoryWarning'] = createExportWrapper('SDL_OnApplicationDidReceiveMemoryWarning');
+var _SDL_OnApplicationWillResignActive = Module['_SDL_OnApplicationWillResignActive'] = createExportWrapper('SDL_OnApplicationWillResignActive');
+var _SDL_OnApplicationDidEnterBackground = Module['_SDL_OnApplicationDidEnterBackground'] = createExportWrapper('SDL_OnApplicationDidEnterBackground');
+var _SDL_OnApplicationWillEnterForeground = Module['_SDL_OnApplicationWillEnterForeground'] = createExportWrapper('SDL_OnApplicationWillEnterForeground');
+var _SDL_OnApplicationDidBecomeActive = Module['_SDL_OnApplicationDidBecomeActive'] = createExportWrapper('SDL_OnApplicationDidBecomeActive');
+var _SDL_Vulkan_GetVkGetInstanceProcAddr = Module['_SDL_Vulkan_GetVkGetInstanceProcAddr'] = createExportWrapper('SDL_Vulkan_GetVkGetInstanceProcAddr');
+var _SDL_Vulkan_GetInstanceExtensions = Module['_SDL_Vulkan_GetInstanceExtensions'] = createExportWrapper('SDL_Vulkan_GetInstanceExtensions');
+var _SDL_Vulkan_CreateSurface = Module['_SDL_Vulkan_CreateSurface'] = createExportWrapper('SDL_Vulkan_CreateSurface');
+var _SDL_Vulkan_GetDrawableSize = Module['_SDL_Vulkan_GetDrawableSize'] = createExportWrapper('SDL_Vulkan_GetDrawableSize');
+var _SDL_Metal_CreateView = Module['_SDL_Metal_CreateView'] = createExportWrapper('SDL_Metal_CreateView');
+var _SDL_Metal_DestroyView = Module['_SDL_Metal_DestroyView'] = createExportWrapper('SDL_Metal_DestroyView');
+var _SDL_Metal_GetLayer = Module['_SDL_Metal_GetLayer'] = createExportWrapper('SDL_Metal_GetLayer');
+var _SDL_Metal_GetDrawableSize = Module['_SDL_Metal_GetDrawableSize'] = createExportWrapper('SDL_Metal_GetDrawableSize');
+var _SDL_LoadWAV_RW = Module['_SDL_LoadWAV_RW'] = createExportWrapper('SDL_LoadWAV_RW');
+var _SDL_FreeWAV = Module['_SDL_FreeWAV'] = createExportWrapper('SDL_FreeWAV');
+var _SDL_SetYUVConversionMode = Module['_SDL_SetYUVConversionMode'] = createExportWrapper('SDL_SetYUVConversionMode');
+var _SDL_GetYUVConversionMode = Module['_SDL_GetYUVConversionMode'] = createExportWrapper('SDL_GetYUVConversionMode');
+var _yuv420_rgba_std = Module['_yuv420_rgba_std'] = createExportWrapper('yuv420_rgba_std');
+var _yuv420_rgb24_std = Module['_yuv420_rgb24_std'] = createExportWrapper('yuv420_rgb24_std');
+var _yuv420_abgr_std = Module['_yuv420_abgr_std'] = createExportWrapper('yuv420_abgr_std');
+var _yuv422_rgba_std = Module['_yuv422_rgba_std'] = createExportWrapper('yuv422_rgba_std');
+var _yuv422_rgb24_std = Module['_yuv422_rgb24_std'] = createExportWrapper('yuv422_rgb24_std');
+var _yuv422_abgr_std = Module['_yuv422_abgr_std'] = createExportWrapper('yuv422_abgr_std');
+var _yuvnv12_rgba_std = Module['_yuvnv12_rgba_std'] = createExportWrapper('yuvnv12_rgba_std');
+var _yuvnv12_rgb24_std = Module['_yuvnv12_rgb24_std'] = createExportWrapper('yuvnv12_rgb24_std');
+var _yuvnv12_abgr_std = Module['_yuvnv12_abgr_std'] = createExportWrapper('yuvnv12_abgr_std');
+var _yuv420_rgb565_std = Module['_yuv420_rgb565_std'] = createExportWrapper('yuv420_rgb565_std');
+var _yuv422_rgb565_std = Module['_yuv422_rgb565_std'] = createExportWrapper('yuv422_rgb565_std');
+var _yuvnv12_rgb565_std = Module['_yuvnv12_rgb565_std'] = createExportWrapper('yuvnv12_rgb565_std');
+var _yuvnv12_bgra_std = Module['_yuvnv12_bgra_std'] = createExportWrapper('yuvnv12_bgra_std');
+var _yuvnv12_argb_std = Module['_yuvnv12_argb_std'] = createExportWrapper('yuvnv12_argb_std');
+var _yuv422_bgra_std = Module['_yuv422_bgra_std'] = createExportWrapper('yuv422_bgra_std');
+var _yuv422_argb_std = Module['_yuv422_argb_std'] = createExportWrapper('yuv422_argb_std');
+var _yuv420_bgra_std = Module['_yuv420_bgra_std'] = createExportWrapper('yuv420_bgra_std');
+var _yuv420_argb_std = Module['_yuv420_argb_std'] = createExportWrapper('yuv420_argb_std');
+var _SDL_SW_QueryYUVTexturePixels = Module['_SDL_SW_QueryYUVTexturePixels'] = createExportWrapper('SDL_SW_QueryYUVTexturePixels');
+var _SDL_SW_UnlockYUVTexture = Module['_SDL_SW_UnlockYUVTexture'] = createExportWrapper('SDL_SW_UnlockYUVTexture');
+var _rgb24_yuv420_std = Module['_rgb24_yuv420_std'] = createExportWrapper('rgb24_yuv420_std');
+var _png_set_sig_bytes = Module['_png_set_sig_bytes'] = createExportWrapper('png_set_sig_bytes');
+var _png_error = Module['_png_error'] = createExportWrapper('png_error');
+var _png_zalloc = Module['_png_zalloc'] = createExportWrapper('png_zalloc');
+var _png_malloc_warn = Module['_png_malloc_warn'] = createExportWrapper('png_malloc_warn');
+var _png_zfree = Module['_png_zfree'] = createExportWrapper('png_zfree');
+var _png_free = Module['_png_free'] = createExportWrapper('png_free');
+var _png_reset_crc = Module['_png_reset_crc'] = createExportWrapper('png_reset_crc');
+var _crc32 = Module['_crc32'] = createExportWrapper('crc32');
+var _png_calculate_crc = Module['_png_calculate_crc'] = createExportWrapper('png_calculate_crc');
+var _png_user_version_check = Module['_png_user_version_check'] = createExportWrapper('png_user_version_check');
+var _png_create_png_struct = Module['_png_create_png_struct'] = createExportWrapper('png_create_png_struct');
+var _png_set_mem_fn = Module['_png_set_mem_fn'] = createExportWrapper('png_set_mem_fn');
+var _png_set_error_fn = Module['_png_set_error_fn'] = createExportWrapper('png_set_error_fn');
+var _png_malloc_base = Module['_png_malloc_base'] = createExportWrapper('png_malloc_base');
+var _png_destroy_info_struct = Module['_png_destroy_info_struct'] = createExportWrapper('png_destroy_info_struct');
+var _png_free_data = Module['_png_free_data'] = createExportWrapper('png_free_data');
+var _png_info_init_3 = Module['_png_info_init_3'] = createExportWrapper('png_info_init_3');
+var _png_data_freer = Module['_png_data_freer'] = createExportWrapper('png_data_freer');
+var _png_init_io = Module['_png_init_io'] = createExportWrapper('png_init_io');
+var _png_save_int_32 = Module['_png_save_int_32'] = createExportWrapper('png_save_int_32');
+var _png_save_uint_32 = Module['_png_save_uint_32'] = createExportWrapper('png_save_uint_32');
+var _png_convert_to_rfc1123_buffer = Module['_png_convert_to_rfc1123_buffer'] = createExportWrapper('png_convert_to_rfc1123_buffer');
+var _png_format_number = Module['_png_format_number'] = createExportWrapper('png_format_number');
+var _png_safecat = Module['_png_safecat'] = createExportWrapper('png_safecat');
+var _png_convert_to_rfc1123 = Module['_png_convert_to_rfc1123'] = createExportWrapper('png_convert_to_rfc1123');
+var _png_get_copyright = Module['_png_get_copyright'] = createExportWrapper('png_get_copyright');
+var _png_get_libpng_ver = Module['_png_get_libpng_ver'] = createExportWrapper('png_get_libpng_ver');
+var _png_get_header_ver = Module['_png_get_header_ver'] = createExportWrapper('png_get_header_ver');
+var _png_get_header_version = Module['_png_get_header_version'] = createExportWrapper('png_get_header_version');
+var _png_build_grayscale_palette = Module['_png_build_grayscale_palette'] = createExportWrapper('png_build_grayscale_palette');
+var _png_handle_as_unknown = Module['_png_handle_as_unknown'] = createExportWrapper('png_handle_as_unknown');
+var _png_chunk_unknown_handling = Module['_png_chunk_unknown_handling'] = createExportWrapper('png_chunk_unknown_handling');
+var _png_reset_zstream = Module['_png_reset_zstream'] = createExportWrapper('png_reset_zstream');
+var _inflateReset = Module['_inflateReset'] = createExportWrapper('inflateReset');
+var _png_access_version_number = Module['_png_access_version_number'] = createExportWrapper('png_access_version_number');
+var _png_zstream_error = Module['_png_zstream_error'] = createExportWrapper('png_zstream_error');
+var _png_colorspace_set_gamma = Module['_png_colorspace_set_gamma'] = createExportWrapper('png_colorspace_set_gamma');
+var _png_chunk_report = Module['_png_chunk_report'] = createExportWrapper('png_chunk_report');
+var _png_colorspace_sync_info = Module['_png_colorspace_sync_info'] = createExportWrapper('png_colorspace_sync_info');
+var _png_colorspace_sync = Module['_png_colorspace_sync'] = createExportWrapper('png_colorspace_sync');
+var _png_colorspace_set_chromaticities = Module['_png_colorspace_set_chromaticities'] = createExportWrapper('png_colorspace_set_chromaticities');
+var _png_benign_error = Module['_png_benign_error'] = createExportWrapper('png_benign_error');
+var _png_colorspace_set_endpoints = Module['_png_colorspace_set_endpoints'] = createExportWrapper('png_colorspace_set_endpoints');
+var _png_colorspace_set_sRGB = Module['_png_colorspace_set_sRGB'] = createExportWrapper('png_colorspace_set_sRGB');
+var _png_icc_check_length = Module['_png_icc_check_length'] = createExportWrapper('png_icc_check_length');
+var _png_icc_check_header = Module['_png_icc_check_header'] = createExportWrapper('png_icc_check_header');
+var _png_icc_check_tag_table = Module['_png_icc_check_tag_table'] = createExportWrapper('png_icc_check_tag_table');
+var _png_icc_set_sRGB = Module['_png_icc_set_sRGB'] = createExportWrapper('png_icc_set_sRGB');
+var _adler32 = Module['_adler32'] = createExportWrapper('adler32');
+var _png_colorspace_set_ICC = Module['_png_colorspace_set_ICC'] = createExportWrapper('png_colorspace_set_ICC');
+var _png_colorspace_set_rgb_coefficients = Module['_png_colorspace_set_rgb_coefficients'] = createExportWrapper('png_colorspace_set_rgb_coefficients');
+var _png_muldiv = Module['_png_muldiv'] = createExportWrapper('png_muldiv');
+var _png_check_IHDR = Module['_png_check_IHDR'] = createExportWrapper('png_check_IHDR');
+var _png_check_fp_number = Module['_png_check_fp_number'] = createExportWrapper('png_check_fp_number');
+var _png_check_fp_string = Module['_png_check_fp_string'] = createExportWrapper('png_check_fp_string');
+var _png_ascii_from_fp = Module['_png_ascii_from_fp'] = createExportWrapper('png_ascii_from_fp');
+var _frexp = Module['_frexp'] = createExportWrapper('frexp');
+var _modf = Module['_modf'] = createExportWrapper('modf');
+var _png_ascii_from_fixed = Module['_png_ascii_from_fixed'] = createExportWrapper('png_ascii_from_fixed');
+var _png_fixed = Module['_png_fixed'] = createExportWrapper('png_fixed');
+var _png_fixed_error = Module['_png_fixed_error'] = createExportWrapper('png_fixed_error');
+var _png_muldiv_warn = Module['_png_muldiv_warn'] = createExportWrapper('png_muldiv_warn');
+var _png_reciprocal = Module['_png_reciprocal'] = createExportWrapper('png_reciprocal');
+var _png_gamma_significant = Module['_png_gamma_significant'] = createExportWrapper('png_gamma_significant');
+var _png_reciprocal2 = Module['_png_reciprocal2'] = createExportWrapper('png_reciprocal2');
+var _png_gamma_8bit_correct = Module['_png_gamma_8bit_correct'] = createExportWrapper('png_gamma_8bit_correct');
+var _png_gamma_16bit_correct = Module['_png_gamma_16bit_correct'] = createExportWrapper('png_gamma_16bit_correct');
+var _png_gamma_correct = Module['_png_gamma_correct'] = createExportWrapper('png_gamma_correct');
+var _png_destroy_gamma_table = Module['_png_destroy_gamma_table'] = createExportWrapper('png_destroy_gamma_table');
+var _png_build_gamma_table = Module['_png_build_gamma_table'] = createExportWrapper('png_build_gamma_table');
+var _png_malloc = Module['_png_malloc'] = createExportWrapper('png_malloc');
+var _png_calloc = Module['_png_calloc'] = createExportWrapper('png_calloc');
+var _png_set_option = Module['_png_set_option'] = createExportWrapper('png_set_option');
+var _png_image_free = Module['_png_image_free'] = createExportWrapper('png_image_free');
+var _png_image_error = Module['_png_image_error'] = createExportWrapper('png_image_error');
+var _fputc = Module['_fputc'] = createExportWrapper('fputc');
+var _png_longjmp = Module['_png_longjmp'] = createExportWrapper('png_longjmp');
+var _png_chunk_error = Module['_png_chunk_error'] = createExportWrapper('png_chunk_error');
+var _png_app_warning = Module['_png_app_warning'] = createExportWrapper('png_app_warning');
+var _png_app_error = Module['_png_app_error'] = createExportWrapper('png_app_error');
+var _png_chunk_benign_error = Module['_png_chunk_benign_error'] = createExportWrapper('png_chunk_benign_error');
+var _png_free_jmpbuf = Module['_png_free_jmpbuf'] = createExportWrapper('png_free_jmpbuf');
+var _png_get_error_ptr = Module['_png_get_error_ptr'] = createExportWrapper('png_get_error_ptr');
+var _png_safe_error = Module['_png_safe_error'] = createExportWrapper('png_safe_error');
+var _png_safe_execute = Module['_png_safe_execute'] = createExportWrapper('png_safe_execute');
+var _png_get_rowbytes = Module['_png_get_rowbytes'] = createExportWrapper('png_get_rowbytes');
+var _png_get_rows = Module['_png_get_rows'] = createExportWrapper('png_get_rows');
+var _png_get_image_width = Module['_png_get_image_width'] = createExportWrapper('png_get_image_width');
+var _png_get_image_height = Module['_png_get_image_height'] = createExportWrapper('png_get_image_height');
+var _png_get_bit_depth = Module['_png_get_bit_depth'] = createExportWrapper('png_get_bit_depth');
+var _png_get_color_type = Module['_png_get_color_type'] = createExportWrapper('png_get_color_type');
+var _png_get_filter_type = Module['_png_get_filter_type'] = createExportWrapper('png_get_filter_type');
+var _png_get_interlace_type = Module['_png_get_interlace_type'] = createExportWrapper('png_get_interlace_type');
+var _png_get_compression_type = Module['_png_get_compression_type'] = createExportWrapper('png_get_compression_type');
+var _png_get_x_pixels_per_meter = Module['_png_get_x_pixels_per_meter'] = createExportWrapper('png_get_x_pixels_per_meter');
+var _png_get_y_pixels_per_meter = Module['_png_get_y_pixels_per_meter'] = createExportWrapper('png_get_y_pixels_per_meter');
+var _png_get_pixels_per_meter = Module['_png_get_pixels_per_meter'] = createExportWrapper('png_get_pixels_per_meter');
+var _png_get_pixel_aspect_ratio = Module['_png_get_pixel_aspect_ratio'] = createExportWrapper('png_get_pixel_aspect_ratio');
+var _png_get_pixel_aspect_ratio_fixed = Module['_png_get_pixel_aspect_ratio_fixed'] = createExportWrapper('png_get_pixel_aspect_ratio_fixed');
+var _png_get_x_offset_microns = Module['_png_get_x_offset_microns'] = createExportWrapper('png_get_x_offset_microns');
+var _png_get_y_offset_microns = Module['_png_get_y_offset_microns'] = createExportWrapper('png_get_y_offset_microns');
+var _png_get_x_offset_pixels = Module['_png_get_x_offset_pixels'] = createExportWrapper('png_get_x_offset_pixels');
+var _png_get_y_offset_pixels = Module['_png_get_y_offset_pixels'] = createExportWrapper('png_get_y_offset_pixels');
+var _png_get_pixels_per_inch = Module['_png_get_pixels_per_inch'] = createExportWrapper('png_get_pixels_per_inch');
+var _png_get_x_pixels_per_inch = Module['_png_get_x_pixels_per_inch'] = createExportWrapper('png_get_x_pixels_per_inch');
+var _png_get_y_pixels_per_inch = Module['_png_get_y_pixels_per_inch'] = createExportWrapper('png_get_y_pixels_per_inch');
+var _png_get_x_offset_inches_fixed = Module['_png_get_x_offset_inches_fixed'] = createExportWrapper('png_get_x_offset_inches_fixed');
+var _png_get_y_offset_inches_fixed = Module['_png_get_y_offset_inches_fixed'] = createExportWrapper('png_get_y_offset_inches_fixed');
+var _png_get_x_offset_inches = Module['_png_get_x_offset_inches'] = createExportWrapper('png_get_x_offset_inches');
+var _png_get_y_offset_inches = Module['_png_get_y_offset_inches'] = createExportWrapper('png_get_y_offset_inches');
+var _png_get_pHYs_dpi = Module['_png_get_pHYs_dpi'] = createExportWrapper('png_get_pHYs_dpi');
+var _png_get_signature = Module['_png_get_signature'] = createExportWrapper('png_get_signature');
+var _png_get_bKGD = Module['_png_get_bKGD'] = createExportWrapper('png_get_bKGD');
+var _png_get_cHRM = Module['_png_get_cHRM'] = createExportWrapper('png_get_cHRM');
+var _png_get_cHRM_XYZ = Module['_png_get_cHRM_XYZ'] = createExportWrapper('png_get_cHRM_XYZ');
+var _png_get_cHRM_XYZ_fixed = Module['_png_get_cHRM_XYZ_fixed'] = createExportWrapper('png_get_cHRM_XYZ_fixed');
+var _png_get_cHRM_fixed = Module['_png_get_cHRM_fixed'] = createExportWrapper('png_get_cHRM_fixed');
+var _png_get_gAMA_fixed = Module['_png_get_gAMA_fixed'] = createExportWrapper('png_get_gAMA_fixed');
+var _png_get_gAMA = Module['_png_get_gAMA'] = createExportWrapper('png_get_gAMA');
+var _png_get_sRGB = Module['_png_get_sRGB'] = createExportWrapper('png_get_sRGB');
+var _png_get_iCCP = Module['_png_get_iCCP'] = createExportWrapper('png_get_iCCP');
+var _png_get_sPLT = Module['_png_get_sPLT'] = createExportWrapper('png_get_sPLT');
+var _png_get_eXIf = Module['_png_get_eXIf'] = createExportWrapper('png_get_eXIf');
+var _png_get_eXIf_1 = Module['_png_get_eXIf_1'] = createExportWrapper('png_get_eXIf_1');
+var _png_get_hIST = Module['_png_get_hIST'] = createExportWrapper('png_get_hIST');
+var _png_get_oFFs = Module['_png_get_oFFs'] = createExportWrapper('png_get_oFFs');
+var _png_get_pCAL = Module['_png_get_pCAL'] = createExportWrapper('png_get_pCAL');
+var _png_get_sCAL_fixed = Module['_png_get_sCAL_fixed'] = createExportWrapper('png_get_sCAL_fixed');
+var _png_get_sCAL = Module['_png_get_sCAL'] = createExportWrapper('png_get_sCAL');
+var _png_get_sCAL_s = Module['_png_get_sCAL_s'] = createExportWrapper('png_get_sCAL_s');
+var _png_get_pHYs = Module['_png_get_pHYs'] = createExportWrapper('png_get_pHYs');
+var _png_get_sBIT = Module['_png_get_sBIT'] = createExportWrapper('png_get_sBIT');
+var _png_get_text = Module['_png_get_text'] = createExportWrapper('png_get_text');
+var _png_get_tIME = Module['_png_get_tIME'] = createExportWrapper('png_get_tIME');
+var _png_get_unknown_chunks = Module['_png_get_unknown_chunks'] = createExportWrapper('png_get_unknown_chunks');
+var _png_get_rgb_to_gray_status = Module['_png_get_rgb_to_gray_status'] = createExportWrapper('png_get_rgb_to_gray_status');
+var _png_get_user_chunk_ptr = Module['_png_get_user_chunk_ptr'] = createExportWrapper('png_get_user_chunk_ptr');
+var _png_get_compression_buffer_size = Module['_png_get_compression_buffer_size'] = createExportWrapper('png_get_compression_buffer_size');
+var _png_get_user_width_max = Module['_png_get_user_width_max'] = createExportWrapper('png_get_user_width_max');
+var _png_get_user_height_max = Module['_png_get_user_height_max'] = createExportWrapper('png_get_user_height_max');
+var _png_get_chunk_cache_max = Module['_png_get_chunk_cache_max'] = createExportWrapper('png_get_chunk_cache_max');
+var _png_get_chunk_malloc_max = Module['_png_get_chunk_malloc_max'] = createExportWrapper('png_get_chunk_malloc_max');
+var _png_get_io_state = Module['_png_get_io_state'] = createExportWrapper('png_get_io_state');
+var _png_get_io_chunk_type = Module['_png_get_io_chunk_type'] = createExportWrapper('png_get_io_chunk_type');
+var _png_get_palette_max = Module['_png_get_palette_max'] = createExportWrapper('png_get_palette_max');
+var _png_destroy_png_struct = Module['_png_destroy_png_struct'] = createExportWrapper('png_destroy_png_struct');
+var _png_malloc_array = Module['_png_malloc_array'] = createExportWrapper('png_malloc_array');
+var _png_realloc_array = Module['_png_realloc_array'] = createExportWrapper('png_realloc_array');
+var _png_malloc_default = Module['_png_malloc_default'] = createExportWrapper('png_malloc_default');
+var _png_free_default = Module['_png_free_default'] = createExportWrapper('png_free_default');
+var _png_get_mem_ptr = Module['_png_get_mem_ptr'] = createExportWrapper('png_get_mem_ptr');
+var _png_process_data = Module['_png_process_data'] = createExportWrapper('png_process_data');
+var _png_push_read_chunk = Module['_png_push_read_chunk'] = createExportWrapper('png_push_read_chunk');
+var _png_push_read_IDAT = Module['_png_push_read_IDAT'] = createExportWrapper('png_push_read_IDAT');
+var _png_push_read_sig = Module['_png_push_read_sig'] = createExportWrapper('png_push_read_sig');
+var _png_push_restore_buffer = Module['_png_push_restore_buffer'] = createExportWrapper('png_push_restore_buffer');
+var _png_process_some_data = Module['_png_process_some_data'] = createExportWrapper('png_process_some_data');
+var _png_process_data_pause = Module['_png_process_data_pause'] = createExportWrapper('png_process_data_pause');
+var _png_push_save_buffer = Module['_png_push_save_buffer'] = createExportWrapper('png_push_save_buffer');
+var _png_process_data_skip = Module['_png_process_data_skip'] = createExportWrapper('png_process_data_skip');
+var _png_get_uint_31 = Module['_png_get_uint_31'] = createExportWrapper('png_get_uint_31');
+var _png_crc_read = Module['_png_crc_read'] = createExportWrapper('png_crc_read');
+var _png_check_chunk_name = Module['_png_check_chunk_name'] = createExportWrapper('png_check_chunk_name');
+var _png_check_chunk_length = Module['_png_check_chunk_length'] = createExportWrapper('png_check_chunk_length');
+var _png_handle_IHDR = Module['_png_handle_IHDR'] = createExportWrapper('png_handle_IHDR');
+var _png_handle_IEND = Module['_png_handle_IEND'] = createExportWrapper('png_handle_IEND');
+var _png_handle_PLTE = Module['_png_handle_PLTE'] = createExportWrapper('png_handle_PLTE');
+var _png_handle_gAMA = Module['_png_handle_gAMA'] = createExportWrapper('png_handle_gAMA');
+var _png_handle_sBIT = Module['_png_handle_sBIT'] = createExportWrapper('png_handle_sBIT');
+var _png_handle_cHRM = Module['_png_handle_cHRM'] = createExportWrapper('png_handle_cHRM');
+var _png_handle_sRGB = Module['_png_handle_sRGB'] = createExportWrapper('png_handle_sRGB');
+var _png_handle_iCCP = Module['_png_handle_iCCP'] = createExportWrapper('png_handle_iCCP');
+var _png_handle_sPLT = Module['_png_handle_sPLT'] = createExportWrapper('png_handle_sPLT');
+var _png_handle_tRNS = Module['_png_handle_tRNS'] = createExportWrapper('png_handle_tRNS');
+var _png_handle_bKGD = Module['_png_handle_bKGD'] = createExportWrapper('png_handle_bKGD');
+var _png_handle_hIST = Module['_png_handle_hIST'] = createExportWrapper('png_handle_hIST');
+var _png_handle_pHYs = Module['_png_handle_pHYs'] = createExportWrapper('png_handle_pHYs');
+var _png_handle_oFFs = Module['_png_handle_oFFs'] = createExportWrapper('png_handle_oFFs');
+var _png_handle_pCAL = Module['_png_handle_pCAL'] = createExportWrapper('png_handle_pCAL');
+var _png_handle_sCAL = Module['_png_handle_sCAL'] = createExportWrapper('png_handle_sCAL');
+var _png_handle_tIME = Module['_png_handle_tIME'] = createExportWrapper('png_handle_tIME');
+var _png_handle_tEXt = Module['_png_handle_tEXt'] = createExportWrapper('png_handle_tEXt');
+var _png_handle_zTXt = Module['_png_handle_zTXt'] = createExportWrapper('png_handle_zTXt');
+var _png_handle_iTXt = Module['_png_handle_iTXt'] = createExportWrapper('png_handle_iTXt');
+var _png_handle_unknown = Module['_png_handle_unknown'] = createExportWrapper('png_handle_unknown');
+var _png_process_IDAT_data = Module['_png_process_IDAT_data'] = createExportWrapper('png_process_IDAT_data');
+var _png_crc_finish = Module['_png_crc_finish'] = createExportWrapper('png_crc_finish');
+var _png_push_fill_buffer = Module['_png_push_fill_buffer'] = createExportWrapper('png_push_fill_buffer');
+var _png_push_have_end = Module['_png_push_have_end'] = createExportWrapper('png_push_have_end');
+var _png_push_have_info = Module['_png_push_have_info'] = createExportWrapper('png_push_have_info');
+var _png_zlib_inflate = Module['_png_zlib_inflate'] = createExportWrapper('png_zlib_inflate');
+var _png_push_process_row = Module['_png_push_process_row'] = createExportWrapper('png_push_process_row');
+var _png_read_filter_row = Module['_png_read_filter_row'] = createExportWrapper('png_read_filter_row');
+var _png_do_read_transformations = Module['_png_do_read_transformations'] = createExportWrapper('png_do_read_transformations');
+var _png_do_read_interlace = Module['_png_do_read_interlace'] = createExportWrapper('png_do_read_interlace');
+var _png_read_push_finish_row = Module['_png_read_push_finish_row'] = createExportWrapper('png_read_push_finish_row');
+var _png_push_have_row = Module['_png_push_have_row'] = createExportWrapper('png_push_have_row');
+var _png_progressive_combine_row = Module['_png_progressive_combine_row'] = createExportWrapper('png_progressive_combine_row');
+var _png_combine_row = Module['_png_combine_row'] = createExportWrapper('png_combine_row');
+var _png_set_progressive_read_fn = Module['_png_set_progressive_read_fn'] = createExportWrapper('png_set_progressive_read_fn');
+var _png_get_progressive_ptr = Module['_png_get_progressive_ptr'] = createExportWrapper('png_get_progressive_ptr');
+var _png_create_read_struct_2 = Module['_png_create_read_struct_2'] = createExportWrapper('png_create_read_struct_2');
+var _png_read_sig = Module['_png_read_sig'] = createExportWrapper('png_read_sig');
+var _png_read_chunk_header = Module['_png_read_chunk_header'] = createExportWrapper('png_read_chunk_header');
+var _png_handle_eXIf = Module['_png_handle_eXIf'] = createExportWrapper('png_handle_eXIf');
+var _png_read_start_row = Module['_png_read_start_row'] = createExportWrapper('png_read_start_row');
+var _png_read_transform_info = Module['_png_read_transform_info'] = createExportWrapper('png_read_transform_info');
+var _png_start_read_image = Module['_png_start_read_image'] = createExportWrapper('png_start_read_image');
+var _png_read_row = Module['_png_read_row'] = createExportWrapper('png_read_row');
+var _png_read_finish_row = Module['_png_read_finish_row'] = createExportWrapper('png_read_finish_row');
+var _png_read_IDAT_data = Module['_png_read_IDAT_data'] = createExportWrapper('png_read_IDAT_data');
+var _png_read_rows = Module['_png_read_rows'] = createExportWrapper('png_read_rows');
+var _png_read_end = Module['_png_read_end'] = createExportWrapper('png_read_end');
+var _png_read_finish_IDAT = Module['_png_read_finish_IDAT'] = createExportWrapper('png_read_finish_IDAT');
+var _inflateEnd = Module['_inflateEnd'] = createExportWrapper('inflateEnd');
+var _png_set_read_status_fn = Module['_png_set_read_status_fn'] = createExportWrapper('png_set_read_status_fn');
+var _png_read_png = Module['_png_read_png'] = createExportWrapper('png_read_png');
+var _png_set_scale_16 = Module['_png_set_scale_16'] = createExportWrapper('png_set_scale_16');
+var _png_set_strip_alpha = Module['_png_set_strip_alpha'] = createExportWrapper('png_set_strip_alpha');
+var _png_set_packswap = Module['_png_set_packswap'] = createExportWrapper('png_set_packswap');
+var _png_set_invert_mono = Module['_png_set_invert_mono'] = createExportWrapper('png_set_invert_mono');
+var _png_set_shift = Module['_png_set_shift'] = createExportWrapper('png_set_shift');
+var _png_set_bgr = Module['_png_set_bgr'] = createExportWrapper('png_set_bgr');
+var _png_set_swap_alpha = Module['_png_set_swap_alpha'] = createExportWrapper('png_set_swap_alpha');
+var _png_set_swap = Module['_png_set_swap'] = createExportWrapper('png_set_swap');
+var _png_set_invert_alpha = Module['_png_set_invert_alpha'] = createExportWrapper('png_set_invert_alpha');
+var _png_set_expand_16 = Module['_png_set_expand_16'] = createExportWrapper('png_set_expand_16');
+var _png_image_begin_read_from_stdio = Module['_png_image_begin_read_from_stdio'] = createExportWrapper('png_image_begin_read_from_stdio');
+var _png_set_benign_errors = Module['_png_set_benign_errors'] = createExportWrapper('png_set_benign_errors');
+var _png_image_begin_read_from_file = Module['_png_image_begin_read_from_file'] = createExportWrapper('png_image_begin_read_from_file');
+var _png_image_begin_read_from_memory = Module['_png_image_begin_read_from_memory'] = createExportWrapper('png_image_begin_read_from_memory');
+var _png_image_finish_read = Module['_png_image_finish_read'] = createExportWrapper('png_image_finish_read');
+var _png_set_background_fixed = Module['_png_set_background_fixed'] = createExportWrapper('png_set_background_fixed');
+var _png_set_rgb_to_gray_fixed = Module['_png_set_rgb_to_gray_fixed'] = createExportWrapper('png_set_rgb_to_gray_fixed');
+var _png_set_tRNS_to_alpha = Module['_png_set_tRNS_to_alpha'] = createExportWrapper('png_set_tRNS_to_alpha');
+var _png_set_alpha_mode_fixed = Module['_png_set_alpha_mode_fixed'] = createExportWrapper('png_set_alpha_mode_fixed');
+var _png_set_keep_unknown_chunks = Module['_png_set_keep_unknown_chunks'] = createExportWrapper('png_set_keep_unknown_chunks');
+var _png_set_add_alpha = Module['_png_set_add_alpha'] = createExportWrapper('png_set_add_alpha');
+var _png_read_data = Module['_png_read_data'] = createExportWrapper('png_read_data');
+var _png_default_read_data = Module['_png_default_read_data'] = createExportWrapper('png_default_read_data');
+var _png_set_crc_action = Module['_png_set_crc_action'] = createExportWrapper('png_set_crc_action');
+var _png_set_background = Module['_png_set_background'] = createExportWrapper('png_set_background');
+var _png_set_alpha_mode = Module['_png_set_alpha_mode'] = createExportWrapper('png_set_alpha_mode');
+var _png_set_quantize = Module['_png_set_quantize'] = createExportWrapper('png_set_quantize');
+var _png_set_gamma_fixed = Module['_png_set_gamma_fixed'] = createExportWrapper('png_set_gamma_fixed');
+var _png_set_gamma = Module['_png_set_gamma'] = createExportWrapper('png_set_gamma');
+var _png_set_palette_to_rgb = Module['_png_set_palette_to_rgb'] = createExportWrapper('png_set_palette_to_rgb');
+var _png_set_expand_gray_1_2_4_to_8 = Module['_png_set_expand_gray_1_2_4_to_8'] = createExportWrapper('png_set_expand_gray_1_2_4_to_8');
+var _png_set_rgb_to_gray = Module['_png_set_rgb_to_gray'] = createExportWrapper('png_set_rgb_to_gray');
+var _png_set_read_user_transform_fn = Module['_png_set_read_user_transform_fn'] = createExportWrapper('png_set_read_user_transform_fn');
+var _png_init_read_transformations = Module['_png_init_read_transformations'] = createExportWrapper('png_init_read_transformations');
+var _png_do_strip_channel = Module['_png_do_strip_channel'] = createExportWrapper('png_do_strip_channel');
+var _png_do_invert = Module['_png_do_invert'] = createExportWrapper('png_do_invert');
+var _png_do_check_palette_indexes = Module['_png_do_check_palette_indexes'] = createExportWrapper('png_do_check_palette_indexes');
+var _png_do_bgr = Module['_png_do_bgr'] = createExportWrapper('png_do_bgr');
+var _png_do_packswap = Module['_png_do_packswap'] = createExportWrapper('png_do_packswap');
+var _png_do_swap = Module['_png_do_swap'] = createExportWrapper('png_do_swap');
+var _png_get_uint_32 = Module['_png_get_uint_32'] = createExportWrapper('png_get_uint_32');
+var _png_get_int_32 = Module['_png_get_int_32'] = createExportWrapper('png_get_int_32');
+var _png_get_uint_16 = Module['_png_get_uint_16'] = createExportWrapper('png_get_uint_16');
+var _png_crc_error = Module['_png_crc_error'] = createExportWrapper('png_crc_error');
+var _inflate = Module['_inflate'] = createExportWrapper('inflate');
+var _png_set_sBIT = Module['_png_set_sBIT'] = createExportWrapper('png_set_sBIT');
+var _inflateReset2 = Module['_inflateReset2'] = createExportWrapper('inflateReset2');
+var _inflateInit2_ = Module['_inflateInit2_'] = createExportWrapper('inflateInit2_');
+var _inflateValidate = Module['_inflateValidate'] = createExportWrapper('inflateValidate');
+var _png_set_sPLT = Module['_png_set_sPLT'] = createExportWrapper('png_set_sPLT');
+var _png_set_bKGD = Module['_png_set_bKGD'] = createExportWrapper('png_set_bKGD');
+var _png_set_eXIf_1 = Module['_png_set_eXIf_1'] = createExportWrapper('png_set_eXIf_1');
+var _png_set_hIST = Module['_png_set_hIST'] = createExportWrapper('png_set_hIST');
+var _png_set_pHYs = Module['_png_set_pHYs'] = createExportWrapper('png_set_pHYs');
+var _png_set_oFFs = Module['_png_set_oFFs'] = createExportWrapper('png_set_oFFs');
+var _png_set_pCAL = Module['_png_set_pCAL'] = createExportWrapper('png_set_pCAL');
+var _png_set_sCAL_s = Module['_png_set_sCAL_s'] = createExportWrapper('png_set_sCAL_s');
+var _png_set_tIME = Module['_png_set_tIME'] = createExportWrapper('png_set_tIME');
+var _png_set_text_2 = Module['_png_set_text_2'] = createExportWrapper('png_set_text_2');
+var _png_set_unknown_chunks = Module['_png_set_unknown_chunks'] = createExportWrapper('png_set_unknown_chunks');
+var _png_set_cHRM_fixed = Module['_png_set_cHRM_fixed'] = createExportWrapper('png_set_cHRM_fixed');
+var _png_set_cHRM_XYZ_fixed = Module['_png_set_cHRM_XYZ_fixed'] = createExportWrapper('png_set_cHRM_XYZ_fixed');
+var _png_set_cHRM = Module['_png_set_cHRM'] = createExportWrapper('png_set_cHRM');
+var _png_set_cHRM_XYZ = Module['_png_set_cHRM_XYZ'] = createExportWrapper('png_set_cHRM_XYZ');
+var _png_set_eXIf = Module['_png_set_eXIf'] = createExportWrapper('png_set_eXIf');
+var _png_set_gAMA_fixed = Module['_png_set_gAMA_fixed'] = createExportWrapper('png_set_gAMA_fixed');
+var _png_set_gAMA = Module['_png_set_gAMA'] = createExportWrapper('png_set_gAMA');
+var _png_set_sCAL = Module['_png_set_sCAL'] = createExportWrapper('png_set_sCAL');
+var _png_set_sCAL_fixed = Module['_png_set_sCAL_fixed'] = createExportWrapper('png_set_sCAL_fixed');
+var _png_set_sRGB = Module['_png_set_sRGB'] = createExportWrapper('png_set_sRGB');
+var _png_set_sRGB_gAMA_and_cHRM = Module['_png_set_sRGB_gAMA_and_cHRM'] = createExportWrapper('png_set_sRGB_gAMA_and_cHRM');
+var _png_set_iCCP = Module['_png_set_iCCP'] = createExportWrapper('png_set_iCCP');
+var _png_set_text = Module['_png_set_text'] = createExportWrapper('png_set_text');
+var _png_set_unknown_chunk_location = Module['_png_set_unknown_chunk_location'] = createExportWrapper('png_set_unknown_chunk_location');
+var _png_permit_mng_features = Module['_png_permit_mng_features'] = createExportWrapper('png_permit_mng_features');
+var _png_set_read_user_chunk_fn = Module['_png_set_read_user_chunk_fn'] = createExportWrapper('png_set_read_user_chunk_fn');
+var _png_set_compression_buffer_size = Module['_png_set_compression_buffer_size'] = createExportWrapper('png_set_compression_buffer_size');
+var _png_free_buffer_list = Module['_png_free_buffer_list'] = createExportWrapper('png_free_buffer_list');
+var _png_set_invalid = Module['_png_set_invalid'] = createExportWrapper('png_set_invalid');
+var _png_set_user_limits = Module['_png_set_user_limits'] = createExportWrapper('png_set_user_limits');
+var _png_set_chunk_cache_max = Module['_png_set_chunk_cache_max'] = createExportWrapper('png_set_chunk_cache_max');
+var _png_set_chunk_malloc_max = Module['_png_set_chunk_malloc_max'] = createExportWrapper('png_set_chunk_malloc_max');
+var _png_set_check_for_invalid_index = Module['_png_set_check_for_invalid_index'] = createExportWrapper('png_set_check_for_invalid_index');
+var _png_check_keyword = Module['_png_check_keyword'] = createExportWrapper('png_check_keyword');
+var _png_set_filler = Module['_png_set_filler'] = createExportWrapper('png_set_filler');
+var _png_set_user_transform_info = Module['_png_set_user_transform_info'] = createExportWrapper('png_set_user_transform_info');
+var _png_get_user_transform_ptr = Module['_png_get_user_transform_ptr'] = createExportWrapper('png_get_user_transform_ptr');
+var _png_get_current_row_number = Module['_png_get_current_row_number'] = createExportWrapper('png_get_current_row_number');
+var _png_get_current_pass_number = Module['_png_get_current_pass_number'] = createExportWrapper('png_get_current_pass_number');
+var _png_write_data = Module['_png_write_data'] = createExportWrapper('png_write_data');
+var _png_default_write_data = Module['_png_default_write_data'] = createExportWrapper('png_default_write_data');
+var _png_flush = Module['_png_flush'] = createExportWrapper('png_flush');
+var _png_default_flush = Module['_png_default_flush'] = createExportWrapper('png_default_flush');
+var _fflush = Module['_fflush'] = createExportWrapper('fflush');
+var _png_write_info_before_PLTE = Module['_png_write_info_before_PLTE'] = createExportWrapper('png_write_info_before_PLTE');
+var _png_write_sig = Module['_png_write_sig'] = createExportWrapper('png_write_sig');
+var _png_write_IHDR = Module['_png_write_IHDR'] = createExportWrapper('png_write_IHDR');
+var _png_write_gAMA_fixed = Module['_png_write_gAMA_fixed'] = createExportWrapper('png_write_gAMA_fixed');
+var _png_write_iCCP = Module['_png_write_iCCP'] = createExportWrapper('png_write_iCCP');
+var _png_write_sRGB = Module['_png_write_sRGB'] = createExportWrapper('png_write_sRGB');
+var _png_write_sBIT = Module['_png_write_sBIT'] = createExportWrapper('png_write_sBIT');
+var _png_write_cHRM_fixed = Module['_png_write_cHRM_fixed'] = createExportWrapper('png_write_cHRM_fixed');
+var _png_write_chunk = Module['_png_write_chunk'] = createExportWrapper('png_write_chunk');
+var _png_write_PLTE = Module['_png_write_PLTE'] = createExportWrapper('png_write_PLTE');
+var _png_write_tRNS = Module['_png_write_tRNS'] = createExportWrapper('png_write_tRNS');
+var _png_write_bKGD = Module['_png_write_bKGD'] = createExportWrapper('png_write_bKGD');
+var _png_write_eXIf = Module['_png_write_eXIf'] = createExportWrapper('png_write_eXIf');
+var _png_write_hIST = Module['_png_write_hIST'] = createExportWrapper('png_write_hIST');
+var _png_write_oFFs = Module['_png_write_oFFs'] = createExportWrapper('png_write_oFFs');
+var _png_write_pCAL = Module['_png_write_pCAL'] = createExportWrapper('png_write_pCAL');
+var _png_write_sCAL_s = Module['_png_write_sCAL_s'] = createExportWrapper('png_write_sCAL_s');
+var _png_write_pHYs = Module['_png_write_pHYs'] = createExportWrapper('png_write_pHYs');
+var _png_write_tIME = Module['_png_write_tIME'] = createExportWrapper('png_write_tIME');
+var _png_write_sPLT = Module['_png_write_sPLT'] = createExportWrapper('png_write_sPLT');
+var _png_write_iTXt = Module['_png_write_iTXt'] = createExportWrapper('png_write_iTXt');
+var _png_write_zTXt = Module['_png_write_zTXt'] = createExportWrapper('png_write_zTXt');
+var _png_write_tEXt = Module['_png_write_tEXt'] = createExportWrapper('png_write_tEXt');
+var _png_write_end = Module['_png_write_end'] = createExportWrapper('png_write_end');
+var _png_write_IEND = Module['_png_write_IEND'] = createExportWrapper('png_write_IEND');
+var _png_convert_from_struct_tm = Module['_png_convert_from_struct_tm'] = createExportWrapper('png_convert_from_struct_tm');
+var _png_convert_from_time_t = Module['_png_convert_from_time_t'] = createExportWrapper('png_convert_from_time_t');
+var _gmtime = Module['_gmtime'] = createExportWrapper('gmtime');
+var _png_create_write_struct_2 = Module['_png_create_write_struct_2'] = createExportWrapper('png_create_write_struct_2');
+var _png_write_rows = Module['_png_write_rows'] = createExportWrapper('png_write_rows');
+var _png_write_row = Module['_png_write_row'] = createExportWrapper('png_write_row');
+var _png_write_start_row = Module['_png_write_start_row'] = createExportWrapper('png_write_start_row');
+var _png_write_finish_row = Module['_png_write_finish_row'] = createExportWrapper('png_write_finish_row');
+var _png_do_write_interlace = Module['_png_do_write_interlace'] = createExportWrapper('png_do_write_interlace');
+var _png_do_write_transformations = Module['_png_do_write_transformations'] = createExportWrapper('png_do_write_transformations');
+var _png_write_find_filter = Module['_png_write_find_filter'] = createExportWrapper('png_write_find_filter');
+var _png_write_image = Module['_png_write_image'] = createExportWrapper('png_write_image');
+var _png_set_flush = Module['_png_set_flush'] = createExportWrapper('png_set_flush');
+var _png_write_flush = Module['_png_write_flush'] = createExportWrapper('png_write_flush');
+var _png_compress_IDAT = Module['_png_compress_IDAT'] = createExportWrapper('png_compress_IDAT');
+var _deflateEnd = Module['_deflateEnd'] = createExportWrapper('deflateEnd');
+var _png_set_filter = Module['_png_set_filter'] = createExportWrapper('png_set_filter');
+var _png_set_filter_heuristics = Module['_png_set_filter_heuristics'] = createExportWrapper('png_set_filter_heuristics');
+var _png_set_filter_heuristics_fixed = Module['_png_set_filter_heuristics_fixed'] = createExportWrapper('png_set_filter_heuristics_fixed');
+var _png_set_compression_level = Module['_png_set_compression_level'] = createExportWrapper('png_set_compression_level');
+var _png_set_compression_mem_level = Module['_png_set_compression_mem_level'] = createExportWrapper('png_set_compression_mem_level');
+var _png_set_compression_strategy = Module['_png_set_compression_strategy'] = createExportWrapper('png_set_compression_strategy');
+var _png_set_compression_window_bits = Module['_png_set_compression_window_bits'] = createExportWrapper('png_set_compression_window_bits');
+var _png_set_compression_method = Module['_png_set_compression_method'] = createExportWrapper('png_set_compression_method');
+var _png_set_text_compression_level = Module['_png_set_text_compression_level'] = createExportWrapper('png_set_text_compression_level');
+var _png_set_text_compression_mem_level = Module['_png_set_text_compression_mem_level'] = createExportWrapper('png_set_text_compression_mem_level');
+var _png_set_text_compression_strategy = Module['_png_set_text_compression_strategy'] = createExportWrapper('png_set_text_compression_strategy');
+var _png_set_text_compression_window_bits = Module['_png_set_text_compression_window_bits'] = createExportWrapper('png_set_text_compression_window_bits');
+var _png_set_text_compression_method = Module['_png_set_text_compression_method'] = createExportWrapper('png_set_text_compression_method');
+var _png_set_write_status_fn = Module['_png_set_write_status_fn'] = createExportWrapper('png_set_write_status_fn');
+var _png_set_write_user_transform_fn = Module['_png_set_write_user_transform_fn'] = createExportWrapper('png_set_write_user_transform_fn');
+var _png_image_write_to_memory = Module['_png_image_write_to_memory'] = createExportWrapper('png_image_write_to_memory');
+var _png_image_write_to_stdio = Module['_png_image_write_to_stdio'] = createExportWrapper('png_image_write_to_stdio');
+var _png_image_write_to_file = Module['_png_image_write_to_file'] = createExportWrapper('png_image_write_to_file');
+var _remove = Module['_remove'] = createExportWrapper('remove');
+var _png_save_uint_16 = Module['_png_save_uint_16'] = createExportWrapper('png_save_uint_16');
+var _png_write_chunk_start = Module['_png_write_chunk_start'] = createExportWrapper('png_write_chunk_start');
+var _png_write_chunk_data = Module['_png_write_chunk_data'] = createExportWrapper('png_write_chunk_data');
+var _png_write_chunk_end = Module['_png_write_chunk_end'] = createExportWrapper('png_write_chunk_end');
+var _deflate = Module['_deflate'] = createExportWrapper('deflate');
+var _deflateInit2_ = Module['_deflateInit2_'] = createExportWrapper('deflateInit2_');
+var _deflateReset = Module['_deflateReset'] = createExportWrapper('deflateReset');
 var __ZN2OT4GDEF13accelerator_t4initEP9hb_face_t = Module['__ZN2OT4GDEF13accelerator_t4initEP9hb_face_t'] = createExportWrapper('_ZN2OT4GDEF13accelerator_t4initEP9hb_face_t');
 var _hb_blob_destroy = Module['_hb_blob_destroy'] = createExportWrapper('hb_blob_destroy');
 var _hb_blob_reference = Module['_hb_blob_reference'] = createExportWrapper('hb_blob_reference');
@@ -27342,8 +28919,6 @@ var __ZNK3AAT8mortmorxINS_13ExtendedTypesELj1836020344EE13compile_flagsEPK20hb_a
 var __ZNK16hb_lazy_loader_tIN3AAT4mortE22hb_table_lazy_loader_tIS1_Lj26EE9hb_face_tLj26E9hb_blob_tE3getEv = Module['__ZNK16hb_lazy_loader_tIN3AAT4mortE22hb_table_lazy_loader_tIS1_Lj26EE9hb_face_tLj26E9hb_blob_tE3getEv'] = createExportWrapper('_ZNK16hb_lazy_loader_tIN3AAT4mortE22hb_table_lazy_loader_tIS1_Lj26EE9hb_face_tLj26E9hb_blob_tE3getEv');
 var __ZNK3AAT8mortmorxINS_13ObsoleteTypesELj1836020340EE13compile_flagsEPK20hb_aat_map_builder_tP12hb_aat_map_t = Module['__ZNK3AAT8mortmorxINS_13ObsoleteTypesELj1836020340EE13compile_flagsEPK20hb_aat_map_builder_tP12hb_aat_map_t'] = createExportWrapper('_ZNK3AAT8mortmorxINS_13ObsoleteTypesELj1836020340EE13compile_flagsEPK20hb_aat_map_builder_tP12hb_aat_map_t');
 var __ZNK3AAT5ChainINS_13ExtendedTypesEE13compile_flagsEPK20hb_aat_map_builder_t = Module['__ZNK3AAT5ChainINS_13ExtendedTypesEE13compile_flagsEPK20hb_aat_map_builder_t'] = createExportWrapper('_ZNK3AAT5ChainINS_13ExtendedTypesEE13compile_flagsEPK20hb_aat_map_builder_t');
-var _realloc = Module['_realloc'] = createExportWrapper('realloc');
-var _memset = Module['_memset'] = createExportWrapper('memset');
 var __ZNK3AAT5ChainINS_13ObsoleteTypesEE13compile_flagsEPK20hb_aat_map_builder_t = Module['__ZNK3AAT5ChainINS_13ObsoleteTypesEE13compile_flagsEPK20hb_aat_map_builder_t'] = createExportWrapper('_ZNK3AAT5ChainINS_13ObsoleteTypesEE13compile_flagsEPK20hb_aat_map_builder_t');
 var _hb_aat_layout_has_substitution = Module['_hb_aat_layout_has_substitution'] = createExportWrapper('hb_aat_layout_has_substitution');
 var __ZNK22hb_table_lazy_loader_tIN3AAT4morxELj25EE8get_blobEv = Module['__ZNK22hb_table_lazy_loader_tIN3AAT4morxELj25EE8get_blobEv'] = createExportWrapper('_ZNK22hb_table_lazy_loader_tIN3AAT4morxELj25EE8get_blobEv');
@@ -27424,7 +28999,6 @@ var __ZNK3AAT21NoncontextualSubtableINS_13ExtendedTypesEE5applyEPNS_22hb_aat_app
 var __ZN3AAT16StateTableDriverINS_13ExtendedTypesENS_17InsertionSubtableIS1_E9EntryDataEE5driveINS3_16driver_context_tEEEvPT_ = Module['__ZN3AAT16StateTableDriverINS_13ExtendedTypesENS_17InsertionSubtableIS1_E9EntryDataEE5driveINS3_16driver_context_tEEEvPT_'] = createExportWrapper('_ZN3AAT16StateTableDriverINS_13ExtendedTypesENS_17InsertionSubtableIS1_E9EntryDataEE5driveINS3_16driver_context_tEEEvPT_');
 var __ZNK3AAT6LookupIN2OT7IntTypeItLj2EEEE9get_valueEjj = Module['__ZNK3AAT6LookupIN2OT7IntTypeItLj2EEEE9get_valueEjj'] = createExportWrapper('_ZNK3AAT6LookupIN2OT7IntTypeItLj2EEEE9get_valueEjj');
 var __ZN3AAT21RearrangementSubtableINS_13ExtendedTypesEE16driver_context_t10transitionEPNS_16StateTableDriverIS1_vEERKNS_5EntryIvEE = Module['__ZN3AAT21RearrangementSubtableINS_13ExtendedTypesEE16driver_context_t10transitionEPNS_16StateTableDriverIS1_vEERKNS_5EntryIvEE'] = createExportWrapper('_ZN3AAT21RearrangementSubtableINS_13ExtendedTypesEE16driver_context_t10transitionEPNS_16StateTableDriverIS1_vEERKNS_5EntryIvEE');
-var _memmove = Module['_memmove'] = createExportWrapper('memmove');
 var __ZN3AAT18ContextualSubtableINS_13ExtendedTypesEE16driver_context_t10transitionEPNS_16StateTableDriverIS1_NS2_9EntryDataEEERKNS_5EntryIS5_EE = Module['__ZN3AAT18ContextualSubtableINS_13ExtendedTypesEE16driver_context_t10transitionEPNS_16StateTableDriverIS1_NS2_9EntryDataEEERKNS_5EntryIS5_EE'] = createExportWrapper('_ZN3AAT18ContextualSubtableINS_13ExtendedTypesEE16driver_context_t10transitionEPNS_16StateTableDriverIS1_NS2_9EntryDataEEERKNS_5EntryIS5_EE');
 var __ZNK3AAT6LookupIN2OT11HBGlyphID16EE9get_valueEjj = Module['__ZNK3AAT6LookupIN2OT11HBGlyphID16EE9get_valueEjj'] = createExportWrapper('_ZNK3AAT6LookupIN2OT11HBGlyphID16EE9get_valueEjj');
 var __ZNK2OT4GDEF15get_glyph_propsEj = Module['__ZNK2OT4GDEF15get_glyph_propsEj'] = createExportWrapper('_ZNK2OT4GDEF15get_glyph_propsEj');
@@ -27492,8 +29066,6 @@ var _hb_blob_is_immutable = Module['_hb_blob_is_immutable'] = createExportWrappe
 var _hb_blob_get_length = Module['_hb_blob_get_length'] = createExportWrapper('hb_blob_get_length');
 var _hb_blob_get_data = Module['_hb_blob_get_data'] = createExportWrapper('hb_blob_get_data');
 var _sysconf = Module['_sysconf'] = createExportWrapper('sysconf');
-var ___errno_location = createExportWrapper('__errno_location');
-var _strerror = Module['_strerror'] = createExportWrapper('strerror');
 var _mprotect = Module['_mprotect'] = createExportWrapper('mprotect');
 var _hb_blob_create_from_file = Module['_hb_blob_create_from_file'] = createExportWrapper('hb_blob_create_from_file');
 var _hb_blob_create_from_file_or_fail = Module['_hb_blob_create_from_file_or_fail'] = createExportWrapper('hb_blob_create_from_file_or_fail');
@@ -27502,11 +29074,7 @@ var _fstat = Module['_fstat'] = createExportWrapper('fstat');
 var _mmap = Module['_mmap'] = createExportWrapper('mmap');
 var _close = Module['_close'] = createExportWrapper('close');
 var _munmap = Module['_munmap'] = createExportWrapper('munmap');
-var _fopen = Module['_fopen'] = createExportWrapper('fopen');
 var _feof = Module['_feof'] = createExportWrapper('feof');
-var _fread = Module['_fread'] = createExportWrapper('fread');
-var _ferror = Module['_ferror'] = createExportWrapper('ferror');
-var _fclose = Module['_fclose'] = createExportWrapper('fclose');
 var _hb_buffer_serialize_list_formats = Module['_hb_buffer_serialize_list_formats'] = createExportWrapper('hb_buffer_serialize_list_formats');
 var _hb_buffer_serialize_format_from_string = Module['_hb_buffer_serialize_format_from_string'] = createExportWrapper('hb_buffer_serialize_format_from_string');
 var _hb_tag_from_string = Module['_hb_tag_from_string'] = createExportWrapper('hb_tag_from_string');
@@ -27514,7 +29082,6 @@ var _hb_buffer_serialize_format_to_string = Module['_hb_buffer_serialize_format_
 var _hb_buffer_serialize_glyphs = Module['_hb_buffer_serialize_glyphs'] = createExportWrapper('hb_buffer_serialize_glyphs');
 var _hb_font_get_empty = Module['_hb_font_get_empty'] = createExportWrapper('hb_font_get_empty');
 var _hb_font_glyph_to_string = Module['_hb_font_glyph_to_string'] = createExportWrapper('hb_font_glyph_to_string');
-var _strlen = Module['_strlen'] = createExportWrapper('strlen');
 var _snprintf = Module['_snprintf'] = createExportWrapper('snprintf');
 var _hb_font_get_glyph_extents = Module['_hb_font_get_glyph_extents'] = createExportWrapper('hb_font_get_glyph_extents');
 var _hb_buffer_serialize_unicode = Module['_hb_buffer_serialize_unicode'] = createExportWrapper('hb_buffer_serialize_unicode');
@@ -27576,10 +29143,6 @@ var _hb_buffer_append = Module['_hb_buffer_append'] = createExportWrapper('hb_bu
 var _hb_buffer_normalize_glyphs = Module['_hb_buffer_normalize_glyphs'] = createExportWrapper('hb_buffer_normalize_glyphs');
 var _hb_buffer_diff = Module['_hb_buffer_diff'] = createExportWrapper('hb_buffer_diff');
 var _hb_buffer_set_message_func = Module['_hb_buffer_set_message_func'] = createExportWrapper('hb_buffer_set_message_func');
-var _vsnprintf = Module['_vsnprintf'] = createExportWrapper('vsnprintf');
-var _getenv = Module['_getenv'] = createExportWrapper('getenv');
-var _strchr = Module['_strchr'] = createExportWrapper('strchr');
-var _strncmp = Module['_strncmp'] = createExportWrapper('strncmp');
 var _hb_tag_to_string = Module['_hb_tag_to_string'] = createExportWrapper('hb_tag_to_string');
 var _hb_direction_from_string = Module['_hb_direction_from_string'] = createExportWrapper('hb_direction_from_string');
 var _hb_direction_to_string = Module['_hb_direction_to_string'] = createExportWrapper('hb_direction_to_string');
@@ -27658,7 +29221,6 @@ var __ZNK12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE3ge
 var __ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE13set_with_hashIRKjEEbS3_jOT_ = Module['__ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE13set_with_hashIRKjEEbS3_jOT_'] = createExportWrapper('_ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE13set_with_hashIRKjEEbS3_jOT_');
 var __ZN22hb_serialize_context_t19merge_virtual_linksEPKNS_8object_tEj = Module['__ZN22hb_serialize_context_t19merge_virtual_linksEPKNS_8object_tEj'] = createExportWrapper('_ZN22hb_serialize_context_t19merge_virtual_linksEPKNS_8object_tEj');
 var __ZNK12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE15bucket_for_hashES3_j = Module['__ZNK12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE15bucket_for_hashES3_j'] = createExportWrapper('_ZNK12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE15bucket_for_hashES3_j');
-var _memcmp = createExportWrapper('memcmp');
 var __ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE6resizeEv = Module['__ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE6resizeEv'] = createExportWrapper('_ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE6resizeEv');
 var __ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE13set_with_hashIjEEbS3_jOT_ = Module['__ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE13set_with_hashIjEEbS3_jOT_'] = createExportWrapper('_ZN12hb_hashmap_tIPKN22hb_serialize_context_t8object_tEjS3_jLS3_0ELj0EE13set_with_hashIjEEbS3_jOT_');
 var __ZNK2OT7ArrayOfINS_8OffsetToINS_19OpenTypeOffsetTableENS_7IntTypeIjLj4EEELb1EEES4_E8sanitizeIJPKNS_17TTCHeaderVersion1EEEEbP21hb_sanitize_context_tDpOT_ = Module['__ZNK2OT7ArrayOfINS_8OffsetToINS_19OpenTypeOffsetTableENS_7IntTypeIjLj4EEELb1EEES4_E8sanitizeIJPKNS_17TTCHeaderVersion1EEEEbP21hb_sanitize_context_tDpOT_'] = createExportWrapper('_ZNK2OT7ArrayOfINS_8OffsetToINS_19OpenTypeOffsetTableENS_7IntTypeIjLj4EEELb1EEES4_E8sanitizeIJPKNS_17TTCHeaderVersion1EEEEbP21hb_sanitize_context_tDpOT_');
@@ -27791,7 +29353,6 @@ var _FT_Get_Advance = Module['_FT_Get_Advance'] = createExportWrapper('FT_Get_Ad
 var _FT_Get_Glyph_Name = Module['_FT_Get_Glyph_Name'] = createExportWrapper('FT_Get_Glyph_Name');
 var _FT_Get_Name_Index = Module['_FT_Get_Name_Index'] = createExportWrapper('FT_Get_Name_Index');
 var _strncpy = Module['_strncpy'] = createExportWrapper('strncpy');
-var _strcmp = Module['_strcmp'] = createExportWrapper('strcmp');
 var _hb_map_create = Module['_hb_map_create'] = createExportWrapper('hb_map_create');
 var _hb_map_get_empty = Module['_hb_map_get_empty'] = createExportWrapper('hb_map_get_empty');
 var _hb_map_reference = Module['_hb_map_reference'] = createExportWrapper('hb_map_reference');
@@ -27809,8 +29370,6 @@ var _hb_map_clear = Module['_hb_map_clear'] = createExportWrapper('hb_map_clear'
 var _hb_map_is_empty = Module['_hb_map_is_empty'] = createExportWrapper('hb_map_is_empty');
 var _hb_map_get_population = Module['_hb_map_get_population'] = createExportWrapper('hb_map_get_population');
 var __ZN12hb_hashmap_tIjjjjLj4294967295ELj4294967295EE6resizeEv = Module['__ZN12hb_hashmap_tIjjjjLj4294967295ELj4294967295EE6resizeEv'] = createExportWrapper('_ZN12hb_hashmap_tIjjjjLj4294967295ELj4294967295EE6resizeEv');
-var _strtol = Module['_strtol'] = createExportWrapper('strtol');
-var _strtoul = Module['_strtoul'] = createExportWrapper('strtoul');
 var __ZNK3CFF8CFFIndexIN2OT7IntTypeItLj2EEEEixEj = Module['__ZNK3CFF8CFFIndexIN2OT7IntTypeItLj2EEEEixEj'] = createExportWrapper('_ZNK3CFF8CFFIndexIN2OT7IntTypeItLj2EEEEixEj');
 var __ZN23cff1_cs_opset_extents_t12process_seacERN3CFF20cff1_cs_interp_env_tER20cff1_extents_param_t = Module['__ZN23cff1_cs_opset_extents_t12process_seacERN3CFF20cff1_cs_interp_env_tER20cff1_extents_param_t'] = createExportWrapper('_ZN23cff1_cs_opset_extents_t12process_seacERN3CFF20cff1_cs_interp_env_tER20cff1_extents_param_t');
 var __ZN3CFF10cs_opset_tINS_8number_tE23cff1_cs_opset_extents_tNS_20cff1_cs_interp_env_tE20cff1_extents_param_t25cff1_path_procs_extents_tE10process_opEjRS3_RS4_ = Module['__ZN3CFF10cs_opset_tINS_8number_tE23cff1_cs_opset_extents_tNS_20cff1_cs_interp_env_tE20cff1_extents_param_t25cff1_path_procs_extents_tE10process_opEjRS3_RS4_'] = createExportWrapper('_ZN3CFF10cs_opset_tINS_8number_tE23cff1_cs_opset_extents_tNS_20cff1_cs_interp_env_tE20cff1_extents_param_t25cff1_path_procs_extents_tE10process_opEjRS3_RS4_');
@@ -28487,7 +30046,6 @@ var _hb_ot_shape_plan_collect_lookups = Module['_hb_ot_shape_plan_collect_lookup
 var _hb_ot_shape_glyphs_closure = Module['_hb_ot_shape_glyphs_closure'] = createExportWrapper('hb_ot_shape_glyphs_closure');
 var _hb_shape_plan_create_cached = Module['_hb_shape_plan_create_cached'] = createExportWrapper('hb_shape_plan_create_cached');
 var _hb_ot_tags_from_script = Module['_hb_ot_tags_from_script'] = createExportWrapper('hb_ot_tags_from_script');
-var _strstr = Module['_strstr'] = createExportWrapper('strstr');
 var __ZNK17hb_sorted_array_tIK7LangTagE12bsearch_implIPKcEEbRKT_Pj = Module['__ZNK17hb_sorted_array_tIK7LangTagE12bsearch_implIPKcEEbRKT_Pj'] = createExportWrapper('_ZNK17hb_sorted_array_tIK7LangTagE12bsearch_implIPKcEEbRKT_Pj');
 var _hb_ot_tag_to_script = Module['_hb_ot_tag_to_script'] = createExportWrapper('hb_ot_tag_to_script');
 var _hb_ot_tag_from_language = Module['_hb_ot_tag_from_language'] = createExportWrapper('hb_ot_tag_from_language');
@@ -28555,7 +30113,6 @@ var __ZN24hb_shapers_lazy_loader_t6createEv = Module['__ZN24hb_shapers_lazy_load
 var __ZN21hb_sanitize_context_t13sanitize_blobIN2OT4maxpEEEP9hb_blob_tS4_ = Module['__ZN21hb_sanitize_context_t13sanitize_blobIN2OT4maxpEEEP9hb_blob_tS4_'] = createExportWrapper('_ZN21hb_sanitize_context_t13sanitize_blobIN2OT4maxpEEEP9hb_blob_tS4_');
 var __ZN17hb_lockable_set_tIN20hb_user_data_array_t19hb_user_data_item_tE10hb_mutex_tE17replace_or_insertIS1_EEPS1_T_RS2_b = Module['__ZN17hb_lockable_set_tIN20hb_user_data_array_t19hb_user_data_item_tE10hb_mutex_tE17replace_or_insertIS1_EEPS1_T_RS2_b'] = createExportWrapper('_ZN17hb_lockable_set_tIN20hb_user_data_array_t19hb_user_data_item_tE10hb_mutex_tE17replace_or_insertIS1_EEPS1_T_RS2_b');
 var _hb_style_get_value = Module['_hb_style_get_value'] = createExportWrapper('hb_style_get_value');
-var _tanf = Module['_tanf'] = createExportWrapper('tanf');
 var __ZNK16hb_lazy_loader_tIN2OT4STATE22hb_table_lazy_loader_tIS1_Lj8EE9hb_face_tLj8E9hb_blob_tE3getEv = Module['__ZNK16hb_lazy_loader_tIN2OT4STATE22hb_table_lazy_loader_tIS1_Lj8EE9hb_face_tLj8E9hb_blob_tE3getEv'] = createExportWrapper('_ZNK16hb_lazy_loader_tIN2OT4STATE22hb_table_lazy_loader_tIS1_Lj8EE9hb_face_tLj8E9hb_blob_tE3getEv');
 var __ZNK2OT4STAT9get_valueEjPf = Module['__ZNK2OT4STAT9get_valueEjPf'] = createExportWrapper('_ZNK2OT4STAT9get_valueEjPf');
 var __ZNK2OT3OS29get_widthEv = Module['__ZNK2OT3OS29get_widthEv'] = createExportWrapper('_ZNK2OT3OS29get_widthEv');
@@ -28586,1646 +30143,6 @@ var _hb_unicode_script = Module['_hb_unicode_script'] = createExportWrapper('hb_
 var _hb_unicode_compose = Module['_hb_unicode_compose'] = createExportWrapper('hb_unicode_compose');
 var _hb_unicode_decompose = Module['_hb_unicode_decompose'] = createExportWrapper('hb_unicode_decompose');
 var _hb_unicode_decompose_compatibility = Module['_hb_unicode_decompose_compatibility'] = createExportWrapper('hb_unicode_decompose_compatibility');
-var _SDL_ExitProcess = Module['_SDL_ExitProcess'] = createExportWrapper('SDL_ExitProcess');
-var _SDL_SetMainReady = Module['_SDL_SetMainReady'] = createExportWrapper('SDL_SetMainReady');
-var _SDL_InitSubSystem = Module['_SDL_InitSubSystem'] = createExportWrapper('SDL_InitSubSystem');
-var _SDL_LogInit = Module['_SDL_LogInit'] = createExportWrapper('SDL_LogInit');
-var _SDL_ClearError = Module['_SDL_ClearError'] = createExportWrapper('SDL_ClearError');
-var _SDL_TicksInit = Module['_SDL_TicksInit'] = createExportWrapper('SDL_TicksInit');
-var _SDL_EventsInit = Module['_SDL_EventsInit'] = createExportWrapper('SDL_EventsInit');
-var _SDL_TimerInit = Module['_SDL_TimerInit'] = createExportWrapper('SDL_TimerInit');
-var _SDL_VideoInit = Module['_SDL_VideoInit'] = createExportWrapper('SDL_VideoInit');
-var _SDL_AudioInit = Module['_SDL_AudioInit'] = createExportWrapper('SDL_AudioInit');
-var _SDL_JoystickInit = Module['_SDL_JoystickInit'] = createExportWrapper('SDL_JoystickInit');
-var _SDL_GameControllerInit = Module['_SDL_GameControllerInit'] = createExportWrapper('SDL_GameControllerInit');
-var _SDL_SensorInit = Module['_SDL_SensorInit'] = createExportWrapper('SDL_SensorInit');
-var _SDL_QuitSubSystem = Module['_SDL_QuitSubSystem'] = createExportWrapper('SDL_QuitSubSystem');
-var _SDL_SensorQuit = Module['_SDL_SensorQuit'] = createExportWrapper('SDL_SensorQuit');
-var _SDL_GameControllerQuit = Module['_SDL_GameControllerQuit'] = createExportWrapper('SDL_GameControllerQuit');
-var _SDL_JoystickQuit = Module['_SDL_JoystickQuit'] = createExportWrapper('SDL_JoystickQuit');
-var _SDL_AudioQuit = Module['_SDL_AudioQuit'] = createExportWrapper('SDL_AudioQuit');
-var _SDL_VideoQuit = Module['_SDL_VideoQuit'] = createExportWrapper('SDL_VideoQuit');
-var _SDL_TimerQuit = Module['_SDL_TimerQuit'] = createExportWrapper('SDL_TimerQuit');
-var _SDL_EventsQuit = Module['_SDL_EventsQuit'] = createExportWrapper('SDL_EventsQuit');
-var _SDL_WasInit = Module['_SDL_WasInit'] = createExportWrapper('SDL_WasInit');
-var _SDL_TicksQuit = Module['_SDL_TicksQuit'] = createExportWrapper('SDL_TicksQuit');
-var _SDL_ClearHints = Module['_SDL_ClearHints'] = createExportWrapper('SDL_ClearHints');
-var _SDL_AssertionsQuit = Module['_SDL_AssertionsQuit'] = createExportWrapper('SDL_AssertionsQuit');
-var _SDL_LogQuit = Module['_SDL_LogQuit'] = createExportWrapper('SDL_LogQuit');
-var _SDL_GetVersion = Module['_SDL_GetVersion'] = createExportWrapper('SDL_GetVersion');
-var _SDL_GetRevision = Module['_SDL_GetRevision'] = createExportWrapper('SDL_GetRevision');
-var _SDL_GetRevisionNumber = Module['_SDL_GetRevisionNumber'] = createExportWrapper('SDL_GetRevisionNumber');
-var _SDL_GetPlatform = Module['_SDL_GetPlatform'] = createExportWrapper('SDL_GetPlatform');
-var _SDL_IsTablet = Module['_SDL_IsTablet'] = createExportWrapper('SDL_IsTablet');
-var _SDL_RLESurface = Module['_SDL_RLESurface'] = createExportWrapper('SDL_RLESurface');
-var _SDL_UnRLESurface = Module['_SDL_UnRLESurface'] = createExportWrapper('SDL_UnRLESurface');
-var _SDL_SIMDAlloc = Module['_SDL_SIMDAlloc'] = createExportWrapper('SDL_SIMDAlloc');
-var _SDL_FillRect = Module['_SDL_FillRect'] = createExportWrapper('SDL_FillRect');
-var _SDL_SIMDFree = Module['_SDL_SIMDFree'] = createExportWrapper('SDL_SIMDFree');
-var _SDL_LockSurface = Module['_SDL_LockSurface'] = createExportWrapper('SDL_LockSurface');
-var _SDL_UnlockSurface = Module['_SDL_UnlockSurface'] = createExportWrapper('SDL_UnlockSurface');
-var _SDL_ReportAssertion = Module['_SDL_ReportAssertion'] = createExportWrapper('SDL_ReportAssertion');
-var _SDL_SetAssertionHandler = Module['_SDL_SetAssertionHandler'] = createExportWrapper('SDL_SetAssertionHandler');
-var _SDL_snprintf = Module['_SDL_snprintf'] = createExportWrapper('SDL_snprintf');
-var _SDL_getenv = Module['_SDL_getenv'] = createExportWrapper('SDL_getenv');
-var _SDL_strcmp = Module['_SDL_strcmp'] = createExportWrapper('SDL_strcmp');
-var _SDL_GetFocusWindow = Module['_SDL_GetFocusWindow'] = createExportWrapper('SDL_GetFocusWindow');
-var _SDL_GetWindowFlags = Module['_SDL_GetWindowFlags'] = createExportWrapper('SDL_GetWindowFlags');
-var _SDL_MinimizeWindow = Module['_SDL_MinimizeWindow'] = createExportWrapper('SDL_MinimizeWindow');
-var _SDL_ShowMessageBox = Module['_SDL_ShowMessageBox'] = createExportWrapper('SDL_ShowMessageBox');
-var _SDL_RestoreWindow = Module['_SDL_RestoreWindow'] = createExportWrapper('SDL_RestoreWindow');
-var _SDL_GetAssertionReport = Module['_SDL_GetAssertionReport'] = createExportWrapper('SDL_GetAssertionReport');
-var _SDL_ResetAssertionReport = Module['_SDL_ResetAssertionReport'] = createExportWrapper('SDL_ResetAssertionReport');
-var _SDL_GetDefaultAssertionHandler = Module['_SDL_GetDefaultAssertionHandler'] = createExportWrapper('SDL_GetDefaultAssertionHandler');
-var _SDL_GetAssertionHandler = Module['_SDL_GetAssertionHandler'] = createExportWrapper('SDL_GetAssertionHandler');
-var _SDL_LogMessageV = Module['_SDL_LogMessageV'] = createExportWrapper('SDL_LogMessageV');
-var _SDL_AtomicCAS = Module['_SDL_AtomicCAS'] = createExportWrapper('SDL_AtomicCAS');
-var _SDL_AtomicCASPtr = Module['_SDL_AtomicCASPtr'] = createExportWrapper('SDL_AtomicCASPtr');
-var _SDL_AtomicSet = Module['_SDL_AtomicSet'] = createExportWrapper('SDL_AtomicSet');
-var _SDL_AtomicSetPtr = Module['_SDL_AtomicSetPtr'] = createExportWrapper('SDL_AtomicSetPtr');
-var _SDL_AtomicAdd = Module['_SDL_AtomicAdd'] = createExportWrapper('SDL_AtomicAdd');
-var _SDL_AtomicGet = Module['_SDL_AtomicGet'] = createExportWrapper('SDL_AtomicGet');
-var _SDL_AtomicGetPtr = Module['_SDL_AtomicGetPtr'] = createExportWrapper('SDL_AtomicGetPtr');
-var _SDL_MemoryBarrierReleaseFunction = Module['_SDL_MemoryBarrierReleaseFunction'] = createExportWrapper('SDL_MemoryBarrierReleaseFunction');
-var _SDL_AtomicLock = Module['_SDL_AtomicLock'] = createExportWrapper('SDL_AtomicLock');
-var _SDL_AtomicUnlock = Module['_SDL_AtomicUnlock'] = createExportWrapper('SDL_AtomicUnlock');
-var _SDL_MemoryBarrierAcquireFunction = Module['_SDL_MemoryBarrierAcquireFunction'] = createExportWrapper('SDL_MemoryBarrierAcquireFunction');
-var _SDL_AddAudioDevice = Module['_SDL_AddAudioDevice'] = createExportWrapper('SDL_AddAudioDevice');
-var _SDL_EventState = Module['_SDL_EventState'] = createExportWrapper('SDL_EventState');
-var _SDL_PushEvent = Module['_SDL_PushEvent'] = createExportWrapper('SDL_PushEvent');
-var _SDL_OpenedAudioDeviceDisconnected = Module['_SDL_OpenedAudioDeviceDisconnected'] = createExportWrapper('SDL_OpenedAudioDeviceDisconnected');
-var _SDL_RemoveAudioDevice = Module['_SDL_RemoveAudioDevice'] = createExportWrapper('SDL_RemoveAudioDevice');
-var _SDL_LockMutex = Module['_SDL_LockMutex'] = createExportWrapper('SDL_LockMutex');
-var _SDL_UnlockMutex = Module['_SDL_UnlockMutex'] = createExportWrapper('SDL_UnlockMutex');
-var _SDL_QueueAudio = Module['_SDL_QueueAudio'] = createExportWrapper('SDL_QueueAudio');
-var _SDL_WriteToDataQueue = Module['_SDL_WriteToDataQueue'] = createExportWrapper('SDL_WriteToDataQueue');
-var _SDL_ReadFromDataQueue = Module['_SDL_ReadFromDataQueue'] = createExportWrapper('SDL_ReadFromDataQueue');
-var _SDL_DequeueAudio = Module['_SDL_DequeueAudio'] = createExportWrapper('SDL_DequeueAudio');
-var _SDL_GetQueuedAudioSize = Module['_SDL_GetQueuedAudioSize'] = createExportWrapper('SDL_GetQueuedAudioSize');
-var _SDL_CountDataQueue = Module['_SDL_CountDataQueue'] = createExportWrapper('SDL_CountDataQueue');
-var _SDL_ClearQueuedAudio = Module['_SDL_ClearQueuedAudio'] = createExportWrapper('SDL_ClearQueuedAudio');
-var _SDL_ClearDataQueue = Module['_SDL_ClearDataQueue'] = createExportWrapper('SDL_ClearDataQueue');
-var _SDL_GetNumAudioDrivers = Module['_SDL_GetNumAudioDrivers'] = createExportWrapper('SDL_GetNumAudioDrivers');
-var _SDL_GetAudioDriver = Module['_SDL_GetAudioDriver'] = createExportWrapper('SDL_GetAudioDriver');
-var _SDL_GetHint = Module['_SDL_GetHint'] = createExportWrapper('SDL_GetHint');
-var _SDL_strchr = Module['_SDL_strchr'] = createExportWrapper('SDL_strchr');
-var _SDL_strncasecmp = Module['_SDL_strncasecmp'] = createExportWrapper('SDL_strncasecmp');
-var _SDL_CreateMutex = Module['_SDL_CreateMutex'] = createExportWrapper('SDL_CreateMutex');
-var _SDL_GetCurrentAudioDriver = Module['_SDL_GetCurrentAudioDriver'] = createExportWrapper('SDL_GetCurrentAudioDriver');
-var _SDL_DestroyMutex = Module['_SDL_DestroyMutex'] = createExportWrapper('SDL_DestroyMutex');
-var _SDL_GetNumAudioDevices = Module['_SDL_GetNumAudioDevices'] = createExportWrapper('SDL_GetNumAudioDevices');
-var _SDL_GetAudioDeviceName = Module['_SDL_GetAudioDeviceName'] = createExportWrapper('SDL_GetAudioDeviceName');
-var _SDL_GetAudioDeviceSpec = Module['_SDL_GetAudioDeviceSpec'] = createExportWrapper('SDL_GetAudioDeviceSpec');
-var _SDL_GetDefaultAudioInfo = Module['_SDL_GetDefaultAudioInfo'] = createExportWrapper('SDL_GetDefaultAudioInfo');
-var _SDL_OpenAudio = Module['_SDL_OpenAudio'] = createExportWrapper('SDL_OpenAudio');
-var _SDL_atoi = Module['_SDL_atoi'] = createExportWrapper('SDL_atoi');
-var _SDL_powerof2 = Module['_SDL_powerof2'] = createExportWrapper('SDL_powerof2');
-var _SDL_CalculateAudioSpec = Module['_SDL_CalculateAudioSpec'] = createExportWrapper('SDL_CalculateAudioSpec');
-var _SDL_NewAudioStream = Module['_SDL_NewAudioStream'] = createExportWrapper('SDL_NewAudioStream');
-var _SDL_NewDataQueue = Module['_SDL_NewDataQueue'] = createExportWrapper('SDL_NewDataQueue');
-var _SDL_CreateThreadInternal = Module['_SDL_CreateThreadInternal'] = createExportWrapper('SDL_CreateThreadInternal');
-var _SDL_OpenAudioDevice = Module['_SDL_OpenAudioDevice'] = createExportWrapper('SDL_OpenAudioDevice');
-var _SDL_GetAudioDeviceStatus = Module['_SDL_GetAudioDeviceStatus'] = createExportWrapper('SDL_GetAudioDeviceStatus');
-var _SDL_GetAudioStatus = Module['_SDL_GetAudioStatus'] = createExportWrapper('SDL_GetAudioStatus');
-var _SDL_PauseAudioDevice = Module['_SDL_PauseAudioDevice'] = createExportWrapper('SDL_PauseAudioDevice');
-var _SDL_PauseAudio = Module['_SDL_PauseAudio'] = createExportWrapper('SDL_PauseAudio');
-var _SDL_LockAudioDevice = Module['_SDL_LockAudioDevice'] = createExportWrapper('SDL_LockAudioDevice');
-var _SDL_LockAudio = Module['_SDL_LockAudio'] = createExportWrapper('SDL_LockAudio');
-var _SDL_UnlockAudioDevice = Module['_SDL_UnlockAudioDevice'] = createExportWrapper('SDL_UnlockAudioDevice');
-var _SDL_UnlockAudio = Module['_SDL_UnlockAudio'] = createExportWrapper('SDL_UnlockAudio');
-var _SDL_CloseAudioDevice = Module['_SDL_CloseAudioDevice'] = createExportWrapper('SDL_CloseAudioDevice');
-var _SDL_WaitThread = Module['_SDL_WaitThread'] = createExportWrapper('SDL_WaitThread');
-var _SDL_FreeAudioStream = Module['_SDL_FreeAudioStream'] = createExportWrapper('SDL_FreeAudioStream');
-var _SDL_FreeDataQueue = Module['_SDL_FreeDataQueue'] = createExportWrapper('SDL_FreeDataQueue');
-var _SDL_CloseAudio = Module['_SDL_CloseAudio'] = createExportWrapper('SDL_CloseAudio');
-var _SDL_FirstAudioFormat = Module['_SDL_FirstAudioFormat'] = createExportWrapper('SDL_FirstAudioFormat');
-var _SDL_NextAudioFormat = Module['_SDL_NextAudioFormat'] = createExportWrapper('SDL_NextAudioFormat');
-var _SDL_SilenceValueForFormat = Module['_SDL_SilenceValueForFormat'] = createExportWrapper('SDL_SilenceValueForFormat');
-var _SDL_MixAudio = Module['_SDL_MixAudio'] = createExportWrapper('SDL_MixAudio');
-var _SDL_MixAudioFormat = Module['_SDL_MixAudioFormat'] = createExportWrapper('SDL_MixAudioFormat');
-var _SDL_strdup = Module['_SDL_strdup'] = createExportWrapper('SDL_strdup');
-var _SDL_ThreadID = Module['_SDL_ThreadID'] = createExportWrapper('SDL_ThreadID');
-var _SDL_SetThreadPriority = Module['_SDL_SetThreadPriority'] = createExportWrapper('SDL_SetThreadPriority');
-var _SDL_AudioStreamClear = Module['_SDL_AudioStreamClear'] = createExportWrapper('SDL_AudioStreamClear');
-var _SDL_AudioStreamPut = Module['_SDL_AudioStreamPut'] = createExportWrapper('SDL_AudioStreamPut');
-var _SDL_AudioStreamAvailable = Module['_SDL_AudioStreamAvailable'] = createExportWrapper('SDL_AudioStreamAvailable');
-var _SDL_AudioStreamGet = Module['_SDL_AudioStreamGet'] = createExportWrapper('SDL_AudioStreamGet');
-var _SDL_ConvertAudio = Module['_SDL_ConvertAudio'] = createExportWrapper('SDL_ConvertAudio');
-var _SDL_BuildAudioCVT = Module['_SDL_BuildAudioCVT'] = createExportWrapper('SDL_BuildAudioCVT');
-var _SDL_ChooseAudioConverters = Module['_SDL_ChooseAudioConverters'] = createExportWrapper('SDL_ChooseAudioConverters');
-var _SDL_ceil = Module['_SDL_ceil'] = createExportWrapper('SDL_ceil');
-var _SDL_ceilf = Module['_SDL_ceilf'] = createExportWrapper('SDL_ceilf');
-var _SDL_AudioStreamFlush = Module['_SDL_AudioStreamFlush'] = createExportWrapper('SDL_AudioStreamFlush');
-var _SDL_memmove = Module['_SDL_memmove'] = createExportWrapper('SDL_memmove');
-var _SDL_BlendFillRect = Module['_SDL_BlendFillRect'] = createExportWrapper('SDL_BlendFillRect');
-var _SDL_IntersectRect = Module['_SDL_IntersectRect'] = createExportWrapper('SDL_IntersectRect');
-var _SDL_BlendFillRects = Module['_SDL_BlendFillRects'] = createExportWrapper('SDL_BlendFillRects');
-var _SDL_BlendLine = Module['_SDL_BlendLine'] = createExportWrapper('SDL_BlendLine');
-var _SDL_IntersectRectAndLine = Module['_SDL_IntersectRectAndLine'] = createExportWrapper('SDL_IntersectRectAndLine');
-var _SDL_BlendLines = Module['_SDL_BlendLines'] = createExportWrapper('SDL_BlendLines');
-var _SDL_BlendPoint = Module['_SDL_BlendPoint'] = createExportWrapper('SDL_BlendPoint');
-var _SDL_BlendPoints = Module['_SDL_BlendPoints'] = createExportWrapper('SDL_BlendPoints');
-var _SDL_CalculateBlit = Module['_SDL_CalculateBlit'] = createExportWrapper('SDL_CalculateBlit');
-var _SDL_InvalidateMap = Module['_SDL_InvalidateMap'] = createExportWrapper('SDL_InvalidateMap');
-var _SDL_BlitCopy = Module['_SDL_BlitCopy'] = createExportWrapper('SDL_BlitCopy');
-var _SDL_Blit_Slow = Module['_SDL_Blit_Slow'] = createExportWrapper('SDL_Blit_Slow');
-var _SDL_CalculateBlit0 = Module['_SDL_CalculateBlit0'] = createExportWrapper('SDL_CalculateBlit0');
-var _SDL_CalculateBlit1 = Module['_SDL_CalculateBlit1'] = createExportWrapper('SDL_CalculateBlit1');
-var _SDL_CalculateBlitA = Module['_SDL_CalculateBlitA'] = createExportWrapper('SDL_CalculateBlitA');
-var _SDL_CalculateBlitN = Module['_SDL_CalculateBlitN'] = createExportWrapper('SDL_CalculateBlitN');
-var _SDL_sscanf = Module['_SDL_sscanf'] = createExportWrapper('SDL_sscanf');
-var _SDL_HasMMX = Module['_SDL_HasMMX'] = createExportWrapper('SDL_HasMMX');
-var _SDL_Has3DNow = Module['_SDL_Has3DNow'] = createExportWrapper('SDL_Has3DNow');
-var _SDL_HasSSE = Module['_SDL_HasSSE'] = createExportWrapper('SDL_HasSSE');
-var _SDL_HasSSE2 = Module['_SDL_HasSSE2'] = createExportWrapper('SDL_HasSSE2');
-var _SDL_HasAltiVec = Module['_SDL_HasAltiVec'] = createExportWrapper('SDL_HasAltiVec');
-var _SDL_HasARMSIMD = Module['_SDL_HasARMSIMD'] = createExportWrapper('SDL_HasARMSIMD');
-var _SDL_LoadBMP_RW = Module['_SDL_LoadBMP_RW'] = createExportWrapper('SDL_LoadBMP_RW');
-var _SDL_strncmp = Module['_SDL_strncmp'] = createExportWrapper('SDL_strncmp');
-var _SDL_ReadLE32 = Module['_SDL_ReadLE32'] = createExportWrapper('SDL_ReadLE32');
-var _SDL_ReadLE16 = Module['_SDL_ReadLE16'] = createExportWrapper('SDL_ReadLE16');
-var _SDL_SaveBMP_RW = Module['_SDL_SaveBMP_RW'] = createExportWrapper('SDL_SaveBMP_RW');
-var _SDL_InitFormat = Module['_SDL_InitFormat'] = createExportWrapper('SDL_InitFormat');
-var _SDL_ConvertSurface = Module['_SDL_ConvertSurface'] = createExportWrapper('SDL_ConvertSurface');
-var _SDL_GetHintBoolean = Module['_SDL_GetHintBoolean'] = createExportWrapper('SDL_GetHintBoolean');
-var _SDL_WriteLE32 = Module['_SDL_WriteLE32'] = createExportWrapper('SDL_WriteLE32');
-var _SDL_WriteLE16 = Module['_SDL_WriteLE16'] = createExportWrapper('SDL_WriteLE16');
-var _SDL_SetClipboardText = Module['_SDL_SetClipboardText'] = createExportWrapper('SDL_SetClipboardText');
-var _SDL_GetVideoDevice = Module['_SDL_GetVideoDevice'] = createExportWrapper('SDL_GetVideoDevice');
-var _SDL_GetClipboardText = Module['_SDL_GetClipboardText'] = createExportWrapper('SDL_GetClipboardText');
-var _SDL_HasClipboardText = Module['_SDL_HasClipboardText'] = createExportWrapper('SDL_HasClipboardText');
-var _SDL_SendClipboardUpdate = Module['_SDL_SendClipboardUpdate'] = createExportWrapper('SDL_SendClipboardUpdate');
-var _SDL_GetCPUCount = Module['_SDL_GetCPUCount'] = createExportWrapper('SDL_GetCPUCount');
-var _SDL_GetCPUCacheLineSize = Module['_SDL_GetCPUCacheLineSize'] = createExportWrapper('SDL_GetCPUCacheLineSize');
-var _SDL_strlcpy = Module['_SDL_strlcpy'] = createExportWrapper('SDL_strlcpy');
-var _SDL_HasRDTSC = Module['_SDL_HasRDTSC'] = createExportWrapper('SDL_HasRDTSC');
-var _SDL_HasSSE3 = Module['_SDL_HasSSE3'] = createExportWrapper('SDL_HasSSE3');
-var _SDL_HasSSE41 = Module['_SDL_HasSSE41'] = createExportWrapper('SDL_HasSSE41');
-var _SDL_HasSSE42 = Module['_SDL_HasSSE42'] = createExportWrapper('SDL_HasSSE42');
-var _SDL_HasAVX = Module['_SDL_HasAVX'] = createExportWrapper('SDL_HasAVX');
-var _SDL_HasAVX2 = Module['_SDL_HasAVX2'] = createExportWrapper('SDL_HasAVX2');
-var _SDL_HasAVX512F = Module['_SDL_HasAVX512F'] = createExportWrapper('SDL_HasAVX512F');
-var _SDL_HasNEON = Module['_SDL_HasNEON'] = createExportWrapper('SDL_HasNEON');
-var _SDL_HasLSX = Module['_SDL_HasLSX'] = createExportWrapper('SDL_HasLSX');
-var _SDL_HasLASX = Module['_SDL_HasLASX'] = createExportWrapper('SDL_HasLASX');
-var _SDL_GetSystemRAM = Module['_SDL_GetSystemRAM'] = createExportWrapper('SDL_GetSystemRAM');
-var _SDL_SIMDGetAlignment = Module['_SDL_SIMDGetAlignment'] = createExportWrapper('SDL_SIMDGetAlignment');
-var _SDL_SIMDRealloc = Module['_SDL_SIMDRealloc'] = createExportWrapper('SDL_SIMDRealloc');
-var _SDL_crc16 = Module['_SDL_crc16'] = createExportWrapper('SDL_crc16');
-var _SDL_crc32 = Module['_SDL_crc32'] = createExportWrapper('SDL_crc32');
-var _SDL_PeekIntoDataQueue = Module['_SDL_PeekIntoDataQueue'] = createExportWrapper('SDL_PeekIntoDataQueue');
-var _SDL_ReserveSpaceInDataQueue = Module['_SDL_ReserveSpaceInDataQueue'] = createExportWrapper('SDL_ReserveSpaceInDataQueue');
-var _SDL_LogCritical = Module['_SDL_LogCritical'] = createExportWrapper('SDL_LogCritical');
-var _SDL_SendDisplayEvent = Module['_SDL_SendDisplayEvent'] = createExportWrapper('SDL_SendDisplayEvent');
-var _SDL_GetIndexOfDisplay = Module['_SDL_GetIndexOfDisplay'] = createExportWrapper('SDL_GetIndexOfDisplay');
-var _SDL_DrawLine = Module['_SDL_DrawLine'] = createExportWrapper('SDL_DrawLine');
-var _SDL_DrawLines = Module['_SDL_DrawLines'] = createExportWrapper('SDL_DrawLines');
-var _SDL_DrawPoint = Module['_SDL_DrawPoint'] = createExportWrapper('SDL_DrawPoint');
-var _SDL_GetRGBA = Module['_SDL_GetRGBA'] = createExportWrapper('SDL_GetRGBA');
-var _SDL_DrawPoints = Module['_SDL_DrawPoints'] = createExportWrapper('SDL_DrawPoints');
-var _SDL_SendDropFile = Module['_SDL_SendDropFile'] = createExportWrapper('SDL_SendDropFile');
-var _SDL_SendDropText = Module['_SDL_SendDropText'] = createExportWrapper('SDL_SendDropText');
-var _SDL_SendDropComplete = Module['_SDL_SendDropComplete'] = createExportWrapper('SDL_SendDropComplete');
-var _SDL_main_stub_symbol = Module['_SDL_main_stub_symbol'] = createExportWrapper('SDL_main_stub_symbol');
-var _SDL_EGL_SetErrorEx = Module['_SDL_EGL_SetErrorEx'] = createExportWrapper('SDL_EGL_SetErrorEx');
-var _SDL_EGL_HasExtension = Module['_SDL_EGL_HasExtension'] = createExportWrapper('SDL_EGL_HasExtension');
-var _SDL_strstr = Module['_SDL_strstr'] = createExportWrapper('SDL_strstr');
-var _SDL_EGL_GetProcAddress = Module['_SDL_EGL_GetProcAddress'] = createExportWrapper('SDL_EGL_GetProcAddress');
-var _SDL_EGL_UnloadLibrary = Module['_SDL_EGL_UnloadLibrary'] = createExportWrapper('SDL_EGL_UnloadLibrary');
-var _SDL_UnloadObject = Module['_SDL_UnloadObject'] = createExportWrapper('SDL_UnloadObject');
-var _SDL_EGL_LoadLibraryOnly = Module['_SDL_EGL_LoadLibraryOnly'] = createExportWrapper('SDL_EGL_LoadLibraryOnly');
-var _SDL_LoadObject = Module['_SDL_LoadObject'] = createExportWrapper('SDL_LoadObject');
-var _SDL_LoadFunction = Module['_SDL_LoadFunction'] = createExportWrapper('SDL_LoadFunction');
-var _SDL_EGL_LoadLibrary = Module['_SDL_EGL_LoadLibrary'] = createExportWrapper('SDL_EGL_LoadLibrary');
-var _SDL_LogWarn = Module['_SDL_LogWarn'] = createExportWrapper('SDL_LogWarn');
-var _SDL_EGL_InitializeOffscreen = Module['_SDL_EGL_InitializeOffscreen'] = createExportWrapper('SDL_EGL_InitializeOffscreen');
-var _SDL_EGL_SetRequiredVisualId = Module['_SDL_EGL_SetRequiredVisualId'] = createExportWrapper('SDL_EGL_SetRequiredVisualId');
-var _SDL_EGL_ChooseConfig = Module['_SDL_EGL_ChooseConfig'] = createExportWrapper('SDL_EGL_ChooseConfig');
-var _SDL_Log = Module['_SDL_Log'] = createExportWrapper('SDL_Log');
-var _SDL_EGL_CreateContext = Module['_SDL_EGL_CreateContext'] = createExportWrapper('SDL_EGL_CreateContext');
-var _SDL_GL_GetCurrentContext = Module['_SDL_GL_GetCurrentContext'] = createExportWrapper('SDL_GL_GetCurrentContext');
-var _SDL_EGL_MakeCurrent = Module['_SDL_EGL_MakeCurrent'] = createExportWrapper('SDL_EGL_MakeCurrent');
-var _SDL_GL_ExtensionSupported = Module['_SDL_GL_ExtensionSupported'] = createExportWrapper('SDL_GL_ExtensionSupported');
-var _SDL_EGL_DeleteContext = Module['_SDL_EGL_DeleteContext'] = createExportWrapper('SDL_EGL_DeleteContext');
-var _SDL_EGL_SetSwapInterval = Module['_SDL_EGL_SetSwapInterval'] = createExportWrapper('SDL_EGL_SetSwapInterval');
-var _SDL_EGL_GetSwapInterval = Module['_SDL_EGL_GetSwapInterval'] = createExportWrapper('SDL_EGL_GetSwapInterval');
-var _SDL_EGL_SwapBuffers = Module['_SDL_EGL_SwapBuffers'] = createExportWrapper('SDL_EGL_SwapBuffers');
-var _SDL_EGL_CreateSurface = Module['_SDL_EGL_CreateSurface'] = createExportWrapper('SDL_EGL_CreateSurface');
-var _SDL_EGL_CreateOffscreenSurface = Module['_SDL_EGL_CreateOffscreenSurface'] = createExportWrapper('SDL_EGL_CreateOffscreenSurface');
-var _SDL_EGL_DestroySurface = Module['_SDL_EGL_DestroySurface'] = createExportWrapper('SDL_EGL_DestroySurface');
-var _Emscripten_HandleCanvasResize = Module['_Emscripten_HandleCanvasResize'] = createExportWrapper('Emscripten_HandleCanvasResize');
-var _SDL_SendWindowEvent = Module['_SDL_SendWindowEvent'] = createExportWrapper('SDL_SendWindowEvent');
-var _Emscripten_RegisterEventHandlers = Module['_Emscripten_RegisterEventHandlers'] = createExportWrapper('Emscripten_RegisterEventHandlers');
-var _SDL_SendMouseMotion = Module['_SDL_SendMouseMotion'] = createExportWrapper('SDL_SendMouseMotion');
-var _SDL_GetMouse = Module['_SDL_GetMouse'] = createExportWrapper('SDL_GetMouse');
-var _SDL_SendMouseButton = Module['_SDL_SendMouseButton'] = createExportWrapper('SDL_SendMouseButton');
-var _SDL_SetMouseFocus = Module['_SDL_SetMouseFocus'] = createExportWrapper('SDL_SetMouseFocus');
-var _SDL_SendMouseWheel = Module['_SDL_SendMouseWheel'] = createExportWrapper('SDL_SendMouseWheel');
-var _SDL_ResetKeyboard = Module['_SDL_ResetKeyboard'] = createExportWrapper('SDL_ResetKeyboard');
-var _SDL_AddTouch = Module['_SDL_AddTouch'] = createExportWrapper('SDL_AddTouch');
-var _SDL_SendTouch = Module['_SDL_SendTouch'] = createExportWrapper('SDL_SendTouch');
-var _SDL_SendTouchMotion = Module['_SDL_SendTouchMotion'] = createExportWrapper('SDL_SendTouchMotion');
-var _SDL_SendKeyboardKey = Module['_SDL_SendKeyboardKey'] = createExportWrapper('SDL_SendKeyboardKey');
-var _SDL_SendKeyboardText = Module['_SDL_SendKeyboardText'] = createExportWrapper('SDL_SendKeyboardText');
-var _SDL_GetDisplayForWindow = Module['_SDL_GetDisplayForWindow'] = createExportWrapper('SDL_GetDisplayForWindow');
-var _SDL_SendAppEvent = Module['_SDL_SendAppEvent'] = createExportWrapper('SDL_SendAppEvent');
-var _Emscripten_UnregisterEventHandlers = Module['_Emscripten_UnregisterEventHandlers'] = createExportWrapper('Emscripten_UnregisterEventHandlers');
-var _Emscripten_CreateWindowFramebuffer = Module['_Emscripten_CreateWindowFramebuffer'] = createExportWrapper('Emscripten_CreateWindowFramebuffer');
-var _SDL_PixelFormatEnumToMasks = Module['_SDL_PixelFormatEnumToMasks'] = createExportWrapper('SDL_PixelFormatEnumToMasks');
-var _SDL_GetWindowSize = Module['_SDL_GetWindowSize'] = createExportWrapper('SDL_GetWindowSize');
-var _Emscripten_UpdateWindowFramebuffer = Module['_Emscripten_UpdateWindowFramebuffer'] = createExportWrapper('Emscripten_UpdateWindowFramebuffer');
-var _Emscripten_DestroyWindowFramebuffer = Module['_Emscripten_DestroyWindowFramebuffer'] = createExportWrapper('Emscripten_DestroyWindowFramebuffer');
-var _Emscripten_InitMouse = Module['_Emscripten_InitMouse'] = createExportWrapper('Emscripten_InitMouse');
-var _SDL_SetDefaultCursor = Module['_SDL_SetDefaultCursor'] = createExportWrapper('SDL_SetDefaultCursor');
-var _SDL_GetMouseFocus = Module['_SDL_GetMouseFocus'] = createExportWrapper('SDL_GetMouseFocus');
-var _Emscripten_FiniMouse = Module['_Emscripten_FiniMouse'] = createExportWrapper('Emscripten_FiniMouse');
-var _Emscripten_GLES_LoadLibrary = Module['_Emscripten_GLES_LoadLibrary'] = createExportWrapper('Emscripten_GLES_LoadLibrary');
-var _eglGetProcAddress = Module['_eglGetProcAddress'] = createExportWrapper('eglGetProcAddress');
-var _Emscripten_GLES_CreateContext = Module['_Emscripten_GLES_CreateContext'] = createExportWrapper('Emscripten_GLES_CreateContext');
-var _Emscripten_GLES_MakeCurrent = Module['_Emscripten_GLES_MakeCurrent'] = createExportWrapper('Emscripten_GLES_MakeCurrent');
-var _Emscripten_GLES_SwapWindow = Module['_Emscripten_GLES_SwapWindow'] = createExportWrapper('Emscripten_GLES_SwapWindow');
-var _Emscripten_GLES_GetDrawableSize = Module['_Emscripten_GLES_GetDrawableSize'] = createExportWrapper('Emscripten_GLES_GetDrawableSize');
-var _SDL_SetHint = Module['_SDL_SetHint'] = createExportWrapper('SDL_SetHint');
-var _SDL_AddBasicVideoDisplay = Module['_SDL_AddBasicVideoDisplay'] = createExportWrapper('SDL_AddBasicVideoDisplay');
-var _SDL_AddDisplayMode = Module['_SDL_AddDisplayMode'] = createExportWrapper('SDL_AddDisplayMode');
-var _SDL_floor = Module['_SDL_floor'] = createExportWrapper('SDL_floor');
-var _SDL_GL_LoadLibrary = Module['_SDL_GL_LoadLibrary'] = createExportWrapper('SDL_GL_LoadLibrary');
-var _SDL_SetKeyboardFocus = Module['_SDL_SetKeyboardFocus'] = createExportWrapper('SDL_SetKeyboardFocus');
-var _SDL_GetErrBuf = Module['_SDL_GetErrBuf'] = createExportWrapper('SDL_GetErrBuf');
-var _SDL_vsnprintf = Module['_SDL_vsnprintf'] = createExportWrapper('SDL_vsnprintf');
-var _SDL_LogGetPriority = Module['_SDL_LogGetPriority'] = createExportWrapper('SDL_LogGetPriority');
-var _SDL_LogDebug = Module['_SDL_LogDebug'] = createExportWrapper('SDL_LogDebug');
-var _SDL_GetErrorMsg = Module['_SDL_GetErrorMsg'] = createExportWrapper('SDL_GetErrorMsg');
-var _SDL_StopEventLoop = Module['_SDL_StopEventLoop'] = createExportWrapper('SDL_StopEventLoop');
-var _SDL_StartEventLoop = Module['_SDL_StartEventLoop'] = createExportWrapper('SDL_StartEventLoop');
-var _SDL_FlushEvents = Module['_SDL_FlushEvents'] = createExportWrapper('SDL_FlushEvents');
-var _SDL_JoystickEventState = Module['_SDL_JoystickEventState'] = createExportWrapper('SDL_JoystickEventState');
-var _SDL_ToggleDragAndDropSupport = Module['_SDL_ToggleDragAndDropSupport'] = createExportWrapper('SDL_ToggleDragAndDropSupport');
-var _SDL_PeepEvents = Module['_SDL_PeepEvents'] = createExportWrapper('SDL_PeepEvents');
-var _SDL_HasEvent = Module['_SDL_HasEvent'] = createExportWrapper('SDL_HasEvent');
-var _SDL_HasEvents = Module['_SDL_HasEvents'] = createExportWrapper('SDL_HasEvents');
-var _SDL_FlushEvent = Module['_SDL_FlushEvent'] = createExportWrapper('SDL_FlushEvent');
-var _SDL_PumpEvents = Module['_SDL_PumpEvents'] = createExportWrapper('SDL_PumpEvents');
-var _SDL_ReleaseAutoReleaseKeys = Module['_SDL_ReleaseAutoReleaseKeys'] = createExportWrapper('SDL_ReleaseAutoReleaseKeys');
-var _SDL_JoystickUpdate = Module['_SDL_JoystickUpdate'] = createExportWrapper('SDL_JoystickUpdate');
-var _SDL_SensorUpdate = Module['_SDL_SensorUpdate'] = createExportWrapper('SDL_SensorUpdate');
-var _SDL_SendPendingSignalEvents = Module['_SDL_SendPendingSignalEvents'] = createExportWrapper('SDL_SendPendingSignalEvents');
-var _SDL_WaitEventTimeout = Module['_SDL_WaitEventTimeout'] = createExportWrapper('SDL_WaitEventTimeout');
-var _SDL_GetTicks = Module['_SDL_GetTicks'] = createExportWrapper('SDL_GetTicks');
-var _SDL_NumJoysticks = Module['_SDL_NumJoysticks'] = createExportWrapper('SDL_NumJoysticks');
-var _SDL_NumSensors = Module['_SDL_NumSensors'] = createExportWrapper('SDL_NumSensors');
-var _SDL_WaitEvent = Module['_SDL_WaitEvent'] = createExportWrapper('SDL_WaitEvent');
-var _SDL_GestureProcessEvent = Module['_SDL_GestureProcessEvent'] = createExportWrapper('SDL_GestureProcessEvent');
-var _SDL_SetEventFilter = Module['_SDL_SetEventFilter'] = createExportWrapper('SDL_SetEventFilter');
-var _SDL_GetEventFilter = Module['_SDL_GetEventFilter'] = createExportWrapper('SDL_GetEventFilter');
-var _SDL_AddEventWatch = Module['_SDL_AddEventWatch'] = createExportWrapper('SDL_AddEventWatch');
-var _SDL_DelEventWatch = Module['_SDL_DelEventWatch'] = createExportWrapper('SDL_DelEventWatch');
-var _SDL_FilterEvents = Module['_SDL_FilterEvents'] = createExportWrapper('SDL_FilterEvents');
-var _SDL_RegisterEvents = Module['_SDL_RegisterEvents'] = createExportWrapper('SDL_RegisterEvents');
-var _SDL_SendSysWMEvent = Module['_SDL_SendSysWMEvent'] = createExportWrapper('SDL_SendSysWMEvent');
-var _SDL_SendKeymapChangedEvent = Module['_SDL_SendKeymapChangedEvent'] = createExportWrapper('SDL_SendKeymapChangedEvent');
-var _SDL_SendLocaleChangedEvent = Module['_SDL_SendLocaleChangedEvent'] = createExportWrapper('SDL_SendLocaleChangedEvent');
-var _SDL_AddHintCallback = Module['_SDL_AddHintCallback'] = createExportWrapper('SDL_AddHintCallback');
-var _SDL_QuitInit = Module['_SDL_QuitInit'] = createExportWrapper('SDL_QuitInit');
-var _SDL_GetStringBoolean = Module['_SDL_GetStringBoolean'] = createExportWrapper('SDL_GetStringBoolean');
-var _SDL_QuitQuit = Module['_SDL_QuitQuit'] = createExportWrapper('SDL_QuitQuit');
-var _SDL_DelHintCallback = Module['_SDL_DelHintCallback'] = createExportWrapper('SDL_DelHintCallback');
-var _SDL_FillRects = Module['_SDL_FillRects'] = createExportWrapper('SDL_FillRects');
-var _SDL_GameControllerGetAxisFromString = Module['_SDL_GameControllerGetAxisFromString'] = createExportWrapper('SDL_GameControllerGetAxisFromString');
-var _SDL_strcasecmp = Module['_SDL_strcasecmp'] = createExportWrapper('SDL_strcasecmp');
-var _SDL_GameControllerGetStringForAxis = Module['_SDL_GameControllerGetStringForAxis'] = createExportWrapper('SDL_GameControllerGetStringForAxis');
-var _SDL_GameControllerGetButtonFromString = Module['_SDL_GameControllerGetButtonFromString'] = createExportWrapper('SDL_GameControllerGetButtonFromString');
-var _SDL_GameControllerGetStringForButton = Module['_SDL_GameControllerGetStringForButton'] = createExportWrapper('SDL_GameControllerGetStringForButton');
-var _SDL_GameControllerAddMappingsFromRW = Module['_SDL_GameControllerAddMappingsFromRW'] = createExportWrapper('SDL_GameControllerAddMappingsFromRW');
-var _SDL_GameControllerAddMapping = Module['_SDL_GameControllerAddMapping'] = createExportWrapper('SDL_GameControllerAddMapping');
-var _SDL_JoystickGetGUIDFromString = Module['_SDL_JoystickGetGUIDFromString'] = createExportWrapper('SDL_JoystickGetGUIDFromString');
-var _SDL_GameControllerNumMappings = Module['_SDL_GameControllerNumMappings'] = createExportWrapper('SDL_GameControllerNumMappings');
-var _SDL_memcmp = Module['_SDL_memcmp'] = createExportWrapper('SDL_memcmp');
-var _SDL_GameControllerMappingForIndex = Module['_SDL_GameControllerMappingForIndex'] = createExportWrapper('SDL_GameControllerMappingForIndex');
-var _SDL_JoystickGetGUIDString = Module['_SDL_JoystickGetGUIDString'] = createExportWrapper('SDL_JoystickGetGUIDString');
-var _SDL_strlcat = Module['_SDL_strlcat'] = createExportWrapper('SDL_strlcat');
-var _SDL_GameControllerMappingForGUID = Module['_SDL_GameControllerMappingForGUID'] = createExportWrapper('SDL_GameControllerMappingForGUID');
-var _SDL_IsJoystickHIDAPI = Module['_SDL_IsJoystickHIDAPI'] = createExportWrapper('SDL_IsJoystickHIDAPI');
-var _SDL_GetJoystickGUIDInfo = Module['_SDL_GetJoystickGUIDInfo'] = createExportWrapper('SDL_GetJoystickGUIDInfo');
-var _SDL_IsJoystickXboxSeriesX = Module['_SDL_IsJoystickXboxSeriesX'] = createExportWrapper('SDL_IsJoystickXboxSeriesX');
-var _SDL_IsJoystickXboxOneElite = Module['_SDL_IsJoystickXboxOneElite'] = createExportWrapper('SDL_IsJoystickXboxOneElite');
-var _SDL_IsJoystickSteamController = Module['_SDL_IsJoystickSteamController'] = createExportWrapper('SDL_IsJoystickSteamController');
-var _SDL_IsJoystickNintendoSwitchJoyConPair = Module['_SDL_IsJoystickNintendoSwitchJoyConPair'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConPair');
-var _SDL_GetJoystickGameControllerTypeFromGUID = Module['_SDL_GetJoystickGameControllerTypeFromGUID'] = createExportWrapper('SDL_GetJoystickGameControllerTypeFromGUID');
-var _SDL_IsJoystickRAWINPUT = Module['_SDL_IsJoystickRAWINPUT'] = createExportWrapper('SDL_IsJoystickRAWINPUT');
-var _SDL_IsJoystickWGI = Module['_SDL_IsJoystickWGI'] = createExportWrapper('SDL_IsJoystickWGI');
-var _SDL_IsJoystickVirtual = Module['_SDL_IsJoystickVirtual'] = createExportWrapper('SDL_IsJoystickVirtual');
-var _SDL_GameControllerMapping = Module['_SDL_GameControllerMapping'] = createExportWrapper('SDL_GameControllerMapping');
-var _SDL_GameControllerInitMappings = Module['_SDL_GameControllerInitMappings'] = createExportWrapper('SDL_GameControllerInitMappings');
-var _SDL_GameControllerGetButton = Module['_SDL_GameControllerGetButton'] = createExportWrapper('SDL_GameControllerGetButton');
-var _SDL_GameControllerGetAxis = Module['_SDL_GameControllerGetAxis'] = createExportWrapper('SDL_GameControllerGetAxis');
-var _SDL_IsGameController = Module['_SDL_IsGameController'] = createExportWrapper('SDL_IsGameController');
-var _SDL_GameControllerNameForIndex = Module['_SDL_GameControllerNameForIndex'] = createExportWrapper('SDL_GameControllerNameForIndex');
-var _SDL_JoystickNameForIndex = Module['_SDL_JoystickNameForIndex'] = createExportWrapper('SDL_JoystickNameForIndex');
-var _SDL_LockJoysticks = Module['_SDL_LockJoysticks'] = createExportWrapper('SDL_LockJoysticks');
-var _SDL_JoystickGetDeviceGUID = Module['_SDL_JoystickGetDeviceGUID'] = createExportWrapper('SDL_JoystickGetDeviceGUID');
-var _SDL_PrivateJoystickGetAutoGamepadMapping = Module['_SDL_PrivateJoystickGetAutoGamepadMapping'] = createExportWrapper('SDL_PrivateJoystickGetAutoGamepadMapping');
-var _SDL_UnlockJoysticks = Module['_SDL_UnlockJoysticks'] = createExportWrapper('SDL_UnlockJoysticks');
-var _SDL_GameControllerPathForIndex = Module['_SDL_GameControllerPathForIndex'] = createExportWrapper('SDL_GameControllerPathForIndex');
-var _SDL_JoystickPathForIndex = Module['_SDL_JoystickPathForIndex'] = createExportWrapper('SDL_JoystickPathForIndex');
-var _SDL_GameControllerTypeForIndex = Module['_SDL_GameControllerTypeForIndex'] = createExportWrapper('SDL_GameControllerTypeForIndex');
-var _SDL_GameControllerMappingForDeviceIndex = Module['_SDL_GameControllerMappingForDeviceIndex'] = createExportWrapper('SDL_GameControllerMappingForDeviceIndex');
-var _SDL_IsGameControllerNameAndGUID = Module['_SDL_IsGameControllerNameAndGUID'] = createExportWrapper('SDL_IsGameControllerNameAndGUID');
-var _SDL_ShouldIgnoreGameController = Module['_SDL_ShouldIgnoreGameController'] = createExportWrapper('SDL_ShouldIgnoreGameController');
-var _SDL_GameControllerOpen = Module['_SDL_GameControllerOpen'] = createExportWrapper('SDL_GameControllerOpen');
-var _SDL_JoystickGetDeviceInstanceID = Module['_SDL_JoystickGetDeviceInstanceID'] = createExportWrapper('SDL_JoystickGetDeviceInstanceID');
-var _SDL_JoystickOpen = Module['_SDL_JoystickOpen'] = createExportWrapper('SDL_JoystickOpen');
-var _SDL_JoystickClose = Module['_SDL_JoystickClose'] = createExportWrapper('SDL_JoystickClose');
-var _SDL_GameControllerUpdate = Module['_SDL_GameControllerUpdate'] = createExportWrapper('SDL_GameControllerUpdate');
-var _SDL_GameControllerHasAxis = Module['_SDL_GameControllerHasAxis'] = createExportWrapper('SDL_GameControllerHasAxis');
-var _SDL_GameControllerGetBindForAxis = Module['_SDL_GameControllerGetBindForAxis'] = createExportWrapper('SDL_GameControllerGetBindForAxis');
-var _SDL_JoystickGetAxis = Module['_SDL_JoystickGetAxis'] = createExportWrapper('SDL_JoystickGetAxis');
-var _SDL_JoystickGetButton = Module['_SDL_JoystickGetButton'] = createExportWrapper('SDL_JoystickGetButton');
-var _SDL_JoystickGetHat = Module['_SDL_JoystickGetHat'] = createExportWrapper('SDL_JoystickGetHat');
-var _SDL_GameControllerHasButton = Module['_SDL_GameControllerHasButton'] = createExportWrapper('SDL_GameControllerHasButton');
-var _SDL_GameControllerGetBindForButton = Module['_SDL_GameControllerGetBindForButton'] = createExportWrapper('SDL_GameControllerGetBindForButton');
-var _SDL_GameControllerGetNumTouchpads = Module['_SDL_GameControllerGetNumTouchpads'] = createExportWrapper('SDL_GameControllerGetNumTouchpads');
-var _SDL_GameControllerGetJoystick = Module['_SDL_GameControllerGetJoystick'] = createExportWrapper('SDL_GameControllerGetJoystick');
-var _SDL_GameControllerGetNumTouchpadFingers = Module['_SDL_GameControllerGetNumTouchpadFingers'] = createExportWrapper('SDL_GameControllerGetNumTouchpadFingers');
-var _SDL_GameControllerGetTouchpadFinger = Module['_SDL_GameControllerGetTouchpadFinger'] = createExportWrapper('SDL_GameControllerGetTouchpadFinger');
-var _SDL_GameControllerHasSensor = Module['_SDL_GameControllerHasSensor'] = createExportWrapper('SDL_GameControllerHasSensor');
-var _SDL_GameControllerSetSensorEnabled = Module['_SDL_GameControllerSetSensorEnabled'] = createExportWrapper('SDL_GameControllerSetSensorEnabled');
-var _SDL_GameControllerIsSensorEnabled = Module['_SDL_GameControllerIsSensorEnabled'] = createExportWrapper('SDL_GameControllerIsSensorEnabled');
-var _SDL_GameControllerGetSensorDataRate = Module['_SDL_GameControllerGetSensorDataRate'] = createExportWrapper('SDL_GameControllerGetSensorDataRate');
-var _SDL_GameControllerGetSensorData = Module['_SDL_GameControllerGetSensorData'] = createExportWrapper('SDL_GameControllerGetSensorData');
-var _SDL_GameControllerName = Module['_SDL_GameControllerName'] = createExportWrapper('SDL_GameControllerName');
-var _SDL_JoystickName = Module['_SDL_JoystickName'] = createExportWrapper('SDL_JoystickName');
-var _SDL_GameControllerPath = Module['_SDL_GameControllerPath'] = createExportWrapper('SDL_GameControllerPath');
-var _SDL_JoystickPath = Module['_SDL_JoystickPath'] = createExportWrapper('SDL_JoystickPath');
-var _SDL_GameControllerGetType = Module['_SDL_GameControllerGetType'] = createExportWrapper('SDL_GameControllerGetType');
-var _SDL_JoystickGetGUID = Module['_SDL_JoystickGetGUID'] = createExportWrapper('SDL_JoystickGetGUID');
-var _SDL_GameControllerGetPlayerIndex = Module['_SDL_GameControllerGetPlayerIndex'] = createExportWrapper('SDL_GameControllerGetPlayerIndex');
-var _SDL_JoystickGetPlayerIndex = Module['_SDL_JoystickGetPlayerIndex'] = createExportWrapper('SDL_JoystickGetPlayerIndex');
-var _SDL_GameControllerSetPlayerIndex = Module['_SDL_GameControllerSetPlayerIndex'] = createExportWrapper('SDL_GameControllerSetPlayerIndex');
-var _SDL_JoystickSetPlayerIndex = Module['_SDL_JoystickSetPlayerIndex'] = createExportWrapper('SDL_JoystickSetPlayerIndex');
-var _SDL_GameControllerGetVendor = Module['_SDL_GameControllerGetVendor'] = createExportWrapper('SDL_GameControllerGetVendor');
-var _SDL_JoystickGetVendor = Module['_SDL_JoystickGetVendor'] = createExportWrapper('SDL_JoystickGetVendor');
-var _SDL_GameControllerGetProduct = Module['_SDL_GameControllerGetProduct'] = createExportWrapper('SDL_GameControllerGetProduct');
-var _SDL_JoystickGetProduct = Module['_SDL_JoystickGetProduct'] = createExportWrapper('SDL_JoystickGetProduct');
-var _SDL_GameControllerGetProductVersion = Module['_SDL_GameControllerGetProductVersion'] = createExportWrapper('SDL_GameControllerGetProductVersion');
-var _SDL_JoystickGetProductVersion = Module['_SDL_JoystickGetProductVersion'] = createExportWrapper('SDL_JoystickGetProductVersion');
-var _SDL_GameControllerGetFirmwareVersion = Module['_SDL_GameControllerGetFirmwareVersion'] = createExportWrapper('SDL_GameControllerGetFirmwareVersion');
-var _SDL_JoystickGetFirmwareVersion = Module['_SDL_JoystickGetFirmwareVersion'] = createExportWrapper('SDL_JoystickGetFirmwareVersion');
-var _SDL_GameControllerGetSerial = Module['_SDL_GameControllerGetSerial'] = createExportWrapper('SDL_GameControllerGetSerial');
-var _SDL_JoystickGetSerial = Module['_SDL_JoystickGetSerial'] = createExportWrapper('SDL_JoystickGetSerial');
-var _SDL_GameControllerGetAttached = Module['_SDL_GameControllerGetAttached'] = createExportWrapper('SDL_GameControllerGetAttached');
-var _SDL_JoystickGetAttached = Module['_SDL_JoystickGetAttached'] = createExportWrapper('SDL_JoystickGetAttached');
-var _SDL_GameControllerFromInstanceID = Module['_SDL_GameControllerFromInstanceID'] = createExportWrapper('SDL_GameControllerFromInstanceID');
-var _SDL_GameControllerFromPlayerIndex = Module['_SDL_GameControllerFromPlayerIndex'] = createExportWrapper('SDL_GameControllerFromPlayerIndex');
-var _SDL_JoystickFromPlayerIndex = Module['_SDL_JoystickFromPlayerIndex'] = createExportWrapper('SDL_JoystickFromPlayerIndex');
-var _SDL_GameControllerRumble = Module['_SDL_GameControllerRumble'] = createExportWrapper('SDL_GameControllerRumble');
-var _SDL_JoystickRumble = Module['_SDL_JoystickRumble'] = createExportWrapper('SDL_JoystickRumble');
-var _SDL_GameControllerRumbleTriggers = Module['_SDL_GameControllerRumbleTriggers'] = createExportWrapper('SDL_GameControllerRumbleTriggers');
-var _SDL_JoystickRumbleTriggers = Module['_SDL_JoystickRumbleTriggers'] = createExportWrapper('SDL_JoystickRumbleTriggers');
-var _SDL_GameControllerHasLED = Module['_SDL_GameControllerHasLED'] = createExportWrapper('SDL_GameControllerHasLED');
-var _SDL_JoystickHasLED = Module['_SDL_JoystickHasLED'] = createExportWrapper('SDL_JoystickHasLED');
-var _SDL_GameControllerHasRumble = Module['_SDL_GameControllerHasRumble'] = createExportWrapper('SDL_GameControllerHasRumble');
-var _SDL_JoystickHasRumble = Module['_SDL_JoystickHasRumble'] = createExportWrapper('SDL_JoystickHasRumble');
-var _SDL_GameControllerHasRumbleTriggers = Module['_SDL_GameControllerHasRumbleTriggers'] = createExportWrapper('SDL_GameControllerHasRumbleTriggers');
-var _SDL_JoystickHasRumbleTriggers = Module['_SDL_JoystickHasRumbleTriggers'] = createExportWrapper('SDL_JoystickHasRumbleTriggers');
-var _SDL_GameControllerSetLED = Module['_SDL_GameControllerSetLED'] = createExportWrapper('SDL_GameControllerSetLED');
-var _SDL_JoystickSetLED = Module['_SDL_JoystickSetLED'] = createExportWrapper('SDL_JoystickSetLED');
-var _SDL_GameControllerSendEffect = Module['_SDL_GameControllerSendEffect'] = createExportWrapper('SDL_GameControllerSendEffect');
-var _SDL_JoystickSendEffect = Module['_SDL_JoystickSendEffect'] = createExportWrapper('SDL_JoystickSendEffect');
-var _SDL_GameControllerClose = Module['_SDL_GameControllerClose'] = createExportWrapper('SDL_GameControllerClose');
-var _SDL_GameControllerQuitMappings = Module['_SDL_GameControllerQuitMappings'] = createExportWrapper('SDL_GameControllerQuitMappings');
-var _SDL_GameControllerEventState = Module['_SDL_GameControllerEventState'] = createExportWrapper('SDL_GameControllerEventState');
-var _SDL_GameControllerHandleDelayedGuideButton = Module['_SDL_GameControllerHandleDelayedGuideButton'] = createExportWrapper('SDL_GameControllerHandleDelayedGuideButton');
-var _SDL_GameControllerGetAppleSFSymbolsNameForButton = Module['_SDL_GameControllerGetAppleSFSymbolsNameForButton'] = createExportWrapper('SDL_GameControllerGetAppleSFSymbolsNameForButton');
-var _SDL_GameControllerGetAppleSFSymbolsNameForAxis = Module['_SDL_GameControllerGetAppleSFSymbolsNameForAxis'] = createExportWrapper('SDL_GameControllerGetAppleSFSymbolsNameForAxis');
-var _SDL_LoadFile = Module['_SDL_LoadFile'] = createExportWrapper('SDL_LoadFile');
-var _SDL_strtol = Module['_SDL_strtol'] = createExportWrapper('SDL_strtol');
-var _SDL_isdigit = Module['_SDL_isdigit'] = createExportWrapper('SDL_isdigit');
-var _SDL_RecordGesture = Module['_SDL_RecordGesture'] = createExportWrapper('SDL_RecordGesture');
-var _SDL_GestureQuit = Module['_SDL_GestureQuit'] = createExportWrapper('SDL_GestureQuit');
-var _SDL_SaveAllDollarTemplates = Module['_SDL_SaveAllDollarTemplates'] = createExportWrapper('SDL_SaveAllDollarTemplates');
-var _SDL_SaveDollarTemplate = Module['_SDL_SaveDollarTemplate'] = createExportWrapper('SDL_SaveDollarTemplate');
-var _SDL_LoadDollarTemplates = Module['_SDL_LoadDollarTemplates'] = createExportWrapper('SDL_LoadDollarTemplates');
-var _SDL_GestureAddTouch = Module['_SDL_GestureAddTouch'] = createExportWrapper('SDL_GestureAddTouch');
-var _SDL_GestureDelTouch = Module['_SDL_GestureDelTouch'] = createExportWrapper('SDL_GestureDelTouch');
-var _SDL_fabs = Module['_SDL_fabs'] = createExportWrapper('SDL_fabs');
-var _SDL_sqrt = Module['_SDL_sqrt'] = createExportWrapper('SDL_sqrt');
-var _SDL_atan2 = Module['_SDL_atan2'] = createExportWrapper('SDL_atan2');
-var _SDL_cos = Module['_SDL_cos'] = createExportWrapper('SDL_cos');
-var _SDL_sin = Module['_SDL_sin'] = createExportWrapper('SDL_sin');
-var _SDL_setenv = Module['_SDL_setenv'] = createExportWrapper('SDL_setenv');
-var _setenv = Module['_setenv'] = createExportWrapper('setenv');
-var _SDL_GUIDToString = Module['_SDL_GUIDToString'] = createExportWrapper('SDL_GUIDToString');
-var _SDL_GUIDFromString = Module['_SDL_GUIDFromString'] = createExportWrapper('SDL_GUIDFromString');
-var _SDL_HapticInit = Module['_SDL_HapticInit'] = createExportWrapper('SDL_HapticInit');
-var _SDL_SYS_HapticInit = Module['_SDL_SYS_HapticInit'] = createExportWrapper('SDL_SYS_HapticInit');
-var _SDL_NumHaptics = Module['_SDL_NumHaptics'] = createExportWrapper('SDL_NumHaptics');
-var _SDL_SYS_NumHaptics = Module['_SDL_SYS_NumHaptics'] = createExportWrapper('SDL_SYS_NumHaptics');
-var _SDL_HapticName = Module['_SDL_HapticName'] = createExportWrapper('SDL_HapticName');
-var _SDL_SYS_HapticName = Module['_SDL_SYS_HapticName'] = createExportWrapper('SDL_SYS_HapticName');
-var _SDL_HapticOpen = Module['_SDL_HapticOpen'] = createExportWrapper('SDL_HapticOpen');
-var _SDL_SYS_HapticOpen = Module['_SDL_SYS_HapticOpen'] = createExportWrapper('SDL_SYS_HapticOpen');
-var _SDL_HapticSetGain = Module['_SDL_HapticSetGain'] = createExportWrapper('SDL_HapticSetGain');
-var _SDL_SYS_HapticSetAutocenter = Module['_SDL_SYS_HapticSetAutocenter'] = createExportWrapper('SDL_SYS_HapticSetAutocenter');
-var _SDL_SYS_HapticSetGain = Module['_SDL_SYS_HapticSetGain'] = createExportWrapper('SDL_SYS_HapticSetGain');
-var _SDL_HapticSetAutocenter = Module['_SDL_HapticSetAutocenter'] = createExportWrapper('SDL_HapticSetAutocenter');
-var _SDL_HapticOpened = Module['_SDL_HapticOpened'] = createExportWrapper('SDL_HapticOpened');
-var _SDL_HapticIndex = Module['_SDL_HapticIndex'] = createExportWrapper('SDL_HapticIndex');
-var _SDL_MouseIsHaptic = Module['_SDL_MouseIsHaptic'] = createExportWrapper('SDL_MouseIsHaptic');
-var _SDL_SYS_HapticMouse = Module['_SDL_SYS_HapticMouse'] = createExportWrapper('SDL_SYS_HapticMouse');
-var _SDL_HapticOpenFromMouse = Module['_SDL_HapticOpenFromMouse'] = createExportWrapper('SDL_HapticOpenFromMouse');
-var _SDL_JoystickIsHaptic = Module['_SDL_JoystickIsHaptic'] = createExportWrapper('SDL_JoystickIsHaptic');
-var _SDL_PrivateJoystickValid = Module['_SDL_PrivateJoystickValid'] = createExportWrapper('SDL_PrivateJoystickValid');
-var _SDL_SYS_JoystickIsHaptic = Module['_SDL_SYS_JoystickIsHaptic'] = createExportWrapper('SDL_SYS_JoystickIsHaptic');
-var _SDL_HapticOpenFromJoystick = Module['_SDL_HapticOpenFromJoystick'] = createExportWrapper('SDL_HapticOpenFromJoystick');
-var _SDL_SYS_JoystickSameHaptic = Module['_SDL_SYS_JoystickSameHaptic'] = createExportWrapper('SDL_SYS_JoystickSameHaptic');
-var _SDL_SYS_HapticOpenFromJoystick = Module['_SDL_SYS_HapticOpenFromJoystick'] = createExportWrapper('SDL_SYS_HapticOpenFromJoystick');
-var _SDL_HapticClose = Module['_SDL_HapticClose'] = createExportWrapper('SDL_HapticClose');
-var _SDL_SYS_HapticDestroyEffect = Module['_SDL_SYS_HapticDestroyEffect'] = createExportWrapper('SDL_SYS_HapticDestroyEffect');
-var _SDL_SYS_HapticClose = Module['_SDL_SYS_HapticClose'] = createExportWrapper('SDL_SYS_HapticClose');
-var _SDL_HapticDestroyEffect = Module['_SDL_HapticDestroyEffect'] = createExportWrapper('SDL_HapticDestroyEffect');
-var _SDL_HapticQuit = Module['_SDL_HapticQuit'] = createExportWrapper('SDL_HapticQuit');
-var _SDL_SYS_HapticQuit = Module['_SDL_SYS_HapticQuit'] = createExportWrapper('SDL_SYS_HapticQuit');
-var _SDL_HapticNumEffects = Module['_SDL_HapticNumEffects'] = createExportWrapper('SDL_HapticNumEffects');
-var _SDL_HapticNumEffectsPlaying = Module['_SDL_HapticNumEffectsPlaying'] = createExportWrapper('SDL_HapticNumEffectsPlaying');
-var _SDL_HapticQuery = Module['_SDL_HapticQuery'] = createExportWrapper('SDL_HapticQuery');
-var _SDL_HapticNumAxes = Module['_SDL_HapticNumAxes'] = createExportWrapper('SDL_HapticNumAxes');
-var _SDL_HapticEffectSupported = Module['_SDL_HapticEffectSupported'] = createExportWrapper('SDL_HapticEffectSupported');
-var _SDL_HapticNewEffect = Module['_SDL_HapticNewEffect'] = createExportWrapper('SDL_HapticNewEffect');
-var _SDL_SYS_HapticNewEffect = Module['_SDL_SYS_HapticNewEffect'] = createExportWrapper('SDL_SYS_HapticNewEffect');
-var _SDL_HapticUpdateEffect = Module['_SDL_HapticUpdateEffect'] = createExportWrapper('SDL_HapticUpdateEffect');
-var _SDL_SYS_HapticUpdateEffect = Module['_SDL_SYS_HapticUpdateEffect'] = createExportWrapper('SDL_SYS_HapticUpdateEffect');
-var _SDL_HapticRunEffect = Module['_SDL_HapticRunEffect'] = createExportWrapper('SDL_HapticRunEffect');
-var _SDL_SYS_HapticRunEffect = Module['_SDL_SYS_HapticRunEffect'] = createExportWrapper('SDL_SYS_HapticRunEffect');
-var _SDL_HapticStopEffect = Module['_SDL_HapticStopEffect'] = createExportWrapper('SDL_HapticStopEffect');
-var _SDL_SYS_HapticStopEffect = Module['_SDL_SYS_HapticStopEffect'] = createExportWrapper('SDL_SYS_HapticStopEffect');
-var _SDL_HapticGetEffectStatus = Module['_SDL_HapticGetEffectStatus'] = createExportWrapper('SDL_HapticGetEffectStatus');
-var _SDL_SYS_HapticGetEffectStatus = Module['_SDL_SYS_HapticGetEffectStatus'] = createExportWrapper('SDL_SYS_HapticGetEffectStatus');
-var _SDL_HapticPause = Module['_SDL_HapticPause'] = createExportWrapper('SDL_HapticPause');
-var _SDL_SYS_HapticPause = Module['_SDL_SYS_HapticPause'] = createExportWrapper('SDL_SYS_HapticPause');
-var _SDL_HapticUnpause = Module['_SDL_HapticUnpause'] = createExportWrapper('SDL_HapticUnpause');
-var _SDL_SYS_HapticUnpause = Module['_SDL_SYS_HapticUnpause'] = createExportWrapper('SDL_SYS_HapticUnpause');
-var _SDL_HapticStopAll = Module['_SDL_HapticStopAll'] = createExportWrapper('SDL_HapticStopAll');
-var _SDL_SYS_HapticStopAll = Module['_SDL_SYS_HapticStopAll'] = createExportWrapper('SDL_SYS_HapticStopAll');
-var _SDL_HapticRumbleSupported = Module['_SDL_HapticRumbleSupported'] = createExportWrapper('SDL_HapticRumbleSupported');
-var _SDL_HapticRumbleInit = Module['_SDL_HapticRumbleInit'] = createExportWrapper('SDL_HapticRumbleInit');
-var _SDL_HapticRumblePlay = Module['_SDL_HapticRumblePlay'] = createExportWrapper('SDL_HapticRumblePlay');
-var _SDL_HapticRumbleStop = Module['_SDL_HapticRumbleStop'] = createExportWrapper('SDL_HapticRumbleStop');
-var _SDL_SetHintWithPriority = Module['_SDL_SetHintWithPriority'] = createExportWrapper('SDL_SetHintWithPriority');
-var _SDL_ResetHint = Module['_SDL_ResetHint'] = createExportWrapper('SDL_ResetHint');
-var _SDL_iconv_open = Module['_SDL_iconv_open'] = createExportWrapper('SDL_iconv_open');
-var _iconv_open = Module['_iconv_open'] = createExportWrapper('iconv_open');
-var _SDL_iconv_close = Module['_SDL_iconv_close'] = createExportWrapper('SDL_iconv_close');
-var _iconv_close = Module['_iconv_close'] = createExportWrapper('iconv_close');
-var _SDL_iconv = Module['_SDL_iconv'] = createExportWrapper('SDL_iconv');
-var _iconv = Module['_iconv'] = createExportWrapper('iconv');
-var _SDL_iconv_string = Module['_SDL_iconv_string'] = createExportWrapper('SDL_iconv_string');
-var _SDL_GetNextJoystickInstanceID = Module['_SDL_GetNextJoystickInstanceID'] = createExportWrapper('SDL_GetNextJoystickInstanceID');
-var _SDL_GetDriverAndJoystickIndex = Module['_SDL_GetDriverAndJoystickIndex'] = createExportWrapper('SDL_GetDriverAndJoystickIndex');
-var _SDL_JoystickGetDevicePlayerIndex = Module['_SDL_JoystickGetDevicePlayerIndex'] = createExportWrapper('SDL_JoystickGetDevicePlayerIndex');
-var _SDL_PrivateJoystickBatteryLevel = Module['_SDL_PrivateJoystickBatteryLevel'] = createExportWrapper('SDL_PrivateJoystickBatteryLevel');
-var _SDL_JoystickAttachVirtual = Module['_SDL_JoystickAttachVirtual'] = createExportWrapper('SDL_JoystickAttachVirtual');
-var _SDL_JoystickAttachVirtualEx = Module['_SDL_JoystickAttachVirtualEx'] = createExportWrapper('SDL_JoystickAttachVirtualEx');
-var _SDL_JoystickDetachVirtual = Module['_SDL_JoystickDetachVirtual'] = createExportWrapper('SDL_JoystickDetachVirtual');
-var _SDL_JoystickIsVirtual = Module['_SDL_JoystickIsVirtual'] = createExportWrapper('SDL_JoystickIsVirtual');
-var _SDL_JoystickSetVirtualAxis = Module['_SDL_JoystickSetVirtualAxis'] = createExportWrapper('SDL_JoystickSetVirtualAxis');
-var _SDL_JoystickSetVirtualButton = Module['_SDL_JoystickSetVirtualButton'] = createExportWrapper('SDL_JoystickSetVirtualButton');
-var _SDL_JoystickSetVirtualHat = Module['_SDL_JoystickSetVirtualHat'] = createExportWrapper('SDL_JoystickSetVirtualHat');
-var _SDL_JoystickNumAxes = Module['_SDL_JoystickNumAxes'] = createExportWrapper('SDL_JoystickNumAxes');
-var _SDL_JoystickNumHats = Module['_SDL_JoystickNumHats'] = createExportWrapper('SDL_JoystickNumHats');
-var _SDL_JoystickNumBalls = Module['_SDL_JoystickNumBalls'] = createExportWrapper('SDL_JoystickNumBalls');
-var _SDL_JoystickNumButtons = Module['_SDL_JoystickNumButtons'] = createExportWrapper('SDL_JoystickNumButtons');
-var _SDL_JoystickGetAxisInitialState = Module['_SDL_JoystickGetAxisInitialState'] = createExportWrapper('SDL_JoystickGetAxisInitialState');
-var _SDL_JoystickGetBall = Module['_SDL_JoystickGetBall'] = createExportWrapper('SDL_JoystickGetBall');
-var _SDL_JoystickInstanceID = Module['_SDL_JoystickInstanceID'] = createExportWrapper('SDL_JoystickInstanceID');
-var _SDL_JoystickFromInstanceID = Module['_SDL_JoystickFromInstanceID'] = createExportWrapper('SDL_JoystickFromInstanceID');
-var _SDL_JoystickGetDeviceIndexFromInstanceID = Module['_SDL_JoystickGetDeviceIndexFromInstanceID'] = createExportWrapper('SDL_JoystickGetDeviceIndexFromInstanceID');
-var _SDL_PrivateJoystickAddTouchpad = Module['_SDL_PrivateJoystickAddTouchpad'] = createExportWrapper('SDL_PrivateJoystickAddTouchpad');
-var _SDL_PrivateJoystickAddSensor = Module['_SDL_PrivateJoystickAddSensor'] = createExportWrapper('SDL_PrivateJoystickAddSensor');
-var _SDL_PrivateJoystickAdded = Module['_SDL_PrivateJoystickAdded'] = createExportWrapper('SDL_PrivateJoystickAdded');
-var _SDL_PrivateJoystickRemoved = Module['_SDL_PrivateJoystickRemoved'] = createExportWrapper('SDL_PrivateJoystickRemoved');
-var _SDL_PrivateJoystickAxis = Module['_SDL_PrivateJoystickAxis'] = createExportWrapper('SDL_PrivateJoystickAxis');
-var _SDL_PrivateJoystickButton = Module['_SDL_PrivateJoystickButton'] = createExportWrapper('SDL_PrivateJoystickButton');
-var _SDL_PrivateJoystickHat = Module['_SDL_PrivateJoystickHat'] = createExportWrapper('SDL_PrivateJoystickHat');
-var _SDL_PrivateJoystickTouchpad = Module['_SDL_PrivateJoystickTouchpad'] = createExportWrapper('SDL_PrivateJoystickTouchpad');
-var _SDL_abs = Module['_SDL_abs'] = createExportWrapper('SDL_abs');
-var _SDL_HasWindows = Module['_SDL_HasWindows'] = createExportWrapper('SDL_HasWindows');
-var _SDL_GetKeyboardFocus = Module['_SDL_GetKeyboardFocus'] = createExportWrapper('SDL_GetKeyboardFocus');
-var _SDL_PrivateJoystickBall = Module['_SDL_PrivateJoystickBall'] = createExportWrapper('SDL_PrivateJoystickBall');
-var _SDL_CreateJoystickName = Module['_SDL_CreateJoystickName'] = createExportWrapper('SDL_CreateJoystickName');
-var _GuessControllerName = Module['_GuessControllerName'] = createExportWrapper('GuessControllerName');
-var _SDL_GetJoystickGameControllerTypeFromVIDPID = Module['_SDL_GetJoystickGameControllerTypeFromVIDPID'] = createExportWrapper('SDL_GetJoystickGameControllerTypeFromVIDPID');
-var _SDL_tolower = Module['_SDL_tolower'] = createExportWrapper('SDL_tolower');
-var _GuessControllerType = Module['_GuessControllerType'] = createExportWrapper('GuessControllerType');
-var _SDL_IsJoystickXInput = Module['_SDL_IsJoystickXInput'] = createExportWrapper('SDL_IsJoystickXInput');
-var _SDL_IsJoystickXboxOne = Module['_SDL_IsJoystickXboxOne'] = createExportWrapper('SDL_IsJoystickXboxOne');
-var _SDL_IsJoystickBluetoothXboxOne = Module['_SDL_IsJoystickBluetoothXboxOne'] = createExportWrapper('SDL_IsJoystickBluetoothXboxOne');
-var _SDL_IsJoystickPS4 = Module['_SDL_IsJoystickPS4'] = createExportWrapper('SDL_IsJoystickPS4');
-var _SDL_IsJoystickPS5 = Module['_SDL_IsJoystickPS5'] = createExportWrapper('SDL_IsJoystickPS5');
-var _SDL_IsJoystickNintendoSwitchPro = Module['_SDL_IsJoystickNintendoSwitchPro'] = createExportWrapper('SDL_IsJoystickNintendoSwitchPro');
-var _SDL_IsJoystickNintendoSwitchProInputOnly = Module['_SDL_IsJoystickNintendoSwitchProInputOnly'] = createExportWrapper('SDL_IsJoystickNintendoSwitchProInputOnly');
-var _SDL_IsJoystickNintendoSwitchJoyCon = Module['_SDL_IsJoystickNintendoSwitchJoyCon'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyCon');
-var _SDL_IsJoystickNintendoSwitchJoyConLeft = Module['_SDL_IsJoystickNintendoSwitchJoyConLeft'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConLeft');
-var _SDL_IsJoystickNintendoSwitchJoyConRight = Module['_SDL_IsJoystickNintendoSwitchJoyConRight'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConRight');
-var _SDL_IsJoystickNintendoSwitchJoyConGrip = Module['_SDL_IsJoystickNintendoSwitchJoyConGrip'] = createExportWrapper('SDL_IsJoystickNintendoSwitchJoyConGrip');
-var _SDL_ShouldIgnoreJoystick = Module['_SDL_ShouldIgnoreJoystick'] = createExportWrapper('SDL_ShouldIgnoreJoystick');
-var _SDL_JoystickGetDeviceVendor = Module['_SDL_JoystickGetDeviceVendor'] = createExportWrapper('SDL_JoystickGetDeviceVendor');
-var _SDL_JoystickGetDeviceProduct = Module['_SDL_JoystickGetDeviceProduct'] = createExportWrapper('SDL_JoystickGetDeviceProduct');
-var _SDL_JoystickGetDeviceProductVersion = Module['_SDL_JoystickGetDeviceProductVersion'] = createExportWrapper('SDL_JoystickGetDeviceProductVersion');
-var _SDL_JoystickGetDeviceType = Module['_SDL_JoystickGetDeviceType'] = createExportWrapper('SDL_JoystickGetDeviceType');
-var _SDL_JoystickGetType = Module['_SDL_JoystickGetType'] = createExportWrapper('SDL_JoystickGetType');
-var _SDL_JoystickCurrentPowerLevel = Module['_SDL_JoystickCurrentPowerLevel'] = createExportWrapper('SDL_JoystickCurrentPowerLevel');
-var _SDL_PrivateJoystickSensor = Module['_SDL_PrivateJoystickSensor'] = createExportWrapper('SDL_PrivateJoystickSensor');
-var _SDL_UCS4ToUTF8 = Module['_SDL_UCS4ToUTF8'] = createExportWrapper('SDL_UCS4ToUTF8');
-var _SDL_KeyboardInit = Module['_SDL_KeyboardInit'] = createExportWrapper('SDL_KeyboardInit');
-var _SDL_SetKeymap = Module['_SDL_SetKeymap'] = createExportWrapper('SDL_SetKeymap');
-var _SDL_GetDefaultKeymap = Module['_SDL_GetDefaultKeymap'] = createExportWrapper('SDL_GetDefaultKeymap');
-var _SDL_SetScancodeName = Module['_SDL_SetScancodeName'] = createExportWrapper('SDL_SetScancodeName');
-var _SDL_CaptureMouse = Module['_SDL_CaptureMouse'] = createExportWrapper('SDL_CaptureMouse');
-var _SDL_UpdateMouseCapture = Module['_SDL_UpdateMouseCapture'] = createExportWrapper('SDL_UpdateMouseCapture');
-var _SDL_SendKeyboardUnicodeKey = Module['_SDL_SendKeyboardUnicodeKey'] = createExportWrapper('SDL_SendKeyboardUnicodeKey');
-var _SDL_SendKeyboardKeyAutoRelease = Module['_SDL_SendKeyboardKeyAutoRelease'] = createExportWrapper('SDL_SendKeyboardKeyAutoRelease');
-var _SDL_HardwareKeyboardKeyPressed = Module['_SDL_HardwareKeyboardKeyPressed'] = createExportWrapper('SDL_HardwareKeyboardKeyPressed');
-var _SDL_utf8strlcpy = Module['_SDL_utf8strlcpy'] = createExportWrapper('SDL_utf8strlcpy');
-var _SDL_SendEditingText = Module['_SDL_SendEditingText'] = createExportWrapper('SDL_SendEditingText');
-var _SDL_KeyboardQuit = Module['_SDL_KeyboardQuit'] = createExportWrapper('SDL_KeyboardQuit');
-var _SDL_GetKeyboardState = Module['_SDL_GetKeyboardState'] = createExportWrapper('SDL_GetKeyboardState');
-var _SDL_GetModState = Module['_SDL_GetModState'] = createExportWrapper('SDL_GetModState');
-var _SDL_SetModState = Module['_SDL_SetModState'] = createExportWrapper('SDL_SetModState');
-var _SDL_ToggleModState = Module['_SDL_ToggleModState'] = createExportWrapper('SDL_ToggleModState');
-var _SDL_GetKeyFromScancode = Module['_SDL_GetKeyFromScancode'] = createExportWrapper('SDL_GetKeyFromScancode');
-var _SDL_GetScancodeFromKey = Module['_SDL_GetScancodeFromKey'] = createExportWrapper('SDL_GetScancodeFromKey');
-var _SDL_GetScancodeName = Module['_SDL_GetScancodeName'] = createExportWrapper('SDL_GetScancodeName');
-var _SDL_GetScancodeFromName = Module['_SDL_GetScancodeFromName'] = createExportWrapper('SDL_GetScancodeFromName');
-var _SDL_GetKeyName = Module['_SDL_GetKeyName'] = createExportWrapper('SDL_GetKeyName');
-var _SDL_GetKeyFromName = Module['_SDL_GetKeyFromName'] = createExportWrapper('SDL_GetKeyFromName');
-var _SDL_ListAdd = Module['_SDL_ListAdd'] = createExportWrapper('SDL_ListAdd');
-var _SDL_ListPop = Module['_SDL_ListPop'] = createExportWrapper('SDL_ListPop');
-var _SDL_ListRemove = Module['_SDL_ListRemove'] = createExportWrapper('SDL_ListRemove');
-var _SDL_ListClear = Module['_SDL_ListClear'] = createExportWrapper('SDL_ListClear');
-var _SDL_GetPreferredLocales = Module['_SDL_GetPreferredLocales'] = createExportWrapper('SDL_GetPreferredLocales');
-var _SDL_SYS_GetPreferredLocales = Module['_SDL_SYS_GetPreferredLocales'] = createExportWrapper('SDL_SYS_GetPreferredLocales');
-var _SDL_LogResetPriorities = Module['_SDL_LogResetPriorities'] = createExportWrapper('SDL_LogResetPriorities');
-var _SDL_LogSetAllPriority = Module['_SDL_LogSetAllPriority'] = createExportWrapper('SDL_LogSetAllPriority');
-var _SDL_LogSetPriority = Module['_SDL_LogSetPriority'] = createExportWrapper('SDL_LogSetPriority');
-var _SDL_LogVerbose = Module['_SDL_LogVerbose'] = createExportWrapper('SDL_LogVerbose');
-var _SDL_LogInfo = Module['_SDL_LogInfo'] = createExportWrapper('SDL_LogInfo');
-var _SDL_LogError = Module['_SDL_LogError'] = createExportWrapper('SDL_LogError');
-var _SDL_LogMessage = Module['_SDL_LogMessage'] = createExportWrapper('SDL_LogMessage');
-var _SDL_LogGetOutputFunction = Module['_SDL_LogGetOutputFunction'] = createExportWrapper('SDL_LogGetOutputFunction');
-var _SDL_LogSetOutputFunction = Module['_SDL_LogSetOutputFunction'] = createExportWrapper('SDL_LogSetOutputFunction');
-var _fiprintf = Module['_fiprintf'] = createExportWrapper('fiprintf');
-var _SDL_GetOriginalMemoryFunctions = Module['_SDL_GetOriginalMemoryFunctions'] = createExportWrapper('SDL_GetOriginalMemoryFunctions');
-var _SDL_GetMemoryFunctions = Module['_SDL_GetMemoryFunctions'] = createExportWrapper('SDL_GetMemoryFunctions');
-var _SDL_SetMemoryFunctions = Module['_SDL_SetMemoryFunctions'] = createExportWrapper('SDL_SetMemoryFunctions');
-var _SDL_GetNumAllocations = Module['_SDL_GetNumAllocations'] = createExportWrapper('SDL_GetNumAllocations');
-var _SDL_MouseInit = Module['_SDL_MouseInit'] = createExportWrapper('SDL_MouseInit');
-var _SDL_atof = Module['_SDL_atof'] = createExportWrapper('SDL_atof');
-var _SDL_SetCursor = Module['_SDL_SetCursor'] = createExportWrapper('SDL_SetCursor');
-var _SDL_GetWindowMouseRect = Module['_SDL_GetWindowMouseRect'] = createExportWrapper('SDL_GetWindowMouseRect');
-var _SDL_SendMouseButtonClicks = Module['_SDL_SendMouseButtonClicks'] = createExportWrapper('SDL_SendMouseButtonClicks');
-var _SDL_MouseQuit = Module['_SDL_MouseQuit'] = createExportWrapper('SDL_MouseQuit');
-var _SDL_SetRelativeMouseMode = Module['_SDL_SetRelativeMouseMode'] = createExportWrapper('SDL_SetRelativeMouseMode');
-var _SDL_GetMessageBoxCount = Module['_SDL_GetMessageBoxCount'] = createExportWrapper('SDL_GetMessageBoxCount');
-var _SDL_UpdateWindowGrab = Module['_SDL_UpdateWindowGrab'] = createExportWrapper('SDL_UpdateWindowGrab');
-var _SDL_ShowCursor = Module['_SDL_ShowCursor'] = createExportWrapper('SDL_ShowCursor');
-var _SDL_FreeCursor = Module['_SDL_FreeCursor'] = createExportWrapper('SDL_FreeCursor');
-var _SDL_GetMouseState = Module['_SDL_GetMouseState'] = createExportWrapper('SDL_GetMouseState');
-var _SDL_GetRelativeMouseState = Module['_SDL_GetRelativeMouseState'] = createExportWrapper('SDL_GetRelativeMouseState');
-var _SDL_GetGlobalMouseState = Module['_SDL_GetGlobalMouseState'] = createExportWrapper('SDL_GetGlobalMouseState');
-var _SDL_PerformWarpMouseInWindow = Module['_SDL_PerformWarpMouseInWindow'] = createExportWrapper('SDL_PerformWarpMouseInWindow');
-var _SDL_WarpMouseInWindow = Module['_SDL_WarpMouseInWindow'] = createExportWrapper('SDL_WarpMouseInWindow');
-var _SDL_WarpMouseGlobal = Module['_SDL_WarpMouseGlobal'] = createExportWrapper('SDL_WarpMouseGlobal');
-var _SDL_GetRelativeMouseMode = Module['_SDL_GetRelativeMouseMode'] = createExportWrapper('SDL_GetRelativeMouseMode');
-var _SDL_CreateCursor = Module['_SDL_CreateCursor'] = createExportWrapper('SDL_CreateCursor');
-var _SDL_CreateColorCursor = Module['_SDL_CreateColorCursor'] = createExportWrapper('SDL_CreateColorCursor');
-var _SDL_CreateSystemCursor = Module['_SDL_CreateSystemCursor'] = createExportWrapper('SDL_CreateSystemCursor');
-var _SDL_GetCursor = Module['_SDL_GetCursor'] = createExportWrapper('SDL_GetCursor');
-var _SDL_GetDefaultCursor = Module['_SDL_GetDefaultCursor'] = createExportWrapper('SDL_GetDefaultCursor');
-var _SDL_GetPixelFormatName = Module['_SDL_GetPixelFormatName'] = createExportWrapper('SDL_GetPixelFormatName');
-var _SDL_MasksToPixelFormatEnum = Module['_SDL_MasksToPixelFormatEnum'] = createExportWrapper('SDL_MasksToPixelFormatEnum');
-var _SDL_AllocFormat = Module['_SDL_AllocFormat'] = createExportWrapper('SDL_AllocFormat');
-var _SDL_FreeFormat = Module['_SDL_FreeFormat'] = createExportWrapper('SDL_FreeFormat');
-var _SDL_FreePalette = Module['_SDL_FreePalette'] = createExportWrapper('SDL_FreePalette');
-var _SDL_AllocPalette = Module['_SDL_AllocPalette'] = createExportWrapper('SDL_AllocPalette');
-var _SDL_SetPixelFormatPalette = Module['_SDL_SetPixelFormatPalette'] = createExportWrapper('SDL_SetPixelFormatPalette');
-var _SDL_SetPaletteColors = Module['_SDL_SetPaletteColors'] = createExportWrapper('SDL_SetPaletteColors');
-var _SDL_DitherColors = Module['_SDL_DitherColors'] = createExportWrapper('SDL_DitherColors');
-var _SDL_FindColor = Module['_SDL_FindColor'] = createExportWrapper('SDL_FindColor');
-var _SDL_DetectPalette = Module['_SDL_DetectPalette'] = createExportWrapper('SDL_DetectPalette');
-var _SDL_MapRGBA = Module['_SDL_MapRGBA'] = createExportWrapper('SDL_MapRGBA');
-var _SDL_GetRGB = Module['_SDL_GetRGB'] = createExportWrapper('SDL_GetRGB');
-var _SDL_AllocBlitMap = Module['_SDL_AllocBlitMap'] = createExportWrapper('SDL_AllocBlitMap');
-var _SDL_InvalidateAllBlitMap = Module['_SDL_InvalidateAllBlitMap'] = createExportWrapper('SDL_InvalidateAllBlitMap');
-var _SDL_MapSurface = Module['_SDL_MapSurface'] = createExportWrapper('SDL_MapSurface');
-var _SDL_FreeBlitMap = Module['_SDL_FreeBlitMap'] = createExportWrapper('SDL_FreeBlitMap');
-var _SDL_CalculateGammaRamp = Module['_SDL_CalculateGammaRamp'] = createExportWrapper('SDL_CalculateGammaRamp');
-var _SDL_pow = Module['_SDL_pow'] = createExportWrapper('SDL_pow');
-var _SDL_GetPowerInfo = Module['_SDL_GetPowerInfo'] = createExportWrapper('SDL_GetPowerInfo');
-var _SDL_GetPowerInfo_Emscripten = Module['_SDL_GetPowerInfo_Emscripten'] = createExportWrapper('SDL_GetPowerInfo_Emscripten');
-var _SDL_qsort = Module['_SDL_qsort'] = createExportWrapper('SDL_qsort');
-var _qsort = Module['_qsort'] = createExportWrapper('qsort');
-var _SDL_bsearch = Module['_SDL_bsearch'] = createExportWrapper('SDL_bsearch');
-var _bsearch = Module['_bsearch'] = createExportWrapper('bsearch');
-var _sigaction = Module['_sigaction'] = createExportWrapper('sigaction');
-var _SDL_SendQuit = Module['_SDL_SendQuit'] = createExportWrapper('SDL_SendQuit');
-var _signal = Module['_signal'] = createExportWrapper('signal');
-var _SDL_GetSpanEnclosingRect = Module['_SDL_GetSpanEnclosingRect'] = createExportWrapper('SDL_GetSpanEnclosingRect');
-var _SDL_HasIntersection = Module['_SDL_HasIntersection'] = createExportWrapper('SDL_HasIntersection');
-var _SDL_UnionRect = Module['_SDL_UnionRect'] = createExportWrapper('SDL_UnionRect');
-var _SDL_EnclosePoints = Module['_SDL_EnclosePoints'] = createExportWrapper('SDL_EnclosePoints');
-var _SDL_HasIntersectionF = Module['_SDL_HasIntersectionF'] = createExportWrapper('SDL_HasIntersectionF');
-var _SDL_IntersectFRect = Module['_SDL_IntersectFRect'] = createExportWrapper('SDL_IntersectFRect');
-var _SDL_UnionFRect = Module['_SDL_UnionFRect'] = createExportWrapper('SDL_UnionFRect');
-var _SDL_EncloseFPoints = Module['_SDL_EncloseFPoints'] = createExportWrapper('SDL_EncloseFPoints');
-var _SDL_IntersectFRectAndLine = Module['_SDL_IntersectFRectAndLine'] = createExportWrapper('SDL_IntersectFRectAndLine');
-var _SDL_RenderFlush = Module['_SDL_RenderFlush'] = createExportWrapper('SDL_RenderFlush');
-var _SDL_AllocateRenderVertices = Module['_SDL_AllocateRenderVertices'] = createExportWrapper('SDL_AllocateRenderVertices');
-var _SDL_GetNumRenderDrivers = Module['_SDL_GetNumRenderDrivers'] = createExportWrapper('SDL_GetNumRenderDrivers');
-var _SDL_GetRenderDriverInfo = Module['_SDL_GetRenderDriverInfo'] = createExportWrapper('SDL_GetRenderDriverInfo');
-var _SDL_CreateWindowAndRenderer = Module['_SDL_CreateWindowAndRenderer'] = createExportWrapper('SDL_CreateWindowAndRenderer');
-var _SDL_GetWindowData = Module['_SDL_GetWindowData'] = createExportWrapper('SDL_GetWindowData');
-var _SDL_SetWindowData = Module['_SDL_SetWindowData'] = createExportWrapper('SDL_SetWindowData');
-var _SDL_RenderSetViewport = Module['_SDL_RenderSetViewport'] = createExportWrapper('SDL_RenderSetViewport');
-var _SDL_GetRenderer = Module['_SDL_GetRenderer'] = createExportWrapper('SDL_GetRenderer');
-var _SDL_GetRendererOutputSize = Module['_SDL_GetRendererOutputSize'] = createExportWrapper('SDL_GetRendererOutputSize');
-var _SDL_GetWindowFromID = Module['_SDL_GetWindowFromID'] = createExportWrapper('SDL_GetWindowFromID');
-var _SDL_SetRenderTarget = Module['_SDL_SetRenderTarget'] = createExportWrapper('SDL_SetRenderTarget');
-var _SDL_truncf = Module['_SDL_truncf'] = createExportWrapper('SDL_truncf');
-var _SDL_CreateSoftwareRenderer = Module['_SDL_CreateSoftwareRenderer'] = createExportWrapper('SDL_CreateSoftwareRenderer');
-var _SW_CreateRendererForSurface = Module['_SW_CreateRendererForSurface'] = createExportWrapper('SW_CreateRendererForSurface');
-var _SDL_RenderGetWindow = Module['_SDL_RenderGetWindow'] = createExportWrapper('SDL_RenderGetWindow');
-var _SDL_GetRendererInfo = Module['_SDL_GetRendererInfo'] = createExportWrapper('SDL_GetRendererInfo');
-var _SDL_QueryTexture = Module['_SDL_QueryTexture'] = createExportWrapper('SDL_QueryTexture');
-var _SDL_CreateTexture = Module['_SDL_CreateTexture'] = createExportWrapper('SDL_CreateTexture');
-var _SDL_SW_CreateYUVTexture = Module['_SDL_SW_CreateYUVTexture'] = createExportWrapper('SDL_SW_CreateYUVTexture');
-var _SDL_SW_DestroyYUVTexture = Module['_SDL_SW_DestroyYUVTexture'] = createExportWrapper('SDL_SW_DestroyYUVTexture');
-var _SDL_HasColorKey = Module['_SDL_HasColorKey'] = createExportWrapper('SDL_HasColorKey');
-var _SDL_UpdateTexture = Module['_SDL_UpdateTexture'] = createExportWrapper('SDL_UpdateTexture');
-var _SDL_GetSurfaceColorMod = Module['_SDL_GetSurfaceColorMod'] = createExportWrapper('SDL_GetSurfaceColorMod');
-var _SDL_GetSurfaceAlphaMod = Module['_SDL_GetSurfaceAlphaMod'] = createExportWrapper('SDL_GetSurfaceAlphaMod');
-var _SDL_GetSurfaceBlendMode = Module['_SDL_GetSurfaceBlendMode'] = createExportWrapper('SDL_GetSurfaceBlendMode');
-var _SDL_SW_UpdateYUVTexture = Module['_SDL_SW_UpdateYUVTexture'] = createExportWrapper('SDL_SW_UpdateYUVTexture');
-var _SDL_LockTexture = Module['_SDL_LockTexture'] = createExportWrapper('SDL_LockTexture');
-var _SDL_SW_CopyYUVToRGB = Module['_SDL_SW_CopyYUVToRGB'] = createExportWrapper('SDL_SW_CopyYUVToRGB');
-var _SDL_UnlockTexture = Module['_SDL_UnlockTexture'] = createExportWrapper('SDL_UnlockTexture');
-var _SDL_SetTextureColorMod = Module['_SDL_SetTextureColorMod'] = createExportWrapper('SDL_SetTextureColorMod');
-var _SDL_SetTextureAlphaMod = Module['_SDL_SetTextureAlphaMod'] = createExportWrapper('SDL_SetTextureAlphaMod');
-var _SDL_SetTextureBlendMode = Module['_SDL_SetTextureBlendMode'] = createExportWrapper('SDL_SetTextureBlendMode');
-var _SDL_GetTextureColorMod = Module['_SDL_GetTextureColorMod'] = createExportWrapper('SDL_GetTextureColorMod');
-var _SDL_GetTextureAlphaMod = Module['_SDL_GetTextureAlphaMod'] = createExportWrapper('SDL_GetTextureAlphaMod');
-var _SDL_GetTextureBlendMode = Module['_SDL_GetTextureBlendMode'] = createExportWrapper('SDL_GetTextureBlendMode');
-var _SDL_SetTextureScaleMode = Module['_SDL_SetTextureScaleMode'] = createExportWrapper('SDL_SetTextureScaleMode');
-var _SDL_GetTextureScaleMode = Module['_SDL_GetTextureScaleMode'] = createExportWrapper('SDL_GetTextureScaleMode');
-var _SDL_SetTextureUserData = Module['_SDL_SetTextureUserData'] = createExportWrapper('SDL_SetTextureUserData');
-var _SDL_GetTextureUserData = Module['_SDL_GetTextureUserData'] = createExportWrapper('SDL_GetTextureUserData');
-var _SDL_ConvertPixels = Module['_SDL_ConvertPixels'] = createExportWrapper('SDL_ConvertPixels');
-var _SDL_UpdateYUVTexture = Module['_SDL_UpdateYUVTexture'] = createExportWrapper('SDL_UpdateYUVTexture');
-var _SDL_SW_UpdateYUVTexturePlanar = Module['_SDL_SW_UpdateYUVTexturePlanar'] = createExportWrapper('SDL_SW_UpdateYUVTexturePlanar');
-var _SDL_UpdateNVTexture = Module['_SDL_UpdateNVTexture'] = createExportWrapper('SDL_UpdateNVTexture');
-var _SDL_SW_UpdateNVTexturePlanar = Module['_SDL_SW_UpdateNVTexturePlanar'] = createExportWrapper('SDL_SW_UpdateNVTexturePlanar');
-var _SDL_SW_LockYUVTexture = Module['_SDL_SW_LockYUVTexture'] = createExportWrapper('SDL_SW_LockYUVTexture');
-var _SDL_LockTextureToSurface = Module['_SDL_LockTextureToSurface'] = createExportWrapper('SDL_LockTextureToSurface');
-var _SDL_RenderTargetSupported = Module['_SDL_RenderTargetSupported'] = createExportWrapper('SDL_RenderTargetSupported');
-var _SDL_GetRenderTarget = Module['_SDL_GetRenderTarget'] = createExportWrapper('SDL_GetRenderTarget');
-var _SDL_RenderSetLogicalSize = Module['_SDL_RenderSetLogicalSize'] = createExportWrapper('SDL_RenderSetLogicalSize');
-var _SDL_RenderSetScale = Module['_SDL_RenderSetScale'] = createExportWrapper('SDL_RenderSetScale');
-var _SDL_RenderGetLogicalSize = Module['_SDL_RenderGetLogicalSize'] = createExportWrapper('SDL_RenderGetLogicalSize');
-var _SDL_RenderSetIntegerScale = Module['_SDL_RenderSetIntegerScale'] = createExportWrapper('SDL_RenderSetIntegerScale');
-var _SDL_RenderGetIntegerScale = Module['_SDL_RenderGetIntegerScale'] = createExportWrapper('SDL_RenderGetIntegerScale');
-var _SDL_RenderGetViewport = Module['_SDL_RenderGetViewport'] = createExportWrapper('SDL_RenderGetViewport');
-var _SDL_RenderSetClipRect = Module['_SDL_RenderSetClipRect'] = createExportWrapper('SDL_RenderSetClipRect');
-var _SDL_RenderGetClipRect = Module['_SDL_RenderGetClipRect'] = createExportWrapper('SDL_RenderGetClipRect');
-var _SDL_RenderIsClipEnabled = Module['_SDL_RenderIsClipEnabled'] = createExportWrapper('SDL_RenderIsClipEnabled');
-var _SDL_RenderGetScale = Module['_SDL_RenderGetScale'] = createExportWrapper('SDL_RenderGetScale');
-var _SDL_RenderWindowToLogical = Module['_SDL_RenderWindowToLogical'] = createExportWrapper('SDL_RenderWindowToLogical');
-var _SDL_RenderLogicalToWindow = Module['_SDL_RenderLogicalToWindow'] = createExportWrapper('SDL_RenderLogicalToWindow');
-var _SDL_SetRenderDrawColor = Module['_SDL_SetRenderDrawColor'] = createExportWrapper('SDL_SetRenderDrawColor');
-var _SDL_GetRenderDrawColor = Module['_SDL_GetRenderDrawColor'] = createExportWrapper('SDL_GetRenderDrawColor');
-var _SDL_SetRenderDrawBlendMode = Module['_SDL_SetRenderDrawBlendMode'] = createExportWrapper('SDL_SetRenderDrawBlendMode');
-var _SDL_GetRenderDrawBlendMode = Module['_SDL_GetRenderDrawBlendMode'] = createExportWrapper('SDL_GetRenderDrawBlendMode');
-var _SDL_RenderDrawPoint = Module['_SDL_RenderDrawPoint'] = createExportWrapper('SDL_RenderDrawPoint');
-var _SDL_RenderDrawPointsF = Module['_SDL_RenderDrawPointsF'] = createExportWrapper('SDL_RenderDrawPointsF');
-var _SDL_RenderDrawPointF = Module['_SDL_RenderDrawPointF'] = createExportWrapper('SDL_RenderDrawPointF');
-var _SDL_RenderDrawPoints = Module['_SDL_RenderDrawPoints'] = createExportWrapper('SDL_RenderDrawPoints');
-var _SDL_RenderDrawLine = Module['_SDL_RenderDrawLine'] = createExportWrapper('SDL_RenderDrawLine');
-var _SDL_RenderDrawLinesF = Module['_SDL_RenderDrawLinesF'] = createExportWrapper('SDL_RenderDrawLinesF');
-var _SDL_RenderDrawLineF = Module['_SDL_RenderDrawLineF'] = createExportWrapper('SDL_RenderDrawLineF');
-var _SDL_RenderDrawLines = Module['_SDL_RenderDrawLines'] = createExportWrapper('SDL_RenderDrawLines');
-var _SDL_RenderDrawRect = Module['_SDL_RenderDrawRect'] = createExportWrapper('SDL_RenderDrawRect');
-var _SDL_RenderDrawRectF = Module['_SDL_RenderDrawRectF'] = createExportWrapper('SDL_RenderDrawRectF');
-var _SDL_RenderDrawRects = Module['_SDL_RenderDrawRects'] = createExportWrapper('SDL_RenderDrawRects');
-var _SDL_RenderDrawRectsF = Module['_SDL_RenderDrawRectsF'] = createExportWrapper('SDL_RenderDrawRectsF');
-var _SDL_RenderFillRect = Module['_SDL_RenderFillRect'] = createExportWrapper('SDL_RenderFillRect');
-var _SDL_RenderFillRectsF = Module['_SDL_RenderFillRectsF'] = createExportWrapper('SDL_RenderFillRectsF');
-var _SDL_RenderFillRectF = Module['_SDL_RenderFillRectF'] = createExportWrapper('SDL_RenderFillRectF');
-var _SDL_RenderFillRects = Module['_SDL_RenderFillRects'] = createExportWrapper('SDL_RenderFillRects');
-var _SDL_RenderCopyF = Module['_SDL_RenderCopyF'] = createExportWrapper('SDL_RenderCopyF');
-var _SDL_RenderCopyEx = Module['_SDL_RenderCopyEx'] = createExportWrapper('SDL_RenderCopyEx');
-var _SDL_RenderCopyExF = Module['_SDL_RenderCopyExF'] = createExportWrapper('SDL_RenderCopyExF');
-var _SDL_sinf = Module['_SDL_sinf'] = createExportWrapper('SDL_sinf');
-var _SDL_cosf = Module['_SDL_cosf'] = createExportWrapper('SDL_cosf');
-var _SDL_RenderGeometry = Module['_SDL_RenderGeometry'] = createExportWrapper('SDL_RenderGeometry');
-var _SDL_RenderGeometryRaw = Module['_SDL_RenderGeometryRaw'] = createExportWrapper('SDL_RenderGeometryRaw');
-var _SDL_RenderReadPixels = Module['_SDL_RenderReadPixels'] = createExportWrapper('SDL_RenderReadPixels');
-var _SDL_GetWindowPixelFormat = Module['_SDL_GetWindowPixelFormat'] = createExportWrapper('SDL_GetWindowPixelFormat');
-var _SDL_GL_BindTexture = Module['_SDL_GL_BindTexture'] = createExportWrapper('SDL_GL_BindTexture');
-var _SDL_GL_UnbindTexture = Module['_SDL_GL_UnbindTexture'] = createExportWrapper('SDL_GL_UnbindTexture');
-var _SDL_RenderGetMetalLayer = Module['_SDL_RenderGetMetalLayer'] = createExportWrapper('SDL_RenderGetMetalLayer');
-var _SDL_RenderGetMetalCommandEncoder = Module['_SDL_RenderGetMetalCommandEncoder'] = createExportWrapper('SDL_RenderGetMetalCommandEncoder');
-var _SDL_ComposeCustomBlendMode = Module['_SDL_ComposeCustomBlendMode'] = createExportWrapper('SDL_ComposeCustomBlendMode');
-var _SDL_GetBlendModeSrcColorFactor = Module['_SDL_GetBlendModeSrcColorFactor'] = createExportWrapper('SDL_GetBlendModeSrcColorFactor');
-var _SDL_GetBlendModeDstColorFactor = Module['_SDL_GetBlendModeDstColorFactor'] = createExportWrapper('SDL_GetBlendModeDstColorFactor');
-var _SDL_GetBlendModeColorOperation = Module['_SDL_GetBlendModeColorOperation'] = createExportWrapper('SDL_GetBlendModeColorOperation');
-var _SDL_GetBlendModeSrcAlphaFactor = Module['_SDL_GetBlendModeSrcAlphaFactor'] = createExportWrapper('SDL_GetBlendModeSrcAlphaFactor');
-var _SDL_GetBlendModeDstAlphaFactor = Module['_SDL_GetBlendModeDstAlphaFactor'] = createExportWrapper('SDL_GetBlendModeDstAlphaFactor');
-var _SDL_GetBlendModeAlphaOperation = Module['_SDL_GetBlendModeAlphaOperation'] = createExportWrapper('SDL_GetBlendModeAlphaOperation');
-var _SDL_RenderSetVSync = Module['_SDL_RenderSetVSync'] = createExportWrapper('SDL_RenderSetVSync');
-var _SDL_GL_GetAttribute = Module['_SDL_GL_GetAttribute'] = createExportWrapper('SDL_GL_GetAttribute');
-var _SDL_GL_SetAttribute = Module['_SDL_GL_SetAttribute'] = createExportWrapper('SDL_GL_SetAttribute');
-var _SDL_RecreateWindow = Module['_SDL_RecreateWindow'] = createExportWrapper('SDL_RecreateWindow');
-var _SDL_GL_CreateContext = Module['_SDL_GL_CreateContext'] = createExportWrapper('SDL_GL_CreateContext');
-var _SDL_GL_MakeCurrent = Module['_SDL_GL_MakeCurrent'] = createExportWrapper('SDL_GL_MakeCurrent');
-var _SDL_GL_DeleteContext = Module['_SDL_GL_DeleteContext'] = createExportWrapper('SDL_GL_DeleteContext');
-var _SDL_GL_GetProcAddress = Module['_SDL_GL_GetProcAddress'] = createExportWrapper('SDL_GL_GetProcAddress');
-var _SDL_GL_SetSwapInterval = Module['_SDL_GL_SetSwapInterval'] = createExportWrapper('SDL_GL_SetSwapInterval');
-var _SDL_GL_GetSwapInterval = Module['_SDL_GL_GetSwapInterval'] = createExportWrapper('SDL_GL_GetSwapInterval');
-var _GLES2_GetTexCoordPrecisionEnumFromHint = Module['_GLES2_GetTexCoordPrecisionEnumFromHint'] = createExportWrapper('GLES2_GetTexCoordPrecisionEnumFromHint');
-var _SDL_GL_GetDrawableSize = Module['_SDL_GL_GetDrawableSize'] = createExportWrapper('SDL_GL_GetDrawableSize');
-var _SDL_atan2f = Module['_SDL_atan2f'] = createExportWrapper('SDL_atan2f');
-var _SDL_GL_SwapWindow = Module['_SDL_GL_SwapWindow'] = createExportWrapper('SDL_GL_SwapWindow');
-var _GLES2_GetShader = Module['_GLES2_GetShader'] = createExportWrapper('GLES2_GetShader');
-var _GLES2_GetShaderPrologue = Module['_GLES2_GetShaderPrologue'] = createExportWrapper('GLES2_GetShaderPrologue');
-var _GLES2_GetShaderInclude = Module['_GLES2_GetShaderInclude'] = createExportWrapper('GLES2_GetShaderInclude');
-var _SDL_GetYUVConversionModeForResolution = Module['_SDL_GetYUVConversionModeForResolution'] = createExportWrapper('SDL_GetYUVConversionModeForResolution');
-var _SDL_GetWindowSurface = Module['_SDL_GetWindowSurface'] = createExportWrapper('SDL_GetWindowSurface');
-var _SDL_SetSurfaceColorMod = Module['_SDL_SetSurfaceColorMod'] = createExportWrapper('SDL_SetSurfaceColorMod');
-var _SDL_SetSurfaceAlphaMod = Module['_SDL_SetSurfaceAlphaMod'] = createExportWrapper('SDL_SetSurfaceAlphaMod');
-var _SDL_SetSurfaceRLE = Module['_SDL_SetSurfaceRLE'] = createExportWrapper('SDL_SetSurfaceRLE');
-var _trianglepoint_2_fixedpoint = Module['_trianglepoint_2_fixedpoint'] = createExportWrapper('trianglepoint_2_fixedpoint');
-var _SDL_SetClipRect = Module['_SDL_SetClipRect'] = createExportWrapper('SDL_SetClipRect');
-var _SDL_UpperBlit = Module['_SDL_UpperBlit'] = createExportWrapper('SDL_UpperBlit');
-var _SDL_CreateRGBSurfaceWithFormat = Module['_SDL_CreateRGBSurfaceWithFormat'] = createExportWrapper('SDL_CreateRGBSurfaceWithFormat');
-var _SDL_PrivateUpperBlitScaled = Module['_SDL_PrivateUpperBlitScaled'] = createExportWrapper('SDL_PrivateUpperBlitScaled');
-var _SDL_CreateRGBSurfaceFrom = Module['_SDL_CreateRGBSurfaceFrom'] = createExportWrapper('SDL_CreateRGBSurfaceFrom');
-var _SDLgfx_rotozoomSurfaceSizeTrig = Module['_SDLgfx_rotozoomSurfaceSizeTrig'] = createExportWrapper('SDLgfx_rotozoomSurfaceSizeTrig');
-var _SDLgfx_rotateSurface = Module['_SDLgfx_rotateSurface'] = createExportWrapper('SDLgfx_rotateSurface');
-var _SDL_SW_BlitTriangle = Module['_SDL_SW_BlitTriangle'] = createExportWrapper('SDL_SW_BlitTriangle');
-var _SDL_SW_FillTriangle = Module['_SDL_SW_FillTriangle'] = createExportWrapper('SDL_SW_FillTriangle');
-var _SDL_UpdateWindowSurface = Module['_SDL_UpdateWindowSurface'] = createExportWrapper('SDL_UpdateWindowSurface');
-var _SDL_GetColorKey = Module['_SDL_GetColorKey'] = createExportWrapper('SDL_GetColorKey');
-var _SDL_RWFromFP = Module['_SDL_RWFromFP'] = createExportWrapper('SDL_RWFromFP');
-var _SDL_AllocRW = Module['_SDL_AllocRW'] = createExportWrapper('SDL_AllocRW');
-var _fseeko = Module['_fseeko'] = createExportWrapper('fseeko');
-var _ftello = Module['_ftello'] = createExportWrapper('ftello');
-var _fwrite = Module['_fwrite'] = createExportWrapper('fwrite');
-var _SDL_RWFromMem = Module['_SDL_RWFromMem'] = createExportWrapper('SDL_RWFromMem');
-var _SDL_RWFromConstMem = Module['_SDL_RWFromConstMem'] = createExportWrapper('SDL_RWFromConstMem');
-var _SDL_FreeRW = Module['_SDL_FreeRW'] = createExportWrapper('SDL_FreeRW');
-var _SDL_LoadFile_RW = Module['_SDL_LoadFile_RW'] = createExportWrapper('SDL_LoadFile_RW');
-var _SDL_ReadU8 = Module['_SDL_ReadU8'] = createExportWrapper('SDL_ReadU8');
-var _SDL_ReadBE16 = Module['_SDL_ReadBE16'] = createExportWrapper('SDL_ReadBE16');
-var _SDL_ReadBE32 = Module['_SDL_ReadBE32'] = createExportWrapper('SDL_ReadBE32');
-var _SDL_ReadLE64 = Module['_SDL_ReadLE64'] = createExportWrapper('SDL_ReadLE64');
-var _SDL_ReadBE64 = Module['_SDL_ReadBE64'] = createExportWrapper('SDL_ReadBE64');
-var _SDL_WriteU8 = Module['_SDL_WriteU8'] = createExportWrapper('SDL_WriteU8');
-var _SDL_WriteBE16 = Module['_SDL_WriteBE16'] = createExportWrapper('SDL_WriteBE16');
-var _SDL_WriteBE32 = Module['_SDL_WriteBE32'] = createExportWrapper('SDL_WriteBE32');
-var _SDL_WriteLE64 = Module['_SDL_WriteLE64'] = createExportWrapper('SDL_WriteLE64');
-var _SDL_WriteBE64 = Module['_SDL_WriteBE64'] = createExportWrapper('SDL_WriteBE64');
-var _SDL_LockSensors = Module['_SDL_LockSensors'] = createExportWrapper('SDL_LockSensors');
-var _SDL_UnlockSensors = Module['_SDL_UnlockSensors'] = createExportWrapper('SDL_UnlockSensors');
-var _SDL_GetNextSensorInstanceID = Module['_SDL_GetNextSensorInstanceID'] = createExportWrapper('SDL_GetNextSensorInstanceID');
-var _SDL_SensorGetDeviceName = Module['_SDL_SensorGetDeviceName'] = createExportWrapper('SDL_SensorGetDeviceName');
-var _SDL_SensorGetDeviceType = Module['_SDL_SensorGetDeviceType'] = createExportWrapper('SDL_SensorGetDeviceType');
-var _SDL_SensorGetDeviceNonPortableType = Module['_SDL_SensorGetDeviceNonPortableType'] = createExportWrapper('SDL_SensorGetDeviceNonPortableType');
-var _SDL_SensorGetDeviceInstanceID = Module['_SDL_SensorGetDeviceInstanceID'] = createExportWrapper('SDL_SensorGetDeviceInstanceID');
-var _SDL_SensorOpen = Module['_SDL_SensorOpen'] = createExportWrapper('SDL_SensorOpen');
-var _SDL_SensorFromInstanceID = Module['_SDL_SensorFromInstanceID'] = createExportWrapper('SDL_SensorFromInstanceID');
-var _SDL_SensorGetName = Module['_SDL_SensorGetName'] = createExportWrapper('SDL_SensorGetName');
-var _SDL_SensorGetType = Module['_SDL_SensorGetType'] = createExportWrapper('SDL_SensorGetType');
-var _SDL_SensorGetNonPortableType = Module['_SDL_SensorGetNonPortableType'] = createExportWrapper('SDL_SensorGetNonPortableType');
-var _SDL_SensorGetInstanceID = Module['_SDL_SensorGetInstanceID'] = createExportWrapper('SDL_SensorGetInstanceID');
-var _SDL_SensorGetData = Module['_SDL_SensorGetData'] = createExportWrapper('SDL_SensorGetData');
-var _SDL_SensorClose = Module['_SDL_SensorClose'] = createExportWrapper('SDL_SensorClose');
-var _SDL_PrivateSensorUpdate = Module['_SDL_PrivateSensorUpdate'] = createExportWrapper('SDL_PrivateSensorUpdate');
-var _SDL_CreateShapedWindow = Module['_SDL_CreateShapedWindow'] = createExportWrapper('SDL_CreateShapedWindow');
-var _SDL_DestroyWindow = Module['_SDL_DestroyWindow'] = createExportWrapper('SDL_DestroyWindow');
-var _SDL_IsShapedWindow = Module['_SDL_IsShapedWindow'] = createExportWrapper('SDL_IsShapedWindow');
-var _SDL_CalculateShapeBitmap = Module['_SDL_CalculateShapeBitmap'] = createExportWrapper('SDL_CalculateShapeBitmap');
-var _SDL_CalculateShapeTree = Module['_SDL_CalculateShapeTree'] = createExportWrapper('SDL_CalculateShapeTree');
-var _SDL_TraverseShapeTree = Module['_SDL_TraverseShapeTree'] = createExportWrapper('SDL_TraverseShapeTree');
-var _SDL_FreeShapeTree = Module['_SDL_FreeShapeTree'] = createExportWrapper('SDL_FreeShapeTree');
-var _SDL_SetWindowShape = Module['_SDL_SetWindowShape'] = createExportWrapper('SDL_SetWindowShape');
-var _SDL_SetWindowPosition = Module['_SDL_SetWindowPosition'] = createExportWrapper('SDL_SetWindowPosition');
-var _SDL_GetShapedWindowMode = Module['_SDL_GetShapedWindowMode'] = createExportWrapper('SDL_GetShapedWindowMode');
-var _SDL_AtomicTryLock = Module['_SDL_AtomicTryLock'] = createExportWrapper('SDL_AtomicTryLock');
-var _SDL_atan = Module['_SDL_atan'] = createExportWrapper('SDL_atan');
-var _atan = Module['_atan'] = createExportWrapper('atan');
-var _SDL_atanf = Module['_SDL_atanf'] = createExportWrapper('SDL_atanf');
-var _atanf = Module['_atanf'] = createExportWrapper('atanf');
-var _atan2 = Module['_atan2'] = createExportWrapper('atan2');
-var _atan2f = Module['_atan2f'] = createExportWrapper('atan2f');
-var _SDL_acos = Module['_SDL_acos'] = createExportWrapper('SDL_acos');
-var _acos = Module['_acos'] = createExportWrapper('acos');
-var _SDL_acosf = Module['_SDL_acosf'] = createExportWrapper('SDL_acosf');
-var _acosf = Module['_acosf'] = createExportWrapper('acosf');
-var _SDL_asin = Module['_SDL_asin'] = createExportWrapper('SDL_asin');
-var _asin = Module['_asin'] = createExportWrapper('asin');
-var _SDL_asinf = Module['_SDL_asinf'] = createExportWrapper('SDL_asinf');
-var _asinf = Module['_asinf'] = createExportWrapper('asinf');
-var _SDL_copysign = Module['_SDL_copysign'] = createExportWrapper('SDL_copysign');
-var _SDL_copysignf = Module['_SDL_copysignf'] = createExportWrapper('SDL_copysignf');
-var _cos = Module['_cos'] = createExportWrapper('cos');
-var _cosf = Module['_cosf'] = createExportWrapper('cosf');
-var _SDL_exp = Module['_SDL_exp'] = createExportWrapper('SDL_exp');
-var _exp = Module['_exp'] = createExportWrapper('exp');
-var _SDL_expf = Module['_SDL_expf'] = createExportWrapper('SDL_expf');
-var _expf = Module['_expf'] = createExportWrapper('expf');
-var _SDL_fabsf = Module['_SDL_fabsf'] = createExportWrapper('SDL_fabsf');
-var _SDL_floorf = Module['_SDL_floorf'] = createExportWrapper('SDL_floorf');
-var _SDL_trunc = Module['_SDL_trunc'] = createExportWrapper('SDL_trunc');
-var _SDL_fmod = Module['_SDL_fmod'] = createExportWrapper('SDL_fmod');
-var _fmod = Module['_fmod'] = createExportWrapper('fmod');
-var _SDL_fmodf = Module['_SDL_fmodf'] = createExportWrapper('SDL_fmodf');
-var _fmodf = Module['_fmodf'] = createExportWrapper('fmodf');
-var _SDL_log = Module['_SDL_log'] = createExportWrapper('SDL_log');
-var _log = Module['_log'] = createExportWrapper('log');
-var _SDL_logf = Module['_SDL_logf'] = createExportWrapper('SDL_logf');
-var _logf = Module['_logf'] = createExportWrapper('logf');
-var _SDL_log10 = Module['_SDL_log10'] = createExportWrapper('SDL_log10');
-var _log10 = Module['_log10'] = createExportWrapper('log10');
-var _SDL_log10f = Module['_SDL_log10f'] = createExportWrapper('SDL_log10f');
-var _log10f = Module['_log10f'] = createExportWrapper('log10f');
-var _pow = Module['_pow'] = createExportWrapper('pow');
-var _SDL_powf = Module['_SDL_powf'] = createExportWrapper('SDL_powf');
-var _powf = Module['_powf'] = createExportWrapper('powf');
-var _SDL_round = Module['_SDL_round'] = createExportWrapper('SDL_round');
-var _round = Module['_round'] = createExportWrapper('round');
-var _SDL_roundf = Module['_SDL_roundf'] = createExportWrapper('SDL_roundf');
-var _roundf = Module['_roundf'] = createExportWrapper('roundf');
-var _SDL_lround = Module['_SDL_lround'] = createExportWrapper('SDL_lround');
-var _lround = Module['_lround'] = createExportWrapper('lround');
-var _SDL_lroundf = Module['_SDL_lroundf'] = createExportWrapper('SDL_lroundf');
-var _lroundf = Module['_lroundf'] = createExportWrapper('lroundf');
-var _SDL_scalbn = Module['_SDL_scalbn'] = createExportWrapper('SDL_scalbn');
-var _scalbn = Module['_scalbn'] = createExportWrapper('scalbn');
-var _SDL_scalbnf = Module['_SDL_scalbnf'] = createExportWrapper('SDL_scalbnf');
-var _scalbnf = Module['_scalbnf'] = createExportWrapper('scalbnf');
-var _sin = Module['_sin'] = createExportWrapper('sin');
-var _sinf = Module['_sinf'] = createExportWrapper('sinf');
-var _SDL_sqrtf = Module['_SDL_sqrtf'] = createExportWrapper('SDL_sqrtf');
-var _SDL_tan = Module['_SDL_tan'] = createExportWrapper('SDL_tan');
-var _tan = Module['_tan'] = createExportWrapper('tan');
-var _SDL_tanf = Module['_SDL_tanf'] = createExportWrapper('SDL_tanf');
-var _SDL_isalpha = Module['_SDL_isalpha'] = createExportWrapper('SDL_isalpha');
-var _isalpha = Module['_isalpha'] = createExportWrapper('isalpha');
-var _SDL_isalnum = Module['_SDL_isalnum'] = createExportWrapper('SDL_isalnum');
-var _isalnum = Module['_isalnum'] = createExportWrapper('isalnum');
-var _SDL_isxdigit = Module['_SDL_isxdigit'] = createExportWrapper('SDL_isxdigit');
-var _isxdigit = Module['_isxdigit'] = createExportWrapper('isxdigit');
-var _SDL_ispunct = Module['_SDL_ispunct'] = createExportWrapper('SDL_ispunct');
-var _ispunct = Module['_ispunct'] = createExportWrapper('ispunct');
-var _SDL_isspace = Module['_SDL_isspace'] = createExportWrapper('SDL_isspace');
-var _isspace = Module['_isspace'] = createExportWrapper('isspace');
-var _SDL_isupper = Module['_SDL_isupper'] = createExportWrapper('SDL_isupper');
-var _isupper = Module['_isupper'] = createExportWrapper('isupper');
-var _SDL_islower = Module['_SDL_islower'] = createExportWrapper('SDL_islower');
-var _islower = Module['_islower'] = createExportWrapper('islower');
-var _SDL_isprint = Module['_SDL_isprint'] = createExportWrapper('SDL_isprint');
-var _isprint = Module['_isprint'] = createExportWrapper('isprint');
-var _SDL_isgraph = Module['_SDL_isgraph'] = createExportWrapper('SDL_isgraph');
-var _isgraph = Module['_isgraph'] = createExportWrapper('isgraph');
-var _SDL_iscntrl = Module['_SDL_iscntrl'] = createExportWrapper('SDL_iscntrl');
-var _iscntrl = Module['_iscntrl'] = createExportWrapper('iscntrl');
-var _toupper = Module['_toupper'] = createExportWrapper('toupper');
-var _tolower = Module['_tolower'] = createExportWrapper('tolower');
-var _SDL_isblank = Module['_SDL_isblank'] = createExportWrapper('SDL_isblank');
-var _isblank = Module['_isblank'] = createExportWrapper('isblank');
-var _SDL_SoftStretch = Module['_SDL_SoftStretch'] = createExportWrapper('SDL_SoftStretch');
-var _SDL_SoftStretchLinear = Module['_SDL_SoftStretchLinear'] = createExportWrapper('SDL_SoftStretchLinear');
-var _SDL_wcslen = Module['_SDL_wcslen'] = createExportWrapper('SDL_wcslen');
-var _wcslen = Module['_wcslen'] = createExportWrapper('wcslen');
-var _SDL_wcslcpy = Module['_SDL_wcslcpy'] = createExportWrapper('SDL_wcslcpy');
-var _SDL_wcslcat = Module['_SDL_wcslcat'] = createExportWrapper('SDL_wcslcat');
-var _SDL_wcsdup = Module['_SDL_wcsdup'] = createExportWrapper('SDL_wcsdup');
-var _SDL_wcsstr = Module['_SDL_wcsstr'] = createExportWrapper('SDL_wcsstr');
-var _wcsstr = Module['_wcsstr'] = createExportWrapper('wcsstr');
-var _SDL_wcscmp = Module['_SDL_wcscmp'] = createExportWrapper('SDL_wcscmp');
-var _wcscmp = Module['_wcscmp'] = createExportWrapper('wcscmp');
-var _SDL_wcsncmp = Module['_SDL_wcsncmp'] = createExportWrapper('SDL_wcsncmp');
-var _wcsncmp = Module['_wcsncmp'] = createExportWrapper('wcsncmp');
-var _SDL_wcscasecmp = Module['_SDL_wcscasecmp'] = createExportWrapper('SDL_wcscasecmp');
-var _wcscasecmp = Module['_wcscasecmp'] = createExportWrapper('wcscasecmp');
-var _SDL_wcsncasecmp = Module['_SDL_wcsncasecmp'] = createExportWrapper('SDL_wcsncasecmp');
-var _wcsncasecmp = Module['_wcsncasecmp'] = createExportWrapper('wcsncasecmp');
-var _strlcpy = Module['_strlcpy'] = createExportWrapper('strlcpy');
-var _SDL_utf8strnlen = Module['_SDL_utf8strnlen'] = createExportWrapper('SDL_utf8strnlen');
-var _strlcat = Module['_strlcat'] = createExportWrapper('strlcat');
-var _SDL_strrev = Module['_SDL_strrev'] = createExportWrapper('SDL_strrev');
-var _SDL_strupr = Module['_SDL_strupr'] = createExportWrapper('SDL_strupr');
-var _SDL_strlwr = Module['_SDL_strlwr'] = createExportWrapper('SDL_strlwr');
-var _strrchr = Module['_strrchr'] = createExportWrapper('strrchr');
-var _SDL_itoa = Module['_SDL_itoa'] = createExportWrapper('SDL_itoa');
-var _SDL_ltoa = Module['_SDL_ltoa'] = createExportWrapper('SDL_ltoa');
-var _SDL_uitoa = Module['_SDL_uitoa'] = createExportWrapper('SDL_uitoa');
-var _SDL_ultoa = Module['_SDL_ultoa'] = createExportWrapper('SDL_ultoa');
-var _SDL_lltoa = Module['_SDL_lltoa'] = createExportWrapper('SDL_lltoa');
-var _SDL_ulltoa = Module['_SDL_ulltoa'] = createExportWrapper('SDL_ulltoa');
-var _atoi = Module['_atoi'] = createExportWrapper('atoi');
-var _atof = Module['_atof'] = createExportWrapper('atof');
-var _SDL_strtoul = Module['_SDL_strtoul'] = createExportWrapper('SDL_strtoul');
-var _SDL_strtoll = Module['_SDL_strtoll'] = createExportWrapper('SDL_strtoll');
-var _strtoll = Module['_strtoll'] = createExportWrapper('strtoll');
-var _SDL_strtoull = Module['_SDL_strtoull'] = createExportWrapper('SDL_strtoull');
-var _strtoull = Module['_strtoull'] = createExportWrapper('strtoull');
-var _SDL_strtod = Module['_SDL_strtod'] = createExportWrapper('SDL_strtod');
-var _strtod = Module['_strtod'] = createExportWrapper('strtod');
-var _strcasecmp = Module['_strcasecmp'] = createExportWrapper('strcasecmp');
-var _strncasecmp = Module['_strncasecmp'] = createExportWrapper('strncasecmp');
-var _vsscanf = Module['_vsscanf'] = createExportWrapper('vsscanf');
-var _SDL_vsscanf = Module['_SDL_vsscanf'] = createExportWrapper('SDL_vsscanf');
-var _SDL_asprintf = Module['_SDL_asprintf'] = createExportWrapper('SDL_asprintf');
-var _SDL_vasprintf = Module['_SDL_vasprintf'] = createExportWrapper('SDL_vasprintf');
-var _SDL_strtokr = Module['_SDL_strtokr'] = createExportWrapper('SDL_strtokr');
-var _strtok_r = Module['_strtok_r'] = createExportWrapper('strtok_r');
-var _SDL_SetSurfacePalette = Module['_SDL_SetSurfacePalette'] = createExportWrapper('SDL_SetSurfacePalette');
-var _SDL_HasSurfaceRLE = Module['_SDL_HasSurfaceRLE'] = createExportWrapper('SDL_HasSurfaceRLE');
-var _SDL_GetClipRect = Module['_SDL_GetClipRect'] = createExportWrapper('SDL_GetClipRect');
-var _SDL_LowerBlit = Module['_SDL_LowerBlit'] = createExportWrapper('SDL_LowerBlit');
-var _SDL_UpperBlitScaled = Module['_SDL_UpperBlitScaled'] = createExportWrapper('SDL_UpperBlitScaled');
-var _SDL_PrivateLowerBlitScaled = Module['_SDL_PrivateLowerBlitScaled'] = createExportWrapper('SDL_PrivateLowerBlitScaled');
-var _SDL_LowerBlitScaled = Module['_SDL_LowerBlitScaled'] = createExportWrapper('SDL_LowerBlitScaled');
-var _SDL_DuplicateSurface = Module['_SDL_DuplicateSurface'] = createExportWrapper('SDL_DuplicateSurface');
-var _SDL_ConvertPixels_YUV_to_YUV = Module['_SDL_ConvertPixels_YUV_to_YUV'] = createExportWrapper('SDL_ConvertPixels_YUV_to_YUV');
-var _SDL_ConvertPixels_YUV_to_RGB = Module['_SDL_ConvertPixels_YUV_to_RGB'] = createExportWrapper('SDL_ConvertPixels_YUV_to_RGB');
-var _SDL_ConvertPixels_RGB_to_YUV = Module['_SDL_ConvertPixels_RGB_to_YUV'] = createExportWrapper('SDL_ConvertPixels_RGB_to_YUV');
-var _SDL_PremultiplyAlpha = Module['_SDL_PremultiplyAlpha'] = createExportWrapper('SDL_PremultiplyAlpha');
-var _SDL_CreateCond = Module['_SDL_CreateCond'] = createExportWrapper('SDL_CreateCond');
-var _SDL_CreateSemaphore = Module['_SDL_CreateSemaphore'] = createExportWrapper('SDL_CreateSemaphore');
-var _SDL_DestroySemaphore = Module['_SDL_DestroySemaphore'] = createExportWrapper('SDL_DestroySemaphore');
-var _SDL_DestroyCond = Module['_SDL_DestroyCond'] = createExportWrapper('SDL_DestroyCond');
-var _SDL_CondSignal = Module['_SDL_CondSignal'] = createExportWrapper('SDL_CondSignal');
-var _SDL_SemPost = Module['_SDL_SemPost'] = createExportWrapper('SDL_SemPost');
-var _SDL_SemWait = Module['_SDL_SemWait'] = createExportWrapper('SDL_SemWait');
-var _SDL_CondBroadcast = Module['_SDL_CondBroadcast'] = createExportWrapper('SDL_CondBroadcast');
-var _SDL_CondWaitTimeout = Module['_SDL_CondWaitTimeout'] = createExportWrapper('SDL_CondWaitTimeout');
-var _SDL_SemWaitTimeout = Module['_SDL_SemWaitTimeout'] = createExportWrapper('SDL_SemWaitTimeout');
-var _SDL_CondWait = Module['_SDL_CondWait'] = createExportWrapper('SDL_CondWait');
-var _SDL_GetBasePath = Module['_SDL_GetBasePath'] = createExportWrapper('SDL_GetBasePath');
-var _SDL_GetPrefPath = Module['_SDL_GetPrefPath'] = createExportWrapper('SDL_GetPrefPath');
-var _mkdir = Module['_mkdir'] = createExportWrapper('mkdir');
-var _dlopen = Module['_dlopen'] = createExportWrapper('dlopen');
-var _dlerror = Module['_dlerror'] = createExportWrapper('dlerror');
-var _dlsym = Module['_dlsym'] = createExportWrapper('dlsym');
-var _dlclose = Module['_dlclose'] = createExportWrapper('dlclose');
-var _SDL_TryLockMutex = Module['_SDL_TryLockMutex'] = createExportWrapper('SDL_TryLockMutex');
-var _SDL_SemTryWait = Module['_SDL_SemTryWait'] = createExportWrapper('SDL_SemTryWait');
-var _SDL_SemValue = Module['_SDL_SemValue'] = createExportWrapper('SDL_SemValue');
-var _SDL_SYS_CreateThread = Module['_SDL_SYS_CreateThread'] = createExportWrapper('SDL_SYS_CreateThread');
-var _SDL_SYS_SetupThread = Module['_SDL_SYS_SetupThread'] = createExportWrapper('SDL_SYS_SetupThread');
-var _SDL_SYS_SetThreadPriority = Module['_SDL_SYS_SetThreadPriority'] = createExportWrapper('SDL_SYS_SetThreadPriority');
-var _SDL_SYS_WaitThread = Module['_SDL_SYS_WaitThread'] = createExportWrapper('SDL_SYS_WaitThread');
-var _SDL_SYS_DetachThread = Module['_SDL_SYS_DetachThread'] = createExportWrapper('SDL_SYS_DetachThread');
-var _clock_gettime = Module['_clock_gettime'] = createExportWrapper('clock_gettime');
-var _gettimeofday = Module['_gettimeofday'] = createExportWrapper('gettimeofday');
-var _SDL_GetTicks64 = Module['_SDL_GetTicks64'] = createExportWrapper('SDL_GetTicks64');
-var _SDL_GetPerformanceCounter = Module['_SDL_GetPerformanceCounter'] = createExportWrapper('SDL_GetPerformanceCounter');
-var _SDL_GetPerformanceFrequency = Module['_SDL_GetPerformanceFrequency'] = createExportWrapper('SDL_GetPerformanceFrequency');
-var _nanosleep = Module['_nanosleep'] = createExportWrapper('nanosleep');
-var _SDL_SYS_GetTLSData = Module['_SDL_SYS_GetTLSData'] = createExportWrapper('SDL_SYS_GetTLSData');
-var _SDL_Generic_GetTLSData = Module['_SDL_Generic_GetTLSData'] = createExportWrapper('SDL_Generic_GetTLSData');
-var _SDL_SYS_SetTLSData = Module['_SDL_SYS_SetTLSData'] = createExportWrapper('SDL_SYS_SetTLSData');
-var _SDL_Generic_SetTLSData = Module['_SDL_Generic_SetTLSData'] = createExportWrapper('SDL_Generic_SetTLSData');
-var _SDL_SYS_OpenURL = Module['_SDL_SYS_OpenURL'] = createExportWrapper('SDL_SYS_OpenURL');
-var _SDL_TLSCreate = Module['_SDL_TLSCreate'] = createExportWrapper('SDL_TLSCreate');
-var _SDL_TLSGet = Module['_SDL_TLSGet'] = createExportWrapper('SDL_TLSGet');
-var _SDL_TLSSet = Module['_SDL_TLSSet'] = createExportWrapper('SDL_TLSSet');
-var _SDL_TLSCleanup = Module['_SDL_TLSCleanup'] = createExportWrapper('SDL_TLSCleanup');
-var _SDL_RunThread = Module['_SDL_RunThread'] = createExportWrapper('SDL_RunThread');
-var _SDL_CreateThreadWithStackSize = Module['_SDL_CreateThreadWithStackSize'] = createExportWrapper('SDL_CreateThreadWithStackSize');
-var _SDL_CreateThread = Module['_SDL_CreateThread'] = createExportWrapper('SDL_CreateThread');
-var _SDL_GetThreadID = Module['_SDL_GetThreadID'] = createExportWrapper('SDL_GetThreadID');
-var _SDL_GetThreadName = Module['_SDL_GetThreadName'] = createExportWrapper('SDL_GetThreadName');
-var _SDL_DetachThread = Module['_SDL_DetachThread'] = createExportWrapper('SDL_DetachThread');
-var _SDL_AddTimer = Module['_SDL_AddTimer'] = createExportWrapper('SDL_AddTimer');
-var _SDL_RemoveTimer = Module['_SDL_RemoveTimer'] = createExportWrapper('SDL_RemoveTimer');
-var _SDL_TouchInit = Module['_SDL_TouchInit'] = createExportWrapper('SDL_TouchInit');
-var _SDL_GetNumTouchDevices = Module['_SDL_GetNumTouchDevices'] = createExportWrapper('SDL_GetNumTouchDevices');
-var _SDL_GetTouchDevice = Module['_SDL_GetTouchDevice'] = createExportWrapper('SDL_GetTouchDevice');
-var _SDL_GetTouchName = Module['_SDL_GetTouchName'] = createExportWrapper('SDL_GetTouchName');
-var _SDL_GetTouch = Module['_SDL_GetTouch'] = createExportWrapper('SDL_GetTouch');
-var _SDL_GetTouchDeviceType = Module['_SDL_GetTouchDeviceType'] = createExportWrapper('SDL_GetTouchDeviceType');
-var _SDL_GetNumTouchFingers = Module['_SDL_GetNumTouchFingers'] = createExportWrapper('SDL_GetNumTouchFingers');
-var _SDL_GetTouchFinger = Module['_SDL_GetTouchFinger'] = createExportWrapper('SDL_GetTouchFinger');
-var _SDL_GetWindowID = Module['_SDL_GetWindowID'] = createExportWrapper('SDL_GetWindowID');
-var _SDL_DelTouch = Module['_SDL_DelTouch'] = createExportWrapper('SDL_DelTouch');
-var _SDL_TouchQuit = Module['_SDL_TouchQuit'] = createExportWrapper('SDL_TouchQuit');
-var _SDL_OpenURL = Module['_SDL_OpenURL'] = createExportWrapper('SDL_OpenURL');
-var _SDL_GetNumVideoDrivers = Module['_SDL_GetNumVideoDrivers'] = createExportWrapper('SDL_GetNumVideoDrivers');
-var _SDL_GetVideoDriver = Module['_SDL_GetVideoDriver'] = createExportWrapper('SDL_GetVideoDriver');
-var _SDL_StartTextInput = Module['_SDL_StartTextInput'] = createExportWrapper('SDL_StartTextInput');
-var _SDL_ResetDisplayModes = Module['_SDL_ResetDisplayModes'] = createExportWrapper('SDL_ResetDisplayModes');
-var _SDL_GL_ResetAttributes = Module['_SDL_GL_ResetAttributes'] = createExportWrapper('SDL_GL_ResetAttributes');
-var _SDL_DisableScreenSaver = Module['_SDL_DisableScreenSaver'] = createExportWrapper('SDL_DisableScreenSaver');
-var _SDL_HasScreenKeyboardSupport = Module['_SDL_HasScreenKeyboardSupport'] = createExportWrapper('SDL_HasScreenKeyboardSupport');
-var _SDL_GetCurrentVideoDriver = Module['_SDL_GetCurrentVideoDriver'] = createExportWrapper('SDL_GetCurrentVideoDriver');
-var _SDL_OnVideoThread = Module['_SDL_OnVideoThread'] = createExportWrapper('SDL_OnVideoThread');
-var _SDL_AddVideoDisplay = Module['_SDL_AddVideoDisplay'] = createExportWrapper('SDL_AddVideoDisplay');
-var _SDL_DelVideoDisplay = Module['_SDL_DelVideoDisplay'] = createExportWrapper('SDL_DelVideoDisplay');
-var _SDL_GetNumVideoDisplays = Module['_SDL_GetNumVideoDisplays'] = createExportWrapper('SDL_GetNumVideoDisplays');
-var _SDL_GetDisplayDriverData = Module['_SDL_GetDisplayDriverData'] = createExportWrapper('SDL_GetDisplayDriverData');
-var _SDL_IsVideoContextExternal = Module['_SDL_IsVideoContextExternal'] = createExportWrapper('SDL_IsVideoContextExternal');
-var _SDL_GetDisplayName = Module['_SDL_GetDisplayName'] = createExportWrapper('SDL_GetDisplayName');
-var _SDL_GetDisplayBounds = Module['_SDL_GetDisplayBounds'] = createExportWrapper('SDL_GetDisplayBounds');
-var _SDL_GetDisplayUsableBounds = Module['_SDL_GetDisplayUsableBounds'] = createExportWrapper('SDL_GetDisplayUsableBounds');
-var _SDL_GetDisplayDPI = Module['_SDL_GetDisplayDPI'] = createExportWrapper('SDL_GetDisplayDPI');
-var _SDL_GetDisplayOrientation = Module['_SDL_GetDisplayOrientation'] = createExportWrapper('SDL_GetDisplayOrientation');
-var _SDL_SetCurrentDisplayMode = Module['_SDL_SetCurrentDisplayMode'] = createExportWrapper('SDL_SetCurrentDisplayMode');
-var _SDL_SetDesktopDisplayMode = Module['_SDL_SetDesktopDisplayMode'] = createExportWrapper('SDL_SetDesktopDisplayMode');
-var _SDL_GetNumDisplayModes = Module['_SDL_GetNumDisplayModes'] = createExportWrapper('SDL_GetNumDisplayModes');
-var _SDL_GetDisplayMode = Module['_SDL_GetDisplayMode'] = createExportWrapper('SDL_GetDisplayMode');
-var _SDL_GetDesktopDisplayMode = Module['_SDL_GetDesktopDisplayMode'] = createExportWrapper('SDL_GetDesktopDisplayMode');
-var _SDL_GetCurrentDisplayMode = Module['_SDL_GetCurrentDisplayMode'] = createExportWrapper('SDL_GetCurrentDisplayMode');
-var _SDL_GetClosestDisplayMode = Module['_SDL_GetClosestDisplayMode'] = createExportWrapper('SDL_GetClosestDisplayMode');
-var _SDL_GetDisplay = Module['_SDL_GetDisplay'] = createExportWrapper('SDL_GetDisplay');
-var _SDL_GetPointDisplayIndex = Module['_SDL_GetPointDisplayIndex'] = createExportWrapper('SDL_GetPointDisplayIndex');
-var _SDL_GetRectDisplayIndex = Module['_SDL_GetRectDisplayIndex'] = createExportWrapper('SDL_GetRectDisplayIndex');
-var _SDL_GetWindowDisplayIndex = Module['_SDL_GetWindowDisplayIndex'] = createExportWrapper('SDL_GetWindowDisplayIndex');
-var _SDL_SetWindowDisplayMode = Module['_SDL_SetWindowDisplayMode'] = createExportWrapper('SDL_SetWindowDisplayMode');
-var _SDL_GetWindowDisplayMode = Module['_SDL_GetWindowDisplayMode'] = createExportWrapper('SDL_GetWindowDisplayMode');
-var _SDL_GetWindowICCProfile = Module['_SDL_GetWindowICCProfile'] = createExportWrapper('SDL_GetWindowICCProfile');
-var _SDL_Vulkan_LoadLibrary = Module['_SDL_Vulkan_LoadLibrary'] = createExportWrapper('SDL_Vulkan_LoadLibrary');
-var _SDL_SetWindowFullscreen = Module['_SDL_SetWindowFullscreen'] = createExportWrapper('SDL_SetWindowFullscreen');
-var _SDL_SetWindowGrab = Module['_SDL_SetWindowGrab'] = createExportWrapper('SDL_SetWindowGrab');
-var _SDL_CreateWindowFrom = Module['_SDL_CreateWindowFrom'] = createExportWrapper('SDL_CreateWindowFrom');
-var _SDL_HideWindow = Module['_SDL_HideWindow'] = createExportWrapper('SDL_HideWindow');
-var _SDL_GL_UnloadLibrary = Module['_SDL_GL_UnloadLibrary'] = createExportWrapper('SDL_GL_UnloadLibrary');
-var _SDL_Vulkan_UnloadLibrary = Module['_SDL_Vulkan_UnloadLibrary'] = createExportWrapper('SDL_Vulkan_UnloadLibrary');
-var _SDL_GetWindowTitle = Module['_SDL_GetWindowTitle'] = createExportWrapper('SDL_GetWindowTitle');
-var _SDL_SetWindowIcon = Module['_SDL_SetWindowIcon'] = createExportWrapper('SDL_SetWindowIcon');
-var _SDL_GetWindowPosition = Module['_SDL_GetWindowPosition'] = createExportWrapper('SDL_GetWindowPosition');
-var _SDL_SetWindowBordered = Module['_SDL_SetWindowBordered'] = createExportWrapper('SDL_SetWindowBordered');
-var _SDL_SetWindowAlwaysOnTop = Module['_SDL_SetWindowAlwaysOnTop'] = createExportWrapper('SDL_SetWindowAlwaysOnTop');
-var _SDL_SetWindowSize = Module['_SDL_SetWindowSize'] = createExportWrapper('SDL_SetWindowSize');
-var _SDL_OnWindowResized = Module['_SDL_OnWindowResized'] = createExportWrapper('SDL_OnWindowResized');
-var _SDL_GetWindowBordersSize = Module['_SDL_GetWindowBordersSize'] = createExportWrapper('SDL_GetWindowBordersSize');
-var _SDL_SetWindowMinimumSize = Module['_SDL_SetWindowMinimumSize'] = createExportWrapper('SDL_SetWindowMinimumSize');
-var _SDL_GetWindowMinimumSize = Module['_SDL_GetWindowMinimumSize'] = createExportWrapper('SDL_GetWindowMinimumSize');
-var _SDL_SetWindowMaximumSize = Module['_SDL_SetWindowMaximumSize'] = createExportWrapper('SDL_SetWindowMaximumSize');
-var _SDL_GetWindowMaximumSize = Module['_SDL_GetWindowMaximumSize'] = createExportWrapper('SDL_GetWindowMaximumSize');
-var _SDL_ShowWindow = Module['_SDL_ShowWindow'] = createExportWrapper('SDL_ShowWindow');
-var _SDL_RaiseWindow = Module['_SDL_RaiseWindow'] = createExportWrapper('SDL_RaiseWindow');
-var _SDL_MaximizeWindow = Module['_SDL_MaximizeWindow'] = createExportWrapper('SDL_MaximizeWindow');
-var _SDL_UpdateWindowSurfaceRects = Module['_SDL_UpdateWindowSurfaceRects'] = createExportWrapper('SDL_UpdateWindowSurfaceRects');
-var _SDL_SetWindowBrightness = Module['_SDL_SetWindowBrightness'] = createExportWrapper('SDL_SetWindowBrightness');
-var _SDL_SetWindowGammaRamp = Module['_SDL_SetWindowGammaRamp'] = createExportWrapper('SDL_SetWindowGammaRamp');
-var _SDL_GetWindowGammaRamp = Module['_SDL_GetWindowGammaRamp'] = createExportWrapper('SDL_GetWindowGammaRamp');
-var _SDL_GetWindowBrightness = Module['_SDL_GetWindowBrightness'] = createExportWrapper('SDL_GetWindowBrightness');
-var _SDL_SetWindowOpacity = Module['_SDL_SetWindowOpacity'] = createExportWrapper('SDL_SetWindowOpacity');
-var _SDL_GetWindowOpacity = Module['_SDL_GetWindowOpacity'] = createExportWrapper('SDL_GetWindowOpacity');
-var _SDL_SetWindowModalFor = Module['_SDL_SetWindowModalFor'] = createExportWrapper('SDL_SetWindowModalFor');
-var _SDL_SetWindowInputFocus = Module['_SDL_SetWindowInputFocus'] = createExportWrapper('SDL_SetWindowInputFocus');
-var _SDL_SetWindowMouseGrab = Module['_SDL_SetWindowMouseGrab'] = createExportWrapper('SDL_SetWindowMouseGrab');
-var _SDL_SetWindowKeyboardGrab = Module['_SDL_SetWindowKeyboardGrab'] = createExportWrapper('SDL_SetWindowKeyboardGrab');
-var _SDL_GetWindowGrab = Module['_SDL_GetWindowGrab'] = createExportWrapper('SDL_GetWindowGrab');
-var _SDL_GetWindowKeyboardGrab = Module['_SDL_GetWindowKeyboardGrab'] = createExportWrapper('SDL_GetWindowKeyboardGrab');
-var _SDL_GetWindowMouseGrab = Module['_SDL_GetWindowMouseGrab'] = createExportWrapper('SDL_GetWindowMouseGrab');
-var _SDL_GetGrabbedWindow = Module['_SDL_GetGrabbedWindow'] = createExportWrapper('SDL_GetGrabbedWindow');
-var _SDL_SetWindowMouseRect = Module['_SDL_SetWindowMouseRect'] = createExportWrapper('SDL_SetWindowMouseRect');
-var _SDL_FlashWindow = Module['_SDL_FlashWindow'] = createExportWrapper('SDL_FlashWindow');
-var _SDL_OnWindowShown = Module['_SDL_OnWindowShown'] = createExportWrapper('SDL_OnWindowShown');
-var _SDL_OnWindowRestored = Module['_SDL_OnWindowRestored'] = createExportWrapper('SDL_OnWindowRestored');
-var _SDL_OnWindowHidden = Module['_SDL_OnWindowHidden'] = createExportWrapper('SDL_OnWindowHidden');
-var _SDL_OnWindowMoved = Module['_SDL_OnWindowMoved'] = createExportWrapper('SDL_OnWindowMoved');
-var _SDL_OnWindowMinimized = Module['_SDL_OnWindowMinimized'] = createExportWrapper('SDL_OnWindowMinimized');
-var _SDL_OnWindowEnter = Module['_SDL_OnWindowEnter'] = createExportWrapper('SDL_OnWindowEnter');
-var _SDL_OnWindowLeave = Module['_SDL_OnWindowLeave'] = createExportWrapper('SDL_OnWindowLeave');
-var _SDL_OnWindowFocusGained = Module['_SDL_OnWindowFocusGained'] = createExportWrapper('SDL_OnWindowFocusGained');
-var _SDL_OnWindowFocusLost = Module['_SDL_OnWindowFocusLost'] = createExportWrapper('SDL_OnWindowFocusLost');
-var _SDL_IsScreenSaverEnabled = Module['_SDL_IsScreenSaverEnabled'] = createExportWrapper('SDL_IsScreenSaverEnabled');
-var _SDL_EnableScreenSaver = Module['_SDL_EnableScreenSaver'] = createExportWrapper('SDL_EnableScreenSaver');
-var _SDL_GL_DeduceMaxSupportedESProfile = Module['_SDL_GL_DeduceMaxSupportedESProfile'] = createExportWrapper('SDL_GL_DeduceMaxSupportedESProfile');
-var _SDL_GL_GetCurrentWindow = Module['_SDL_GL_GetCurrentWindow'] = createExportWrapper('SDL_GL_GetCurrentWindow');
-var _SDL_GetWindowWMInfo = Module['_SDL_GetWindowWMInfo'] = createExportWrapper('SDL_GetWindowWMInfo');
-var _SDL_ClearComposition = Module['_SDL_ClearComposition'] = createExportWrapper('SDL_ClearComposition');
-var _SDL_IsTextInputShown = Module['_SDL_IsTextInputShown'] = createExportWrapper('SDL_IsTextInputShown');
-var _SDL_IsTextInputActive = Module['_SDL_IsTextInputActive'] = createExportWrapper('SDL_IsTextInputActive');
-var _SDL_StopTextInput = Module['_SDL_StopTextInput'] = createExportWrapper('SDL_StopTextInput');
-var _SDL_SetTextInputRect = Module['_SDL_SetTextInputRect'] = createExportWrapper('SDL_SetTextInputRect');
-var _SDL_IsScreenKeyboardShown = Module['_SDL_IsScreenKeyboardShown'] = createExportWrapper('SDL_IsScreenKeyboardShown');
-var _SDL_ShowSimpleMessageBox = Module['_SDL_ShowSimpleMessageBox'] = createExportWrapper('SDL_ShowSimpleMessageBox');
-var _SDL_ShouldAllowTopmost = Module['_SDL_ShouldAllowTopmost'] = createExportWrapper('SDL_ShouldAllowTopmost');
-var _SDL_SetWindowHitTest = Module['_SDL_SetWindowHitTest'] = createExportWrapper('SDL_SetWindowHitTest');
-var _SDL_ComputeDiagonalDPI = Module['_SDL_ComputeDiagonalDPI'] = createExportWrapper('SDL_ComputeDiagonalDPI');
-var _SDL_OnApplicationWillTerminate = Module['_SDL_OnApplicationWillTerminate'] = createExportWrapper('SDL_OnApplicationWillTerminate');
-var _SDL_OnApplicationDidReceiveMemoryWarning = Module['_SDL_OnApplicationDidReceiveMemoryWarning'] = createExportWrapper('SDL_OnApplicationDidReceiveMemoryWarning');
-var _SDL_OnApplicationWillResignActive = Module['_SDL_OnApplicationWillResignActive'] = createExportWrapper('SDL_OnApplicationWillResignActive');
-var _SDL_OnApplicationDidEnterBackground = Module['_SDL_OnApplicationDidEnterBackground'] = createExportWrapper('SDL_OnApplicationDidEnterBackground');
-var _SDL_OnApplicationWillEnterForeground = Module['_SDL_OnApplicationWillEnterForeground'] = createExportWrapper('SDL_OnApplicationWillEnterForeground');
-var _SDL_OnApplicationDidBecomeActive = Module['_SDL_OnApplicationDidBecomeActive'] = createExportWrapper('SDL_OnApplicationDidBecomeActive');
-var _SDL_Vulkan_GetVkGetInstanceProcAddr = Module['_SDL_Vulkan_GetVkGetInstanceProcAddr'] = createExportWrapper('SDL_Vulkan_GetVkGetInstanceProcAddr');
-var _SDL_Vulkan_GetInstanceExtensions = Module['_SDL_Vulkan_GetInstanceExtensions'] = createExportWrapper('SDL_Vulkan_GetInstanceExtensions');
-var _SDL_Vulkan_CreateSurface = Module['_SDL_Vulkan_CreateSurface'] = createExportWrapper('SDL_Vulkan_CreateSurface');
-var _SDL_Vulkan_GetDrawableSize = Module['_SDL_Vulkan_GetDrawableSize'] = createExportWrapper('SDL_Vulkan_GetDrawableSize');
-var _SDL_Metal_CreateView = Module['_SDL_Metal_CreateView'] = createExportWrapper('SDL_Metal_CreateView');
-var _SDL_Metal_DestroyView = Module['_SDL_Metal_DestroyView'] = createExportWrapper('SDL_Metal_DestroyView');
-var _SDL_Metal_GetLayer = Module['_SDL_Metal_GetLayer'] = createExportWrapper('SDL_Metal_GetLayer');
-var _SDL_Metal_GetDrawableSize = Module['_SDL_Metal_GetDrawableSize'] = createExportWrapper('SDL_Metal_GetDrawableSize');
-var _SDL_LoadWAV_RW = Module['_SDL_LoadWAV_RW'] = createExportWrapper('SDL_LoadWAV_RW');
-var _SDL_FreeWAV = Module['_SDL_FreeWAV'] = createExportWrapper('SDL_FreeWAV');
-var _SDL_SetYUVConversionMode = Module['_SDL_SetYUVConversionMode'] = createExportWrapper('SDL_SetYUVConversionMode');
-var _SDL_GetYUVConversionMode = Module['_SDL_GetYUVConversionMode'] = createExportWrapper('SDL_GetYUVConversionMode');
-var _yuv420_rgba_std = Module['_yuv420_rgba_std'] = createExportWrapper('yuv420_rgba_std');
-var _yuv420_rgb24_std = Module['_yuv420_rgb24_std'] = createExportWrapper('yuv420_rgb24_std');
-var _yuv420_abgr_std = Module['_yuv420_abgr_std'] = createExportWrapper('yuv420_abgr_std');
-var _yuv422_rgba_std = Module['_yuv422_rgba_std'] = createExportWrapper('yuv422_rgba_std');
-var _yuv422_rgb24_std = Module['_yuv422_rgb24_std'] = createExportWrapper('yuv422_rgb24_std');
-var _yuv422_abgr_std = Module['_yuv422_abgr_std'] = createExportWrapper('yuv422_abgr_std');
-var _yuvnv12_rgba_std = Module['_yuvnv12_rgba_std'] = createExportWrapper('yuvnv12_rgba_std');
-var _yuvnv12_rgb24_std = Module['_yuvnv12_rgb24_std'] = createExportWrapper('yuvnv12_rgb24_std');
-var _yuvnv12_abgr_std = Module['_yuvnv12_abgr_std'] = createExportWrapper('yuvnv12_abgr_std');
-var _yuv420_rgb565_std = Module['_yuv420_rgb565_std'] = createExportWrapper('yuv420_rgb565_std');
-var _yuv422_rgb565_std = Module['_yuv422_rgb565_std'] = createExportWrapper('yuv422_rgb565_std');
-var _yuvnv12_rgb565_std = Module['_yuvnv12_rgb565_std'] = createExportWrapper('yuvnv12_rgb565_std');
-var _yuvnv12_bgra_std = Module['_yuvnv12_bgra_std'] = createExportWrapper('yuvnv12_bgra_std');
-var _yuvnv12_argb_std = Module['_yuvnv12_argb_std'] = createExportWrapper('yuvnv12_argb_std');
-var _yuv422_bgra_std = Module['_yuv422_bgra_std'] = createExportWrapper('yuv422_bgra_std');
-var _yuv422_argb_std = Module['_yuv422_argb_std'] = createExportWrapper('yuv422_argb_std');
-var _yuv420_bgra_std = Module['_yuv420_bgra_std'] = createExportWrapper('yuv420_bgra_std');
-var _yuv420_argb_std = Module['_yuv420_argb_std'] = createExportWrapper('yuv420_argb_std');
-var _SDL_SW_QueryYUVTexturePixels = Module['_SDL_SW_QueryYUVTexturePixels'] = createExportWrapper('SDL_SW_QueryYUVTexturePixels');
-var _SDL_SW_UnlockYUVTexture = Module['_SDL_SW_UnlockYUVTexture'] = createExportWrapper('SDL_SW_UnlockYUVTexture');
-var _rgb24_yuv420_std = Module['_rgb24_yuv420_std'] = createExportWrapper('rgb24_yuv420_std');
-var _png_set_sig_bytes = Module['_png_set_sig_bytes'] = createExportWrapper('png_set_sig_bytes');
-var _png_error = Module['_png_error'] = createExportWrapper('png_error');
-var _png_zalloc = Module['_png_zalloc'] = createExportWrapper('png_zalloc');
-var _png_malloc_warn = Module['_png_malloc_warn'] = createExportWrapper('png_malloc_warn');
-var _png_zfree = Module['_png_zfree'] = createExportWrapper('png_zfree');
-var _png_free = Module['_png_free'] = createExportWrapper('png_free');
-var _png_reset_crc = Module['_png_reset_crc'] = createExportWrapper('png_reset_crc');
-var _crc32 = Module['_crc32'] = createExportWrapper('crc32');
-var _png_calculate_crc = Module['_png_calculate_crc'] = createExportWrapper('png_calculate_crc');
-var _png_user_version_check = Module['_png_user_version_check'] = createExportWrapper('png_user_version_check');
-var _png_create_png_struct = Module['_png_create_png_struct'] = createExportWrapper('png_create_png_struct');
-var _png_set_mem_fn = Module['_png_set_mem_fn'] = createExportWrapper('png_set_mem_fn');
-var _png_set_error_fn = Module['_png_set_error_fn'] = createExportWrapper('png_set_error_fn');
-var _png_malloc_base = Module['_png_malloc_base'] = createExportWrapper('png_malloc_base');
-var _png_destroy_info_struct = Module['_png_destroy_info_struct'] = createExportWrapper('png_destroy_info_struct');
-var _png_free_data = Module['_png_free_data'] = createExportWrapper('png_free_data');
-var _png_info_init_3 = Module['_png_info_init_3'] = createExportWrapper('png_info_init_3');
-var _png_data_freer = Module['_png_data_freer'] = createExportWrapper('png_data_freer');
-var _png_init_io = Module['_png_init_io'] = createExportWrapper('png_init_io');
-var _png_save_int_32 = Module['_png_save_int_32'] = createExportWrapper('png_save_int_32');
-var _png_save_uint_32 = Module['_png_save_uint_32'] = createExportWrapper('png_save_uint_32');
-var _png_convert_to_rfc1123_buffer = Module['_png_convert_to_rfc1123_buffer'] = createExportWrapper('png_convert_to_rfc1123_buffer');
-var _png_format_number = Module['_png_format_number'] = createExportWrapper('png_format_number');
-var _png_safecat = Module['_png_safecat'] = createExportWrapper('png_safecat');
-var _png_convert_to_rfc1123 = Module['_png_convert_to_rfc1123'] = createExportWrapper('png_convert_to_rfc1123');
-var _png_get_copyright = Module['_png_get_copyright'] = createExportWrapper('png_get_copyright');
-var _png_get_libpng_ver = Module['_png_get_libpng_ver'] = createExportWrapper('png_get_libpng_ver');
-var _png_get_header_ver = Module['_png_get_header_ver'] = createExportWrapper('png_get_header_ver');
-var _png_get_header_version = Module['_png_get_header_version'] = createExportWrapper('png_get_header_version');
-var _png_build_grayscale_palette = Module['_png_build_grayscale_palette'] = createExportWrapper('png_build_grayscale_palette');
-var _png_handle_as_unknown = Module['_png_handle_as_unknown'] = createExportWrapper('png_handle_as_unknown');
-var _png_chunk_unknown_handling = Module['_png_chunk_unknown_handling'] = createExportWrapper('png_chunk_unknown_handling');
-var _png_reset_zstream = Module['_png_reset_zstream'] = createExportWrapper('png_reset_zstream');
-var _inflateReset = Module['_inflateReset'] = createExportWrapper('inflateReset');
-var _png_access_version_number = Module['_png_access_version_number'] = createExportWrapper('png_access_version_number');
-var _png_zstream_error = Module['_png_zstream_error'] = createExportWrapper('png_zstream_error');
-var _png_colorspace_set_gamma = Module['_png_colorspace_set_gamma'] = createExportWrapper('png_colorspace_set_gamma');
-var _png_chunk_report = Module['_png_chunk_report'] = createExportWrapper('png_chunk_report');
-var _png_colorspace_sync_info = Module['_png_colorspace_sync_info'] = createExportWrapper('png_colorspace_sync_info');
-var _png_colorspace_sync = Module['_png_colorspace_sync'] = createExportWrapper('png_colorspace_sync');
-var _png_colorspace_set_chromaticities = Module['_png_colorspace_set_chromaticities'] = createExportWrapper('png_colorspace_set_chromaticities');
-var _png_benign_error = Module['_png_benign_error'] = createExportWrapper('png_benign_error');
-var _png_colorspace_set_endpoints = Module['_png_colorspace_set_endpoints'] = createExportWrapper('png_colorspace_set_endpoints');
-var _png_colorspace_set_sRGB = Module['_png_colorspace_set_sRGB'] = createExportWrapper('png_colorspace_set_sRGB');
-var _png_icc_check_length = Module['_png_icc_check_length'] = createExportWrapper('png_icc_check_length');
-var _png_icc_check_header = Module['_png_icc_check_header'] = createExportWrapper('png_icc_check_header');
-var _png_icc_check_tag_table = Module['_png_icc_check_tag_table'] = createExportWrapper('png_icc_check_tag_table');
-var _png_icc_set_sRGB = Module['_png_icc_set_sRGB'] = createExportWrapper('png_icc_set_sRGB');
-var _adler32 = Module['_adler32'] = createExportWrapper('adler32');
-var _png_colorspace_set_ICC = Module['_png_colorspace_set_ICC'] = createExportWrapper('png_colorspace_set_ICC');
-var _png_colorspace_set_rgb_coefficients = Module['_png_colorspace_set_rgb_coefficients'] = createExportWrapper('png_colorspace_set_rgb_coefficients');
-var _png_muldiv = Module['_png_muldiv'] = createExportWrapper('png_muldiv');
-var _png_check_IHDR = Module['_png_check_IHDR'] = createExportWrapper('png_check_IHDR');
-var _png_check_fp_number = Module['_png_check_fp_number'] = createExportWrapper('png_check_fp_number');
-var _png_check_fp_string = Module['_png_check_fp_string'] = createExportWrapper('png_check_fp_string');
-var _png_ascii_from_fp = Module['_png_ascii_from_fp'] = createExportWrapper('png_ascii_from_fp');
-var _frexp = Module['_frexp'] = createExportWrapper('frexp');
-var _modf = Module['_modf'] = createExportWrapper('modf');
-var _png_ascii_from_fixed = Module['_png_ascii_from_fixed'] = createExportWrapper('png_ascii_from_fixed');
-var _png_fixed = Module['_png_fixed'] = createExportWrapper('png_fixed');
-var _png_fixed_error = Module['_png_fixed_error'] = createExportWrapper('png_fixed_error');
-var _png_muldiv_warn = Module['_png_muldiv_warn'] = createExportWrapper('png_muldiv_warn');
-var _png_reciprocal = Module['_png_reciprocal'] = createExportWrapper('png_reciprocal');
-var _png_gamma_significant = Module['_png_gamma_significant'] = createExportWrapper('png_gamma_significant');
-var _png_reciprocal2 = Module['_png_reciprocal2'] = createExportWrapper('png_reciprocal2');
-var _png_gamma_8bit_correct = Module['_png_gamma_8bit_correct'] = createExportWrapper('png_gamma_8bit_correct');
-var _png_gamma_16bit_correct = Module['_png_gamma_16bit_correct'] = createExportWrapper('png_gamma_16bit_correct');
-var _png_gamma_correct = Module['_png_gamma_correct'] = createExportWrapper('png_gamma_correct');
-var _png_destroy_gamma_table = Module['_png_destroy_gamma_table'] = createExportWrapper('png_destroy_gamma_table');
-var _png_build_gamma_table = Module['_png_build_gamma_table'] = createExportWrapper('png_build_gamma_table');
-var _png_malloc = Module['_png_malloc'] = createExportWrapper('png_malloc');
-var _png_calloc = Module['_png_calloc'] = createExportWrapper('png_calloc');
-var _png_set_option = Module['_png_set_option'] = createExportWrapper('png_set_option');
-var _png_image_free = Module['_png_image_free'] = createExportWrapper('png_image_free');
-var _png_image_error = Module['_png_image_error'] = createExportWrapper('png_image_error');
-var _fputc = Module['_fputc'] = createExportWrapper('fputc');
-var _png_longjmp = Module['_png_longjmp'] = createExportWrapper('png_longjmp');
-var _png_chunk_error = Module['_png_chunk_error'] = createExportWrapper('png_chunk_error');
-var _png_app_warning = Module['_png_app_warning'] = createExportWrapper('png_app_warning');
-var _png_app_error = Module['_png_app_error'] = createExportWrapper('png_app_error');
-var _png_chunk_benign_error = Module['_png_chunk_benign_error'] = createExportWrapper('png_chunk_benign_error');
-var _png_free_jmpbuf = Module['_png_free_jmpbuf'] = createExportWrapper('png_free_jmpbuf');
-var _png_get_error_ptr = Module['_png_get_error_ptr'] = createExportWrapper('png_get_error_ptr');
-var _png_safe_error = Module['_png_safe_error'] = createExportWrapper('png_safe_error');
-var _png_safe_execute = Module['_png_safe_execute'] = createExportWrapper('png_safe_execute');
-var _png_get_rowbytes = Module['_png_get_rowbytes'] = createExportWrapper('png_get_rowbytes');
-var _png_get_rows = Module['_png_get_rows'] = createExportWrapper('png_get_rows');
-var _png_get_image_width = Module['_png_get_image_width'] = createExportWrapper('png_get_image_width');
-var _png_get_image_height = Module['_png_get_image_height'] = createExportWrapper('png_get_image_height');
-var _png_get_bit_depth = Module['_png_get_bit_depth'] = createExportWrapper('png_get_bit_depth');
-var _png_get_color_type = Module['_png_get_color_type'] = createExportWrapper('png_get_color_type');
-var _png_get_filter_type = Module['_png_get_filter_type'] = createExportWrapper('png_get_filter_type');
-var _png_get_interlace_type = Module['_png_get_interlace_type'] = createExportWrapper('png_get_interlace_type');
-var _png_get_compression_type = Module['_png_get_compression_type'] = createExportWrapper('png_get_compression_type');
-var _png_get_x_pixels_per_meter = Module['_png_get_x_pixels_per_meter'] = createExportWrapper('png_get_x_pixels_per_meter');
-var _png_get_y_pixels_per_meter = Module['_png_get_y_pixels_per_meter'] = createExportWrapper('png_get_y_pixels_per_meter');
-var _png_get_pixels_per_meter = Module['_png_get_pixels_per_meter'] = createExportWrapper('png_get_pixels_per_meter');
-var _png_get_pixel_aspect_ratio = Module['_png_get_pixel_aspect_ratio'] = createExportWrapper('png_get_pixel_aspect_ratio');
-var _png_get_pixel_aspect_ratio_fixed = Module['_png_get_pixel_aspect_ratio_fixed'] = createExportWrapper('png_get_pixel_aspect_ratio_fixed');
-var _png_get_x_offset_microns = Module['_png_get_x_offset_microns'] = createExportWrapper('png_get_x_offset_microns');
-var _png_get_y_offset_microns = Module['_png_get_y_offset_microns'] = createExportWrapper('png_get_y_offset_microns');
-var _png_get_x_offset_pixels = Module['_png_get_x_offset_pixels'] = createExportWrapper('png_get_x_offset_pixels');
-var _png_get_y_offset_pixels = Module['_png_get_y_offset_pixels'] = createExportWrapper('png_get_y_offset_pixels');
-var _png_get_pixels_per_inch = Module['_png_get_pixels_per_inch'] = createExportWrapper('png_get_pixels_per_inch');
-var _png_get_x_pixels_per_inch = Module['_png_get_x_pixels_per_inch'] = createExportWrapper('png_get_x_pixels_per_inch');
-var _png_get_y_pixels_per_inch = Module['_png_get_y_pixels_per_inch'] = createExportWrapper('png_get_y_pixels_per_inch');
-var _png_get_x_offset_inches_fixed = Module['_png_get_x_offset_inches_fixed'] = createExportWrapper('png_get_x_offset_inches_fixed');
-var _png_get_y_offset_inches_fixed = Module['_png_get_y_offset_inches_fixed'] = createExportWrapper('png_get_y_offset_inches_fixed');
-var _png_get_x_offset_inches = Module['_png_get_x_offset_inches'] = createExportWrapper('png_get_x_offset_inches');
-var _png_get_y_offset_inches = Module['_png_get_y_offset_inches'] = createExportWrapper('png_get_y_offset_inches');
-var _png_get_pHYs_dpi = Module['_png_get_pHYs_dpi'] = createExportWrapper('png_get_pHYs_dpi');
-var _png_get_signature = Module['_png_get_signature'] = createExportWrapper('png_get_signature');
-var _png_get_bKGD = Module['_png_get_bKGD'] = createExportWrapper('png_get_bKGD');
-var _png_get_cHRM = Module['_png_get_cHRM'] = createExportWrapper('png_get_cHRM');
-var _png_get_cHRM_XYZ = Module['_png_get_cHRM_XYZ'] = createExportWrapper('png_get_cHRM_XYZ');
-var _png_get_cHRM_XYZ_fixed = Module['_png_get_cHRM_XYZ_fixed'] = createExportWrapper('png_get_cHRM_XYZ_fixed');
-var _png_get_cHRM_fixed = Module['_png_get_cHRM_fixed'] = createExportWrapper('png_get_cHRM_fixed');
-var _png_get_gAMA_fixed = Module['_png_get_gAMA_fixed'] = createExportWrapper('png_get_gAMA_fixed');
-var _png_get_gAMA = Module['_png_get_gAMA'] = createExportWrapper('png_get_gAMA');
-var _png_get_sRGB = Module['_png_get_sRGB'] = createExportWrapper('png_get_sRGB');
-var _png_get_iCCP = Module['_png_get_iCCP'] = createExportWrapper('png_get_iCCP');
-var _png_get_sPLT = Module['_png_get_sPLT'] = createExportWrapper('png_get_sPLT');
-var _png_get_eXIf = Module['_png_get_eXIf'] = createExportWrapper('png_get_eXIf');
-var _png_get_eXIf_1 = Module['_png_get_eXIf_1'] = createExportWrapper('png_get_eXIf_1');
-var _png_get_hIST = Module['_png_get_hIST'] = createExportWrapper('png_get_hIST');
-var _png_get_oFFs = Module['_png_get_oFFs'] = createExportWrapper('png_get_oFFs');
-var _png_get_pCAL = Module['_png_get_pCAL'] = createExportWrapper('png_get_pCAL');
-var _png_get_sCAL_fixed = Module['_png_get_sCAL_fixed'] = createExportWrapper('png_get_sCAL_fixed');
-var _png_get_sCAL = Module['_png_get_sCAL'] = createExportWrapper('png_get_sCAL');
-var _png_get_sCAL_s = Module['_png_get_sCAL_s'] = createExportWrapper('png_get_sCAL_s');
-var _png_get_pHYs = Module['_png_get_pHYs'] = createExportWrapper('png_get_pHYs');
-var _png_get_sBIT = Module['_png_get_sBIT'] = createExportWrapper('png_get_sBIT');
-var _png_get_text = Module['_png_get_text'] = createExportWrapper('png_get_text');
-var _png_get_tIME = Module['_png_get_tIME'] = createExportWrapper('png_get_tIME');
-var _png_get_unknown_chunks = Module['_png_get_unknown_chunks'] = createExportWrapper('png_get_unknown_chunks');
-var _png_get_rgb_to_gray_status = Module['_png_get_rgb_to_gray_status'] = createExportWrapper('png_get_rgb_to_gray_status');
-var _png_get_user_chunk_ptr = Module['_png_get_user_chunk_ptr'] = createExportWrapper('png_get_user_chunk_ptr');
-var _png_get_compression_buffer_size = Module['_png_get_compression_buffer_size'] = createExportWrapper('png_get_compression_buffer_size');
-var _png_get_user_width_max = Module['_png_get_user_width_max'] = createExportWrapper('png_get_user_width_max');
-var _png_get_user_height_max = Module['_png_get_user_height_max'] = createExportWrapper('png_get_user_height_max');
-var _png_get_chunk_cache_max = Module['_png_get_chunk_cache_max'] = createExportWrapper('png_get_chunk_cache_max');
-var _png_get_chunk_malloc_max = Module['_png_get_chunk_malloc_max'] = createExportWrapper('png_get_chunk_malloc_max');
-var _png_get_io_state = Module['_png_get_io_state'] = createExportWrapper('png_get_io_state');
-var _png_get_io_chunk_type = Module['_png_get_io_chunk_type'] = createExportWrapper('png_get_io_chunk_type');
-var _png_get_palette_max = Module['_png_get_palette_max'] = createExportWrapper('png_get_palette_max');
-var _png_destroy_png_struct = Module['_png_destroy_png_struct'] = createExportWrapper('png_destroy_png_struct');
-var _png_malloc_array = Module['_png_malloc_array'] = createExportWrapper('png_malloc_array');
-var _png_realloc_array = Module['_png_realloc_array'] = createExportWrapper('png_realloc_array');
-var _png_malloc_default = Module['_png_malloc_default'] = createExportWrapper('png_malloc_default');
-var _png_free_default = Module['_png_free_default'] = createExportWrapper('png_free_default');
-var _png_get_mem_ptr = Module['_png_get_mem_ptr'] = createExportWrapper('png_get_mem_ptr');
-var _png_process_data = Module['_png_process_data'] = createExportWrapper('png_process_data');
-var _png_push_read_chunk = Module['_png_push_read_chunk'] = createExportWrapper('png_push_read_chunk');
-var _png_push_read_IDAT = Module['_png_push_read_IDAT'] = createExportWrapper('png_push_read_IDAT');
-var _png_push_read_sig = Module['_png_push_read_sig'] = createExportWrapper('png_push_read_sig');
-var _png_push_restore_buffer = Module['_png_push_restore_buffer'] = createExportWrapper('png_push_restore_buffer');
-var _png_process_some_data = Module['_png_process_some_data'] = createExportWrapper('png_process_some_data');
-var _png_process_data_pause = Module['_png_process_data_pause'] = createExportWrapper('png_process_data_pause');
-var _png_push_save_buffer = Module['_png_push_save_buffer'] = createExportWrapper('png_push_save_buffer');
-var _png_process_data_skip = Module['_png_process_data_skip'] = createExportWrapper('png_process_data_skip');
-var _png_get_uint_31 = Module['_png_get_uint_31'] = createExportWrapper('png_get_uint_31');
-var _png_crc_read = Module['_png_crc_read'] = createExportWrapper('png_crc_read');
-var _png_check_chunk_name = Module['_png_check_chunk_name'] = createExportWrapper('png_check_chunk_name');
-var _png_check_chunk_length = Module['_png_check_chunk_length'] = createExportWrapper('png_check_chunk_length');
-var _png_handle_IHDR = Module['_png_handle_IHDR'] = createExportWrapper('png_handle_IHDR');
-var _png_handle_IEND = Module['_png_handle_IEND'] = createExportWrapper('png_handle_IEND');
-var _png_handle_PLTE = Module['_png_handle_PLTE'] = createExportWrapper('png_handle_PLTE');
-var _png_handle_gAMA = Module['_png_handle_gAMA'] = createExportWrapper('png_handle_gAMA');
-var _png_handle_sBIT = Module['_png_handle_sBIT'] = createExportWrapper('png_handle_sBIT');
-var _png_handle_cHRM = Module['_png_handle_cHRM'] = createExportWrapper('png_handle_cHRM');
-var _png_handle_sRGB = Module['_png_handle_sRGB'] = createExportWrapper('png_handle_sRGB');
-var _png_handle_iCCP = Module['_png_handle_iCCP'] = createExportWrapper('png_handle_iCCP');
-var _png_handle_sPLT = Module['_png_handle_sPLT'] = createExportWrapper('png_handle_sPLT');
-var _png_handle_tRNS = Module['_png_handle_tRNS'] = createExportWrapper('png_handle_tRNS');
-var _png_handle_bKGD = Module['_png_handle_bKGD'] = createExportWrapper('png_handle_bKGD');
-var _png_handle_hIST = Module['_png_handle_hIST'] = createExportWrapper('png_handle_hIST');
-var _png_handle_pHYs = Module['_png_handle_pHYs'] = createExportWrapper('png_handle_pHYs');
-var _png_handle_oFFs = Module['_png_handle_oFFs'] = createExportWrapper('png_handle_oFFs');
-var _png_handle_pCAL = Module['_png_handle_pCAL'] = createExportWrapper('png_handle_pCAL');
-var _png_handle_sCAL = Module['_png_handle_sCAL'] = createExportWrapper('png_handle_sCAL');
-var _png_handle_tIME = Module['_png_handle_tIME'] = createExportWrapper('png_handle_tIME');
-var _png_handle_tEXt = Module['_png_handle_tEXt'] = createExportWrapper('png_handle_tEXt');
-var _png_handle_zTXt = Module['_png_handle_zTXt'] = createExportWrapper('png_handle_zTXt');
-var _png_handle_iTXt = Module['_png_handle_iTXt'] = createExportWrapper('png_handle_iTXt');
-var _png_handle_unknown = Module['_png_handle_unknown'] = createExportWrapper('png_handle_unknown');
-var _png_process_IDAT_data = Module['_png_process_IDAT_data'] = createExportWrapper('png_process_IDAT_data');
-var _png_crc_finish = Module['_png_crc_finish'] = createExportWrapper('png_crc_finish');
-var _png_push_fill_buffer = Module['_png_push_fill_buffer'] = createExportWrapper('png_push_fill_buffer');
-var _png_push_have_end = Module['_png_push_have_end'] = createExportWrapper('png_push_have_end');
-var _png_push_have_info = Module['_png_push_have_info'] = createExportWrapper('png_push_have_info');
-var _png_zlib_inflate = Module['_png_zlib_inflate'] = createExportWrapper('png_zlib_inflate');
-var _png_push_process_row = Module['_png_push_process_row'] = createExportWrapper('png_push_process_row');
-var _png_read_filter_row = Module['_png_read_filter_row'] = createExportWrapper('png_read_filter_row');
-var _png_do_read_transformations = Module['_png_do_read_transformations'] = createExportWrapper('png_do_read_transformations');
-var _png_do_read_interlace = Module['_png_do_read_interlace'] = createExportWrapper('png_do_read_interlace');
-var _png_read_push_finish_row = Module['_png_read_push_finish_row'] = createExportWrapper('png_read_push_finish_row');
-var _png_push_have_row = Module['_png_push_have_row'] = createExportWrapper('png_push_have_row');
-var _png_progressive_combine_row = Module['_png_progressive_combine_row'] = createExportWrapper('png_progressive_combine_row');
-var _png_combine_row = Module['_png_combine_row'] = createExportWrapper('png_combine_row');
-var _png_set_progressive_read_fn = Module['_png_set_progressive_read_fn'] = createExportWrapper('png_set_progressive_read_fn');
-var _png_get_progressive_ptr = Module['_png_get_progressive_ptr'] = createExportWrapper('png_get_progressive_ptr');
-var _png_create_read_struct_2 = Module['_png_create_read_struct_2'] = createExportWrapper('png_create_read_struct_2');
-var _png_read_sig = Module['_png_read_sig'] = createExportWrapper('png_read_sig');
-var _png_read_chunk_header = Module['_png_read_chunk_header'] = createExportWrapper('png_read_chunk_header');
-var _png_handle_eXIf = Module['_png_handle_eXIf'] = createExportWrapper('png_handle_eXIf');
-var _png_read_start_row = Module['_png_read_start_row'] = createExportWrapper('png_read_start_row');
-var _png_read_transform_info = Module['_png_read_transform_info'] = createExportWrapper('png_read_transform_info');
-var _png_start_read_image = Module['_png_start_read_image'] = createExportWrapper('png_start_read_image');
-var _png_read_row = Module['_png_read_row'] = createExportWrapper('png_read_row');
-var _png_read_finish_row = Module['_png_read_finish_row'] = createExportWrapper('png_read_finish_row');
-var _png_read_IDAT_data = Module['_png_read_IDAT_data'] = createExportWrapper('png_read_IDAT_data');
-var _png_read_rows = Module['_png_read_rows'] = createExportWrapper('png_read_rows');
-var _png_read_end = Module['_png_read_end'] = createExportWrapper('png_read_end');
-var _png_read_finish_IDAT = Module['_png_read_finish_IDAT'] = createExportWrapper('png_read_finish_IDAT');
-var _inflateEnd = Module['_inflateEnd'] = createExportWrapper('inflateEnd');
-var _png_set_read_status_fn = Module['_png_set_read_status_fn'] = createExportWrapper('png_set_read_status_fn');
-var _png_read_png = Module['_png_read_png'] = createExportWrapper('png_read_png');
-var _png_set_scale_16 = Module['_png_set_scale_16'] = createExportWrapper('png_set_scale_16');
-var _png_set_strip_alpha = Module['_png_set_strip_alpha'] = createExportWrapper('png_set_strip_alpha');
-var _png_set_packswap = Module['_png_set_packswap'] = createExportWrapper('png_set_packswap');
-var _png_set_invert_mono = Module['_png_set_invert_mono'] = createExportWrapper('png_set_invert_mono');
-var _png_set_shift = Module['_png_set_shift'] = createExportWrapper('png_set_shift');
-var _png_set_bgr = Module['_png_set_bgr'] = createExportWrapper('png_set_bgr');
-var _png_set_swap_alpha = Module['_png_set_swap_alpha'] = createExportWrapper('png_set_swap_alpha');
-var _png_set_swap = Module['_png_set_swap'] = createExportWrapper('png_set_swap');
-var _png_set_invert_alpha = Module['_png_set_invert_alpha'] = createExportWrapper('png_set_invert_alpha');
-var _png_set_expand_16 = Module['_png_set_expand_16'] = createExportWrapper('png_set_expand_16');
-var _png_image_begin_read_from_stdio = Module['_png_image_begin_read_from_stdio'] = createExportWrapper('png_image_begin_read_from_stdio');
-var _png_set_benign_errors = Module['_png_set_benign_errors'] = createExportWrapper('png_set_benign_errors');
-var _png_image_begin_read_from_file = Module['_png_image_begin_read_from_file'] = createExportWrapper('png_image_begin_read_from_file');
-var _png_image_begin_read_from_memory = Module['_png_image_begin_read_from_memory'] = createExportWrapper('png_image_begin_read_from_memory');
-var _png_image_finish_read = Module['_png_image_finish_read'] = createExportWrapper('png_image_finish_read');
-var _png_set_background_fixed = Module['_png_set_background_fixed'] = createExportWrapper('png_set_background_fixed');
-var _png_set_rgb_to_gray_fixed = Module['_png_set_rgb_to_gray_fixed'] = createExportWrapper('png_set_rgb_to_gray_fixed');
-var _png_set_tRNS_to_alpha = Module['_png_set_tRNS_to_alpha'] = createExportWrapper('png_set_tRNS_to_alpha');
-var _png_set_alpha_mode_fixed = Module['_png_set_alpha_mode_fixed'] = createExportWrapper('png_set_alpha_mode_fixed');
-var _png_set_keep_unknown_chunks = Module['_png_set_keep_unknown_chunks'] = createExportWrapper('png_set_keep_unknown_chunks');
-var _png_set_add_alpha = Module['_png_set_add_alpha'] = createExportWrapper('png_set_add_alpha');
-var _png_read_data = Module['_png_read_data'] = createExportWrapper('png_read_data');
-var _png_default_read_data = Module['_png_default_read_data'] = createExportWrapper('png_default_read_data');
-var _png_set_crc_action = Module['_png_set_crc_action'] = createExportWrapper('png_set_crc_action');
-var _png_set_background = Module['_png_set_background'] = createExportWrapper('png_set_background');
-var _png_set_alpha_mode = Module['_png_set_alpha_mode'] = createExportWrapper('png_set_alpha_mode');
-var _png_set_quantize = Module['_png_set_quantize'] = createExportWrapper('png_set_quantize');
-var _png_set_gamma_fixed = Module['_png_set_gamma_fixed'] = createExportWrapper('png_set_gamma_fixed');
-var _png_set_gamma = Module['_png_set_gamma'] = createExportWrapper('png_set_gamma');
-var _png_set_palette_to_rgb = Module['_png_set_palette_to_rgb'] = createExportWrapper('png_set_palette_to_rgb');
-var _png_set_expand_gray_1_2_4_to_8 = Module['_png_set_expand_gray_1_2_4_to_8'] = createExportWrapper('png_set_expand_gray_1_2_4_to_8');
-var _png_set_rgb_to_gray = Module['_png_set_rgb_to_gray'] = createExportWrapper('png_set_rgb_to_gray');
-var _png_set_read_user_transform_fn = Module['_png_set_read_user_transform_fn'] = createExportWrapper('png_set_read_user_transform_fn');
-var _png_init_read_transformations = Module['_png_init_read_transformations'] = createExportWrapper('png_init_read_transformations');
-var _png_do_strip_channel = Module['_png_do_strip_channel'] = createExportWrapper('png_do_strip_channel');
-var _png_do_invert = Module['_png_do_invert'] = createExportWrapper('png_do_invert');
-var _png_do_check_palette_indexes = Module['_png_do_check_palette_indexes'] = createExportWrapper('png_do_check_palette_indexes');
-var _png_do_bgr = Module['_png_do_bgr'] = createExportWrapper('png_do_bgr');
-var _png_do_packswap = Module['_png_do_packswap'] = createExportWrapper('png_do_packswap');
-var _png_do_swap = Module['_png_do_swap'] = createExportWrapper('png_do_swap');
-var _png_get_uint_32 = Module['_png_get_uint_32'] = createExportWrapper('png_get_uint_32');
-var _png_get_int_32 = Module['_png_get_int_32'] = createExportWrapper('png_get_int_32');
-var _png_get_uint_16 = Module['_png_get_uint_16'] = createExportWrapper('png_get_uint_16');
-var _png_crc_error = Module['_png_crc_error'] = createExportWrapper('png_crc_error');
-var _inflate = Module['_inflate'] = createExportWrapper('inflate');
-var _png_set_sBIT = Module['_png_set_sBIT'] = createExportWrapper('png_set_sBIT');
-var _inflateReset2 = Module['_inflateReset2'] = createExportWrapper('inflateReset2');
-var _inflateInit2_ = Module['_inflateInit2_'] = createExportWrapper('inflateInit2_');
-var _inflateValidate = Module['_inflateValidate'] = createExportWrapper('inflateValidate');
-var _png_set_sPLT = Module['_png_set_sPLT'] = createExportWrapper('png_set_sPLT');
-var _png_set_bKGD = Module['_png_set_bKGD'] = createExportWrapper('png_set_bKGD');
-var _png_set_eXIf_1 = Module['_png_set_eXIf_1'] = createExportWrapper('png_set_eXIf_1');
-var _png_set_hIST = Module['_png_set_hIST'] = createExportWrapper('png_set_hIST');
-var _png_set_pHYs = Module['_png_set_pHYs'] = createExportWrapper('png_set_pHYs');
-var _png_set_oFFs = Module['_png_set_oFFs'] = createExportWrapper('png_set_oFFs');
-var _png_set_pCAL = Module['_png_set_pCAL'] = createExportWrapper('png_set_pCAL');
-var _png_set_sCAL_s = Module['_png_set_sCAL_s'] = createExportWrapper('png_set_sCAL_s');
-var _png_set_tIME = Module['_png_set_tIME'] = createExportWrapper('png_set_tIME');
-var _png_set_text_2 = Module['_png_set_text_2'] = createExportWrapper('png_set_text_2');
-var _png_set_unknown_chunks = Module['_png_set_unknown_chunks'] = createExportWrapper('png_set_unknown_chunks');
-var _png_set_cHRM_fixed = Module['_png_set_cHRM_fixed'] = createExportWrapper('png_set_cHRM_fixed');
-var _png_set_cHRM_XYZ_fixed = Module['_png_set_cHRM_XYZ_fixed'] = createExportWrapper('png_set_cHRM_XYZ_fixed');
-var _png_set_cHRM = Module['_png_set_cHRM'] = createExportWrapper('png_set_cHRM');
-var _png_set_cHRM_XYZ = Module['_png_set_cHRM_XYZ'] = createExportWrapper('png_set_cHRM_XYZ');
-var _png_set_eXIf = Module['_png_set_eXIf'] = createExportWrapper('png_set_eXIf');
-var _png_set_gAMA_fixed = Module['_png_set_gAMA_fixed'] = createExportWrapper('png_set_gAMA_fixed');
-var _png_set_gAMA = Module['_png_set_gAMA'] = createExportWrapper('png_set_gAMA');
-var _png_set_sCAL = Module['_png_set_sCAL'] = createExportWrapper('png_set_sCAL');
-var _png_set_sCAL_fixed = Module['_png_set_sCAL_fixed'] = createExportWrapper('png_set_sCAL_fixed');
-var _png_set_sRGB = Module['_png_set_sRGB'] = createExportWrapper('png_set_sRGB');
-var _png_set_sRGB_gAMA_and_cHRM = Module['_png_set_sRGB_gAMA_and_cHRM'] = createExportWrapper('png_set_sRGB_gAMA_and_cHRM');
-var _png_set_iCCP = Module['_png_set_iCCP'] = createExportWrapper('png_set_iCCP');
-var _png_set_text = Module['_png_set_text'] = createExportWrapper('png_set_text');
-var _png_set_unknown_chunk_location = Module['_png_set_unknown_chunk_location'] = createExportWrapper('png_set_unknown_chunk_location');
-var _png_permit_mng_features = Module['_png_permit_mng_features'] = createExportWrapper('png_permit_mng_features');
-var _png_set_read_user_chunk_fn = Module['_png_set_read_user_chunk_fn'] = createExportWrapper('png_set_read_user_chunk_fn');
-var _png_set_compression_buffer_size = Module['_png_set_compression_buffer_size'] = createExportWrapper('png_set_compression_buffer_size');
-var _png_free_buffer_list = Module['_png_free_buffer_list'] = createExportWrapper('png_free_buffer_list');
-var _png_set_invalid = Module['_png_set_invalid'] = createExportWrapper('png_set_invalid');
-var _png_set_user_limits = Module['_png_set_user_limits'] = createExportWrapper('png_set_user_limits');
-var _png_set_chunk_cache_max = Module['_png_set_chunk_cache_max'] = createExportWrapper('png_set_chunk_cache_max');
-var _png_set_chunk_malloc_max = Module['_png_set_chunk_malloc_max'] = createExportWrapper('png_set_chunk_malloc_max');
-var _png_set_check_for_invalid_index = Module['_png_set_check_for_invalid_index'] = createExportWrapper('png_set_check_for_invalid_index');
-var _png_check_keyword = Module['_png_check_keyword'] = createExportWrapper('png_check_keyword');
-var _png_set_filler = Module['_png_set_filler'] = createExportWrapper('png_set_filler');
-var _png_set_user_transform_info = Module['_png_set_user_transform_info'] = createExportWrapper('png_set_user_transform_info');
-var _png_get_user_transform_ptr = Module['_png_get_user_transform_ptr'] = createExportWrapper('png_get_user_transform_ptr');
-var _png_get_current_row_number = Module['_png_get_current_row_number'] = createExportWrapper('png_get_current_row_number');
-var _png_get_current_pass_number = Module['_png_get_current_pass_number'] = createExportWrapper('png_get_current_pass_number');
-var _png_write_data = Module['_png_write_data'] = createExportWrapper('png_write_data');
-var _png_default_write_data = Module['_png_default_write_data'] = createExportWrapper('png_default_write_data');
-var _png_flush = Module['_png_flush'] = createExportWrapper('png_flush');
-var _png_default_flush = Module['_png_default_flush'] = createExportWrapper('png_default_flush');
-var _fflush = Module['_fflush'] = createExportWrapper('fflush');
-var _png_write_info_before_PLTE = Module['_png_write_info_before_PLTE'] = createExportWrapper('png_write_info_before_PLTE');
-var _png_write_sig = Module['_png_write_sig'] = createExportWrapper('png_write_sig');
-var _png_write_IHDR = Module['_png_write_IHDR'] = createExportWrapper('png_write_IHDR');
-var _png_write_gAMA_fixed = Module['_png_write_gAMA_fixed'] = createExportWrapper('png_write_gAMA_fixed');
-var _png_write_iCCP = Module['_png_write_iCCP'] = createExportWrapper('png_write_iCCP');
-var _png_write_sRGB = Module['_png_write_sRGB'] = createExportWrapper('png_write_sRGB');
-var _png_write_sBIT = Module['_png_write_sBIT'] = createExportWrapper('png_write_sBIT');
-var _png_write_cHRM_fixed = Module['_png_write_cHRM_fixed'] = createExportWrapper('png_write_cHRM_fixed');
-var _png_write_chunk = Module['_png_write_chunk'] = createExportWrapper('png_write_chunk');
-var _png_write_PLTE = Module['_png_write_PLTE'] = createExportWrapper('png_write_PLTE');
-var _png_write_tRNS = Module['_png_write_tRNS'] = createExportWrapper('png_write_tRNS');
-var _png_write_bKGD = Module['_png_write_bKGD'] = createExportWrapper('png_write_bKGD');
-var _png_write_eXIf = Module['_png_write_eXIf'] = createExportWrapper('png_write_eXIf');
-var _png_write_hIST = Module['_png_write_hIST'] = createExportWrapper('png_write_hIST');
-var _png_write_oFFs = Module['_png_write_oFFs'] = createExportWrapper('png_write_oFFs');
-var _png_write_pCAL = Module['_png_write_pCAL'] = createExportWrapper('png_write_pCAL');
-var _png_write_sCAL_s = Module['_png_write_sCAL_s'] = createExportWrapper('png_write_sCAL_s');
-var _png_write_pHYs = Module['_png_write_pHYs'] = createExportWrapper('png_write_pHYs');
-var _png_write_tIME = Module['_png_write_tIME'] = createExportWrapper('png_write_tIME');
-var _png_write_sPLT = Module['_png_write_sPLT'] = createExportWrapper('png_write_sPLT');
-var _png_write_iTXt = Module['_png_write_iTXt'] = createExportWrapper('png_write_iTXt');
-var _png_write_zTXt = Module['_png_write_zTXt'] = createExportWrapper('png_write_zTXt');
-var _png_write_tEXt = Module['_png_write_tEXt'] = createExportWrapper('png_write_tEXt');
-var _png_write_end = Module['_png_write_end'] = createExportWrapper('png_write_end');
-var _png_write_IEND = Module['_png_write_IEND'] = createExportWrapper('png_write_IEND');
-var _png_convert_from_struct_tm = Module['_png_convert_from_struct_tm'] = createExportWrapper('png_convert_from_struct_tm');
-var _png_convert_from_time_t = Module['_png_convert_from_time_t'] = createExportWrapper('png_convert_from_time_t');
-var _gmtime = Module['_gmtime'] = createExportWrapper('gmtime');
-var _png_create_write_struct_2 = Module['_png_create_write_struct_2'] = createExportWrapper('png_create_write_struct_2');
-var _png_write_rows = Module['_png_write_rows'] = createExportWrapper('png_write_rows');
-var _png_write_row = Module['_png_write_row'] = createExportWrapper('png_write_row');
-var _png_write_start_row = Module['_png_write_start_row'] = createExportWrapper('png_write_start_row');
-var _png_write_finish_row = Module['_png_write_finish_row'] = createExportWrapper('png_write_finish_row');
-var _png_do_write_interlace = Module['_png_do_write_interlace'] = createExportWrapper('png_do_write_interlace');
-var _png_do_write_transformations = Module['_png_do_write_transformations'] = createExportWrapper('png_do_write_transformations');
-var _png_write_find_filter = Module['_png_write_find_filter'] = createExportWrapper('png_write_find_filter');
-var _png_write_image = Module['_png_write_image'] = createExportWrapper('png_write_image');
-var _png_set_flush = Module['_png_set_flush'] = createExportWrapper('png_set_flush');
-var _png_write_flush = Module['_png_write_flush'] = createExportWrapper('png_write_flush');
-var _png_compress_IDAT = Module['_png_compress_IDAT'] = createExportWrapper('png_compress_IDAT');
-var _deflateEnd = Module['_deflateEnd'] = createExportWrapper('deflateEnd');
-var _png_set_filter = Module['_png_set_filter'] = createExportWrapper('png_set_filter');
-var _png_set_filter_heuristics = Module['_png_set_filter_heuristics'] = createExportWrapper('png_set_filter_heuristics');
-var _png_set_filter_heuristics_fixed = Module['_png_set_filter_heuristics_fixed'] = createExportWrapper('png_set_filter_heuristics_fixed');
-var _png_set_compression_level = Module['_png_set_compression_level'] = createExportWrapper('png_set_compression_level');
-var _png_set_compression_mem_level = Module['_png_set_compression_mem_level'] = createExportWrapper('png_set_compression_mem_level');
-var _png_set_compression_strategy = Module['_png_set_compression_strategy'] = createExportWrapper('png_set_compression_strategy');
-var _png_set_compression_window_bits = Module['_png_set_compression_window_bits'] = createExportWrapper('png_set_compression_window_bits');
-var _png_set_compression_method = Module['_png_set_compression_method'] = createExportWrapper('png_set_compression_method');
-var _png_set_text_compression_level = Module['_png_set_text_compression_level'] = createExportWrapper('png_set_text_compression_level');
-var _png_set_text_compression_mem_level = Module['_png_set_text_compression_mem_level'] = createExportWrapper('png_set_text_compression_mem_level');
-var _png_set_text_compression_strategy = Module['_png_set_text_compression_strategy'] = createExportWrapper('png_set_text_compression_strategy');
-var _png_set_text_compression_window_bits = Module['_png_set_text_compression_window_bits'] = createExportWrapper('png_set_text_compression_window_bits');
-var _png_set_text_compression_method = Module['_png_set_text_compression_method'] = createExportWrapper('png_set_text_compression_method');
-var _png_set_write_status_fn = Module['_png_set_write_status_fn'] = createExportWrapper('png_set_write_status_fn');
-var _png_set_write_user_transform_fn = Module['_png_set_write_user_transform_fn'] = createExportWrapper('png_set_write_user_transform_fn');
-var _png_image_write_to_memory = Module['_png_image_write_to_memory'] = createExportWrapper('png_image_write_to_memory');
-var _png_image_write_to_stdio = Module['_png_image_write_to_stdio'] = createExportWrapper('png_image_write_to_stdio');
-var _png_image_write_to_file = Module['_png_image_write_to_file'] = createExportWrapper('png_image_write_to_file');
-var _remove = Module['_remove'] = createExportWrapper('remove');
-var _png_save_uint_16 = Module['_png_save_uint_16'] = createExportWrapper('png_save_uint_16');
-var _png_write_chunk_start = Module['_png_write_chunk_start'] = createExportWrapper('png_write_chunk_start');
-var _png_write_chunk_data = Module['_png_write_chunk_data'] = createExportWrapper('png_write_chunk_data');
-var _png_write_chunk_end = Module['_png_write_chunk_end'] = createExportWrapper('png_write_chunk_end');
-var _deflate = Module['_deflate'] = createExportWrapper('deflate');
-var _deflateInit2_ = Module['_deflateInit2_'] = createExportWrapper('deflateInit2_');
-var _deflateReset = Module['_deflateReset'] = createExportWrapper('deflateReset');
-var _adler32_z = Module['_adler32_z'] = createExportWrapper('adler32_z');
-var _adler32_combine = Module['_adler32_combine'] = createExportWrapper('adler32_combine');
-var _adler32_combine64 = Module['_adler32_combine64'] = createExportWrapper('adler32_combine64');
-var _compress2 = Module['_compress2'] = createExportWrapper('compress2');
-var _deflateInit_ = Module['_deflateInit_'] = createExportWrapper('deflateInit_');
-var _compress = Module['_compress'] = createExportWrapper('compress');
-var _compressBound = Module['_compressBound'] = createExportWrapper('compressBound');
-var _get_crc_table = Module['_get_crc_table'] = createExportWrapper('get_crc_table');
-var _crc32_z = Module['_crc32_z'] = createExportWrapper('crc32_z');
-var _crc32_combine64 = Module['_crc32_combine64'] = createExportWrapper('crc32_combine64');
-var _crc32_combine = Module['_crc32_combine'] = createExportWrapper('crc32_combine');
-var _crc32_combine_gen64 = Module['_crc32_combine_gen64'] = createExportWrapper('crc32_combine_gen64');
-var _crc32_combine_gen = Module['_crc32_combine_gen'] = createExportWrapper('crc32_combine_gen');
-var _crc32_combine_op = Module['_crc32_combine_op'] = createExportWrapper('crc32_combine_op');
-var _zcalloc = Module['_zcalloc'] = createExportWrapper('zcalloc');
-var _zcfree = Module['_zcfree'] = createExportWrapper('zcfree');
-var _deflateResetKeep = Module['_deflateResetKeep'] = createExportWrapper('deflateResetKeep');
-var _deflateSetDictionary = Module['_deflateSetDictionary'] = createExportWrapper('deflateSetDictionary');
-var _deflateGetDictionary = Module['_deflateGetDictionary'] = createExportWrapper('deflateGetDictionary');
-var __tr_init = Module['__tr_init'] = createExportWrapper('_tr_init');
-var _deflateSetHeader = Module['_deflateSetHeader'] = createExportWrapper('deflateSetHeader');
-var _deflatePending = Module['_deflatePending'] = createExportWrapper('deflatePending');
-var _deflatePrime = Module['_deflatePrime'] = createExportWrapper('deflatePrime');
-var __tr_flush_bits = Module['__tr_flush_bits'] = createExportWrapper('_tr_flush_bits');
-var _deflateParams = Module['_deflateParams'] = createExportWrapper('deflateParams');
-var __tr_align = Module['__tr_align'] = createExportWrapper('_tr_align');
-var __tr_stored_block = Module['__tr_stored_block'] = createExportWrapper('_tr_stored_block');
-var _deflateTune = Module['_deflateTune'] = createExportWrapper('deflateTune');
-var _deflateBound = Module['_deflateBound'] = createExportWrapper('deflateBound');
-var __tr_flush_block = Module['__tr_flush_block'] = createExportWrapper('_tr_flush_block');
-var _deflateCopy = Module['_deflateCopy'] = createExportWrapper('deflateCopy');
-var _gzclose = Module['_gzclose'] = createExportWrapper('gzclose');
-var _gzclose_r = Module['_gzclose_r'] = createExportWrapper('gzclose_r');
-var _gzclose_w = Module['_gzclose_w'] = createExportWrapper('gzclose_w');
-var _gzopen = Module['_gzopen'] = createExportWrapper('gzopen');
-var _lseek = Module['_lseek'] = createExportWrapper('lseek');
-var _gzopen64 = Module['_gzopen64'] = createExportWrapper('gzopen64');
-var _gzdopen = Module['_gzdopen'] = createExportWrapper('gzdopen');
-var _gzbuffer = Module['_gzbuffer'] = createExportWrapper('gzbuffer');
-var _gzrewind = Module['_gzrewind'] = createExportWrapper('gzrewind');
-var _gzseek64 = Module['_gzseek64'] = createExportWrapper('gzseek64');
-var _gz_error = Module['_gz_error'] = createExportWrapper('gz_error');
-var _gzseek = Module['_gzseek'] = createExportWrapper('gzseek');
-var _gztell64 = Module['_gztell64'] = createExportWrapper('gztell64');
-var _gztell = Module['_gztell'] = createExportWrapper('gztell');
-var _gzoffset64 = Module['_gzoffset64'] = createExportWrapper('gzoffset64');
-var _gzoffset = Module['_gzoffset'] = createExportWrapper('gzoffset');
-var _gzeof = Module['_gzeof'] = createExportWrapper('gzeof');
-var _gzerror = Module['_gzerror'] = createExportWrapper('gzerror');
-var _gzclearerr = Module['_gzclearerr'] = createExportWrapper('gzclearerr');
-var _gzread = Module['_gzread'] = createExportWrapper('gzread');
-var _read = Module['_read'] = createExportWrapper('read');
-var _gzfread = Module['_gzfread'] = createExportWrapper('gzfread');
-var _gzgetc = Module['_gzgetc'] = createExportWrapper('gzgetc');
-var _gzgetc_ = Module['_gzgetc_'] = createExportWrapper('gzgetc_');
-var _gzungetc = Module['_gzungetc'] = createExportWrapper('gzungetc');
-var _gzgets = Module['_gzgets'] = createExportWrapper('gzgets');
-var _memchr = Module['_memchr'] = createExportWrapper('memchr');
-var _gzdirect = Module['_gzdirect'] = createExportWrapper('gzdirect');
-var _gzwrite = Module['_gzwrite'] = createExportWrapper('gzwrite');
-var _gzfwrite = Module['_gzfwrite'] = createExportWrapper('gzfwrite');
-var _gzputc = Module['_gzputc'] = createExportWrapper('gzputc');
-var _gzputs = Module['_gzputs'] = createExportWrapper('gzputs');
-var _gzvprintf = Module['_gzvprintf'] = createExportWrapper('gzvprintf');
-var _write = Module['_write'] = createExportWrapper('write');
-var _gzprintf = Module['_gzprintf'] = createExportWrapper('gzprintf');
-var _gzflush = Module['_gzflush'] = createExportWrapper('gzflush');
-var _gzsetparams = Module['_gzsetparams'] = createExportWrapper('gzsetparams');
-var _inflateBackInit_ = Module['_inflateBackInit_'] = createExportWrapper('inflateBackInit_');
-var _inflateBack = Module['_inflateBack'] = createExportWrapper('inflateBack');
-var _inflate_table = Module['_inflate_table'] = createExportWrapper('inflate_table');
-var _inflate_fast = Module['_inflate_fast'] = createExportWrapper('inflate_fast');
-var _inflateBackEnd = Module['_inflateBackEnd'] = createExportWrapper('inflateBackEnd');
-var _inflateResetKeep = Module['_inflateResetKeep'] = createExportWrapper('inflateResetKeep');
-var _inflateInit_ = Module['_inflateInit_'] = createExportWrapper('inflateInit_');
-var _inflatePrime = Module['_inflatePrime'] = createExportWrapper('inflatePrime');
-var _inflateGetDictionary = Module['_inflateGetDictionary'] = createExportWrapper('inflateGetDictionary');
-var _inflateSetDictionary = Module['_inflateSetDictionary'] = createExportWrapper('inflateSetDictionary');
-var _inflateGetHeader = Module['_inflateGetHeader'] = createExportWrapper('inflateGetHeader');
-var _inflateSync = Module['_inflateSync'] = createExportWrapper('inflateSync');
-var _inflateSyncPoint = Module['_inflateSyncPoint'] = createExportWrapper('inflateSyncPoint');
-var _inflateCopy = Module['_inflateCopy'] = createExportWrapper('inflateCopy');
-var _inflateUndermine = Module['_inflateUndermine'] = createExportWrapper('inflateUndermine');
-var _inflateMark = Module['_inflateMark'] = createExportWrapper('inflateMark');
-var _inflateCodesUsed = Module['_inflateCodesUsed'] = createExportWrapper('inflateCodesUsed');
-var __tr_tally = Module['__tr_tally'] = createExportWrapper('_tr_tally');
-var _uncompress2 = Module['_uncompress2'] = createExportWrapper('uncompress2');
-var _uncompress = Module['_uncompress'] = createExportWrapper('uncompress');
-var _zlibVersion = Module['_zlibVersion'] = createExportWrapper('zlibVersion');
-var _zlibCompileFlags = Module['_zlibCompileFlags'] = createExportWrapper('zlibCompileFlags');
-var _zError = Module['_zError'] = createExportWrapper('zError');
 var _FT_MulDiv = Module['_FT_MulDiv'] = createExportWrapper('FT_MulDiv');
 var _af_get_coverage = Module['_af_get_coverage'] = createExportWrapper('af_get_coverage');
 var _af_get_char_index = Module['_af_get_char_index'] = createExportWrapper('af_get_char_index');
@@ -30476,9 +30393,100 @@ var _FT_List_Insert = Module['_FT_List_Insert'] = createExportWrapper('FT_List_I
 var _FT_List_Iterate = Module['_FT_List_Iterate'] = createExportWrapper('FT_List_Iterate');
 var _FT_Get_WinFNT_Header = Module['_FT_Get_WinFNT_Header'] = createExportWrapper('FT_Get_WinFNT_Header');
 var _ps_hints_apply = Module['_ps_hints_apply'] = createExportWrapper('ps_hints_apply');
+var _memchr = Module['_memchr'] = createExportWrapper('memchr');
 var _TT_New_Context = Module['_TT_New_Context'] = createExportWrapper('TT_New_Context');
 var _TT_RunIns = Module['_TT_RunIns'] = createExportWrapper('TT_RunIns');
 var _atol = Module['_atol'] = createExportWrapper('atol');
+var _adler32_z = Module['_adler32_z'] = createExportWrapper('adler32_z');
+var _adler32_combine = Module['_adler32_combine'] = createExportWrapper('adler32_combine');
+var _adler32_combine64 = Module['_adler32_combine64'] = createExportWrapper('adler32_combine64');
+var _compress2 = Module['_compress2'] = createExportWrapper('compress2');
+var _deflateInit_ = Module['_deflateInit_'] = createExportWrapper('deflateInit_');
+var _compress = Module['_compress'] = createExportWrapper('compress');
+var _compressBound = Module['_compressBound'] = createExportWrapper('compressBound');
+var _get_crc_table = Module['_get_crc_table'] = createExportWrapper('get_crc_table');
+var _crc32_z = Module['_crc32_z'] = createExportWrapper('crc32_z');
+var _crc32_combine64 = Module['_crc32_combine64'] = createExportWrapper('crc32_combine64');
+var _crc32_combine = Module['_crc32_combine'] = createExportWrapper('crc32_combine');
+var _crc32_combine_gen64 = Module['_crc32_combine_gen64'] = createExportWrapper('crc32_combine_gen64');
+var _crc32_combine_gen = Module['_crc32_combine_gen'] = createExportWrapper('crc32_combine_gen');
+var _crc32_combine_op = Module['_crc32_combine_op'] = createExportWrapper('crc32_combine_op');
+var _zcalloc = Module['_zcalloc'] = createExportWrapper('zcalloc');
+var _zcfree = Module['_zcfree'] = createExportWrapper('zcfree');
+var _deflateResetKeep = Module['_deflateResetKeep'] = createExportWrapper('deflateResetKeep');
+var _deflateSetDictionary = Module['_deflateSetDictionary'] = createExportWrapper('deflateSetDictionary');
+var _deflateGetDictionary = Module['_deflateGetDictionary'] = createExportWrapper('deflateGetDictionary');
+var __tr_init = Module['__tr_init'] = createExportWrapper('_tr_init');
+var _deflateSetHeader = Module['_deflateSetHeader'] = createExportWrapper('deflateSetHeader');
+var _deflatePending = Module['_deflatePending'] = createExportWrapper('deflatePending');
+var _deflatePrime = Module['_deflatePrime'] = createExportWrapper('deflatePrime');
+var __tr_flush_bits = Module['__tr_flush_bits'] = createExportWrapper('_tr_flush_bits');
+var _deflateParams = Module['_deflateParams'] = createExportWrapper('deflateParams');
+var __tr_align = Module['__tr_align'] = createExportWrapper('_tr_align');
+var __tr_stored_block = Module['__tr_stored_block'] = createExportWrapper('_tr_stored_block');
+var _deflateTune = Module['_deflateTune'] = createExportWrapper('deflateTune');
+var _deflateBound = Module['_deflateBound'] = createExportWrapper('deflateBound');
+var __tr_flush_block = Module['__tr_flush_block'] = createExportWrapper('_tr_flush_block');
+var _deflateCopy = Module['_deflateCopy'] = createExportWrapper('deflateCopy');
+var _gzclose = Module['_gzclose'] = createExportWrapper('gzclose');
+var _gzclose_r = Module['_gzclose_r'] = createExportWrapper('gzclose_r');
+var _gzclose_w = Module['_gzclose_w'] = createExportWrapper('gzclose_w');
+var _gzopen = Module['_gzopen'] = createExportWrapper('gzopen');
+var _lseek = Module['_lseek'] = createExportWrapper('lseek');
+var _gzopen64 = Module['_gzopen64'] = createExportWrapper('gzopen64');
+var _gzdopen = Module['_gzdopen'] = createExportWrapper('gzdopen');
+var _gzbuffer = Module['_gzbuffer'] = createExportWrapper('gzbuffer');
+var _gzrewind = Module['_gzrewind'] = createExportWrapper('gzrewind');
+var _gzseek64 = Module['_gzseek64'] = createExportWrapper('gzseek64');
+var _gz_error = Module['_gz_error'] = createExportWrapper('gz_error');
+var _gzseek = Module['_gzseek'] = createExportWrapper('gzseek');
+var _gztell64 = Module['_gztell64'] = createExportWrapper('gztell64');
+var _gztell = Module['_gztell'] = createExportWrapper('gztell');
+var _gzoffset64 = Module['_gzoffset64'] = createExportWrapper('gzoffset64');
+var _gzoffset = Module['_gzoffset'] = createExportWrapper('gzoffset');
+var _gzeof = Module['_gzeof'] = createExportWrapper('gzeof');
+var _gzerror = Module['_gzerror'] = createExportWrapper('gzerror');
+var _gzclearerr = Module['_gzclearerr'] = createExportWrapper('gzclearerr');
+var _gzread = Module['_gzread'] = createExportWrapper('gzread');
+var _read = Module['_read'] = createExportWrapper('read');
+var _gzfread = Module['_gzfread'] = createExportWrapper('gzfread');
+var _gzgetc = Module['_gzgetc'] = createExportWrapper('gzgetc');
+var _gzgetc_ = Module['_gzgetc_'] = createExportWrapper('gzgetc_');
+var _gzungetc = Module['_gzungetc'] = createExportWrapper('gzungetc');
+var _gzgets = Module['_gzgets'] = createExportWrapper('gzgets');
+var _gzdirect = Module['_gzdirect'] = createExportWrapper('gzdirect');
+var _gzwrite = Module['_gzwrite'] = createExportWrapper('gzwrite');
+var _gzfwrite = Module['_gzfwrite'] = createExportWrapper('gzfwrite');
+var _gzputc = Module['_gzputc'] = createExportWrapper('gzputc');
+var _gzputs = Module['_gzputs'] = createExportWrapper('gzputs');
+var _gzvprintf = Module['_gzvprintf'] = createExportWrapper('gzvprintf');
+var _write = Module['_write'] = createExportWrapper('write');
+var _gzprintf = Module['_gzprintf'] = createExportWrapper('gzprintf');
+var _gzflush = Module['_gzflush'] = createExportWrapper('gzflush');
+var _gzsetparams = Module['_gzsetparams'] = createExportWrapper('gzsetparams');
+var _inflateBackInit_ = Module['_inflateBackInit_'] = createExportWrapper('inflateBackInit_');
+var _inflateBack = Module['_inflateBack'] = createExportWrapper('inflateBack');
+var _inflate_table = Module['_inflate_table'] = createExportWrapper('inflate_table');
+var _inflate_fast = Module['_inflate_fast'] = createExportWrapper('inflate_fast');
+var _inflateBackEnd = Module['_inflateBackEnd'] = createExportWrapper('inflateBackEnd');
+var _inflateResetKeep = Module['_inflateResetKeep'] = createExportWrapper('inflateResetKeep');
+var _inflateInit_ = Module['_inflateInit_'] = createExportWrapper('inflateInit_');
+var _inflatePrime = Module['_inflatePrime'] = createExportWrapper('inflatePrime');
+var _inflateGetDictionary = Module['_inflateGetDictionary'] = createExportWrapper('inflateGetDictionary');
+var _inflateSetDictionary = Module['_inflateSetDictionary'] = createExportWrapper('inflateSetDictionary');
+var _inflateGetHeader = Module['_inflateGetHeader'] = createExportWrapper('inflateGetHeader');
+var _inflateSync = Module['_inflateSync'] = createExportWrapper('inflateSync');
+var _inflateSyncPoint = Module['_inflateSyncPoint'] = createExportWrapper('inflateSyncPoint');
+var _inflateCopy = Module['_inflateCopy'] = createExportWrapper('inflateCopy');
+var _inflateUndermine = Module['_inflateUndermine'] = createExportWrapper('inflateUndermine');
+var _inflateMark = Module['_inflateMark'] = createExportWrapper('inflateMark');
+var _inflateCodesUsed = Module['_inflateCodesUsed'] = createExportWrapper('inflateCodesUsed');
+var __tr_tally = Module['__tr_tally'] = createExportWrapper('_tr_tally');
+var _uncompress2 = Module['_uncompress2'] = createExportWrapper('uncompress2');
+var _uncompress = Module['_uncompress'] = createExportWrapper('uncompress');
+var _zlibVersion = Module['_zlibVersion'] = createExportWrapper('zlibVersion');
+var _zlibCompileFlags = Module['_zlibCompileFlags'] = createExportWrapper('zlibCompileFlags');
+var _zError = Module['_zError'] = createExportWrapper('zError');
 var _emscripten_GetProcAddress = Module['_emscripten_GetProcAddress'] = createExportWrapper('emscripten_GetProcAddress');
 var _strcpy = Module['_strcpy'] = createExportWrapper('strcpy');
 var _emscripten_webgl1_get_proc_address = Module['_emscripten_webgl1_get_proc_address'] = createExportWrapper('emscripten_webgl1_get_proc_address');
@@ -37039,10 +37047,9 @@ var dynCall_viijii = Module['dynCall_viijii'] = createExportWrapper('dynCall_vii
 var dynCall_iiiiij = Module['dynCall_iiiiij'] = createExportWrapper('dynCall_iiiiij');
 var dynCall_iiiiijj = Module['dynCall_iiiiijj'] = createExportWrapper('dynCall_iiiiijj');
 var dynCall_iiiiiijj = Module['dynCall_iiiiiijj'] = createExportWrapper('dynCall_iiiiiijj');
-var _orig$SDL_RWseek = Module['_orig$SDL_RWseek'] = createExportWrapper('orig$SDL_RWseek');
 var _orig$SDL_RWtell = Module['_orig$SDL_RWtell'] = createExportWrapper('orig$SDL_RWtell');
 var _orig$SDL_RWsize = Module['_orig$SDL_RWsize'] = createExportWrapper('orig$SDL_RWsize');
-var _orig$mmap = Module['_orig$mmap'] = createExportWrapper('orig$mmap');
+var _orig$SDL_RWseek = Module['_orig$SDL_RWseek'] = createExportWrapper('orig$SDL_RWseek');
 var _orig$SDL_AddTouch = Module['_orig$SDL_AddTouch'] = createExportWrapper('orig$SDL_AddTouch');
 var _orig$SDL_SendTouch = Module['_orig$SDL_SendTouch'] = createExportWrapper('orig$SDL_SendTouch');
 var _orig$SDL_SendTouchMotion = Module['_orig$SDL_SendTouchMotion'] = createExportWrapper('orig$SDL_SendTouchMotion');
@@ -37073,6 +37080,7 @@ var _orig$SDL_GetNumTouchFingers = Module['_orig$SDL_GetNumTouchFingers'] = crea
 var _orig$SDL_GetTouchFinger = Module['_orig$SDL_GetTouchFinger'] = createExportWrapper('orig$SDL_GetTouchFinger');
 var _orig$SDL_DelTouch = Module['_orig$SDL_DelTouch'] = createExportWrapper('orig$SDL_DelTouch');
 var _orig$png_convert_from_time_t = Module['_orig$png_convert_from_time_t'] = createExportWrapper('orig$png_convert_from_time_t');
+var _orig$mmap = Module['_orig$mmap'] = createExportWrapper('orig$mmap');
 var _orig$adler32_combine = Module['_orig$adler32_combine'] = createExportWrapper('orig$adler32_combine');
 var _orig$adler32_combine64 = Module['_orig$adler32_combine64'] = createExportWrapper('orig$adler32_combine64');
 var _orig$crc32_combine64 = Module['_orig$crc32_combine64'] = createExportWrapper('orig$crc32_combine64');
@@ -37471,186 +37479,186 @@ var _x = Module['_x'] = 727324;
 var _y = Module['_y'] = 727328;
 var ___THREW__ = Module['___THREW__'] = 756208;
 var ___threwValue = Module['___threwValue'] = 756212;
-var _SDL_expand_byte = Module['_SDL_expand_byte'] = 679552;
-var _EMSCRIPTENAUDIO_bootstrap = Module['_EMSCRIPTENAUDIO_bootstrap'] = 676460;
-var _DISKAUDIO_bootstrap = Module['_DISKAUDIO_bootstrap'] = 676324;
-var _DUMMYAUDIO_bootstrap = Module['_DUMMYAUDIO_bootstrap'] = 676340;
-var _SDL_Convert_S8_to_F32 = Module['_SDL_Convert_S8_to_F32'] = 728232;
-var _SDL_Convert_U8_to_F32 = Module['_SDL_Convert_U8_to_F32'] = 728236;
-var _SDL_Convert_S16_to_F32 = Module['_SDL_Convert_S16_to_F32'] = 728240;
-var _SDL_Convert_U16_to_F32 = Module['_SDL_Convert_U16_to_F32'] = 728244;
-var _SDL_Convert_S32_to_F32 = Module['_SDL_Convert_S32_to_F32'] = 728248;
-var _SDL_Convert_F32_to_S8 = Module['_SDL_Convert_F32_to_S8'] = 728252;
-var _SDL_Convert_F32_to_U8 = Module['_SDL_Convert_F32_to_U8'] = 728256;
-var _SDL_Convert_F32_to_S16 = Module['_SDL_Convert_F32_to_S16'] = 728260;
-var _SDL_Convert_F32_to_U16 = Module['_SDL_Convert_F32_to_U16'] = 728264;
-var _SDL_Convert_F32_to_S32 = Module['_SDL_Convert_F32_to_S32'] = 728268;
-var _SDL_GeneratedBlitFuncTable = Module['_SDL_GeneratedBlitFuncTable'] = 673776;
-var _SDL_DUMMY_SensorDriver = Module['_SDL_DUMMY_SensorDriver'] = 676356;
-var _Emscripten_bootstrap = Module['_Emscripten_bootstrap'] = 676524;
-var _SDL_EMSCRIPTEN_JoystickDriver = Module['_SDL_EMSCRIPTEN_JoystickDriver'] = 679884;
-var _GLES2_RenderDriver = Module['_GLES2_RenderDriver'] = 679596;
-var _SW_RenderDriver = Module['_SW_RenderDriver'] = 679708;
-var _png_sRGB_table = Module['_png_sRGB_table'] = 238688;
-var _png_sRGB_base = Module['_png_sRGB_base'] = 239200;
-var _png_sRGB_delta = Module['_png_sRGB_delta'] = 240224;
-var _z_errmsg = Module['_z_errmsg'] = 686400;
-var __length_code = Module['__length_code'] = 252912;
-var __dist_code = Module['__dist_code'] = 252400;
-var _deflate_copyright = Module['_deflate_copyright'] = 247568;
-var _inflate_copyright = Module['_inflate_copyright'] = 252096;
-var _af_script_classes = Module['_af_script_classes'] = 687024;
-var _af_blue_stringsets = Module['_af_blue_stringsets'] = 255840;
-var _af_blue_strings = Module['_af_blue_strings'] = 255072;
-var _af_style_classes = Module['_af_style_classes'] = 687120;
-var _af_writing_system_classes = Module['_af_writing_system_classes'] = 686992;
-var _af_arab_dflt_style_class = Module['_af_arab_dflt_style_class'] = 256216;
-var _af_arab_script_class = Module['_af_arab_script_class'] = 686440;
-var _af_arab_uniranges = Module['_af_arab_uniranges'] = 257200;
-var _af_cyrl_script_class = Module['_af_cyrl_script_class'] = 686460;
-var _af_cyrl_uniranges = Module['_af_cyrl_uniranges'] = 257264;
-var _af_deva_script_class = Module['_af_deva_script_class'] = 686480;
-var _af_deva_uniranges = Module['_af_deva_uniranges'] = 257312;
-var _af_grek_script_class = Module['_af_grek_script_class'] = 686500;
-var _af_grek_uniranges = Module['_af_grek_uniranges'] = 257360;
-var _af_hebr_script_class = Module['_af_hebr_script_class'] = 686520;
-var _af_hebr_uniranges = Module['_af_hebr_uniranges'] = 257392;
-var _af_latn_script_class = Module['_af_latn_script_class'] = 686540;
-var _af_latn_uniranges = Module['_af_latn_uniranges'] = 257424;
-var _af_none_script_class = Module['_af_none_script_class'] = 686560;
-var _af_none_uniranges = Module['_af_none_uniranges'] = 257616;
-var _af_telu_script_class = Module['_af_telu_script_class'] = 686580;
-var _af_telu_uniranges = Module['_af_telu_uniranges'] = 257632;
-var _af_thai_script_class = Module['_af_thai_script_class'] = 686600;
-var _af_thai_uniranges = Module['_af_thai_uniranges'] = 257648;
-var _af_beng_script_class = Module['_af_beng_script_class'] = 686620;
-var _af_beng_uniranges = Module['_af_beng_uniranges'] = 257664;
-var _af_gujr_script_class = Module['_af_gujr_script_class'] = 686640;
-var _af_gujr_uniranges = Module['_af_gujr_uniranges'] = 257680;
-var _af_guru_script_class = Module['_af_guru_script_class'] = 686660;
-var _af_guru_uniranges = Module['_af_guru_uniranges'] = 257696;
-var _af_knda_script_class = Module['_af_knda_script_class'] = 686680;
-var _af_knda_uniranges = Module['_af_knda_uniranges'] = 257712;
-var _af_limb_script_class = Module['_af_limb_script_class'] = 686700;
-var _af_limb_uniranges = Module['_af_limb_uniranges'] = 257728;
-var _af_mlym_script_class = Module['_af_mlym_script_class'] = 686720;
-var _af_mlym_uniranges = Module['_af_mlym_uniranges'] = 257744;
-var _af_orya_script_class = Module['_af_orya_script_class'] = 686740;
-var _af_orya_uniranges = Module['_af_orya_uniranges'] = 257760;
-var _af_sinh_script_class = Module['_af_sinh_script_class'] = 686760;
-var _af_sinh_uniranges = Module['_af_sinh_uniranges'] = 257776;
-var _af_sund_script_class = Module['_af_sund_script_class'] = 686780;
-var _af_sund_uniranges = Module['_af_sund_uniranges'] = 257792;
-var _af_sylo_script_class = Module['_af_sylo_script_class'] = 686800;
-var _af_sylo_uniranges = Module['_af_sylo_uniranges'] = 257808;
-var _af_taml_script_class = Module['_af_taml_script_class'] = 686820;
-var _af_taml_uniranges = Module['_af_taml_uniranges'] = 257824;
-var _af_tibt_script_class = Module['_af_tibt_script_class'] = 686840;
-var _af_tibt_uniranges = Module['_af_tibt_uniranges'] = 257840;
-var _af_hani_script_class = Module['_af_hani_script_class'] = 686860;
-var _af_hani_uniranges = Module['_af_hani_uniranges'] = 257856;
-var _af_cyrl_c2cp_style_class = Module['_af_cyrl_c2cp_style_class'] = 256236;
-var _af_cyrl_c2sc_style_class = Module['_af_cyrl_c2sc_style_class'] = 256256;
-var _af_cyrl_ordn_style_class = Module['_af_cyrl_ordn_style_class'] = 256276;
-var _af_cyrl_pcap_style_class = Module['_af_cyrl_pcap_style_class'] = 256296;
-var _af_cyrl_sinf_style_class = Module['_af_cyrl_sinf_style_class'] = 256316;
-var _af_cyrl_smcp_style_class = Module['_af_cyrl_smcp_style_class'] = 256336;
-var _af_cyrl_subs_style_class = Module['_af_cyrl_subs_style_class'] = 256356;
-var _af_cyrl_sups_style_class = Module['_af_cyrl_sups_style_class'] = 256376;
-var _af_cyrl_titl_style_class = Module['_af_cyrl_titl_style_class'] = 256396;
-var _af_cyrl_dflt_style_class = Module['_af_cyrl_dflt_style_class'] = 256416;
-var _af_grek_c2cp_style_class = Module['_af_grek_c2cp_style_class'] = 256436;
-var _af_grek_c2sc_style_class = Module['_af_grek_c2sc_style_class'] = 256456;
-var _af_grek_ordn_style_class = Module['_af_grek_ordn_style_class'] = 256476;
-var _af_grek_pcap_style_class = Module['_af_grek_pcap_style_class'] = 256496;
-var _af_grek_sinf_style_class = Module['_af_grek_sinf_style_class'] = 256516;
-var _af_grek_smcp_style_class = Module['_af_grek_smcp_style_class'] = 256536;
-var _af_grek_subs_style_class = Module['_af_grek_subs_style_class'] = 256556;
-var _af_grek_sups_style_class = Module['_af_grek_sups_style_class'] = 256576;
-var _af_grek_titl_style_class = Module['_af_grek_titl_style_class'] = 256596;
-var _af_grek_dflt_style_class = Module['_af_grek_dflt_style_class'] = 256616;
-var _af_hebr_dflt_style_class = Module['_af_hebr_dflt_style_class'] = 256636;
-var _af_latn_c2cp_style_class = Module['_af_latn_c2cp_style_class'] = 256656;
-var _af_latn_c2sc_style_class = Module['_af_latn_c2sc_style_class'] = 256676;
-var _af_latn_ordn_style_class = Module['_af_latn_ordn_style_class'] = 256696;
-var _af_latn_pcap_style_class = Module['_af_latn_pcap_style_class'] = 256716;
-var _af_latn_sinf_style_class = Module['_af_latn_sinf_style_class'] = 256736;
-var _af_latn_smcp_style_class = Module['_af_latn_smcp_style_class'] = 256756;
-var _af_latn_subs_style_class = Module['_af_latn_subs_style_class'] = 256776;
-var _af_latn_sups_style_class = Module['_af_latn_sups_style_class'] = 256796;
-var _af_latn_titl_style_class = Module['_af_latn_titl_style_class'] = 256816;
-var _af_latn_dflt_style_class = Module['_af_latn_dflt_style_class'] = 256836;
-var _af_deva_dflt_style_class = Module['_af_deva_dflt_style_class'] = 256856;
-var _af_none_dflt_style_class = Module['_af_none_dflt_style_class'] = 256876;
-var _af_telu_dflt_style_class = Module['_af_telu_dflt_style_class'] = 256896;
-var _af_thai_dflt_style_class = Module['_af_thai_dflt_style_class'] = 256916;
-var _af_beng_dflt_style_class = Module['_af_beng_dflt_style_class'] = 256936;
-var _af_gujr_dflt_style_class = Module['_af_gujr_dflt_style_class'] = 256956;
-var _af_guru_dflt_style_class = Module['_af_guru_dflt_style_class'] = 256976;
-var _af_knda_dflt_style_class = Module['_af_knda_dflt_style_class'] = 256996;
-var _af_limb_dflt_style_class = Module['_af_limb_dflt_style_class'] = 257016;
-var _af_mlym_dflt_style_class = Module['_af_mlym_dflt_style_class'] = 257036;
-var _af_orya_dflt_style_class = Module['_af_orya_dflt_style_class'] = 257056;
-var _af_sinh_dflt_style_class = Module['_af_sinh_dflt_style_class'] = 257076;
-var _af_sund_dflt_style_class = Module['_af_sund_dflt_style_class'] = 257096;
-var _af_sylo_dflt_style_class = Module['_af_sylo_dflt_style_class'] = 257116;
-var _af_taml_dflt_style_class = Module['_af_taml_dflt_style_class'] = 257136;
-var _af_tibt_dflt_style_class = Module['_af_tibt_dflt_style_class'] = 257156;
-var _af_hani_dflt_style_class = Module['_af_hani_dflt_style_class'] = 257176;
-var _af_dummy_writing_system_class = Module['_af_dummy_writing_system_class'] = 686880;
-var _af_latin_writing_system_class = Module['_af_latin_writing_system_class'] = 686908;
-var _af_cjk_writing_system_class = Module['_af_cjk_writing_system_class'] = 686936;
-var _af_indic_writing_system_class = Module['_af_indic_writing_system_class'] = 686964;
-var _af_autofitter_interface = Module['_af_autofitter_interface'] = 687320;
-var _autofit_module_class = Module['_autofit_module_class'] = 687336;
-var _bdf_driver_class = Module['_bdf_driver_class'] = 687400;
-var _cff_cmap_unicode_class_rec = Module['_cff_cmap_unicode_class_rec'] = 689048;
-var _cff_cmap_encoding_class_rec = Module['_cff_cmap_encoding_class_rec'] = 689008;
-var _cff_driver_class = Module['_cff_driver_class'] = 688912;
-var _ft_bitmap_glyph_class = Module['_ft_bitmap_glyph_class'] = 690892;
-var _ft_outline_glyph_class = Module['_ft_outline_glyph_class'] = 690924;
-var _tt_driver_class = Module['_tt_driver_class'] = 693348;
-var _t1_driver_class = Module['_t1_driver_class'] = 693568;
-var _t1cid_driver_class = Module['_t1cid_driver_class'] = 695468;
-var _pfr_driver_class = Module['_pfr_driver_class'] = 691248;
-var _t42_driver_class = Module['_t42_driver_class'] = 697484;
-var _winfnt_driver_class = Module['_winfnt_driver_class'] = 698384;
-var _pcf_driver_class = Module['_pcf_driver_class'] = 691032;
-var _psaux_module_class = Module['_psaux_module_class'] = 691760;
-var _psnames_module_class = Module['_psnames_module_class'] = 692184;
-var _pshinter_module_class = Module['_pshinter_module_class'] = 692116;
-var _ft_raster1_renderer_class = Module['_ft_raster1_renderer_class'] = 692264;
-var _sfnt_module_class = Module['_sfnt_module_class'] = 692908;
-var _ft_smooth_renderer_class = Module['_ft_smooth_renderer_class'] = 693144;
-var _ft_smooth_lcd_renderer_class = Module['_ft_smooth_lcd_renderer_class'] = 693204;
-var _ft_smooth_lcdv_renderer_class = Module['_ft_smooth_lcdv_renderer_class'] = 693264;
-var _pfr_cmap_class_rec = Module['_pfr_cmap_class_rec'] = 691208;
-var _ps_table_funcs = Module['_ps_table_funcs'] = 691432;
-var _ps_parser_funcs = Module['_ps_parser_funcs'] = 691448;
-var _t1_builder_funcs = Module['_t1_builder_funcs'] = 691500;
-var _t1_decoder_funcs = Module['_t1_decoder_funcs'] = 691532;
-var _afm_parser_funcs = Module['_afm_parser_funcs'] = 691544;
-var _t1_cmap_standard_class_rec = Module['_t1_cmap_standard_class_rec'] = 691556;
-var _t1_cmap_expert_class_rec = Module['_t1_cmap_expert_class_rec'] = 691596;
-var _t1_cmap_custom_class_rec = Module['_t1_cmap_custom_class_rec'] = 691636;
-var _t1_cmap_unicode_class_rec = Module['_t1_cmap_unicode_class_rec'] = 691676;
-var _t1_cmap_classes = Module['_t1_cmap_classes'] = 691716;
-var _ft_standard_raster = Module['_ft_standard_raster'] = 692240;
-var _tt_cmap0_class_rec = Module['_tt_cmap0_class_rec'] = 692324;
-var _tt_cmap2_class_rec = Module['_tt_cmap2_class_rec'] = 692376;
-var _tt_cmap4_class_rec = Module['_tt_cmap4_class_rec'] = 692428;
-var _tt_cmap6_class_rec = Module['_tt_cmap6_class_rec'] = 692480;
-var _tt_cmap8_class_rec = Module['_tt_cmap8_class_rec'] = 692532;
-var _tt_cmap10_class_rec = Module['_tt_cmap10_class_rec'] = 692584;
-var _tt_cmap12_class_rec = Module['_tt_cmap12_class_rec'] = 692636;
-var _tt_cmap13_class_rec = Module['_tt_cmap13_class_rec'] = 692688;
-var _tt_cmap14_class_rec = Module['_tt_cmap14_class_rec'] = 692740;
-var _ft_grays_raster = Module['_ft_grays_raster'] = 693120;
-var _tt_default_graphics_state = Module['_tt_default_graphics_state'] = 329672;
-var ___environ = Module['___environ'] = 733088;
-var ____environ = Module['____environ'] = 733088;
-var __environ = Module['__environ'] = 733088;
-var _environ = Module['_environ'] = 733088;
+var _SDL_expand_byte = Module['_SDL_expand_byte'] = 677968;
+var _EMSCRIPTENAUDIO_bootstrap = Module['_EMSCRIPTENAUDIO_bootstrap'] = 674876;
+var _DISKAUDIO_bootstrap = Module['_DISKAUDIO_bootstrap'] = 674740;
+var _DUMMYAUDIO_bootstrap = Module['_DUMMYAUDIO_bootstrap'] = 674756;
+var _SDL_Convert_S8_to_F32 = Module['_SDL_Convert_S8_to_F32'] = 727800;
+var _SDL_Convert_U8_to_F32 = Module['_SDL_Convert_U8_to_F32'] = 727804;
+var _SDL_Convert_S16_to_F32 = Module['_SDL_Convert_S16_to_F32'] = 727808;
+var _SDL_Convert_U16_to_F32 = Module['_SDL_Convert_U16_to_F32'] = 727812;
+var _SDL_Convert_S32_to_F32 = Module['_SDL_Convert_S32_to_F32'] = 727816;
+var _SDL_Convert_F32_to_S8 = Module['_SDL_Convert_F32_to_S8'] = 727820;
+var _SDL_Convert_F32_to_U8 = Module['_SDL_Convert_F32_to_U8'] = 727824;
+var _SDL_Convert_F32_to_S16 = Module['_SDL_Convert_F32_to_S16'] = 727828;
+var _SDL_Convert_F32_to_U16 = Module['_SDL_Convert_F32_to_U16'] = 727832;
+var _SDL_Convert_F32_to_S32 = Module['_SDL_Convert_F32_to_S32'] = 727836;
+var _SDL_GeneratedBlitFuncTable = Module['_SDL_GeneratedBlitFuncTable'] = 672192;
+var _SDL_DUMMY_SensorDriver = Module['_SDL_DUMMY_SensorDriver'] = 674772;
+var _Emscripten_bootstrap = Module['_Emscripten_bootstrap'] = 674940;
+var _SDL_EMSCRIPTEN_JoystickDriver = Module['_SDL_EMSCRIPTEN_JoystickDriver'] = 678300;
+var _GLES2_RenderDriver = Module['_GLES2_RenderDriver'] = 678012;
+var _SW_RenderDriver = Module['_SW_RenderDriver'] = 678124;
+var _png_sRGB_table = Module['_png_sRGB_table'] = 113856;
+var _png_sRGB_base = Module['_png_sRGB_base'] = 114368;
+var _png_sRGB_delta = Module['_png_sRGB_delta'] = 115392;
+var _af_script_classes = Module['_af_script_classes'] = 686784;
+var _af_blue_stringsets = Module['_af_blue_stringsets'] = 243088;
+var _af_blue_strings = Module['_af_blue_strings'] = 242320;
+var _af_style_classes = Module['_af_style_classes'] = 686880;
+var _af_writing_system_classes = Module['_af_writing_system_classes'] = 686752;
+var _af_arab_dflt_style_class = Module['_af_arab_dflt_style_class'] = 243464;
+var _af_arab_script_class = Module['_af_arab_script_class'] = 686200;
+var _af_arab_uniranges = Module['_af_arab_uniranges'] = 244448;
+var _af_cyrl_script_class = Module['_af_cyrl_script_class'] = 686220;
+var _af_cyrl_uniranges = Module['_af_cyrl_uniranges'] = 244512;
+var _af_deva_script_class = Module['_af_deva_script_class'] = 686240;
+var _af_deva_uniranges = Module['_af_deva_uniranges'] = 244560;
+var _af_grek_script_class = Module['_af_grek_script_class'] = 686260;
+var _af_grek_uniranges = Module['_af_grek_uniranges'] = 244608;
+var _af_hebr_script_class = Module['_af_hebr_script_class'] = 686280;
+var _af_hebr_uniranges = Module['_af_hebr_uniranges'] = 244640;
+var _af_latn_script_class = Module['_af_latn_script_class'] = 686300;
+var _af_latn_uniranges = Module['_af_latn_uniranges'] = 244672;
+var _af_none_script_class = Module['_af_none_script_class'] = 686320;
+var _af_none_uniranges = Module['_af_none_uniranges'] = 244864;
+var _af_telu_script_class = Module['_af_telu_script_class'] = 686340;
+var _af_telu_uniranges = Module['_af_telu_uniranges'] = 244880;
+var _af_thai_script_class = Module['_af_thai_script_class'] = 686360;
+var _af_thai_uniranges = Module['_af_thai_uniranges'] = 244896;
+var _af_beng_script_class = Module['_af_beng_script_class'] = 686380;
+var _af_beng_uniranges = Module['_af_beng_uniranges'] = 244912;
+var _af_gujr_script_class = Module['_af_gujr_script_class'] = 686400;
+var _af_gujr_uniranges = Module['_af_gujr_uniranges'] = 244928;
+var _af_guru_script_class = Module['_af_guru_script_class'] = 686420;
+var _af_guru_uniranges = Module['_af_guru_uniranges'] = 244944;
+var _af_knda_script_class = Module['_af_knda_script_class'] = 686440;
+var _af_knda_uniranges = Module['_af_knda_uniranges'] = 244960;
+var _af_limb_script_class = Module['_af_limb_script_class'] = 686460;
+var _af_limb_uniranges = Module['_af_limb_uniranges'] = 244976;
+var _af_mlym_script_class = Module['_af_mlym_script_class'] = 686480;
+var _af_mlym_uniranges = Module['_af_mlym_uniranges'] = 244992;
+var _af_orya_script_class = Module['_af_orya_script_class'] = 686500;
+var _af_orya_uniranges = Module['_af_orya_uniranges'] = 245008;
+var _af_sinh_script_class = Module['_af_sinh_script_class'] = 686520;
+var _af_sinh_uniranges = Module['_af_sinh_uniranges'] = 245024;
+var _af_sund_script_class = Module['_af_sund_script_class'] = 686540;
+var _af_sund_uniranges = Module['_af_sund_uniranges'] = 245040;
+var _af_sylo_script_class = Module['_af_sylo_script_class'] = 686560;
+var _af_sylo_uniranges = Module['_af_sylo_uniranges'] = 245056;
+var _af_taml_script_class = Module['_af_taml_script_class'] = 686580;
+var _af_taml_uniranges = Module['_af_taml_uniranges'] = 245072;
+var _af_tibt_script_class = Module['_af_tibt_script_class'] = 686600;
+var _af_tibt_uniranges = Module['_af_tibt_uniranges'] = 245088;
+var _af_hani_script_class = Module['_af_hani_script_class'] = 686620;
+var _af_hani_uniranges = Module['_af_hani_uniranges'] = 245104;
+var _af_cyrl_c2cp_style_class = Module['_af_cyrl_c2cp_style_class'] = 243484;
+var _af_cyrl_c2sc_style_class = Module['_af_cyrl_c2sc_style_class'] = 243504;
+var _af_cyrl_ordn_style_class = Module['_af_cyrl_ordn_style_class'] = 243524;
+var _af_cyrl_pcap_style_class = Module['_af_cyrl_pcap_style_class'] = 243544;
+var _af_cyrl_sinf_style_class = Module['_af_cyrl_sinf_style_class'] = 243564;
+var _af_cyrl_smcp_style_class = Module['_af_cyrl_smcp_style_class'] = 243584;
+var _af_cyrl_subs_style_class = Module['_af_cyrl_subs_style_class'] = 243604;
+var _af_cyrl_sups_style_class = Module['_af_cyrl_sups_style_class'] = 243624;
+var _af_cyrl_titl_style_class = Module['_af_cyrl_titl_style_class'] = 243644;
+var _af_cyrl_dflt_style_class = Module['_af_cyrl_dflt_style_class'] = 243664;
+var _af_grek_c2cp_style_class = Module['_af_grek_c2cp_style_class'] = 243684;
+var _af_grek_c2sc_style_class = Module['_af_grek_c2sc_style_class'] = 243704;
+var _af_grek_ordn_style_class = Module['_af_grek_ordn_style_class'] = 243724;
+var _af_grek_pcap_style_class = Module['_af_grek_pcap_style_class'] = 243744;
+var _af_grek_sinf_style_class = Module['_af_grek_sinf_style_class'] = 243764;
+var _af_grek_smcp_style_class = Module['_af_grek_smcp_style_class'] = 243784;
+var _af_grek_subs_style_class = Module['_af_grek_subs_style_class'] = 243804;
+var _af_grek_sups_style_class = Module['_af_grek_sups_style_class'] = 243824;
+var _af_grek_titl_style_class = Module['_af_grek_titl_style_class'] = 243844;
+var _af_grek_dflt_style_class = Module['_af_grek_dflt_style_class'] = 243864;
+var _af_hebr_dflt_style_class = Module['_af_hebr_dflt_style_class'] = 243884;
+var _af_latn_c2cp_style_class = Module['_af_latn_c2cp_style_class'] = 243904;
+var _af_latn_c2sc_style_class = Module['_af_latn_c2sc_style_class'] = 243924;
+var _af_latn_ordn_style_class = Module['_af_latn_ordn_style_class'] = 243944;
+var _af_latn_pcap_style_class = Module['_af_latn_pcap_style_class'] = 243964;
+var _af_latn_sinf_style_class = Module['_af_latn_sinf_style_class'] = 243984;
+var _af_latn_smcp_style_class = Module['_af_latn_smcp_style_class'] = 244004;
+var _af_latn_subs_style_class = Module['_af_latn_subs_style_class'] = 244024;
+var _af_latn_sups_style_class = Module['_af_latn_sups_style_class'] = 244044;
+var _af_latn_titl_style_class = Module['_af_latn_titl_style_class'] = 244064;
+var _af_latn_dflt_style_class = Module['_af_latn_dflt_style_class'] = 244084;
+var _af_deva_dflt_style_class = Module['_af_deva_dflt_style_class'] = 244104;
+var _af_none_dflt_style_class = Module['_af_none_dflt_style_class'] = 244124;
+var _af_telu_dflt_style_class = Module['_af_telu_dflt_style_class'] = 244144;
+var _af_thai_dflt_style_class = Module['_af_thai_dflt_style_class'] = 244164;
+var _af_beng_dflt_style_class = Module['_af_beng_dflt_style_class'] = 244184;
+var _af_gujr_dflt_style_class = Module['_af_gujr_dflt_style_class'] = 244204;
+var _af_guru_dflt_style_class = Module['_af_guru_dflt_style_class'] = 244224;
+var _af_knda_dflt_style_class = Module['_af_knda_dflt_style_class'] = 244244;
+var _af_limb_dflt_style_class = Module['_af_limb_dflt_style_class'] = 244264;
+var _af_mlym_dflt_style_class = Module['_af_mlym_dflt_style_class'] = 244284;
+var _af_orya_dflt_style_class = Module['_af_orya_dflt_style_class'] = 244304;
+var _af_sinh_dflt_style_class = Module['_af_sinh_dflt_style_class'] = 244324;
+var _af_sund_dflt_style_class = Module['_af_sund_dflt_style_class'] = 244344;
+var _af_sylo_dflt_style_class = Module['_af_sylo_dflt_style_class'] = 244364;
+var _af_taml_dflt_style_class = Module['_af_taml_dflt_style_class'] = 244384;
+var _af_tibt_dflt_style_class = Module['_af_tibt_dflt_style_class'] = 244404;
+var _af_hani_dflt_style_class = Module['_af_hani_dflt_style_class'] = 244424;
+var _af_dummy_writing_system_class = Module['_af_dummy_writing_system_class'] = 686640;
+var _af_latin_writing_system_class = Module['_af_latin_writing_system_class'] = 686668;
+var _af_cjk_writing_system_class = Module['_af_cjk_writing_system_class'] = 686696;
+var _af_indic_writing_system_class = Module['_af_indic_writing_system_class'] = 686724;
+var _af_autofitter_interface = Module['_af_autofitter_interface'] = 687080;
+var _autofit_module_class = Module['_autofit_module_class'] = 687096;
+var _bdf_driver_class = Module['_bdf_driver_class'] = 687160;
+var _cff_cmap_unicode_class_rec = Module['_cff_cmap_unicode_class_rec'] = 688808;
+var _cff_cmap_encoding_class_rec = Module['_cff_cmap_encoding_class_rec'] = 688768;
+var _cff_driver_class = Module['_cff_driver_class'] = 688672;
+var _ft_bitmap_glyph_class = Module['_ft_bitmap_glyph_class'] = 690652;
+var _ft_outline_glyph_class = Module['_ft_outline_glyph_class'] = 690684;
+var _tt_driver_class = Module['_tt_driver_class'] = 693108;
+var _t1_driver_class = Module['_t1_driver_class'] = 693328;
+var _t1cid_driver_class = Module['_t1cid_driver_class'] = 695228;
+var _pfr_driver_class = Module['_pfr_driver_class'] = 691008;
+var _t42_driver_class = Module['_t42_driver_class'] = 697244;
+var _winfnt_driver_class = Module['_winfnt_driver_class'] = 698144;
+var _pcf_driver_class = Module['_pcf_driver_class'] = 690792;
+var _psaux_module_class = Module['_psaux_module_class'] = 691520;
+var _psnames_module_class = Module['_psnames_module_class'] = 691944;
+var _pshinter_module_class = Module['_pshinter_module_class'] = 691876;
+var _ft_raster1_renderer_class = Module['_ft_raster1_renderer_class'] = 692024;
+var _sfnt_module_class = Module['_sfnt_module_class'] = 692668;
+var _ft_smooth_renderer_class = Module['_ft_smooth_renderer_class'] = 692904;
+var _ft_smooth_lcd_renderer_class = Module['_ft_smooth_lcd_renderer_class'] = 692964;
+var _ft_smooth_lcdv_renderer_class = Module['_ft_smooth_lcdv_renderer_class'] = 693024;
+var _pfr_cmap_class_rec = Module['_pfr_cmap_class_rec'] = 690968;
+var _ps_table_funcs = Module['_ps_table_funcs'] = 691192;
+var _ps_parser_funcs = Module['_ps_parser_funcs'] = 691208;
+var _t1_builder_funcs = Module['_t1_builder_funcs'] = 691260;
+var _t1_decoder_funcs = Module['_t1_decoder_funcs'] = 691292;
+var _afm_parser_funcs = Module['_afm_parser_funcs'] = 691304;
+var _t1_cmap_standard_class_rec = Module['_t1_cmap_standard_class_rec'] = 691316;
+var _t1_cmap_expert_class_rec = Module['_t1_cmap_expert_class_rec'] = 691356;
+var _t1_cmap_custom_class_rec = Module['_t1_cmap_custom_class_rec'] = 691396;
+var _t1_cmap_unicode_class_rec = Module['_t1_cmap_unicode_class_rec'] = 691436;
+var _t1_cmap_classes = Module['_t1_cmap_classes'] = 691476;
+var _ft_standard_raster = Module['_ft_standard_raster'] = 692000;
+var _tt_cmap0_class_rec = Module['_tt_cmap0_class_rec'] = 692084;
+var _tt_cmap2_class_rec = Module['_tt_cmap2_class_rec'] = 692136;
+var _tt_cmap4_class_rec = Module['_tt_cmap4_class_rec'] = 692188;
+var _tt_cmap6_class_rec = Module['_tt_cmap6_class_rec'] = 692240;
+var _tt_cmap8_class_rec = Module['_tt_cmap8_class_rec'] = 692292;
+var _tt_cmap10_class_rec = Module['_tt_cmap10_class_rec'] = 692344;
+var _tt_cmap12_class_rec = Module['_tt_cmap12_class_rec'] = 692396;
+var _tt_cmap13_class_rec = Module['_tt_cmap13_class_rec'] = 692448;
+var _tt_cmap14_class_rec = Module['_tt_cmap14_class_rec'] = 692500;
+var _ft_grays_raster = Module['_ft_grays_raster'] = 692880;
+var _tt_default_graphics_state = Module['_tt_default_graphics_state'] = 316920;
+var _z_errmsg = Module['_z_errmsg'] = 698512;
+var __length_code = Module['__length_code'] = 329280;
+var __dist_code = Module['__dist_code'] = 328768;
+var _deflate_copyright = Module['_deflate_copyright'] = 323936;
+var _inflate_copyright = Module['_inflate_copyright'] = 328464;
+var ___environ = Module['___environ'] = 733092;
+var ____environ = Module['____environ'] = 733092;
+var __environ = Module['__environ'] = 733092;
+var _environ = Module['_environ'] = 733092;
 var _timezone = Module['_timezone'] = 733752;
 var _daylight = Module['_daylight'] = 733756;
 var _tzname = Module['_tzname'] = 733760;
