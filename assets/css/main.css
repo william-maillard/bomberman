@@ -9,8 +9,9 @@ body {
 }
 
 #gitlab {
-    float: right;
-    margin-top: none;
-    width: 50px;
-    height: 50px;
+    position: fixed; /* This will position the image relative to the viewport */
+    bottom: 0; /* Position the image at the bottom */
+    right: 0; /* Position the image at the right */
+    width: 100px;
+    height: 100px;
 }
